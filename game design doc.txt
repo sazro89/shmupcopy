@@ -1,0 +1,88 @@
+who is this game for?
+
+newer players to the genre (they're the bulk of my testers)
+    - also a tiny scene but could get into it with a good introduction
+    - unlike a general audience, good faith newer players want guidance
+    - they want to learn the actual game systems
+    - this can build out and help them with understanding other games they go on to play
+
+enthusiasts (i still want to design a cool scoring system and have systems meat on this game's bones)
+    - tiny scene but very dedicated
+    - pet issues
+    - want a stiff challenge
+    - preaches to the choir
+
+general audiences (who knows what may hook other players)
+    - huge scene but very hard to grab
+    - very fickle in their desires
+    - often clash with the first two groups
+
+Basics are important
+onboarding is important
+    - helps players get into the rhythm of playing and practicing the game
+    - could look into missions? progression?
+    - late problem
+scoring is important
+    - important for enthusiasts
+    - sequel / expansion / labels / arranges
+    - late problem
+
+difficulty
+    - multiple difficulties / dynamic difficulty
+    - ranking system
+    - sequel / expansion / labels / arranges
+    - late problem
+
+goal: one evening game
+    - lower end : make it past the first boss
+    - high end : 1cc pretty early, maybe even on spicy
+"i did this!"
+"this was cool!"
+"this feels way more approachable than i thought it could be"
+
+questions
+---------
+- length?
+    - i'd like to try for a multi stage game, lets say 4 levels with a tlb?
+    - i think a good playthrough length would be about 15-20 minutes for a full run
+
+- classic vs bullet hell?
+    - this is a weird distinction but i'd be leaning more into the bullet hell side of things.  would be closer to ibara/ikaruga
+
+- sprites
+    - backgrounds
+    - big sprites for big enemies
+    - explosions
+    - luckily we don't have the same kinds of space limitations as with pico-8 so we can make what we need.  our limit is cart space but it's a lot for how picotron does graphics
+
+- how do we spawn enemies?
+- how do we program enemy behavior?
+- how do we make bullet patterns?
+
+
+- gameplay
+    - option emphasis, think like deathsmiles being able to sweep lots of a bullet type off of the screen
+    - i want more option variety
+    - i also want to have a different scoring system from deathsmiles
+    - bombs
+        - i do like how there were multiple "bomb" effects in deathsmiles
+        - ibara bombs are my favorite, i would love to have that style of bomb in this game
+    - scoring
+        - hidden items (think bees) that require bombs to uncover
+        - these items along with a pickup multiplier and how many of them you've picked up during the level give you a big score bonus
+        - strategizing ways to maximize the multiplier is a big emphasis for scoring in this game
+
+FIRST GOAL: figure out the basics!!!
+i want to have a character that flies around, scrolling background and left/right shooting that feels nice
+
+1. performance test
+    - how many bullets can we even make?
+    - how much performance does background eat?
+2. scrolling prototype
+    - how long of a level can we even make?
+    - scrolling speed
+    - we have to create our own tileset
+3. weapons & movement prototype
+    - can we make basic movement and shooting feel nice?
+4. explosion prototype
+    - can we make a juicy procedural explosion?
