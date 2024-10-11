@@ -1,0 +1,97 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTMwIDAxOjI2OjIzIixtb2RpZmllZD0iMjAyNC0w
+OS0zMCAwMjo1NDozMCIscmV2aXNpb249MTI1XV1sejQA3QAAAGs2AADxKHtbMF09e2JtcD1weHUA
+QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feD0tMC4xMjUNAMt5PTAsem9vbT04fSxD
+AP8IEjgwOCBYEFgA_DAA2CC4QJhwWLAY8CdMACP-BT4wPiBeEF4A-jAA3iC_QJ5wXrAeTAAlLz8X
+TQA4-wU3MDcgVxBXAPcwANcgt0CXcFewF0wAJB-wNgD---------------------------------
+-------------------------------------lBtPTh9fQ==
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTMwIDAyOjU0OjMxIixtb2RpZmllZD0iMjAyNC0w
+OS0zMCAwMjo1NDozMSJdXQ==
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTMwIDAxOjI2OjIzIixtb2RpZmllZD0iMjAyNC0w
+OS0zMCAwMjo1NDozMCIscmV2aXNpb249MTIzXV1sejQAWgAAAEsQAADwCHt7Ym1wPXVzZXJkYXRh
+KCJpMTYiLDMyAwAvIjABAP--------------------uhIikscGFuX3g9MAgA0nk9MCx0aWxlX2g9
+MTYKABB3CgCAem9vbT0xfX0=
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTMwIDAyOjU0OjMxIixtb2RpZmllZD0iMjAyNC0w
+OS0zMCAwMjo1NDozMSJdXQ==
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTMwIDAxOjI2OjIzIixtb2RpZmllZD0iMjAyNC0w
+OS0zMCAwMjo1NDozMCIscmV2aXNpb249MTIzXV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
+Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
+Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
+-70f-wEArM-ID0AADxBA--_w8P8BAP-qUP----8p
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTMwIDAyOjU0OjMxIixtb2RpZmllZD0iMjAyNC0w
+OS0zMCAwMjo1NDozMSJdXQ==
+:: main.lua
+--[[pod_format="raw",created="2024-09-30 01:26:23",modified="2024-09-30 02:54:30",revision=172]]
+function _init()
+	t = 0
+	particles = {}
+end
+
+function _draw()
+	cls(0)
+	if #particles > 0 then
+		for p in all(particles) do
+			spr(p.sprite,p.x,p.y)
+		end
+	end
+--	print(t,2,2,7)
+--	print(sin(t/13),2,34,7)
+--	if #particles > 0 then
+--		print(particles[1].x,2,10,7)
+--		print(particles[1].y,2,18,7)
+--		print(#particles,2,26,7)
+--	end
+end
+
+function _update()
+	t = t + 1
+	if btn(5) then
+		add(particles,{
+			x = rnd(480),
+			y = 270,
+			vx = rnd(2) * 5,
+			vy = mid(2, rnd(10), 10),
+			sprite = mid(1, flr(rnd(5)), 4) 
+		})
+	end
+
+	if #particles > 0 then
+		doparticles()
+		cleanparticles()
+	end
+end
+
+function doparticles()
+	for p in all(particles) do
+		p.x += (p.vx * sin(t/400))
+		p.y -= p.vy
+	end
+end
+
+function cleanparticles()
+	local i = #particles
+	while i > 0 do
+		if particles[i].y < -10 then
+			del(particles, particles[i])
+		end		
+		i -= 1
+	end
+end
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTMwIDAyOjU0OjMxIixtb2RpZmllZD0iMjAyNC0w
+OS0zMCAwMjo1NDozMSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzE5Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9p
+bmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlv
+bj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+:: [eoc]

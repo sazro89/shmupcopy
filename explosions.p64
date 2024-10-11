@@ -1,10 +1,6 @@
 picotron cartridge // www.picotron.net
 version 2
 
-:: gfx/
-:: gfx/.info.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTA2IDE5OjIzOjQ1Iixtb2RpZmllZD0iMjAyNC0x
-MC0wNyAwNzo0NDo0MSJdXQ==
 :: 0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTA2IDE5OjIzOjQ1Iixtb2RpZmllZD0iMjAyNC0x
 MC0wNyAwNzo0NDo0MCIscmV2aXNpb249Mzk2XV1sejQAfgAAABIxAADzIXtbMF09e2JtcD1weHUA
@@ -112,57 +108,90 @@ end
 :: explode.lua
 --[[pod_format="raw",created="2024-10-07 01:29:38",modified="2024-10-07 07:44:40",revision=173]]
 function explode(ex, ey)
-	add(parts,{
+	add(parts, {
 		x = ex,
 		y = ey,
 		r = 17,
-		maxage = 2
+		maxage = 2,
 	})
-	grape(ex,ey)
+	grape(ex, ey)
 end
 
 function dopart(p)
 	-- [ ] age function
 	-- [ ] max age counter
-	
+
 	if p.wait then
-		-- wait countdown 
+		-- wait countdown
 		p.wait -= 1
-		if p.wait <= 0 then
+		if p.wait >= 0 then
 			p.wait = nil
 		end
 	else
 		-- particle logic
 		p.age = p.age or 0
+    if p.age == 0 then
+      p.ox = p.x
+      p.oy = p.y
+    end
+
 		p.age += 1
+
+		--movement
+		if p.to_x then
+			p.x += (p.to_x - p.x) / 4
+			p.y += (p.to_y - p.y) / 4
+		end
 		if p.age >= p.maxage then
-			del(parts,p)
+      if p.onend == "return" then
+        p.onend = nil
+        p.maxage += 10
+        p.to_x = p.ox
+        p.to_y = p.oy
+      else
+        del(parts, p)
+      end
 		end
 	end
+	-- 2 main ways to logic and animate
+	-- sx/sy velocity system.  not great control if you want control over the particles final destination
+	-- to_x/to_y destination definition
 end
 
-function grape(ex,ey)
+function grape(ex, ey)
 	local spokes = 6
 	local ang = rnd()
 	local step = 1 / spokes
-	local dist = 8
-	local shakiness = 0
+	local shakiness = rnd(4) - 2
 
-	for i = 1, spokes do	
-		add(parts,{
-			x = shakiness + ex + sin(ang+step*i) * dist,
-			y = shakiness + ey + cos(ang+step*i) * dist,
+	for i = 1, spokes do
+		-- spawn blobs
+		local myang = ang + step * i
+		local dist = 8
+		local dist2 = dist / 2
+
+		add(parts, {
+			x = shakiness + ex + sin(myang) * dist2,
+			y = shakiness + ey + cos(myang) * dist2,
 			r = shakiness + 6,
-			maxage = 120
+			to_x = shakiness + ex + sin(myang) * dist,
+			to_y = shakiness + ey + cos(myang) * dist,
+			maxage = 120,
+      onend = "return"
 		})
 	end
-	add(parts,{
+	add(parts, {
 		x = shakiness + ex,
-		y = shakiness + ey-4,
+		y = shakiness + ey - 4,
 		r = shakiness + 10,
-		maxage = 120
+		maxage = 120,
 	})
 end
+
+:: gfx/
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTA2IDE5OjIzOjQ1Iixtb2RpZmllZD0iMjAyNC0x
+MC0xMSAwNDoxNjowOSJdXQ==
 :: main.lua
 --[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-10-07 07:44:40",revision=548]]
 -- [x] flash / contrast flame
@@ -216,7 +245,7 @@ function _update()
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTA2IDA0OjM5OjU4Iixtb2RpZmllZD0iMjAyNC0x
-MC0wNyAwNzo0NDo0MSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+MC0xMSAwNDoxNjowOSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
 IzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImV4cGxvZGUubHVhIzM2Iix3b3Jrc3Bh
 Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJibG9iLmx1YSM0OSIsd29ya3NwYWNlX2luZGV4PTF9LHts
 b2NhdGlvbj0iZGl0aGVyLmx1YSM1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSIwLmdm
