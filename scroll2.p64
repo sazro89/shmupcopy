@@ -1,0 +1,406 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
+MC0xNiAyMToyNzoyMSIscmV2aXNpb249Mzk3XV1sejQAZQwAAAg-AADzIXtbMF09e2JtcD1weHUA
+QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgA2nk9MCx6b29tPTEyfSw-AE-yAe0C
+AgAID08AHX-9AdYdBr0FBAAbP8X9AWgAHSkCDQIAXv0BAv0PAwAPVgAdMQoQGgIABAgAKxoACAAf
+ECIAUw_4AB0v8PAyAIHwDWARwAEHBgGwIQ0BkAEsEYABDBccEXABDAcMAQwIAEAhDCFgBgDwGQEH
+AVARHAEHEQYBUAENAQwHEQ0GDQEwAS0hDQYNBw0BIAEdBi0GDRYKAP8PDQYHFgcGDQYdATABBwYN
+AQYHDSFQAQURFQ0RcGEwogAhLwYHogAEIGARogAiUBGiAJBAAQYBHBEHAQYKAGANAQwXEQaQAPQE
+PTEdBgcBEAEdFj0GDRYBEAENFqEA-wIgEQcdEQcxQAEGFQEVDRFgcZ8AIoAWAaBRkAE8AZwAICwB
+nADwARwBDAFQIQwxDCEwAQcBDDGeAGAwAQYRBxFCAQAjATENERdDARAAIwH2BAYNMQ0GDQYHESYN
+Bj0GDSYRHQZFAf8DADEHARYBBzEwAQYBBREFAQYBpwAk8QQHBgGgAQ0hoBEsAYARDBccAXARRgGA
+AWAhDCEMEVCqAAEIAPACBgEHERwBBgEwAQ0GERcMAQ2zAOAHBh0xPQEQARYNBj0WHU8BAqQAAPMB
+zzEHER0HEUARDRUBFZ8AJi8GB58ACSIBYJ8AIAFgRwFBARwRQEUBMAcMAYcCcA0HDQYNIS1aAUAW
+DQYt2gEVAUQBYAEwIQ0HBpcCvwFQEQ0VEQUBcGFAjQOBDzIAHP8FBAYEAB8YAA4XHhceHxceHQ4A
+HgBBABp-CAgEIAfwLDQAH49QBwwHUAfwHDoAIL8nQAcMB0AX0AfwBT4AJgNCAD9gB0BDACIFRQB-
+UAdgB1AHQNkBfvIQCBAEIBlQGUAJFwkwCRcJIAk3CRAJNwkACQcKFwoHGQYAMRoXGgQA-wYKCRoJ
+CjkaWRo5ADkAGRAZEAkgGSBvACEAcQA1GgkwdQBYChcKCRAGADEZGhkEABFZAgBvCQAZAAkwawAl
+DG8AMjAJGgQAEjkCAF9AGVAZIGcBHv8HNxewV4B3cHdgl1CXUJdgd4BXoDfwFkcACxw4RgDxBGAX
+0BfQF6AHEBcQB2AXADcAF1AGAP8AYHdQBwB3AAcwt0CXYHdwXQAjYPAEB1AHcD0D-xMLF9AXcAdA
+F0AHIAcgNyAHYFeQV2AHEFcQB2BXoDfAF-AXWwAcEDBWAGE0B9AH8CFXAF9wF8A3sEkAIS-w8DEA
+-6W3-xAGMb4xnhE_EX4EAGKeUZ5R3hECAG_eMb4x-gZXADIPBAAFD2MAIi-w8OAB-xSqBxHeEb4x
+vjHeEQIAb75RnlH_BdgBKgFHAAcEAG-ecX5x-gRTADJv-gAR3hF_IAIpf-8QBBEeEZ4EAAExcX5x
+rwADAgAPWwAhQ3F_cX4-ABDeSQETAA0AEH4NAB8GAwEkBlAABA8BDwIBLTNxfnFVACMRvgQABAIA
+L-4IqQEqCJoAD64AMsrwRg0PFR2wHh2wDQ4EAE8uDfA2TQAf4R8VDbAOHQ6wLQ6wHQ4NSQBPDi2w
+PksAMCEtDg4ALw0emAAhdQ8VDQ4NsA4FABE_UwADBAAPUAAgID8V1wBBDi2wLpkALy0OLwEpBEkA
+Lw4d4wApST8VsC14AQMEAA_XACYGjgAPmgArH-AxAP---------------zRfCAgE8DBiAB4PjQX-
+-----0wxfAEMAgAv-CE5ABwj-CE6AB98OQAc7yEsUSxRPEE8QTxRLFEsdwAdk2sBK0ErAQYdAQUA
+nzYrAQ0RDTsxe0gAHKERWwYxKwYRFgEbBQCvRgEbHRENARtBq0gAHFH7CQkKGwMANCkKGwsAPyMK
+i0cAHEuBRwYRAwA-B0YBRQAc0R01LQU2BR0FBhUGBR0KACAHLAUAYh0VHQUHFgUAHw1UACAhBi1V
+ABANBgAULVYAbzYFHVUtRU8AHSILaQIAIhtZAgAPPwAcAzYAExtGAB8LPwAc-wHxBAYdQQYdQTYx
+DRANMTBxPwAccHEGYQYRFiEEAI9GIR0QDSFAoUIAHO_RVxFXEVYRVhENEC0hQIAAHXEBBk0RBzYN
+BAD-Al0RXBENBRYFDREADRUNABFQLQIdEw0YAggdAhYdFAA-ZR1VUQAcQAuTCwMCAC-7HzkAHGBT
+GwMrMzs6AB8ZOgAcL-kwMQAcsrs0GxQ5GwRJCwRZQgIPQAAdP3T5HDMAHL97NDs5FBtJBBtZBLUC
+I8C9BQ0VLQUBBREdBQECAN8dEQUhDRVBDQEFQQ1hTAAdqRUNJQ0FEQUhBQECAC-xB0kAHJF9FQ0F
+PREFAQWaABAFlADPBQ0xBQEdMQUBBQ1hFwQd8QMFDRUNFR0VDQUNBgUdFQ0GJR31AP8CDRUGFR0G
+BQYFDQUNNT0FLQVYAB0v_DCgBCgvOzlVBh0-_SS7MgAcA28AEAvVBC85u8MDHjBRDWECAK8dBUEd
+UT0BBRF9QgAcf-EeBREFEb02ABwwYQ1R5AG-QQUdUR0hBQ0BHQFEAB8v_DAxAE0f_zEAHmMKAwsD
+KwPGBB8JPgAcxQNhCwNBBwNRBwsDUQoAEUEEAA9KABybQQMbUQMLQQMbCQAPRwAc-wj7AUEbAQcR
+FwELAQcBFyEDYQMBEwEDEdQCHf8OiyFLAQcROwEHISsRBwEHARsBAwEHESsDQSsBCxGUAB0SK2IB
+8QBzNQMlFAUEBQQFJAWkAgQCAB90SwAc-wsLA0sjSwMFEwsDCxMEBUMFFEUCFFIkQjQiBEkAHGAb
+AxsDCyMcAV-xGTcBF0gHHXDxGRMBEwETRgAP9QkdgPEHA1ETUQMLfAAwAQMLiABPARNLAeoBHsDx
+AANhE1ELA1ETERNIAI8BAwsTGwMBS0cAHPEA_wJBGwEXEQcxFwEHcQMRLwIPLgIdgLshOxEHASsh
+KAL-AwcBBxEbEQcBAwELQQMrEQMBK00AHAMaAhIUCAAfEg4ACCKSBAgAD2EAIxA0BgD-BjIWBQIE
+EgYlMjUCBCIVIgRCBAIEUlEAHTILUwvIAYATWwN7A1sDCwQAAKMCEDOnAg9NAByQ6wFbAQNLAQNb
+AwAhE0sGAA9DABxAewFrAwMAcUsTAVsDAVsJAA8XAh1QcwFTEQOhAjARA1FdArEUAQMbAwESATMB
+EgoAHxOxAh8vg1sgATH-BPsAA1sjOxMLAzsDGwM7QysDG1OJAB1v8ghxfHF8iAsd8AYiFDJEIhRC
+AQRCAQwBMgEMAVwBDFEGAA9aASsREbkDAA4AERt_AxELGgAP0wAd-wNLARNbAQNrAVsDAlsDAmsD
+_wBBABz-AhMBSwMBWwFrAgNbAgNbA-sHQAAe-wYTASMBMwEDAVMBAlMSUwITOyNbA3scASa-BFEE
+IhQiEzJDEiNFACkwAyIUXwGvIgEDCyMSARMLM7cCHwDcAxE7qgJvJTMFJDVEvAYm8AIhIjECBBIR
+DAIEMhxSDAEMMkgREDxOEV8xDCE8EUcCKBAEoQNAIhMBIj4CbxIjCwMBM_YAHR-8OAkdb-wKJwwH
+-LYAHX-8EQcMJ-wKNgAc8AxrBVsFDEsFBw07BQ0GDSsVDQYNGwUtBg0LBR0RABEFAgAfBicMHU91
+fP0gMwAcgAVrDQVbHQVLcQBgOw0VDQUrWg2vGw01DQULDUUNBU8AHBLxiA0jARUIAD-1APO4Ax1v
+8xALUxvTBAUhbwMSIxLzEDcAHP8C_wsFKwUtBS0FKwUrBSMFIwWdAx0v8TAlDh4jBQ3lAVMtBg0F
+LQwADxQACg8LAh4f-ZYAHSoNZQIADz8AHG_NFQ0F-SN8ASEAfgHfKw0DGwUrDSMFKwUDK0UAH687
+LQVrDTsjDQNbPwAg8AAHASsFGwEDLQUNAQM7BQtYBS8FA8AKIz8hV4EMAh_CLQcMBS0FBiU1ECAF
+DScQEBYMACANJgsAfzYVDUYFDVZYABxffHV99hg0ABz-BAflHVUWDUUmDTU2DSVGDRVWDQV2AB9w
+Jh1GDRYNNgQALz2WPwAcUSsFA1sNAwA6BQMbGAIfe0sAKCErLQ0ATysjDQMWFx4QAHYKAKYCIAsD
+JBIjEwELAD8jBQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBfZQtjC2NEABw-9hh1mgUeOFYFCwMA
+AXcADyQDHSOWPRwCD38ADFBtPTh9fQ==
+:: gfx/ship.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI1OjE4Iixtb2RpZmllZD0iMjAyNC0x
+MC0xMyAyMToyNToxOCIscmV2aXNpb249MF1dbHo0AAcEAACpNgAA8yF7WzBdPXtibXA9cHh1AEMg
+EBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANp5PTAsem9vbT0xMn0sPwBP8gHtAgIA
+CA9PAB1--QHWHQa9BQQAGz-F-QFoAB0pAg0CAF79AQL9DwMAD1YAHTEKEBoCAAQIACsaAAgAHxAi
+AFMPuAAdL-DwMgCB8A1gEcABBwYBsCENAZABLBGAAQwXHBFwAQwHDAEMCABAIQwhYAYA8BkBBwFQ
+ERwBBxEGAVABDQEMBxENBg0BMAEtIQ0GDQcNASABHQYtBg0WCgD-Dw0GBxYHBg0GHQEwAQcGDQEG
+Bw0hUAEFERUNEXBhMKIAIS8GB6IABCBgEaIAIlARogCQQAEGARwRBwEGCgBgDQEMFxEGkAD0BD0x
+HQYHARABHRY9Bg0WARABDRahAP8CIBEHHREHMUABBhUBFQ0RYHGfACKAFgGgUZABPAGcACAsAZwA
+8AEcAQwBUCEMMQwhMAEHAQwxngBgMAEGEQcRQgEAIwExDREXQwEQACMB9gQGDTENBg0GBxEmDQY9
+Bg0mER0GRQH-AwAxBwEWAQcxMAEGAQURBQEGAacAJPEEBwYBoAENIaARLAGAEQwXHAFwEUYBgAFg
+IQwhDBFQqgABCADwAgYBBxEcAQYBMAENBhEXDAENswDgBwYdMT0BEAEWDQY9Fh1PAQKkAADzAc8x
+BxEdBxFAEQ0VARWfACYvBgefAAkiAWCfACABYEcBQQEcEUBFATAHDAGHAnANBw0GDSEtWgFAFg0G
+LdoBFQFEAWABMCENBwaXAr8BUBENFREFAXBhQI0DgQ8yABz-BQQGBAAfGAAOFx4XHh8XHh0OAB4A
+QQAafwgIBCAH8Cw0AB_PUAcMB1AH8Bw6ACC-J0AHDAdAF9AH8AU_ACYDQgA-YAdAQwAiBUUAf1AH
+YAdQB0DZAX7yEAgQBCAZUBlACRcJMAkXCSAJNwkQCTcJAAkHChcKBxkGADEaFxoEAP8GCgkaCQo5
+GlkaOQA5ABkQGRAJIBkgbwAhAHEANRoJMHUAWAoXCgkQBgAxGRoZBAARWQIAbwkAGQAJMGsAJQxv
+ADIwCRoEABI5AgBfQBlQGSBnAR7-BzcXsFeAd3B3YJdQl1CXYHeAV6A38BZHAB3xBGAX0BfQF6AH
+EBcQB2AXADcAF1AGAP8AYHdQBwB3AAcwt0CXYHdwXgAkYPAEB1AHcD8D-xMLF9AXcAdAF0AHIAcg
+NyAHYFeQV2AHEFcQB2BXoDfAF-AXXAAdEDBXAGE0B9AH8CFYAF9wF8A3sEoAIi-w8DIA--------
+--------------------------------------------------VQPTEyfX0=
+:: gfx/stage.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI2OjIzIixtb2RpZmllZD0iMjAyNC0x
+MC0xMyAyMToyNjoyMyIscmV2aXNpb249MF1dbHo0AP8BAABtNAAA8yF7WzBdPXtibXA9cHh1AEMg
+EBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIAMp5PTAsem9vbT04fSw_AE-yAe0CAgAI
+D04AHH-9AdYdBr0FBAAbP8X9AWcAHCkCDQIAXv0BAv0PAwAPVQAcMQoQGgIABAgAKxoACAAfECIA
+Uw_3ABwv8PAxAP-------6TH8gBdPxW9Pp0ePR59BABinV6dXt0eAgBvnT69Pv0GWAAzDwQABQ9k
+ACIv8PDiAf8Uum0fFd0evT69Pt0eAgBvvV6dXv0F2gErAUgABwQAb91_fX79BFQAM2-9AB7dHn0j
+Aimf8gA9HxUdHp0eBAAAMX59frEAAwIAD1wAIVN-FX1_fUAAEN1NARMADQAQfQ0AHwYGASUGUQAE
+EgEPBQEtAKkAA1YAIx69BAAEAgAv-QiuASsInAAPsAAyyvBGDQ8VHbAeHbANDgQATy4N8DZNAB-h
+HxUNsA4dDrAtDrAdDg1JAE8OLbA_SwAwIS0ODgAvDR6YACF1DxUNDg2wDgUAET5TAAMEAA9QACAg
+PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
+----------------------------------------vFBtPTh9fQ==
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
+MC0xNiAyMToyNzoyMSJdXQ==
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
+MC0xNiAyMToyNzoyMSIscmV2aXNpb249ODQ1XV1sejQAvwMAANWUAAD-Fnt7Ym1wPXVzZXJkYXRh
+KCJpMTYiLDE2LDI1NiwiMDA5ZjAwMDMEACMjOWZAAB8xBAAhD0AA_1czMjAwMxwAD4AAWh8zBAAj
+BUAAHzEEACEPAAL-ARIwDAAPgABeHzMEACMFQAAfMQQAIQ8AAv8AIjI5DAAPgABeHzMEACMFQAAf
+MQQAIQ8AAvxSMTAwMjgMAA_AAF4fMwQAIwVAAB8xBAAhDwAC-wAiMzcMAA_AAF4fMwQAIwVAAB8x
+BAAhDwAC-wESNgwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ARI1DAAPgABeHzMEACMFQAAfMQQAIQ8A
+Av8BEjQMAA_AAF4fMwQAIwVAAB8xBAAhDwAC-wESMwwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ARIy
+DAAPgABeHzMEACMFQAAfMQQAIQ8AAv8BBxwAD4AAWh8zBAAjBUAAHzEEACEPAAL-AR8wAAL-6g8A
+FP-tHzAAFP-tHzAAFP-tHzAAFP-tHzAAFP-tHzAAFP-tHzAAFP-tHzAAFP-tAFMBAxgAD4AAXh8z
+BAAjBUAAHzEEACEPAAL-AQ8AFP-qHzAAFP-sLzI5ABT-7C8yOQAU-_wBAAIfNgAC-_0fNQAC-_0f
+NAAC-_0SMwwAD4AAXS9lMQQAIwVAABYyFAAPQAAiBxQAL2UyQAAsDwQACRczDAAPQAAGD4AASA9A
+AAgiMjkAFC9lMQgBEBsyQAAL2AAPgAAdLzAzBAAjBUAAHzEEACEPAAT9DwAU-_wiMjlXAS8wMUAA
+Iw8EACHxFTlmIiksaGlkZGVuPWZhbHNlLG5hbWU9Im1hcCIscGFuX3g9MAgA8gF5PTE3MjIsdGls
+ZV9oPTE2CgAQdwoAj3pvb209MX0sZkABJDIxZkAPAQD-ngFWAg8BADgiMjgEAA5YAA8BAHEPoAL-
+-----------YIjMxXhsPoAL--4wfNqAC--_OHzWgAv--jh80oAL--44DMhkPoAL--4gfMqAC--_O
+A-IcD6AC--_IDlgAD6AC--98LzI5oAL--4oDRBoPoAL--4svMzegAv--jh82oAL--44fNaAC--_O
+HzSgAv--jh8zoAL--44fMqAC--_OHzGgAv--jg5YAA_gF---eg9AGv--jS8yOUAa--_NLzI5QBr-
+-40BoAIfNqAC--_OHzWgAv--jh80oAL--44fM6AC--_OHzKgAv--jh8xoAL--44OWAAPAQB0D2ZU
+A6RzZWcgbGFiZWxzbVQlLTNuVC8zM25UBVBtPTF9fQ==
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
+MC0xNiAyMToyNzoyMSJdXQ==
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
+MC0xNiAyMToyNzoyMSIscmV2aXNpb249ODAyXV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
+Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
+Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
+-70f-wEArM-ID0AADxBA--_w8P8BAP-qUP----8p
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
+MC0xNiAyMToyNzoyMSJdXQ==
+:: main.lua
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-16 21:27:21",revision=1125]]
+include "moveandshoot.lua"
+
+butdic={ 	-- 0 - stop
+	1, 		-- 1  - left
+	2, 		-- 2  - right
+	0, 		-- 3  - stop l+r
+	3, 		-- 4  - up
+	5, 		-- 5  - diag u+l
+	6, 		-- 6  - diag u+r
+	3, 		-- 7  - up u+l+r
+	4, 		-- 8  - down
+	8, 		-- 9  - diag d+l
+	7, 		-- 10 - diag d+r
+	4, 		-- 11 - down r+l+d
+	0, 		-- 12 - stop u+d
+	1, 		-- 13 - left l+u+d
+	2, 		-- 14 - right r+u+d
+	0  		-- 15 - stop l+r+u+d
+}
+butdic[0] = 0
+dirx = {-1, 1, 0, 0,-0.75, 0.75, 0.75,-0.75}
+diry = { 0, 0,-1, 1,-0.75,-0.75, 0.75, 0.75}
+shiparr = {8,9,10,11,12}
+shipspr = 0
+shots = {}
+shotwait = 0
+
+wep = 2
+muzz = {}
+
+banked = 0
+
+-- INIT
+function _init()
+	t = 0
+	px,py = 240,135
+	spd = 1.537
+	lastdir = 0
+	x_borders = 132
+	-- 216px horizontal space mirrors 5:4 tate at 270:216
+	-- on a 480px wide display, this would require two padding sections at 132px each
+	
+	scroll = 11 --270 screen height - (8 tiles x 16 pixels)
+	seglib = {}
+	
+	boss = false
+	
+	-- BUGFIX: dummy segment needed at start
+	mapsegs = {0,32,2,1,8}
+	
+	-- lazydevs segs 3,3,3,3,3,2,1,0,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,0,15,14,1,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3
+	--mapsegs = {3,3,3,3,3,2,1,28,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,28,15,14,1 ,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3}
+	mapsegi = 1
+	cursegs = {}
+end
+
+-- DRAW
+function _draw()
+	cls(2)
+	for seg in all (cursegs) do
+		map(seg.x,seg.y,xscroll+x_borders,scroll-seg.o,21,8)
+	end	
+	
+	for s in all(shots) do
+		spr(s.sani[flr(s.si)],s.x+6,s.y)
+	end
+	
+	for m in all(muzz) do
+		spr(m.sani[flr(m.si)],px+m.x,py+m.y)
+	end
+	spr(shiparr[flr(shipspr*2.4+3.5)],px,py)
+	
+	local flamearr={17,18,17,19,18,20,19,21}
+	local fframe = (t % (#flamearr - 1)) + 1
+	
+	spr(flamearr[fframe],px+6-banked,py+14,true)
+	spr(flamearr[fframe],px+2+banked,py+14)
+	
+	-- draw borders
+	rectfill(0, 0, x_borders, 270, 32)
+	rectfill(480, 0, 480 - x_borders, 270, 32)
+
+	-- debug
+	print(px,2,2,7)
+	print(scroll,2,11,7)
+	print(xscroll,2,20,7)
+	print(boss and "boss" or "no boss",2,29,7)
+end
+
+-- UPDATE
+function _update()
+	t += 1
+	
+	-- SCROLLING
+	scroll += .5
+	
+	if #cursegs < 1 or scroll - cursegs[#cursegs].o > 0 then
+		if boss then
+			scroll -= 128
+			for seg in all(cursegs) do
+				seg.o -= 128
+			end
+		else
+			mapsegi += 1
+		end
+		
+		
+		local segnum = mapsegs[mapsegi] or 0
+			
+		add (cursegs, {
+			x = 0,
+			y = 248-((segnum-1)*8),
+			o = #cursegs < 1 and -128 or cursegs[#cursegs].o+128,
+		})
+		
+		if scroll - cursegs[1].o >= 384 then
+			deli(cursegs,1)
+		end
+	end
+	
+	-- INPUTS / MOVEMENT
+	local dir = butdic[btn()&0b1111]
+	
+	if lastdir != dir and dir >= 5 then
+		px = flr(px) -- or flr(px) + 0.5
+		py = flr(py) -- or flr(py) + 0.5
+	end
+	
+	local dshipspr = 0
+	banked = 0
+	
+	if dir > 0 then
+		px+=dirx[dir] * spd
+		py+=diry[dir] * spd
+		
+		dshipspr = mysgn(dirx[dir])
+		banked = 1
+	end
+	
+	shipspr += mysgn(dshipspr-shipspr)*0.18
+	shipspr = mid(-1, shipspr, 1)
+	
+	lastdir = dir
+	
+	-- boundary checking
+	if (px < x_borders) px = x_borders
+	if (px > 480 - x_borders - 15) px = 480 - x_borders - 15 -- 15 is sprite size with an offset
+	
+	percentage_scrolled = mid(6/32, (px - x_borders - 3) / 201, 26/32)
+	xscroll = map_range(percentage_scrolled * -32, -26, -6, -40, 0, true)
+
+	if shotwait > 0 then
+		shotwait -= 1
+	end
+	
+	-- shooting
+	if btn(4) then
+		if wep == 1 then
+			shot_raiden()
+		elseif wep == 2 then
+			shot_ddp()
+		end
+	end
+	
+	-- summon boss!
+	boss = btn(5)
+	
+	doshots()
+	domuzz()
+end
+:: moveandshoot.lua
+--[[pod_format="raw",created="2024-10-13 21:18:38",modified="2024-10-16 21:27:21",revision=405]]
+function doshots()
+	for s in all(shots) do
+		s.x += s.sx
+		s.y += s.sy
+		s.si += 0.5
+		
+		if flr(s.si) > #s.sani then
+			s.si = 1
+		end
+		if s.y < -16 then
+			del(shots,s)
+		end
+	end
+end
+
+function domuzz()
+	for m in all(muzz) do
+		m.si += 1
+		
+		if flr(m.si) > #m.sani then
+			del(muzz,m)
+		end
+	end
+end
+
+function mysgn(v)
+	return v == 0 and 0 or sgn(v)
+end
+
+function shot_raiden()
+	if shotwait <= 0 and #shots < 6 then
+		local shotspd = -3.5
+		shotwait = 4
+		add(shots,{
+			x = px-3,
+			y = py+9,
+			sx = 0,
+			sy = shotspd,
+			sani = {16},
+			si = 1
+		})
+		add(shots,{
+			x = px+3,
+			y = py+9,
+			sx = 0,
+			sy = shotspd,
+			sani = {16},
+			si = 1
+		})
+	end
+end
+
+function shot_ddp()
+	if shotwait <= 0 and #shots < 14 then
+		local shotspd = -12
+		shotwait = 3
+		add(shots,{
+			x = px-6,
+			y = py,
+			sx = 0,
+			sy = shotspd,
+			sani = {24,25,26,25},
+			si = t%4+1
+		})
+		add(shots,{
+			x = px+2,
+			y = py,
+			sx = 0,
+			sy = shotspd,
+			sani={24,25,26,25},
+			si = t%4+1
+		})
+		add(muzz, {
+			x = -4,
+			y = -8,
+			sani = {27,28,29,30},
+			si = 0
+		})
+		add(muzz, {
+			x = 4,
+			y = -8,
+			sani = {27,28,29,30},
+			si = 0
+		})
+	end
+end
+
+function map_range(x, in_min, in_max, out_min, out_max)
+	return out_min + (x - in_min)*(out_max - out_min)/(in_max - in_min)
+end
+
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNC0x
+MC0xNiAyMToyNzoyMSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzUwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJtb3ZlYW5kc2hvb3QubHVhIzE4Iix3
+b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0y
+fSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4
+LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+:: [eoc]
