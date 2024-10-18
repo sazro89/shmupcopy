@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-16 21:27:21",revision=1125]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-18 07:38:15",revision=1149]]
 include "moveandshoot.lua"
 
 butdic={ 	-- 0 - stop
@@ -47,17 +47,16 @@ function _init()
 	boss = false
 	
 	-- BUGFIX: dummy segment needed at start
-	mapsegs = {0,32,2,1,8}
+	--mapsegs = {0,32,2,1,8}
 	
 	-- lazydevs segs 3,3,3,3,3,2,1,0,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,0,15,14,1,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3
-	--mapsegs = {3,3,3,3,3,2,1,28,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,28,15,14,1 ,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3}
+	mapsegs = {0,3,3,3,3,3,2,1,28,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,28,15,14,1,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3,3}
 	mapsegi = 1
 	cursegs = {}
 end
 
 -- DRAW
 function _draw()
-	cls(2)
 	for seg in all (cursegs) do
 		map(seg.x,seg.y,xscroll+x_borders,scroll-seg.o,21,8)
 	end	

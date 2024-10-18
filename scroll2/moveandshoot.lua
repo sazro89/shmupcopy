@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-13 21:18:38",modified="2024-10-16 21:27:21",revision=405]]
+--[[pod_format="raw",created="2024-10-13 21:18:38",modified="2024-10-18 07:38:15",revision=424]]
 function doshots()
 	for s in all(shots) do
 		s.x += s.sx
