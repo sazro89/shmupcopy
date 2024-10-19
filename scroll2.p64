@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-MC0xOCAwNzozODoxNSIscmV2aXNpb249NDIwXV1sejQAZQwAAAg-AADzIXtbMF09e2JtcD1weHUA
+MC0xOSAwOTo0NDo1OSIscmV2aXNpb249NDUxXV1sejQAZQwAAAg-AADzIXtbMF09e2JtcD1weHUA
 QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgA2nk9MCx6b29tPTEyfSw-AE-yAe0C
 AgAID08AHX-9AdYdBr0FBAAbP8X9AWgAHSkCDQIAXv0BAv0PAwAPVgAdMQoQGgIABAgAKxoACAAf
 ECIAUw_4AB0v8PAyAIHwDWARwAEHBgGwIQ0BkAEsEYABDBccEXABDAcMAQwIAEAhDCFgBgDwGQEH
@@ -96,11 +96,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0xOCAwNzozODoxNiJdXQ==
+MC0xOSAwOTo0NDo1OSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-MC0xOCAwNzozODoxNSIscmV2aXNpb249ODcwXV1sejQA-AQAANmUAAD-Fnt7Ym1wPXVzZXJkYXRh
+MC0xOSAwOTo0NDo1OSIscmV2aXNpb249OTEwXV1sejQAmgcAANeUAAD-Fnt7Ym1wPXVzZXJkYXRh
 KCJpMTYiLDE2LDI1NiwiMDA5ZjAwMDMEACMjOWZAAB8xBAAhD0AA_1czMjAwMxwAD4AAWh8zBAAj
 BUAAHzEEACEPAAL-ARIwDAAPgABeHzMEACMFQAAfMQQAIQ8AAv8AIjI5DAAPgABeHzMEACMFQAAf
 MQQAIQ8AAvxSMTAwMjgMAA_AAFnjZDAwMGQ4MDBkNDAwZDMIAAwQAAgYAAgwAAAIABJkDAAQZRgA
@@ -110,58 +110,70 @@ ZEAALB9mAAT7IjM2DAAPgABeHzMEACMFQAAfMQQAIQ8AAv8BEjUMAA_AAF4fMwQAIwVAAB8xBAAh
 DwAC-wESNAwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ARIzDAAPgABeHzMEACMFQAAfMQQAIQ8AAv8B
 EjIMAA_AAF4fMwQAIwVAAB8xBAAhDwAC-wEHHAAPgABaHzMEACMFQAAfMQQAIQ8AAv8BHzAAAv-q
 DwAU-_0fMAAUYwFAAB8zBAAjBUAAHzEEACEPAAL-ACIzNwwAD4AAXh8zBAAjBUAAHzEEACEPAAL9
-DwAU-_0fMAAU-_0fMAAU-_0fMAAU-_0fMAAU-_0AUwEDGAAPgABeHzMEACMFQAAfMQQAIQ8AAv8B
-DwAU-_ofMAAU-_wvMjkAFP-sLzI5ABT-7AEAAh82AAL-7R81AAL-7R80AAL-7RIzDAAPgABZL2Ux
-BAAnIzlkDAATMggADwQAGQ40AA5MAA8EAD0XMwwADwQAfAEAAh8yCAEUHzLUADMjOWUMMhozCAAu
-ZTBoMw3EMxI0AAINJAAIvDMTMQgAAwQAD8QzAQQcAA8wAAEOFAAPEAAAGzYEABc3DAAPFAARU2Uw
-MGNmCAAMBAAIGAAPJAAEI2Q2BAAXNwwADAQAHzckAAciZWIEAAEAAhYxEAAmZGYMAAwEAC9kZhQA
-BQ8EABsFAAIfOAgAIy45ZBQAAQgAHzAYABgeNCQADywABg8oAAEPFAABHzQYABQfNCQAFA8gAAkP
-PAARD0QACQMUAAEAAhcwJAAOLAAKCAAEIAAIDAAfNDQAFAUYAPEUIiksaGlkZGVuPWZhbHNlLG5h
-bWU9Im1hcCIscGFuX3g9MzMJAPICeT0tMTQ0Myx0aWxlX2g9MTYKABB3CgCvem9vbT0wLjV9LGpA
-ASQyMWpADwEA-54BWggPAQA4IjI4BAAOWAAPAQBxD6AC------------2CIzMWIbD6AC--_MHzag
-Av--jh81oAL--44fNKAC--_OAzYfD6AC--_IHzKgAv--jh8xoAL--44OWAAPoAL--3wvMjmgAv--
-igNEGg_gAv--iy8zN6AC--_OHzagAv--jh81oAL--44fNKAC--_OHzOgAv--jh8yoAL--44fMaAC
---_ODlgAD6AX--96D0Aa--_NLzI5QBr--40vMjlAGv--jQGgAh82oAL--44fNaAC--_OHzSgAv--
-jh8zoAL--44fMqAC--_OHzGgAv--jg5YAA8BAHQPalQDpHNlZyBsYWJlbHNxVBQtcVQ-MTczcFQG
-UG09MX19
+DwAU-_0fMAAU-_0fMAAU-_0fMAAU-_0fMAAU-_0AUwEDGAAPgABWGmVkIS5jMAQADyAACSM5ZAwA
+EzQIAAQEABM1CAAEIAAPBAAFFzgMAB8wjAAPI2QxvCATMhQAEzkIAA8EABEeY1wiGGVkIgi4AA_M
+AAkXYwwAD6QAEQ-gABgrYzGkABtjMAAMoAAbZCAADwQAHC45ZVAjL2RhVAADK2Q5KAATYgACHzgE
+ACwEWCMaNFgjCQQADCAABxAABUgjGjNYIyJmYeABK2Yy_CIbNRAACAwAFzjMJBJh2AIB_AAfZCgA
+Ay9kOBQAABszAAIfMUQADAMMACIzMAAUCYAADFQCHzgIAAAPvAAFA3wAL2MwgAAHIzllQAQfMwQA
+Iy85ZIAELB9mQAD3LzI5ABT-7C8yOQAUYwysBi5kMcAEK2Mw6AcWMZwGAQwGFmEoACdkORQAHzAE
+AAcFaAAIbAAIYAAH8AYJlAAMaAAbOEQADwQAAA2UABtkgAAPRAABBFwHCAQAG2OQABc4PAALRAAq
+ZDG0AC9kMYAGCwEAAh82JAAEDBAACAgACAwADwAqICdjMAQABHgBDxAABQsYAA8ACDYPBAAoL2Vh
+BAALKmYyEAgMBAAF7AEP7AABHzU8AgAeMBADDwQAGg9sAAQBAAITNRAAB2ADCAQACVQCB6QADiwA
+D6gAAwzMACI5ZdAsL2QzeAgDDXgAC0QCKzlkFAoTYeAAFzDIAAyACBMzdAAARAAEKAAPBAAJHzVE
+AAQDCAAvYzCMAQADeAAMBAArZDmwABNiHAAMQAEITAAAKAwAHAFTNTAwZTYMARswhAEPBAAMp2Vj
+MDBlZDAwZWWEAANoAQSIAgEAAhY0EAAJxAIAwAJSNTAwZjY0ABBhBAAP5AACDwQBA5tmYzAwZmQw
+MGbwAw0ABA8EABwuOWR0AQ9AAQEJRAIbNQgAHzRMARMJAAIXOAgAHzhYAAQaMpwABYAAGzgIAB80
+RAsMD4AAFQ88AAgvY2REAAgPPAAFA-gCCAQAD8QAAgcMAw9MAQkrZDEoABIzAAIvZTEEACcjOWQM
+ABMyCAAPBAAZDjQADkwADwQAPRczDAAPBAB8AQAEHzIIARQfMtQAMy45ZRQCBYgCHmIsBSpkZCgA
+LzlkJAAAF2PEAggUBAQAAwswAAQcAA8wAAEOFAAPEAAAGzYEABc3DAAPFAARAAQFE2YIAAwEAAgY
+AA8kAAQjZDYEABc3DAAMBAAfNyQAByJlYgQAAQACFjEQACZkZgwADAQAL2RmFAAFDwQAGwUAAh84
+CAAjLjlkFAAE2AcPGAAWHjQkAA8sAAYPKAABDxQAAR80GAAUHzQkABQPIAAJDzwAEQ9EAAkDFAAB
+AAIXMCQADiwACggABCAACAwAHzQ0ABQFGADxFSIpLGhpZGRlbj1mYWxzZSxuYW1lPSJtYXAiLHBh
+bl94PS0zMQoA8gF5PTEwMjIsdGlsZV9oPTE2CgAQdwoAj3pvb209MX0saEABJDIxaEAPAQD-ngFY
+EA8BADgiMjgEAA5YAA8BAHEPoAL------------YIjMxYBsPoAL--4wfNqAC--_OHzWgAv--jh80
+oAL--44DNCcPoAL--4gfMqAC--_OHzGgAv--jg5YAA_gAv--fC8yOaAC--_KA0QaD6AC--_LLzM3
+oAL--44fNqAC--_OHzWgAv--jh80oAL--44fM6AC--_OHzKgAv--jh8xoAL--44OWAAPoBf--3oP
+QBr--40vMjlAGv--jS8yOUAa--_NAaACHzagAv--jh81oAL--44fNKAC--_OHzOgAv--jh8yoAL-
+-44fMaAC--_ODlgADwEAdA9oVAOmc2VnIGxhYmVsc29UBG5UPzczM25UBVBtPTF9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0xOCAwNzozODoxNiJdXQ==
+MC0xOSAwOTo0NDo1OSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-MC0xOCAwNzozODoxNSIscmV2aXNpb249ODIwXV1sejQApQAAABQKAAD-MHB4dQADKAAABAAED0AQ
+MC0xOSAwOTo0NDo1OSIscmV2aXNpb249ODQ3XV1sejQApQAAABQKAAD-MHB4dQADKAAABAAED0AQ
 Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
 Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
 -70f-wEArM-ID0AADxBA--_w8P8BAP-YH8v2AQdQ-----4Q=
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0xOCAwNzozODoxNiJdXQ==
+MC0xOSAwOTo0NDo1OSJdXQ==
 :: main.lua
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-18 07:38:15",revision=1149]]
-include "moveandshoot.lua"
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-19 09:44:59",revision=1185]]
+---@diagnostic disable-next-line: undefined-global
+include("moveandshoot.lua")
 
-butdic={ 	-- 0 - stop
-	1, 		-- 1  - left
-	2, 		-- 2  - right
-	0, 		-- 3  - stop l+r
-	3, 		-- 4  - up
-	5, 		-- 5  - diag u+l
-	6, 		-- 6  - diag u+r
-	3, 		-- 7  - up u+l+r
-	4, 		-- 8  - down
-	8, 		-- 9  - diag d+l
-	7, 		-- 10 - diag d+r
-	4, 		-- 11 - down r+l+d
-	0, 		-- 12 - stop u+d
-	1, 		-- 13 - left l+u+d
-	2, 		-- 14 - right r+u+d
-	0  		-- 15 - stop l+r+u+d
+butdic = { -- 0 - stop
+	1, -- 1  - left
+	2, -- 2  - right
+	0, -- 3  - stop l+r
+	3, -- 4  - up
+	5, -- 5  - diag u+l
+	6, -- 6  - diag u+r
+	3, -- 7  - up u+l+r
+	4, -- 8  - down
+	8, -- 9  - diag d+l
+	7, -- 10 - diag d+r
+	4, -- 11 - down r+l+d
+	0, -- 12 - stop u+d
+	1, -- 13 - left l+u+d
+	2, -- 14 - right r+u+d
+	0, -- 15 - stop l+r+u+d
 }
 butdic[0] = 0
-dirx = {-1, 1, 0, 0,-0.75, 0.75, 0.75,-0.75}
-diry = { 0, 0,-1, 1,-0.75,-0.75, 0.75, 0.75}
-shiparr = {8,9,10,11,12}
+dirx = { -1, 1, 0, 0, -0.75, 0.75, 0.75, -0.75 }
+diry = { 0, 0, -1, 1, -0.75, -0.75, 0.75, 0.75 }
+shiparr = { 8, 9, 10, 11, 12 }
 shipspr = 0
 shots = {}
 shotwait = 0
@@ -174,125 +186,178 @@ banked = 0
 -- INIT
 function _init()
 	t = 0
-	px,py = 240,135
+	px, py = 240, 135
 	spd = 1.537
 	lastdir = 0
 	x_borders = 132
 	-- 216px horizontal space mirrors 5:4 tate at 270:216
 	-- on a 480px wide display, this would require two padding sections at 132px each
-	
+
 	scroll = 11 --270 screen height - (8 tiles x 16 pixels)
 	seglib = {}
-	
+
 	boss = false
-	
+
 	-- BUGFIX: dummy segment needed at start
 	--mapsegs = {0,32,2,1,8}
-	
+
 	-- lazydevs segs 3,3,3,3,3,2,1,0,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,0,15,14,1,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3
-	mapsegs = {0,3,3,3,3,3,2,1,28,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,28,15,14,1,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3,3}
+	mapsegs = {
+		0,
+		3,
+		3,
+		2,
+		1,
+		28,
+		1,
+		7,
+		6,
+		5,
+		10,
+		4,
+		11,
+		6,
+		11,
+		11,
+		5,
+		9,
+		10,
+		8,
+		1,
+		28,
+		15,
+		14,
+		1,
+		13,
+		12,
+		19,
+		19,
+		18,
+		17,
+		16,
+		18,
+		17,
+		16,
+		17,
+		16,
+		19,
+		22,
+		21,
+		20,
+		27,
+		26,
+		25,
+		23,
+		24,
+		3,
+		3,
+		3,
+	}
 	mapsegi = 1
 	cursegs = {}
 end
 
 -- DRAW
 function _draw()
-	for seg in all (cursegs) do
-		map(seg.x,seg.y,xscroll+x_borders,scroll-seg.o,21,8)
-	end	
-	
+	for seg in all(cursegs) do
+		map(seg.x, seg.y, xscroll + x_borders, scroll - seg.o, 21, 8)
+	end
+
 	for s in all(shots) do
-		spr(s.sani[flr(s.si)],s.x+6,s.y)
+		spr(s.sani[flr(s.si)], s.x + 6, s.y)
 	end
-	
+
 	for m in all(muzz) do
-		spr(m.sani[flr(m.si)],px+m.x,py+m.y)
+		spr(m.sani[flr(m.si)], px + m.x, py + m.y)
 	end
-	spr(shiparr[flr(shipspr*2.4+3.5)],px,py)
-	
-	local flamearr={17,18,17,19,18,20,19,21}
+	spr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
+
+	local flamearr = { 17, 18, 17, 19, 18, 20, 19, 21 }
 	local fframe = (t % (#flamearr - 1)) + 1
-	
-	spr(flamearr[fframe],px+6-banked,py+14,true)
-	spr(flamearr[fframe],px+2+banked,py+14)
-	
+
+	spr(flamearr[fframe], px + 6 - banked, py + 14, true)
+	spr(flamearr[fframe], px + 2 + banked, py + 14)
+
 	-- draw borders
 	rectfill(0, 0, x_borders, 270, 32)
 	rectfill(480, 0, 480 - x_borders, 270, 32)
 
 	-- debug
-	print(px,2,2,7)
-	print(scroll,2,11,7)
-	print(xscroll,2,20,7)
-	print(boss and "boss" or "no boss",2,29,7)
+	print(px, 2, 2, 7)
+	print(scroll, 2, 11, 7)
+	print(xscroll, 2, 20, 7)
+	print(boss and "boss" or "no boss", 2, 29, 7)
 end
 
 -- UPDATE
 function _update()
-	t += 1
-	
+	t = t + 1
+
 	-- SCROLLING
-	scroll += .5
-	
+	scroll = scroll + 0.5
+
 	if #cursegs < 1 or scroll - cursegs[#cursegs].o > 0 then
 		if boss then
-			scroll -= 128
+			scroll = scroll - 128
 			for seg in all(cursegs) do
-				seg.o -= 128
+				seg.o = seg.o - 128
 			end
 		else
-			mapsegi += 1
+			mapsegi = mapsegi + 1
 		end
-		
-		
+
 		local segnum = mapsegs[mapsegi] or 0
-			
-		add (cursegs, {
+
+		add(cursegs, {
 			x = 0,
-			y = 248-((segnum-1)*8),
-			o = #cursegs < 1 and -128 or cursegs[#cursegs].o+128,
+			y = 248 - ((segnum - 1) * 8),
+			o = #cursegs < 1 and -128 or cursegs[#cursegs].o + 128,
 		})
-		
+
 		if scroll - cursegs[1].o >= 384 then
-			deli(cursegs,1)
+			deli(cursegs, 1)
 		end
 	end
-	
+
 	-- INPUTS / MOVEMENT
-	local dir = butdic[btn()&0b1111]
-	
-	if lastdir != dir and dir >= 5 then
+	local dir = butdic[btn() & 0b1111]
+
+	if lastdir ~= dir and dir >= 5 then
 		px = flr(px) -- or flr(px) + 0.5
 		py = flr(py) -- or flr(py) + 0.5
 	end
-	
+
 	local dshipspr = 0
 	banked = 0
-	
+
 	if dir > 0 then
-		px+=dirx[dir] * spd
-		py+=diry[dir] * spd
-		
+		px = px + dirx[dir] * spd
+		py = py + diry[dir] * spd
+
 		dshipspr = mysgn(dirx[dir])
 		banked = 1
 	end
-	
-	shipspr += mysgn(dshipspr-shipspr)*0.18
+
+	shipspr = shipspr + mysgn(dshipspr - shipspr) * 0.18
 	shipspr = mid(-1, shipspr, 1)
-	
+
 	lastdir = dir
-	
+
 	-- boundary checking
-	if (px < x_borders) px = x_borders
-	if (px > 480 - x_borders - 15) px = 480 - x_borders - 15 -- 15 is sprite size with an offset
-	
-	percentage_scrolled = mid(6/32, (px - x_borders - 3) / 201, 26/32)
-	xscroll = map_range(percentage_scrolled * -32, -26, -6, -40, 0, true)
+	if px < x_borders then
+		px = x_borders
+	end
+	if px > 480 - x_borders - 15 then
+		px = 480 - x_borders - 15 -- 15 is sprite size with an offset
+	end
+
+	percentage_scrolled = mid(6 / 32, (px - x_borders - 3) / 201, 26 / 32)
+	xscroll = map_range(percentage_scrolled * -32, -26, -6, -40, 0)
 
 	if shotwait > 0 then
-		shotwait -= 1
+		shotwait = shotwait - 1
 	end
-	
+
 	-- shooting
 	if btn(4) then
 		if wep == 1 then
@@ -301,36 +366,38 @@ function _update()
 			shot_ddp()
 		end
 	end
-	
+
 	-- summon boss!
 	boss = btn(5)
-	
+
 	doshots()
 	domuzz()
 end
+
+
 :: moveandshoot.lua
---[[pod_format="raw",created="2024-10-13 21:18:38",modified="2024-10-18 07:38:15",revision=424]]
+--[[pod_format="raw",created="2024-10-13 21:18:38",modified="2024-10-19 09:44:59",revision=455]]
 function doshots()
 	for s in all(shots) do
-		s.x += s.sx
-		s.y += s.sy
-		s.si += 0.5
-		
+		s.x = s.x + s.sx
+		s.y = s.y + s.sy
+		s.si = s.si + 0.5
+
 		if flr(s.si) > #s.sani then
 			s.si = 1
 		end
 		if s.y < -16 then
-			del(shots,s)
+			del(shots, s)
 		end
 	end
 end
 
 function domuzz()
 	for m in all(muzz) do
-		m.si += 1
-		
+		m.si = m.si + 1
+
 		if flr(m.si) > #m.sani then
-			del(muzz,m)
+			del(muzz, m)
 		end
 	end
 end
@@ -343,21 +410,21 @@ function shot_raiden()
 	if shotwait <= 0 and #shots < 6 then
 		local shotspd = -3.5
 		shotwait = 4
-		add(shots,{
-			x = px-3,
-			y = py+9,
+		add(shots, {
+			x = px - 3,
+			y = py + 9,
 			sx = 0,
 			sy = shotspd,
-			sani = {16},
-			si = 1
+			sani = { 16 },
+			si = 1,
 		})
-		add(shots,{
-			x = px+3,
-			y = py+9,
+		add(shots, {
+			x = px + 3,
+			y = py + 9,
 			sx = 0,
 			sy = shotspd,
-			sani = {16},
-			si = 1
+			sani = { 16 },
+			si = 1,
 		})
 	end
 end
@@ -366,45 +433,45 @@ function shot_ddp()
 	if shotwait <= 0 and #shots < 14 then
 		local shotspd = -12
 		shotwait = 3
-		add(shots,{
-			x = px-6,
+		add(shots, {
+			x = px - 6,
 			y = py,
 			sx = 0,
 			sy = shotspd,
-			sani = {24,25,26,25},
-			si = t%4+1
+			sani = { 24, 25, 26, 25 },
+			si = t % 4 + 1,
 		})
-		add(shots,{
-			x = px+2,
+		add(shots, {
+			x = px + 2,
 			y = py,
 			sx = 0,
 			sy = shotspd,
-			sani={24,25,26,25},
-			si = t%4+1
+			sani = { 24, 25, 26, 25 },
+			si = t % 4 + 1,
 		})
 		add(muzz, {
 			x = -4,
 			y = -8,
-			sani = {27,28,29,30},
-			si = 0
+			sani = { 27, 28, 29, 30 },
+			si = 0,
 		})
 		add(muzz, {
 			x = 4,
 			y = -8,
-			sani = {27,28,29,30},
-			si = 0
+			sani = { 27, 28, 29, 30 },
+			si = 0,
 		})
 	end
 end
 
 function map_range(x, in_min, in_max, out_min, out_max)
-	return out_min + (x - in_min)*(out_max - out_min)/(in_max - in_min)
+	return out_min + (x - in_min) * (out_max - out_min) / (in_max - in_min)
 end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNC0x
-MC0xOCAwNzozODoxNiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzUyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJtb3ZlYW5kc2hvb3QubHVhIzE4Iix3
+MC0xOSAwOTo0NDo1OSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzU0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJtb3ZlYW5kc2hvb3QubHVhIzE4Iix3
 b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0y
 fSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4
 LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
