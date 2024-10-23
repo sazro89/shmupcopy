@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-06 20:57:04",modified="2024-10-13 20:41:47",revision=676]]
+--[[pod_format="raw",created="2024-10-06 20:57:04",modified="2024-10-21 21:56:58",revision=680]]
 local threshold_map = {
 	0, 8, 2, 10,
 	12, 4, 14, 6,

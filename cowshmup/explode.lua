@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-07 01:29:38",modified="2024-10-13 20:41:47",revision=631]]
+--[[pod_format="raw",created="2024-10-07 01:29:38",modified="2024-10-21 21:56:01",revision=635]]
 function explode(ex, ey)
 	add(parts, {
 		draw = blob,

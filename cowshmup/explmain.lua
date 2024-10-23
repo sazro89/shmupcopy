@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-10-13 20:41:47",revision=929]]
+--[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-10-23 20:36:09",revision=1084]]
 -- [x] flash / contrast flame
 -- [ ] fireball
 -- [ ] smoke
