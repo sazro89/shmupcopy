@@ -5,61 +5,61 @@ function blob(p)
 		0,
 		flr_r * 0.05,
 		flr_r * 0.15,
-		flr_r * 0.30
+		flr_r * 0.30,
 	}
-	
---	local pat = { -- we can also use dither_mask(value) values instead
---		0b0000000000000000,
---		0b0001101001011010,
---		0b0111111111111111,
---		0b1111111111111111
---	}
+
+	--	local pat = { -- we can also use dither_mask(value) values instead
+	--		0b0000000000000000,
+	--		0b0001101001011010,
+	--		0b0111111111111111,
+	--		0b1111111111111111
+	--	}
 
 	local pat = {
 		dither_mask(1),
-		dither_mask(9/16),
-		dither_mask(1/16),
-		dither_mask(0)
+		dither_mask(9 / 16),
+		dither_mask(1 / 16),
+		dither_mask(0),
 	}
 
 	if flr_r <= 5 then
-		deli(_r,4)
-		deli(_r,2)
-		deli(pat,2)
-		deli(pat,2)
---	elseif flr_r <= 6 then
---		deli(_r,3)
---		deli(pat,3)
+		deli(_r, 4)
+		deli(_r, 2)
+		deli(pat, 2)
+		deli(pat, 2)
+	--	elseif flr_r <= 6 then
+	--		deli(_r,3)
+	--		deli(pat,3)
 	elseif flr_r <= 8 then
-		deli(_r,4)
-		deli(pat,3)
-		pat[2]=0b1001001001001001	
+		deli(_r, 4)
+		deli(pat, 3)
+		pat[2] = 0b1001001001001001
 	elseif flr_r >= 12 then
---		deli(_r,4)
---		deli(pat,3)
---		pat[2]=0b1001001001001001
+		--		deli(_r,4)
+		--		deli(pat,3)
+		--		pat[2]=0b1001001001001001
 		_r[2] = flr_r * 0.02
 		_r[3] = flr_r * 0.08
 		_r[4] = flr_r * 0.12
 	end
---	fillp(dither_mask(3/8))
---	fillp(0b0001101001011010)
---	circfill(p.x-2,p.y+2, flr_r, 0x1814) -- adds dark outline
---	circfill(p.x-1,p.y+1, flr_r, 21) -- adds dark outline
+	--	fillp(dither_mask(3/8))
+	--	fillp(0b0001101001011010)
+	--	circfill(p.x-2,p.y+2, flr_r, 0x1814) -- adds dark outline
+	--	circfill(p.x-1,p.y+1, flr_r, 21) -- adds dark outline
 	for i = 1, #_r do
---		poke(0x550b,0x3f) -- set black to transparent
---		palt()            -- recommended but what is this doing?
---		fillp(dither_mask(i/#_r))
+		--		poke(0x550b,0x3f) -- set black to transparent
+		--		palt()            -- recommended but what is this doing?
+		--		fillp(dither_mask(i/#_r))
 		fillp(pat[i])
-		circfill(p.x, p.y-_r[i], flr_r-_r[i], p.c)
---		poke(0x550b,0x00) -- set back to black
+		circfill(p.x, p.y - _r[i], flr_r - _r[i], p.c)
+		--		poke(0x550b,0x00) -- set back to black
 	end
-	
+
 	fillp()
 	if flr_r == 1 then
 		pset(p.x, p.y, p.c)
 	elseif flr_r == 2 then
-		rectfill(p.x-1, p.y-1, p.x+1, p.y+1, p.c)
+		rectfill(p.x - 1, p.y - 1, p.x + 1, p.y + 1, p.c)
 	end
 end
 
@@ -71,21 +71,15 @@ function explode(ex, ey)
 		r = 17,
 		maxage = 2,
 		c = 0x0707,
-		ctab = {0x0707,0x070a},
+		ctab = { 0x0707, 0x070a },
 	})
-	
+
 	sparkblast(ex, ey, 2)
 	sparkblast(ex, ey, 15)
-	
-	grape(ex, ey, 2, 13, 1, "return", 
-		{0x070a,0x070a,0x070a,0x0a09},
-		0)
-	grape(ex+rnd(5)-2.5, ey - 5, 10, 20, 1, "return", 
-		{0x070a,0x0a09,0x090a},
-		-0.2)
-	grape(ex+rnd(5)-2.5, ey - 10, 25, 25, .2, "fade", 
-		{0x070a,0x070a,0x0a09,0x090a,0x0d08,0x0d05},
-		-0.3)
+
+	grape(ex, ey, 2, 13, 1, "return", { 0x070a, 0x070a, 0x070a, 0x0a09 }, 0)
+	grape(ex + rnd(5) - 2.5, ey - 5, 10, 20, 1, "return", { 0x070a, 0x0a09, 0x090a }, -0.2)
+	grape(ex + rnd(5) - 2.5, ey - 10, 25, 25, 0.2, "fade", { 0x070a, 0x070a, 0x0a09, 0x090a, 0x0d08, 0x0d05 }, -0.3)
 end
 
 function dopart(p)
@@ -94,7 +88,7 @@ function dopart(p)
 
 	if p.wait then
 		-- wait countdown
-		p.wait -= 1
+		p.wait = p.wait - 1
 		if p.wait <= 0 then
 			p.wait = nil
 			if p.c == nil and p.ctab then
@@ -110,8 +104,8 @@ function dopart(p)
 			p.r = p.r or 1
 			p.ctabv = p.ctabv or 0
 		end
-		
-		p.age += 1
+
+		p.age = p.age + 1
 		-- animate color
 		if p.ctab then
 			local life = (p.age + p.ctabv) / p.maxage
@@ -121,48 +115,47 @@ function dopart(p)
 
 		-- movement
 		if p.to_x then
-			p.x += (p.to_x - p.x) / (4 / p.spd)
-			p.y += (p.to_y - p.y) / (4 / p.spd)
+			p.x = p.x + ((p.to_x - p.x) / (4 / p.spd))
+			p.y = p.y + ((p.to_y - p.y) / (4 / p.spd))
 		end
-		
+
 		if p.sx then
-			p.x += p.sx
-			p.y += p.sy
+			p.x = p.x + p.sx
+			p.y = p.y + p.sy
 			if p.to_x then
-				p.to_x += p.sx
-				p.to_y += p.sy
+				p.to_x = p.to_x + p.sx
+				p.to_y = p.to_y + p.sy
 			end
 			if p.drag then
-				p.sx *= p.drag
-				p.sy *= p.drag
+				p.sx = p.sx * p.drag
+				p.sy = p.sy * p.drag
 			end
 		end
-		
+
 		-- size
 		if p.to_r then
-			p.r += (p.to_r - p.r) / (5 / p.spd)
+			p.r = p.r + ((p.to_r - p.r) / (5 / p.spd))
 		end
-		
+
 		if p.sr then
-			p.r += p.sr
+			p.r = p.r + p.sr
 		end
-		
-	
+
 		if p.age >= p.maxage or p.r < 0.5 then
-	      if p.onend == "return" then
-	        p.to_x = p.ox
-	        p.to_y = p.oy
-	        p.to_r = nil
-	        p.sr = -0.3
+			if p.onend == "return" then
+				p.to_x = p.ox
+				p.to_y = p.oy
+				p.to_r = nil
+				p.sr = -0.3
 			elseif p.onend == "fade" then
-	        p.to_r = nil
-	        p.sr = -0.1 - rnd(0.3)
-	      else
-	        del(parts, p)
-	      end
-	      p.ctab = nil
-	      p.onend = nil
-	      p.maxage = 32000
+				p.to_r = nil
+				p.sr = -0.1 - rnd(0.3)
+			else
+				del(parts, p)
+			end
+			p.ctab = nil
+			p.onend = nil
+			p.maxage = 32000
 		end
 	end
 	-- 2 main ways to logic and animate
@@ -191,7 +184,7 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 			ox = temp_ox,
 			oy = temp_oy,
 			r = 3,
-			to_r = rndrange(3,7),
+			to_r = rndrange(3, 7),
 			to_x = shakiness + ex + sin(myang) * dist,
 			to_y = shakiness + ey + cos(myang) * dist,
 			sx = 0,
@@ -199,10 +192,10 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 			spd = espd or 1,
 			wait = ewait,
 			maxage = emaxage,
-    		onend = eonend,
-    		c = ectab[1],
-    		ctab = ectab,
-    		ctabv = rnd(4),
+			onend = eonend,
+			c = ectab[1],
+			ctab = ectab,
+			ctabv = rnd(4),
 		})
 	end
 	-- spawn center
@@ -211,40 +204,40 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 		x = shakiness + ex,
 		y = shakiness + ey - 2,
 		r = 3,
-		to_r = rndrange(6,9),
+		to_r = rndrange(6, 9),
 		sx = 0,
 		sy = edrift,
 		spd = espd or 1,
 		wait = ewait,
 		maxage = emaxage,
-    	onend = eonend,
-    	c = ectab[1],
-   		ctab = ectab,
+		onend = eonend,
+		c = ectab[1],
+		ctab = ectab,
 	})
 end
 
 function spark(p)
 	-- pset(p.x, p.y, 8)
 	line(p.x, p.y, p.x - p.sx * 2, p.y - p.sy * 2, 7)
-	line(p.x+1, p.y, p.x + p.sx * 2 + 1, p.y + p.sy * 2, p.c)
+	line(p.x + 1, p.y, p.x + p.sx * 2 + 1, p.y + p.sy * 2, p.c)
 end
 
 function sparkblast(ex, ey, ewait)
-	local ang = rnd()	
-	for i = 1,6 do
-		local ang2 = ang+rnd(0.5)
-		local spd = rndrange(4,8)
+	local ang = rnd()
+	for i = 1, 6 do
+		local ang2 = ang + rnd(0.5)
+		local spd = rndrange(4, 8)
 		add(parts, {
 			draw = spark,
 			x = ex,
 			y = ey,
-			sx = sin(ang2)*spd,
-			sy = cos(ang2)*spd,
+			sx = sin(ang2) * spd,
+			sy = cos(ang2) * spd,
 			drag = 0.8,
 			wait = ewait,
-			maxage = rndrange(8,20),
+			maxage = rndrange(8, 20),
 			c = 10,
-			ctab = {7, 10},
+			ctab = { 7, 10 },
 		})
 	end
 end

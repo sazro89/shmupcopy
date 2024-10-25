@@ -16,14 +16,14 @@
 -- [ ] smoke dissipates
 -- [ ] sparks
 
-include "blob.lua"
-include "explode.lua"
-include "spark.lua"
+include("blob.lua")
+include("explode.lua")
+include("spark.lua")
 
 function _init()
 	parts = {}
 	slowmo = false
-	
+
 	t = 0
 end
 
@@ -34,24 +34,24 @@ function _draw()
 			p.draw(p)
 		end
 	end
---	print(myblb.r, 236, 250, 7)
---	print(dither_mask(1.1/16), 2, 2, 7)
+	--	print(myblb.r, 236, 250, 7)
+	--	print(dither_mask(1.1/16), 2, 2, 7)
 	print(t, 2, 2, 7)
 end
 
 function _update()
 	if btnp(4) then
 		slowmo = false
-		explode(240+rnd(20)-10,135+rnd(20)-10)
+		explode(240 + rnd(20) - 10, 135 + rnd(20) - 10)
 	end
 	if btnp(5) then
 		slowmo = true
-		explode(240,135)
+		explode(240, 135)
 		t = 0
 	end
-	
+
 	if slowmo == false or btnp(1) then
-		t+=1
+		t += 1
 		for p in all(parts) do
 			dopart(p)
 		end
@@ -61,3 +61,4 @@ end
 function rndrange(low, high)
 	return flr(rnd(high + 1 - low) + low)
 end
+

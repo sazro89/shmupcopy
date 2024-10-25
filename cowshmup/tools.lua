@@ -17,10 +17,22 @@ end
 
 -- dither mask suite
 local threshold_map = {
-	0, 8, 2, 10,
-	12, 4, 14, 6,
-	3, 11, 1, 9,
-	15, 7, 13, 5,
+	0,
+	8,
+	2,
+	10,
+	12,
+	4,
+	14,
+	6,
+	3,
+	11,
+	1,
+	9,
+	15,
+	7,
+	13,
+	5,
 }
 
 local function make_mask(value)
@@ -28,7 +40,7 @@ local function make_mask(value)
 	for i = 1, 16 do
 		mask = mask * 2
 		if threshold_map[i] >= value then
-			mask += 1
+			mask = mask + 1
 		end
 	end
 	return mask

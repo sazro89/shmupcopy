@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-MC0yMyAyMDozNjowOSIscmV2aXNpb249NjM2XV1sejQAZQwAAAg-AADzIXtbMF09e2JtcD1weHUA
+MC0yNCAwMjoyNjo0NiIscmV2aXNpb249NjM4XV1sejQAZQwAAAg-AADzIXtbMF09e2JtcD1weHUA
 QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgA2nk9MCx6b29tPTEyfSw-AE-yAe0C
 AgAID08AHX-9AdYdBr0FBAAbP8X9AWgAHSkCDQIAXv0BAv0PAwAPVgAdMQoQGgIABAgAKxoACAAf
 ECIAUw_4AB0v8PAyAIHwDWARwAEHBgGwIQ0BkAEsEYABDBccEXABDAcMAQwIAEAhDCFgBgDwGQEH
@@ -96,11 +96,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yMyAyMDozNjowOSJdXQ==
+MC0yNCAwMjoyNjo0NiJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-MC0yMyAyMDozNjowOSIscmV2aXNpb249MTEwN11dbHo0AIkMAABpQAAA-xZ7e2JtcD11c2VyZGF0
+MC0yNCAwMjoyNjo0NiIscmV2aXNpb249MTEwOV1dbHo0AIkMAABpQAAA-xZ7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWYwMDAzBAAjIzlmQAAfMQQAIQ9AAPtXMzIwMDMcAA_AAFofMwQA
 IwVAAB8xBAAhDwAC-wESMAwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ACIyOQwAD4AAXh8zBAAjBUAA
 HzEEACEPAAL8UjEwMDI4DAAPgABZ42QwMDBkODAwZDQwMGQzCAAMEAAIGAAIMAAACAASZAwAEGUY
@@ -160,17 +160,17 @@ bHNlLG5hbWU9Im1hcCIscGFuX3g9LTQJAPICeT0tMTUxMCx0aWxlX2g9MTYKABB3CgCAem9vbT0x
 fX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yMyAyMDozNjowOSJdXQ==
+MC0yNCAwMjoyNjo0NiJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-MC0yMyAyMDozNjowOSIscmV2aXNpb249MTAyNl1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
+MC0yNCAwMjoyNjo0NiIscmV2aXNpb249MTAyOF1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-2B-L9gEHUP----_E
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yMyAyMDozNjowOSJdXQ==
+MC0yNCAwMjoyNjo0NiJdXQ==
 :: blob.lua
 --[[pod_format="raw",created="2024-10-06 05:10:33",modified="2024-10-21 21:54:39",revision=1006]]
 include "dither.lua"
@@ -271,23 +271,23 @@ function dither_mask(value)
 	return dither_masks[mid(0, flr(value * 16 + 0.5), 16)]
 end
 :: draw.lua
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-23 20:36:09",revision=189]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-24 02:26:46",revision=192]]
 
 function drw_game()
 	for seg in all(cursegs) do
 		map(seg.x, seg.y, xscroll + x_borders, scroll - seg.o, 21, 8)
 	end
-	
+
 	-- draw borders
 	rectfill(0, 0, x_borders, 270, 32)
 	rectfill(480, 0, 480 - x_borders, 270, 32)
-	
+
 	for p in all(parts) do
 		if p.wait == nil then
 			p.draw(p)
 		end
 	end
-	
+
 	for s in all(shots) do
 		spr(s.sani[flr(s.si)], s.x + 6, s.y)
 	end
@@ -295,16 +295,29 @@ function drw_game()
 	for m in all(muzz) do
 		spr(m.sani[flr(m.si)], px + m.x, py + m.y)
 	end
-	
+
 	spr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
 
 	local fframe = (t % (#flamearr - 1)) + 1
 
 	spr(flamearr[fframe], px + 6 - banked, py + 14, true)
 	spr(flamearr[fframe], px + 2 + banked, py + 14)
+
+	debug[1] = "scroll: " .. scroll
 end
+
+function drw_menu()
+	for seg in all(menucursegs) do
+		map(seg.x, seg.y, x_borders - 20 + (sin(t % 300 / 300) * 20), scroll - seg.o, 21, 8)
+		--map(seg.x, seg.y, x_borders - 20, scroll - seg.o, 21, 8)
+	end
+	rectfill(0, 0, x_borders, 270, 32)
+	rectfill(480, 0, 480 - x_borders, 270, 32)
+end
+
+
 :: explmain.lua
---[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-10-23 20:36:09",revision=1084]]
+--[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-10-24 02:26:46",revision=1087]]
 -- [x] flash / contrast flame
 -- [ ] fireball
 -- [ ] smoke
@@ -377,21 +390,24 @@ function explode(ex, ey)
 		r = 17,
 		maxage = 2,
 		c = 0x0707,
-		ctab = {0x0707,0x070a},
+		ctab = { 0x0707, 0x070a },
 	})
-	
+
 	sparkblast(ex, ey, 2)
 	sparkblast(ex, ey, 15)
-	
-	grape(ex, ey, 2, 13, 1, "return", 
-		{0x070a,0x070a,0x070a,0x0a09},
-		0)
-	grape(ex+rnd(5)-2.5, ey - 5, 10, 20, 1, "return", 
-		{0x070a,0x0a09,0x090a},
-		-0.2)
-	grape(ex+rnd(5)-2.5, ey - 10, 25, 25, .2, "fade", 
-		{0x070a,0x070a,0x0a09,0x090a,0x0d08,0x0d05},
-		-0.3)
+
+	grape(ex, ey, 2, 13, 1, "return", { 0x070a, 0x070a, 0x070a, 0x0a09 }, 0)
+	grape(rndrange(ex - 2, ex + 2), ey - 5, 10, 20, 1, "return", { 0x070a, 0x0a09, 0x090a }, -0.2)
+	grape(
+		rndrange(ex - 3, ex + 3),
+		ey - 10,
+		25,
+		25,
+		0.2,
+		"fade",
+		{ 0x070a, 0x070a, 0x0a09, 0x090a, 0x0d08, 0x0d05 },
+		-0.3
+	)
 end
 
 function dopart(p)
@@ -400,7 +416,7 @@ function dopart(p)
 
 	if p.wait then
 		-- wait countdown
-		p.wait -= 1
+		p.wait = p.wait - 1
 		if p.wait <= 0 then
 			p.wait = nil
 			if p.c == nil and p.ctab then
@@ -416,8 +432,8 @@ function dopart(p)
 			p.r = p.r or 1
 			p.ctabv = p.ctabv or 0
 		end
-		
-		p.age += 1
+
+		p.age = p.age + 1
 		-- animate color
 		if p.ctab then
 			local life = (p.age + p.ctabv) / p.maxage
@@ -427,49 +443,48 @@ function dopart(p)
 
 		-- movement
 		if p.to_x then
-			p.x += (p.to_x - p.x) / (4 / p.spd)
-			p.y += (p.to_y - p.y) / (4 / p.spd)
+			p.x = p.x + ((p.to_x - p.x) / (4 / p.spd))
+			p.y = p.y + ((p.to_y - p.y) / (4 / p.spd))
 		end
-		
+
 		if p.sx then
-			p.x += p.sx
-			p.y += p.sy
+			p.x = p.x + p.sx
+			p.y = p.y + p.sy
 			if p.to_x then
-				p.to_x += p.sx
-				p.to_y += p.sy
+				p.to_x = p.to_x + p.sx
+				p.to_y = p.to_y + p.sy
 			end
 			if p.drag then
-				p.sx *= p.drag
-				p.sy *= p.drag
+				p.sx = p.sx * p.drag
+				p.sy = p.sy * p.drag
 			end
 		end
-		
+
 		-- size
 		if p.to_r then
-			p.r += (p.to_r - p.r) / (5 / p.spd)
+			p.r = p.r((p.to_r - p.r) / (5 / p.spd))
 		end
-		
+
 		if p.sr then
-			p.r += p.sr
+			p.r = p.r + p.sr
 		end
-		
-	
+
 		if p.age >= p.maxage or p.r < 0.5 then
-	      if p.onend == "return" then
-	        p.maxage += 32000
-	        p.to_x = p.ox
-	        p.to_y = p.oy
-	        p.to_r = nil
-	        p.sr = -0.3
+			if p.onend == "return" then
+				p.maxage = p.maxage + 32000
+				p.to_x = p.ox
+				p.to_y = p.oy
+				p.to_r = nil
+				p.sr = -0.3
 			elseif p.onend == "fade" then
-	        p.maxage += 32000
-	        p.to_r = nil
-	        p.sr = -0.1 - rnd(0.3)
-	      else
-	        del(parts, p)
-	      end
-	      p.ctab = nil
-	      p.onend = nil
+				p.maxage = p.maxage + 32000
+				p.to_r = nil
+				p.sr = -0.1 - rnd(0.3)
+			else
+				del(parts, p)
+			end
+			p.ctab = nil
+			p.onend = nil
 		end
 	end
 	-- 2 main ways to logic and animate
@@ -498,7 +513,7 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 			ox = temp_ox,
 			oy = temp_oy,
 			r = 3,
-			to_r = rndrange(3,7),
+			to_r = rndrange(3, 7),
 			to_x = shakiness + ex + sin(myang) * dist,
 			to_y = shakiness + ey + cos(myang) * dist,
 			sx = 0,
@@ -506,10 +521,10 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 			spd = espd or 1,
 			wait = ewait,
 			maxage = emaxage,
-    		onend = eonend,
-    		c = ectab[1],
-    		ctab = ectab,
-    		ctabv = rnd(4),
+			onend = eonend,
+			c = ectab[1],
+			ctab = ectab,
+			ctabv = rnd(4),
 		})
 	end
 	-- spawn center
@@ -518,20 +533,20 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 		x = shakiness + ex,
 		y = shakiness + ey - 2,
 		r = 3,
-		to_r = rndrange(6,9),
+		to_r = rndrange(6, 9),
 		sx = 0,
 		sy = edrift,
 		spd = espd or 1,
 		wait = ewait,
 		maxage = emaxage,
-    	onend = eonend,
-    	c = ectab[1],
-   		ctab = ectab,
+		onend = eonend,
+		c = ectab[1],
+		ctab = ectab,
 	})
 end
 
 :: gameplay.lua
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-10-23 20:36:09",revision=177]]
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-10-24 02:26:46",revision=180]]
 function doshots()
 	for s in all(shots) do
 		s.x = s.x + s.sx
@@ -580,7 +595,7 @@ function shoot()
 	})
 end
 :: main.lua
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-23 20:36:09",revision=1428]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-24 02:26:46",revision=1431]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -592,8 +607,8 @@ include("profiler.lua")
 function _init()
 	profile("_init")
 	t = 0
-	profile.enabled(true,true)
-	
+	profile.enabled(true, true)
+
 	butdic = { -- 0 - stop
 		1, -- 1  - left
 		2, -- 2  - right
@@ -612,64 +627,129 @@ function _init()
 		0, -- 15 - stop l+r+u+d
 	}
 	butdic[0] = 0
-	dirx = { -1, 1,  0, 0, -0.75,  0.75, 0.75, -0.75 }
-	diry = {  0, 0, -1, 1, -0.75, -0.75, 0.75,  0.75 }
-	
+	dirx = { -1, 1, 0, 0, -0.75, 0.75, 0.75, -0.75 }
+	diry = { 0, 0, -1, 1, -0.75, -0.75, 0.75, 0.75 }
+
 	x_borders = 132
 	-- 216px horizontal space mirrors 5:4 tate at 270:216
 	-- on a 480px wide display, this would require two padding sections at 132px each
-	
+
 	-- BUGFIX: dummy segment needed at start
-	
+
 	shiparr = { 8, 9, 10, 11, 12 }
 	flamearr = { 17, 18, 17, 19, 18, 20, 19, 21 }
 	-- lazydevs segs 3,3,3,3,3,2,1,0,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,0,15,14,1,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3
-	mapsegs = {0,3,3,3,3,3,2,1,28,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,28,14,15,1,12,13,19,19,16,17,18,16,17,18,17,18,19,20,21,22,23,24,25,26,27,3,3,3}
-	
-	startgame()
+	menusegs = { 5 }
+	menusegs[0] = 4
+	menucursegs = {}
+	scroll = 0
+	mapsegi = 0
+	xscroll = 0
+
+	mapsegs = {
+		0,
+		3,
+		3,
+		3,
+		3,
+		3,
+		2,
+		1,
+		28,
+		1,
+		7,
+		6,
+		5,
+		10,
+		4,
+		11,
+		6,
+		11,
+		11,
+		5,
+		9,
+		10,
+		8,
+		1,
+		28,
+		14,
+		15,
+		1,
+		12,
+		13,
+		19,
+		19,
+		16,
+		17,
+		18,
+		16,
+		17,
+		18,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		3,
+		3,
+		3,
+	}
+
+	_upd = upd_menu
+	_drw = drw_menu
 end
 
 function _draw()
-	_drw()	
--- debug
--- print(px, 2, 2, 7)
---	print(scroll, 2, 11, 7)
---	print(xscroll, 2, 20, 7)
---	print(boss and "boss" or "no boss", 2, 29, 7)
+	_drw()
+	-- debug
+	cursor(4, 4)
+	color(7)
+	for txt in all(debug) do
+		print(txt)
+	end
 end
 
 function _update()
+	t = t + 1
 	_upd()
 end
 
 function startgame()
-	px, py = 240, 135
+	px, py = 240, 230
 	spd = 1.537
 	lastdir = 0
 	shipspr = 0
-	
+
 	scroll = 11
 	xscroll = 0
 	mapsegi = 1
 	seglib = {}
 	cursegs = {}
-	
+
 	boss = false
-	
+
 	parts = {}
 	shots = {}
 	shotwait = 0
 	muzz = {}
 	banked = 0
-	
+
 	_upd = upd_game
 	_drw = drw_game
 end
+
+
 :: moveandshoot.lua
 --[[pod_format="raw",created="2024-10-13 21:18:38",modified="2024-10-21 21:27:08",revision=487]]
 
 :: particles.lua
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-10-23 20:36:09",revision=175]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-10-24 02:26:46",revision=178]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
@@ -930,7 +1010,7 @@ function domuzz()
 	end
 end
 :: profiler.lua
---[[pod_format="raw",created="2024-09-20 18:19:15",modified="2024-10-23 20:36:09",revision=67]]
+--[[pod_format="raw",created="2024-09-20 18:19:15",modified="2024-10-24 02:26:46",revision=70]]
 -- abledbody's profiler v1.1
 
 local function do_nothing() end
@@ -1076,7 +1156,7 @@ function sparkblast(ex, ey, ewait)
 	end
 end
 :: tools.lua
---[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-10-23 20:36:09",revision=170]]
+--[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-10-24 02:26:46",revision=173]]
 -- alternate to sgn, different in that 0 returns 0 instead of 1
 function mysgn(v)
 	return v == 0 and 0 or sgn(v)
@@ -1123,10 +1203,9 @@ function dither_mask(value)
 	return dither_masks[mid(0, flr(value * 16 + 0.5), 16)]
 end
 :: update.lua
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-23 20:36:09",revision=200]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-24 02:26:46",revision=203]]
 function upd_game()
 	profile("_update")
-	t = t + 1
 
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -1200,7 +1279,7 @@ function upd_game()
 
 	-- dokaaaaaaaaaan!!!
 	if btnp(5) then
-		explode(40,135)
+		explode(40, 135)
 	end
 
 	doshots()
@@ -1211,12 +1290,36 @@ function upd_game()
 	profile("_update")
 end
 
-function myupdate()
-	cls(11)
+function upd_menu()
+	-- SCROLLING
+	scroll = scroll + 1
+
+	if #menucursegs < 1 or scroll - menucursegs[#menucursegs].o > 0 then
+		mapsegi = mapsegi + 1
+
+		local segnum = menusegs[mapsegi % 2]
+
+		add(menucursegs, {
+			x = 0,
+			y = 248 - ((segnum - 1) * 8),
+			o = #menucursegs < 1 and -128 or menucursegs[#menucursegs].o + 128,
+		})
+
+		if scroll - menucursegs[1].o >= 384 then
+			deli(menucursegs, 1)
+		end
+	end
+
+	-- INPUTS
+	if btnp(5) then
+		startgame()
+	end
 end
+
+
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yMyAyMDozNjowOSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+MC0yNCAwMjoyNjo0NiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
 IzgyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMzMCIsd29ya3NwYWNl
 X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
 Y2F0aW9uPSJ0b29scy5sdWEjNDEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWVw

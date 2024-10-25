@@ -1,7 +1,6 @@
 --[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-23 20:36:09",revision=200]]
 function upd_game()
 	profile("_update")
-	t = t + 1
 
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -75,7 +74,7 @@ function upd_game()
 
 	-- dokaaaaaaaaaan!!!
 	if btnp(5) then
-		explode(40,135)
+		explode(40, 135)
 	end
 
 	doshots()
@@ -86,6 +85,28 @@ function upd_game()
 	profile("_update")
 end
 
-function myupdate()
-	cls(11)
+function upd_menu()
+	-- SCROLLING
+	scroll = scroll + 1
+
+	if #menucursegs < 1 or scroll - menucursegs[#menucursegs].o > 0 then
+		mapsegi = mapsegi + 1
+
+		local segnum = menusegs[mapsegi % 2]
+
+		add(menucursegs, {
+			x = 0,
+			y = 248 - ((segnum - 1) * 8),
+			o = #menucursegs < 1 and -128 or menucursegs[#menucursegs].o + 128,
+		})
+
+		if scroll - menucursegs[1].o >= 384 then
+			deli(menucursegs, 1)
+		end
+	end
+
+	-- INPUTS
+	if btnp(5) then
+		startgame()
+	end
 end
