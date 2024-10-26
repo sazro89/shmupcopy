@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-23 20:36:09",revision=189]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-25 19:47:01",revision=283]]
 
 function drw_game()
 	for seg in all(cursegs) do
@@ -23,7 +23,9 @@ function drw_game()
 		spr(m.sani[flr(m.si)], px + m.x, py + m.y)
 	end
 
-	spr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
+--	spr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
+	mspr(sprval, px, py)
+	pset(px,py,8)
 
 	local fframe = (t % (#flamearr - 1)) + 1
 
@@ -31,6 +33,12 @@ function drw_game()
 	spr(flamearr[fframe], px + 2 + banked, py + 14)
 
 	debug[1] = "scroll: " .. scroll
+end
+
+function mspr(si, sx, sy)
+	local ms = myspr[si]
+--	spr(ms[1], sx, sy)
+	sspr(ms.i, 0, 0, ms.w, ms.h, sx-ms.ox, sy-ms.oy)
 end
 
 function drw_menu()

@@ -4,63 +4,65 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-MC0yNCAwMjoyNjo0NiIscmV2aXNpb249NjM4XV1sejQAZQwAAAg-AADzIXtbMF09e2JtcD1weHUA
+MC0yNSAxOTo0NzowMSIscmV2aXNpb249NzA5XV1sejQAxAwAALE-AADzIXtbMF09e2JtcD1weHUA
 QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgA2nk9MCx6b29tPTEyfSw-AE-yAe0C
 AgAID08AHX-9AdYdBr0FBAAbP8X9AWgAHSkCDQIAXv0BAv0PAwAPVgAdMQoQGgIABAgAKxoACAAf
-ECIAUw_4AB0v8PAyAIHwDWARwAEHBgGwIQ0BkAEsEYABDBccEXABDAcMAQwIAEAhDCFgBgDwGQEH
-AVARHAEHEQYBUAENAQwHEQ0GDQEwAS0hDQYNBw0BIAEdBi0GDRYKAP8PDQYHFgcGDQYdATABBwYN
-AQYHDSFQAQURFQ0RcGEwogAhLwYHogAEIGARogAiUBGiAJBAAQYBHBEHAQYKAGANAQwXEQaQAPQE
-PTEdBgcBEAEdFj0GDRYBEAENFqEA-wIgEQcdEQcxQAEGFQEVDRFgcZ8AIoAWAaBRkAE8AZwAICwB
-nADwARwBDAFQIQwxDCEwAQcBDDGeAGAwAQYRBxFCAQAjATENERdDARAAIwH2BAYNMQ0GDQYHESYN
-Bj0GDSYRHQZFAf8DADEHARYBBzEwAQYBBREFAQYBpwAk8QQHBgGgAQ0hoBEsAYARDBccAXARRgGA
-AWAhDCEMEVCqAAEIAPACBgEHERwBBgEwAQ0GERcMAQ2zAOAHBh0xPQEQARYNBj0WHU8BAqQAAPMB
-zzEHER0HEUARDRUBFZ8AJi8GB58ACSIBYJ8AIAFgRwFBARwRQEUBMAcMAYcCcA0HDQYNIS1aAUAW
-DQYt2gEVAUQBYAEwIQ0HBpcCvwFQEQ0VEQUBcGFAjQOBDzIAHP8FBAYEAB8YAA4XHhceHxceHQ4A
-HgBBABp-CAgEIAfwLDQAH49QBwwHUAfwHDoAIL8nQAcMB0AX0AfwBT4AJgNCAD9gB0BDACIFRQB-
-UAdgB1AHQNkBfvIQCBAEIBlQGUAJFwkwCRcJIAk3CRAJNwkACQcKFwoHGQYAMRoXGgQA-wYKCRoJ
-CjkaWRo5ADkAGRAZEAkgGSBvACEAcQA1GgkwdQBYChcKCRAGADEZGhkEABFZAgBvCQAZAAkwawAl
-DG8AMjAJGgQAEjkCAF9AGVAZIGcBHv8HNxewV4B3cHdgl1CXUJdgd4BXoDfwFkcACxw4RgDxBGAX
-0BfQF6AHEBcQB2AXADcAF1AGAP8AYHdQBwB3AAcwt0CXYHdwXQAjYPAEB1AHcD0D-xMLF9AXcAdA
-F0AHIAcgNyAHYFeQV2AHEFcQB2BXoDfAF-AXWwAcEDBWAGE0B9AH8CFXAF9wF8A3sEkAIS-w8DEA
--6W3-xAGMb4xnhE_EX4EAGKeUZ5R3hECAG_eMb4x-gZXADIPBAAFD2MAIi-w8OAB-xSqBxHeEb4x
-vjHeEQIAb75RnlH_BdgBKgFHAAcEAG-ecX5x-gRTADJv-gAR3hF_IAIpf-8QBBEeEZ4EAAExcX5x
-rwADAgAPWwAhQ3F_cX4-ABDeSQETAA0AEH4NAB8GAwEkBlAABA8BDwIBLTNxfnFVACMRvgQABAIA
-L-4IqQEqCJoAD64AMsrwRg0PFR2wHh2wDQ4EAE8uDfA2TQAf4R8VDbAOHQ6wLQ6wHQ4NSQBPDi2w
-PksAMCEtDg4ALw0emAAhdQ8VDQ4NsA4FABE_UwADBAAPUAAgID8V1wBBDi2wLpkALy0OLwEpBEkA
-Lw4d4wApST8VsC14AQMEAA_XACYGjgAPmgArH-AxAP---------------zRfCAgE8DBiAB4PjQX-
------0wxfAEMAgAv-CE5ABwj-CE6AB98OQAc7yEsUSxRPEE8QTxRLFEsdwAdk2sBK0ErAQYdAQUA
-nzYrAQ0RDTsxe0gAHKERWwYxKwYRFgEbBQCvRgEbHRENARtBq0gAHFH7CQkKGwMANCkKGwsAPyMK
-i0cAHEuBRwYRAwA-B0YBRQAc0R01LQU2BR0FBhUGBR0KACAHLAUAYh0VHQUHFgUAHw1UACAhBi1V
-ABANBgAULVYAbzYFHVUtRU8AHSILaQIAIhtZAgAPPwAcAzYAExtGAB8LPwAc-wHxBAYdQQYdQTYx
-DRANMTBxPwAccHEGYQYRFiEEAI9GIR0QDSFAoUIAHO_RVxFXEVYRVhENEC0hQIAAHXEBBk0RBzYN
-BAD-Al0RXBENBRYFDREADRUNABFQLQIdEw0YAggdAhYdFAA-ZR1VUQAcQAuTCwMCAC-7HzkAHGBT
-GwMrMzs6AB8ZOgAcL-kwMQAcsrs0GxQ5GwRJCwRZQgIPQAAdP3T5HDMAHL97NDs5FBtJBBtZBLUC
-I8C9BQ0VLQUBBREdBQECAN8dEQUhDRVBDQEFQQ1hTAAdqRUNJQ0FEQUhBQECAC-xB0kAHJF9FQ0F
-PREFAQWaABAFlADPBQ0xBQEdMQUBBQ1hFwQd8QMFDRUNFR0VDQUNBgUdFQ0GJR31AP8CDRUGFR0G
-BQYFDQUNNT0FLQVYAB0v_DCgBCgvOzlVBh0-_SS7MgAcA28AEAvVBC85u8MDHjBRDWECAK8dBUEd
-UT0BBRF9QgAcf-EeBREFEb02ABwwYQ1R5AG-QQUdUR0hBQ0BHQFEAB8v_DAxAE0f_zEAHmMKAwsD
-KwPGBB8JPgAcxQNhCwNBBwNRBwsDUQoAEUEEAA9KABybQQMbUQMLQQMbCQAPRwAc-wj7AUEbAQcR
-FwELAQcBFyEDYQMBEwEDEdQCHf8OiyFLAQcROwEHISsRBwEHARsBAwEHESsDQSsBCxGUAB0SK2IB
-8QBzNQMlFAUEBQQFJAWkAgQCAB90SwAc-wsLA0sjSwMFEwsDCxMEBUMFFEUCFFIkQjQiBEkAHGAb
-AxsDCyMcAV-xGTcBF0gHHXDxGRMBEwETRgAP9QkdgPEHA1ETUQMLfAAwAQMLiABPARNLAeoBHsDx
-AANhE1ELA1ETERNIAI8BAwsTGwMBS0cAHPEA_wJBGwEXEQcxFwEHcQMRLwIPLgIdgLshOxEHASsh
-KAL-AwcBBxEbEQcBAwELQQMrEQMBK00AHAMaAhIUCAAfEg4ACCKSBAgAD2EAIxA0BgD-BjIWBQIE
-EgYlMjUCBCIVIgRCBAIEUlEAHTILUwvIAYATWwN7A1sDCwQAAKMCEDOnAg9NAByQ6wFbAQNLAQNb
-AwAhE0sGAA9DABxAewFrAwMAcUsTAVsDAVsJAA8XAh1QcwFTEQOhAjARA1FdArEUAQMbAwESATMB
-EgoAHxOxAh8vg1sgATH-BPsAA1sjOxMLAzsDGwM7QysDG1OJAB1v8ghxfHF8iAsd8AYiFDJEIhRC
-AQRCAQwBMgEMAVwBDFEGAA9aASsREbkDAA4AERt_AxELGgAP0wAd-wNLARNbAQNrAVsDAlsDAmsD
-_wBBABz-AhMBSwMBWwFrAgNbAgNbA-sHQAAe-wYTASMBMwEDAVMBAlMSUwITOyNbA3scASa-BFEE
-IhQiEzJDEiNFACkwAyIUXwGvIgEDCyMSARMLM7cCHwDcAxE7qgJvJTMFJDVEvAYm8AIhIjECBBIR
-DAIEMhxSDAEMMkgREDxOEV8xDCE8EUcCKBAEoQNAIhMBIj4CbxIjCwMBM_YAHR-8OAkdb-wKJwwH
--LYAHX-8EQcMJ-wKNgAc8AxrBVsFDEsFBw07BQ0GDSsVDQYNGwUtBg0LBR0RABEFAgAfBicMHU91
-fP0gMwAcgAVrDQVbHQVLcQBgOw0VDQUrWg2vGw01DQULDUUNBU8AHBLxiA0jARUIAD-1APO4Ax1v
-8xALUxvTBAUhbwMSIxLzEDcAHP8C_wsFKwUtBS0FKwUrBSMFIwWdAx0v8TAlDh4jBQ3lAVMtBg0F
-LQwADxQACg8LAh4f-ZYAHSoNZQIADz8AHG_NFQ0F-SN8ASEAfgHfKw0DGwUrDSMFKwUDK0UAH687
-LQVrDTsjDQNbPwAg8AAHASsFGwEDLQUNAQM7BQtYBS8FA8AKIz8hV4EMAh_CLQcMBS0FBiU1ECAF
-DScQEBYMACANJgsAfzYVDUYFDVZYABxffHV99hg0ABz-BAflHVUWDUUmDTU2DSVGDRVWDQV2AB9w
-Jh1GDRYNNgQALz2WPwAcUSsFA1sNAwA6BQMbGAIfe0sAKCErLQ0ATysjDQMWFx4QAHYKAKYCIAsD
-JBIjEwELAD8jBQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBfZQtjC2NEABw-9hh1mgUeOFYFCwMA
-AXcADyQDHSOWPRwCD38ADFBtPTh9fQ==
+ECIAUw_4AB0v8PAyAH7yHg8SBFAfF7AOEQ6QDgEHBgEOgA4hDQEOYA4BLBEOUA4BDBccEQ5ADgEM
+BwwBDAoAUSEMIQ4wCADAAQcBDiAOERwBBxEGCgDwDwENAQwHEQ0GDQEOAA4BLSENBg0HDQEeAR0G
+LQYNFgoAkQ0GBxYHBg0GHSIAgAcGDQEGBw0hOwBABREVDWAAX2EOYG4w9QAb8QISBGAfF8AOEQ6g
+DgEGBwEOkMMAEXDDABNgwwAXUMMAExHDABURwwByAQYBHBEHAcUAYwYNAQwXEcUAUD0xHQYHwwBQ
+Fj0GDRbCABcWwgBhEQcdEQcxNQAiFQHAAE9xDmB_wAAb8AQSEgRwHxfgDhEOwA4BFgEOoA5RjQEQ
+PIwB8gYBDBcsAQ5gHgEMBxwBDAEeQA4hDDGAAUEHAQwxvwB1MA4BBhEHEYQBRQYNEReFAQCrAFEN
+MQ0GDcYAcSYNBj0GDSaTAQmLAVAxBwEWAcoA-wMeAQYBBREFAQYBHlAOcQ6AfkCMAScCTwJwAQ0h
+DoAOEccAoQ4RDBccAQ5QDhGMASABDs8AMyEMEc8AAwoAUAYBBxEcjAEQEM0AYxEXDAENBswAxh0x
+PQEeARYNBj0WHcUAIhYNwwBAER0HEZACbw0VARUGAYwBIhEPwAADDwMhBgdGAkENIQ5wwAATUMAA
+FUDAABEwwAAVAcAABI0BMgEcEb4AUg0RBwwBigFxDQcNBg0hLUMCWA0GLQYdhgEAIgBAIQ0HBiED
+EgHEAD4RBQEPAw82BBUPMgB_-wUEBgQAHxgADhceFx4fFx4dDgAeAEEAGn8ICAQgB-AsNAAfj1AH
+DAdQB-AcOgAgvydABwwHQBfQB-AFPgAmA0IAP2AHQEMAIgVFAH9QB2AHUAdA2QF_8hAIEAQgGVAZ
+QAkXCTAJFwkgCTcJEAk3CQAJBwoXCgcZBgAxGhcaBAD-BgoJGgkKORpZGjkAOQAZEBkQCSAZIG8A
+IQBxADUaCTB1AFgKFwoJEAYAMRkaGQQAEVkCAG8JABkACTBrACUMbwAyMAkaBAASOQIAX0AZUBkg
+ZwEe-wc3F7BXgHdwd2CXUJdQl2B3gFegN-AWRwALHDhGAPEEYBfQF9AXoAcQFxAHYBcANwAXUAYA
+-wBgd1AHAHcABzC3QJdgd3BdACNg8AQHUAdwPQP-EwsX0BdwB0AXQAcgByA3IAdgV5BXYAcQVxAH
+YFegN8AX8BdbABwQMFYAYTQH0AfwIVcAX3AXwDewSQAhL-DwMQD-pbf-EAYxvjGeET4RfgQAYp5R
+nlHeEQIAb54xvjH_BlcAMg8EAAUPYwAiL-Dw4AH-FKoHEd4RvjG_Md4RAgBvvlGeUf4F2AEqAUcA
+BwQAb95xfnH_BFMAMm-_ABHeEX4gAil--xAEER4RngQAATFxfnGvAAMCAA9bACFDcX5xfj8AEN5J
+ARMADQAQfg0AHwYDASQGUAAEDwEPAgEtM3F_cVUAIxG_BAAEAgAv-gipASoImgAPrgAyyvBGDQ8V
+HbAeHbANDgQATy4N8DZNAB-hHxUNsA4dDrAtDrAdDg1JAE8OLbA_SwAwIS0ODgAvDR6YACF1DxUN
+Dg2wDgUAET5TAAMEAA9QACAgPxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cA
+JgaOAA_aACsf8DEA----------------NF8ICATwMGIAHg_NBf------TDF8AQwCAC-8ITkAHCP8
+IToAH3w5ABzvISxRLFE8QTxBPFEsUSx3AB2TawErQSsBBh0BBQCfNisBDRENOzF7SAAcoRFbBjEr
+BhEWARsFAK9GARsdEQ0BG0GrSAAcUfsJCQobAwA0KQobCwA-IwqLRwAcS4FHBhEDAD8HRgFFABzR
+HTUtBTYFHQUGFQYFHQoAIAcsBQBiHRUdBQcWBQAfDVQAICEGLVUAEA0GABQtVgBvNgUdVS1FTwAd
+IgtpAgAiG1kCAA8-ABwDNgATG0YAHws-ABz-AfEEBh1BBh1BNjENEA0xMHE-ABxwcQZhBhEWIQQA
+j0YhHRANIUChQgAc75FXEVcRVhFWEQ0QLSFAgAAdcQEGTREHNg0EAP8CXRFcEQ0FFgUNEQANFQ0A
+EVAtAh0TDRgCCB0CFh0UAD9lHVVRABxAC5MLAwIAL-sfOQAcYFMbAyszOzoAHxk6ABwv_TAxAByy
+uzQbFDkbBEkLBFlCAg9AAB0-dPkcMwAcv3s0OzkUG0kEG1kEtQIjwL0FDRUtBQEFER0FAQIA3x0R
+BSENFUENAQVBDWFMAB2pFQ0lDQURBSEFAQIAL-EHSQAckX0VDQU9EQUBBZoAEAWUAM8FDTEFAR0x
+BQEFDWEXBB3xAwUNFQ0VHRUNBQ0GBR0VDQYlHfUA-wINFQYVHQYFBgUNBQ01PQUtBVgAHS-4MKAE
+KC87OVUGHT-5JLsyABwDbwAQC9UELzm7wwMeMFENYQIArx0FQR1RPQEFEX1CABx-8R4FEQURvTYA
+HDBhDVHkAb9BBR1RHSEFDQEdAUQAHy-4MDEATR-7MQAeYwoDCwMrA8YEHwk_ABzFA2ELA0EHA1EH
+CwNRCgARQQQAD0oAHJtBAxtRAwtBAxsJAA9HABz-CPsBQRsBBxEXAQsBBwEXIQNhAwETAQMR1AId
+-w6LIUsBBxE7AQchKxEHAQcBGwEDAQcRKwNBKwELEZQAHRIrYgHxAHM1AyUUBQQFBAUkBaQCBAIA
+H3RLABz-CwsDSyNLAwUTCwMLEwQFQwUURQIUUiRCNCIESQAcYBsDGwMLIxwBX-EZNwEXSAcdcPEZ
+EwETARNGAA-1CR2A8QcDURNRAwt8ADABAwuIAE8BE0sB6gEewPEAA2ETUQsDURMRE0gAjwEDCxMb
+AwFLRwAc8QD7AkEbARcRBzEXAQdxAxEvAg8uAh2AuyE7EQcBKyEoAv8DBwEHERsRBwEDAQtBAysR
+AwErTQAcAxoCEhQIAB8SDgAIIpIECAAPYQAjEDQGAP8GMhYFAgQSBiUyNQIEIhUiBEIEAgRSUQAd
+MgtTC8gBgBNbA3sDWwMLBAAAowIQM6cCD00AHJDrAVsBA0sBA1sDACETSwYAD0MAHEB7AWsDAwBx
+SxMBWwMBWwkADxcCHVBzAVMRA6ECMBEDUV0CsRQBAxsDARIBMwESCgAfE7ECHy_DWyABMf8E_wAD
+WyM7EwsDOwMbAztDKwMbU4kAHW-yCHF8cXyICx3wBiIUMkQiFEIBBEIBDAEyAQwBXAEMUQYAD1oB
+KxERuQMADgARG34DEQsaAA-TAB3-A0sBE1sBA2sBWwMCWwMCawP7AEEAHP8CEwFLAwFbAWsCA1sC
+A1sD_wdAAB7-BhMBIwEzAQMBUwECUxJTAhM7I1sDexwBJr8EUQQiFCITMkMSI0UAKTADIhRfAa8i
+AQMLIxIBEwsztwIfANwDETuqAm8lMwUkNUS8BibwAiEiMQIEEhEMAgQyHFIMAQwySBEQPE4RXzEM
+ITwRRwIoEAShA0AiEwEiPgJvEiMLAwEz5gAdH-w4CR1v-AonDAf8tgAdf-wRBwwn-Ao2ABzwDGsF
+WwUMSwUHDTsFDQYNKxUNBg0bBS0GDQsFHREAEQUCAB8GJwwdT3V8-SAzAByABWsNBVsdBUtxAGA7
+DRUNBStaDa8bDTUNBQsNRQ0FTwAcEvGIDSMBFQgAP-UA87gDHW-zEAtTG9MEBSFvAxIjEvMQNwAc
+-wL7CwUrBS0FLQUrBSsFIwUjBZ0DHS-xMCUOHiMFDeUBUy0GDQUtDAAPFAAKDwsCHh-9lgAdKg1l
+AgAPPwAcb40VDQX9I3wBIQB_Ad8rDQMbBSsNIwUrBQMrRQAfrzstBWsNOyMNA1s-ACDwAAcBKwUb
+AQMtBQ0BAzsFC1gFLwUDwAojPyFXgQwCH4ItBwwFLQUGJTUQIAUNJxAQFgwAIA0mCwB-NhUNRgUN
+VlgAHF98dX32GDQAHP8EB_UdVRYNRSYNNTYNJUYNFVYNBXYAH3AmHUYNFg02BAAvPZY-ABxRKwUD
+Ww0DADoFAxsYAh97SwAoISstDQBPKyMNAxYXHhAAdgoApgIgCwMkEiMTAQsAPyMFC5kMH0QrBRNL
+lQAXWwwAD7MCHTkLBVYDAF9lC2MLY0QAHD-2GHWaBR44VgULAwABdwAPJAMdI5Y9HAIPfwAMUG09
+OH19
 :: gfx/ship.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI1OjE4Iixtb2RpZmllZD0iMjAyNC0x
 MC0xMyAyMToyNToxOCIscmV2aXNpb249MF1dbHo0AAcEAACpNgAA8yF7WzBdPXtibXA9cHh1AEMg
@@ -96,11 +98,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yNCAwMjoyNjo0NiJdXQ==
+MC0yNSAxOTo0NzowMSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-MC0yNCAwMjoyNjo0NiIscmV2aXNpb249MTEwOV1dbHo0AIkMAABpQAAA-xZ7e2JtcD11c2VyZGF0
+MC0yNSAxOTo0NzowMSIscmV2aXNpb249MTE3NV1dbHo0AIkMAABpQAAA-xZ7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWYwMDAzBAAjIzlmQAAfMQQAIQ9AAPtXMzIwMDMcAA_AAFofMwQA
 IwVAAB8xBAAhDwAC-wESMAwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ACIyOQwAD4AAXh8zBAAjBUAA
 HzEEACEPAAL8UjEwMDI4DAAPgABZ42QwMDBkODAwZDQwMGQzCAAMEAAIGAAIMAAACAASZAwAEGUY
@@ -160,20 +162,20 @@ bHNlLG5hbWU9Im1hcCIscGFuX3g9LTQJAPICeT0tMTUxMCx0aWxlX2g9MTYKABB3CgCAem9vbT0x
 fX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yNCAwMjoyNjo0NiJdXQ==
+MC0yNSAxOTo0NzowMSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-MC0yNCAwMjoyNjo0NiIscmV2aXNpb249MTAyOF1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
+MC0yNSAxOTo0NzowMSIscmV2aXNpb249MTA5NF1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-2B-L9gEHUP----_E
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yNCAwMjoyNjo0NiJdXQ==
+MC0yNSAxOTo0NzowMSJdXQ==
 :: blob.lua
 --[[pod_format="raw",created="2024-10-06 05:10:33",modified="2024-10-21 21:54:39",revision=1006]]
-include "dither.lua"
+include("dither.lua")
 
 function blob(p)
 	local flr_r = flr(p.r)
@@ -181,72 +183,83 @@ function blob(p)
 		0,
 		flr_r * 0.05,
 		flr_r * 0.15,
-		flr_r * 0.30
+		flr_r * 0.30,
 	}
-	
---	local pat = { -- we can also use dither_mask(value) values instead
---		0b0000000000000000,
---		0b0001101001011010,
---		0b0111111111111111,
---		0b1111111111111111
---	}
+
+	--	local pat = { -- we can also use dither_mask(value) values instead
+	--		0b0000000000000000,
+	--		0b0001101001011010,
+	--		0b0111111111111111,
+	--		0b1111111111111111
+	--	}
 
 	local pat = {
 		dither_mask(1),
-		dither_mask(9/16),
-		dither_mask(1/16),
-		dither_mask(0)
+		dither_mask(9 / 16),
+		dither_mask(1 / 16),
+		dither_mask(0),
 	}
 
 	if flr_r <= 5 then
-		deli(_r,4)
-		deli(_r,2)
-		deli(pat,2)
-		deli(pat,2)
---	elseif flr_r <= 6 then
---		deli(_r,3)
---		deli(pat,3)
+		deli(_r, 4)
+		deli(_r, 2)
+		deli(pat, 2)
+		deli(pat, 2)
+	--	elseif flr_r <= 6 then
+	--		deli(_r,3)
+	--		deli(pat,3)
 	elseif flr_r <= 8 then
-		deli(_r,4)
-		deli(pat,3)
-		pat[2]=0b1001001001001001	
+		deli(_r, 4)
+		deli(pat, 3)
+		pat[2] = 0b1001001001001001
 	elseif flr_r >= 12 then
---		deli(_r,4)
---		deli(pat,3)
---		pat[2]=0b1001001001001001
+		--		deli(_r,4)
+		--		deli(pat,3)
+		--		pat[2]=0b1001001001001001
 		_r[2] = flr_r * 0.02
 		_r[3] = flr_r * 0.08
 		_r[4] = flr_r * 0.12
 	end
---	fillp(dither_mask(3/8))
---	fillp(0b0001101001011010)
---	circfill(p.x-2,p.y+2, flr_r, 0x1814) -- adds dark outline
---	circfill(p.x-1,p.y+1, flr_r, 21) -- adds dark outline
+	--	fillp(dither_mask(3/8))
+	--	fillp(0b0001101001011010)
+	--	circfill(p.x-2,p.y+2, flr_r, 0x1814) -- adds dark outline
+	--	circfill(p.x-1,p.y+1, flr_r, 21) -- adds dark outline
 	for i = 1, #_r do
---		poke(0x550b,0x3f) -- set black to transparent
---		palt()            -- recommended but what is this doing?
---		fillp(dither_mask(i/#_r))
+		--		poke(0x550b,0x3f) -- set black to transparent
+		--		palt()            -- recommended but what is this doing?
+		--		fillp(dither_mask(i/#_r))
 		fillp(pat[i])
-		circfill(p.x, p.y-_r[i], flr_r-_r[i], p.c)
---		poke(0x550b,0x00) -- set back to black
+		circfill(p.x, p.y - _r[i], flr_r - _r[i], p.c)
+		--		poke(0x550b,0x00) -- set back to black
 	end
-	
+
 	fillp()
 	if flr_r == 1 then
 		pset(p.x, p.y, p.c)
 	elseif flr_r == 2 then
-		rectfill(p.x-1, p.y-1, p.x+1, p.y+1, p.c)
+		rectfill(p.x - 1, p.y - 1, p.x + 1, p.y + 1, p.c)
 	end
 end
-
 
 :: dither.lua
 --[[pod_format="raw",created="2024-10-06 20:57:04",modified="2024-10-21 21:56:58",revision=680]]
 local threshold_map = {
-	0, 8, 2, 10,
-	12, 4, 14, 6,
-	3, 11, 1, 9,
-	15, 7, 13, 5,
+	0,
+	8,
+	2,
+	10,
+	12,
+	4,
+	14,
+	6,
+	3,
+	11,
+	1,
+	9,
+	15,
+	7,
+	13,
+	5,
 }
 
 local function make_mask(value)
@@ -254,7 +267,7 @@ local function make_mask(value)
 	for i = 1, 16 do
 		mask = mask * 2
 		if threshold_map[i] >= value then
-			mask += 1
+			mask = mask + 1
 		end
 	end
 	return mask
@@ -270,8 +283,9 @@ end
 function dither_mask(value)
 	return dither_masks[mid(0, flr(value * 16 + 0.5), 16)]
 end
+
 :: draw.lua
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-24 02:26:46",revision=192]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-25 19:47:01",revision=283]]
 
 function drw_game()
 	for seg in all(cursegs) do
@@ -296,7 +310,9 @@ function drw_game()
 		spr(m.sani[flr(m.si)], px + m.x, py + m.y)
 	end
 
-	spr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
+--	spr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
+	mspr(sprval, px, py)
+	pset(px,py,8)
 
 	local fframe = (t % (#flamearr - 1)) + 1
 
@@ -304,6 +320,12 @@ function drw_game()
 	spr(flamearr[fframe], px + 2 + banked, py + 14)
 
 	debug[1] = "scroll: " .. scroll
+end
+
+function mspr(si, sx, sy)
+	local ms = myspr[si]
+--	spr(ms[1], sx, sy)
+	sspr(ms.i, 0, 0, ms.w, ms.h, sx-ms.ox, sy-ms.oy)
 end
 
 function drw_menu()
@@ -315,9 +337,8 @@ function drw_menu()
 	rectfill(480, 0, 480 - x_borders, 270, 32)
 end
 
-
 :: explmain.lua
---[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-10-24 02:26:46",revision=1087]]
+--[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-10-25 19:47:01",revision=1153]]
 -- [x] flash / contrast flame
 -- [ ] fireball
 -- [ ] smoke
@@ -335,14 +356,14 @@ end
 -- [ ] smoke dissipates
 -- [ ] sparks
 
-include "blob.lua"
-include "explode.lua"
-include "spark.lua"
+include("blob.lua")
+include("explode.lua")
+include("spark.lua")
 
 function _init()
 	parts = {}
 	slowmo = false
-	
+
 	t = 0
 end
 
@@ -353,24 +374,24 @@ function _draw()
 			p.draw(p)
 		end
 	end
---	print(myblb.r, 236, 250, 7)
---	print(dither_mask(1.1/16), 2, 2, 7)
+	--	print(myblb.r, 236, 250, 7)
+	--	print(dither_mask(1.1/16), 2, 2, 7)
 	print(t, 2, 2, 7)
 end
 
 function _update()
 	if btnp(4) then
 		slowmo = false
-		explode(240+rnd(20)-10,135+rnd(20)-10)
+		explode(240 + rnd(20) - 10, 135 + rnd(20) - 10)
 	end
 	if btnp(5) then
 		slowmo = true
-		explode(240,135)
+		explode(240, 135)
 		t = 0
 	end
-	
+
 	if slowmo == false or btnp(1) then
-		t+=1
+		t += 1
 		for p in all(parts) do
 			dopart(p)
 		end
@@ -380,6 +401,8 @@ end
 function rndrange(low, high)
 	return flr(rnd(high + 1 - low) + low)
 end
+
+
 :: explode.lua
 --[[pod_format="raw",created="2024-10-07 01:29:38",modified="2024-10-21 21:56:01",revision=635]]
 function explode(ex, ey)
@@ -546,7 +569,7 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 end
 
 :: gameplay.lua
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-10-24 02:26:46",revision=180]]
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-10-25 19:47:01",revision=246]]
 function doshots()
 	for s in all(shots) do
 		s.x = s.x + s.sx
@@ -594,8 +617,10 @@ function shoot()
 		si = 0,
 	})
 end
+
+
 :: main.lua
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-24 02:26:46",revision=1431]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-25 19:47:01",revision=1511]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -607,7 +632,21 @@ include("profiler.lua")
 function _init()
 	profile("_init")
 	t = 0
+	debug = {}
 	profile.enabled(true, true)
+	
+	-- in the tutorial he stores a bunch of values needed for sspr in pico-8
+	-- we don't need that in picotron, but then he also bakes in offset values
+	-- so this array is for holding those kinds of values
+	myspr = {
+		{i=8, w=15, h=16, ox=6, oy=8},
+		{i=9, w=16, h=16, ox=7, oy=8},
+		{i=10, w=18, h=16, ox=8, oy=8},
+		{i=11, w=16, h=16, ox=8, oy=8},
+		{i=12, w=15, h=16, ox=8, oy=8},
+	}
+	
+	sprval = 3
 
 	butdic = { -- 0 - stop
 		1, -- 1  - left
@@ -744,73 +783,72 @@ function startgame()
 	_drw = drw_game
 end
 
-
 :: moveandshoot.lua
 --[[pod_format="raw",created="2024-10-13 21:18:38",modified="2024-10-21 21:27:08",revision=487]]
 
 :: particles.lua
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-10-24 02:26:46",revision=178]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-10-25 19:47:01",revision=244]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
 		0,
 		flr_r * 0.05,
 		flr_r * 0.15,
-		flr_r * 0.30
+		flr_r * 0.30,
 	}
-	
---	local pat = { -- we can also use dither_mask(value) values instead
---		0b0000000000000000,
---		0b0001101001011010,
---		0b0111111111111111,
---		0b1111111111111111
---	}
+
+	--	local pat = { -- we can also use dither_mask(value) values instead
+	--		0b0000000000000000,
+	--		0b0001101001011010,
+	--		0b0111111111111111,
+	--		0b1111111111111111
+	--	}
 
 	local pat = {
 		dither_mask(1),
-		dither_mask(9/16),
-		dither_mask(1/16),
-		dither_mask(0)
+		dither_mask(9 / 16),
+		dither_mask(1 / 16),
+		dither_mask(0),
 	}
 
 	if flr_r <= 5 then
-		deli(_r,4)
-		deli(_r,2)
-		deli(pat,2)
-		deli(pat,2)
---	elseif flr_r <= 6 then
---		deli(_r,3)
---		deli(pat,3)
+		deli(_r, 4)
+		deli(_r, 2)
+		deli(pat, 2)
+		deli(pat, 2)
+	--	elseif flr_r <= 6 then
+	--		deli(_r,3)
+	--		deli(pat,3)
 	elseif flr_r <= 8 then
-		deli(_r,4)
-		deli(pat,3)
-		pat[2]=0b1001001001001001	
+		deli(_r, 4)
+		deli(pat, 3)
+		pat[2] = 0b1001001001001001
 	elseif flr_r >= 12 then
---		deli(_r,4)
---		deli(pat,3)
---		pat[2]=0b1001001001001001
+		--		deli(_r,4)
+		--		deli(pat,3)
+		--		pat[2]=0b1001001001001001
 		_r[2] = flr_r * 0.02
 		_r[3] = flr_r * 0.08
 		_r[4] = flr_r * 0.12
 	end
---	fillp(dither_mask(3/8))
---	fillp(0b0001101001011010)
---	circfill(p.x-2,p.y+2, flr_r, 0x1814) -- adds dark outline
---	circfill(p.x-1,p.y+1, flr_r, 21) -- adds dark outline
+	--	fillp(dither_mask(3/8))
+	--	fillp(0b0001101001011010)
+	--	circfill(p.x-2,p.y+2, flr_r, 0x1814) -- adds dark outline
+	--	circfill(p.x-1,p.y+1, flr_r, 21) -- adds dark outline
 	for i = 1, #_r do
---		poke(0x550b,0x3f) -- set black to transparent
---		palt()            -- recommended but what is this doing?
---		fillp(dither_mask(i/#_r))
+		--		poke(0x550b,0x3f) -- set black to transparent
+		--		palt()            -- recommended but what is this doing?
+		--		fillp(dither_mask(i/#_r))
 		fillp(pat[i])
-		circfill(p.x, p.y-_r[i], flr_r-_r[i], p.c)
---		poke(0x550b,0x00) -- set back to black
+		circfill(p.x, p.y - _r[i], flr_r - _r[i], p.c)
+		--		poke(0x550b,0x00) -- set back to black
 	end
-	
+
 	fillp()
 	if flr_r == 1 then
 		pset(p.x, p.y, p.c)
 	elseif flr_r == 2 then
-		rectfill(p.x-1, p.y-1, p.x+1, p.y+1, p.c)
+		rectfill(p.x - 1, p.y - 1, p.x + 1, p.y + 1, p.c)
 	end
 end
 
@@ -822,21 +860,15 @@ function explode(ex, ey)
 		r = 17,
 		maxage = 2,
 		c = 0x0707,
-		ctab = {0x0707,0x070a},
+		ctab = { 0x0707, 0x070a },
 	})
-	
+
 	sparkblast(ex, ey, 2)
 	sparkblast(ex, ey, 15)
-	
-	grape(ex, ey, 2, 13, 1, "return", 
-		{0x070a,0x070a,0x070a,0x0a09},
-		0)
-	grape(ex+rnd(5)-2.5, ey - 5, 10, 20, 1, "return", 
-		{0x070a,0x0a09,0x090a},
-		-0.2)
-	grape(ex+rnd(5)-2.5, ey - 10, 25, 25, .2, "fade", 
-		{0x070a,0x070a,0x0a09,0x090a,0x0d08,0x0d05},
-		-0.3)
+
+	grape(ex, ey, 2, 13, 1, "return", { 0x070a, 0x070a, 0x070a, 0x0a09 }, 0)
+	grape(ex + rnd(5) - 2.5, ey - 5, 10, 20, 1, "return", { 0x070a, 0x0a09, 0x090a }, -0.2)
+	grape(ex + rnd(5) - 2.5, ey - 10, 25, 25, 0.2, "fade", { 0x070a, 0x070a, 0x0a09, 0x090a, 0x0d08, 0x0d05 }, -0.3)
 end
 
 function dopart(p)
@@ -845,7 +877,7 @@ function dopart(p)
 
 	if p.wait then
 		-- wait countdown
-		p.wait -= 1
+		p.wait = p.wait - 1
 		if p.wait <= 0 then
 			p.wait = nil
 			if p.c == nil and p.ctab then
@@ -861,8 +893,8 @@ function dopart(p)
 			p.r = p.r or 1
 			p.ctabv = p.ctabv or 0
 		end
-		
-		p.age += 1
+
+		p.age = p.age + 1
 		-- animate color
 		if p.ctab then
 			local life = (p.age + p.ctabv) / p.maxage
@@ -872,48 +904,47 @@ function dopart(p)
 
 		-- movement
 		if p.to_x then
-			p.x += (p.to_x - p.x) / (4 / p.spd)
-			p.y += (p.to_y - p.y) / (4 / p.spd)
+			p.x = p.x + ((p.to_x - p.x) / (4 / p.spd))
+			p.y = p.y + ((p.to_y - p.y) / (4 / p.spd))
 		end
-		
+
 		if p.sx then
-			p.x += p.sx
-			p.y += p.sy
+			p.x = p.x + p.sx
+			p.y = p.y + p.sy
 			if p.to_x then
-				p.to_x += p.sx
-				p.to_y += p.sy
+				p.to_x = p.to_x + p.sx
+				p.to_y = p.to_y + p.sy
 			end
 			if p.drag then
-				p.sx *= p.drag
-				p.sy *= p.drag
+				p.sx = p.sx * p.drag
+				p.sy = p.sy * p.drag
 			end
 		end
-		
+
 		-- size
 		if p.to_r then
-			p.r += (p.to_r - p.r) / (5 / p.spd)
+			p.r = p.r + ((p.to_r - p.r) / (5 / p.spd))
 		end
-		
+
 		if p.sr then
-			p.r += p.sr
+			p.r = p.r + p.sr
 		end
-		
-	
+
 		if p.age >= p.maxage or p.r < 0.5 then
-	      if p.onend == "return" then
-	        p.to_x = p.ox
-	        p.to_y = p.oy
-	        p.to_r = nil
-	        p.sr = -0.3
+			if p.onend == "return" then
+				p.to_x = p.ox
+				p.to_y = p.oy
+				p.to_r = nil
+				p.sr = -0.3
 			elseif p.onend == "fade" then
-	        p.to_r = nil
-	        p.sr = -0.1 - rnd(0.3)
-	      else
-	        del(parts, p)
-	      end
-	      p.ctab = nil
-	      p.onend = nil
-	      p.maxage = 32000
+				p.to_r = nil
+				p.sr = -0.1 - rnd(0.3)
+			else
+				del(parts, p)
+			end
+			p.ctab = nil
+			p.onend = nil
+			p.maxage = 32000
 		end
 	end
 	-- 2 main ways to logic and animate
@@ -942,7 +973,7 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 			ox = temp_ox,
 			oy = temp_oy,
 			r = 3,
-			to_r = rndrange(3,7),
+			to_r = rndrange(3, 7),
 			to_x = shakiness + ex + sin(myang) * dist,
 			to_y = shakiness + ey + cos(myang) * dist,
 			sx = 0,
@@ -950,10 +981,10 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 			spd = espd or 1,
 			wait = ewait,
 			maxage = emaxage,
-    		onend = eonend,
-    		c = ectab[1],
-    		ctab = ectab,
-    		ctabv = rnd(4),
+			onend = eonend,
+			c = ectab[1],
+			ctab = ectab,
+			ctabv = rnd(4),
 		})
 	end
 	-- spawn center
@@ -962,40 +993,40 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 		x = shakiness + ex,
 		y = shakiness + ey - 2,
 		r = 3,
-		to_r = rndrange(6,9),
+		to_r = rndrange(6, 9),
 		sx = 0,
 		sy = edrift,
 		spd = espd or 1,
 		wait = ewait,
 		maxage = emaxage,
-    	onend = eonend,
-    	c = ectab[1],
-   		ctab = ectab,
+		onend = eonend,
+		c = ectab[1],
+		ctab = ectab,
 	})
 end
 
 function spark(p)
 	-- pset(p.x, p.y, 8)
 	line(p.x, p.y, p.x - p.sx * 2, p.y - p.sy * 2, 7)
-	line(p.x+1, p.y, p.x + p.sx * 2 + 1, p.y + p.sy * 2, p.c)
+	line(p.x + 1, p.y, p.x + p.sx * 2 + 1, p.y + p.sy * 2, p.c)
 end
 
 function sparkblast(ex, ey, ewait)
-	local ang = rnd()	
-	for i = 1,6 do
-		local ang2 = ang+rnd(0.5)
-		local spd = rndrange(4,8)
+	local ang = rnd()
+	for i = 1, 6 do
+		local ang2 = ang + rnd(0.5)
+		local spd = rndrange(4, 8)
 		add(parts, {
 			draw = spark,
 			x = ex,
 			y = ey,
-			sx = sin(ang2)*spd,
-			sy = cos(ang2)*spd,
+			sx = sin(ang2) * spd,
+			sy = cos(ang2) * spd,
 			drag = 0.8,
 			wait = ewait,
-			maxage = rndrange(8,20),
+			maxage = rndrange(8, 20),
 			c = 10,
-			ctab = {7, 10},
+			ctab = { 7, 10 },
 		})
 	end
 end
@@ -1009,8 +1040,9 @@ function domuzz()
 		end
 	end
 end
+
 :: profiler.lua
---[[pod_format="raw",created="2024-09-20 18:19:15",modified="2024-10-24 02:26:46",revision=70]]
+--[[pod_format="raw",created="2024-09-20 18:19:15",modified="2024-10-25 19:47:01",revision=137]]
 -- abledbody's profiler v1.1
 
 local function do_nothing() end
@@ -1018,20 +1050,20 @@ local function do_nothing() end
 -- The metatable here is to make profile() possible.
 -- Why use a table at all? Because otherwise lua will try to cache the function call,
 -- which by default is do_nothing.
-local profile_meta = {__call = do_nothing}
-profile = {draw = do_nothing}
-setmetatable(profile,profile_meta)
+local profile_meta = { __call = do_nothing }
+profile = { draw = do_nothing }
+setmetatable(profile, profile_meta)
 
 local running = {} -- All incomplete profiles
- -- All complete profiles. Note that if the profiles haven't been drawn yet, it will
- -- not be cleared, and further profiles of the same name will add to the usage metric.
+-- All complete profiles. Note that if the profiles haven't been drawn yet, it will
+-- not be cleared, and further profiles of the same name will add to the usage metric.
 local profiles = {}
 -- All completed lingering profiles. These are never automatically cleared.
 local lingers = {}
 
 -- start_profile, stop_profile, and stop_linger are all internal functions,
 -- serving as paths for _profile to take. Lingers share start_profile.
-local function start_profile(name,linger)
+local function start_profile(name, linger)
 	local source = profiles[name]
 	running[name] = {
 		linger = linger,
@@ -1040,23 +1072,23 @@ local function start_profile(name,linger)
 	active.start = stat(1) --Delaying CPU usage grab until the last possible second.
 end
 
-local function stop_profile(name,active,delta)
+local function stop_profile(name, active, delta)
 	local profile = profiles[name]
 	if profile then
-		profile.time = delta+profile.time
+		profile.time = delta + profile.time
 	else
 		profiles[name] = {
 			time = delta,
 			name = name,
 		}
-		add(profiles,profiles[name])
+		add(profiles, profiles[name])
 	end
 end
 
-local function stop_linger(name,active,delta)
+local function stop_linger(name, active, delta)
 	local profile = lingers[name]
 	if profile then
-		profile.time = profile.this_frame and delta+profile.time or delta
+		profile.time = profile.this_frame and delta + profile.time or delta
 		profile.this_frame = true
 	else
 		lingers[name] = {
@@ -1069,18 +1101,21 @@ end
 -- The main functionality lives here.
 -- Takes in the name of what you're profiling, and whether or not to
 -- make the profile linger.
-local function _profile(_,name,linger)
+local function _profile(_, name, linger)
 	local t = stat(1)
 	local active = running[name]
 	if active then
-		local delta = t-active.start
+		local delta = t - active.start
 
-		if active.linger then stop_linger(name,active,delta)
-		else stop_profile(name,active,delta) end
+		if active.linger then
+			stop_linger(name, active, delta)
+		else
+			stop_profile(name, active, delta)
+		end
 
 		running[name] = nil
 	else
-		start_profile(name,linger)
+		start_profile(name, linger)
 	end
 end
 
@@ -1090,7 +1125,7 @@ function profile.clear_lingers()
 end
 
 local function draw_cpu()
-	print("cpu:"..string.sub(stat(1)*100,1,5).."%",1,1,7)
+	print("cpu:" .. string.sub(stat(1) * 100, 1, 5) .. "%", 1, 1, 7)
 end
 
 -- This draws the profiles, and then resets everything for the next frame.
@@ -1099,17 +1134,17 @@ end
 local function display_profiles()
 	local i = 1
 	for prof in all(profiles) do
-		local usage = string.sub(prof.time*100,1,5).."%"
-		local to_print = prof.name..":"..usage
-		print(to_print,1,1+i*9,7)
-		i = i+1
+		local usage = string.sub(prof.time * 100, 1, 5) .. "%"
+		local to_print = prof.name .. ":" .. usage
+		print(to_print, 1, 1 + i * 9, 7)
+		i = i + 1
 	end
-	for name,prof in pairs(lingers) do
-		local usage = string.sub(prof.time*100,1,5).."%"
-		local to_print = name..(prof.this_frame and "[X]:" or "[ ]:")..usage
-		print(to_print,1,1+i*9,7)
+	for name, prof in pairs(lingers) do
+		local usage = string.sub(prof.time * 100, 1, 5) .. "%"
+		local to_print = name .. (prof.this_frame and "[X]:" or "[ ]:") .. usage
+		print(to_print, 1, 1 + i * 9, 7)
 		prof.this_frame = false
-		i = i+1
+		i = i + 1
 	end
 	profiles = {}
 end
@@ -1123,40 +1158,43 @@ end
 -- profiling. This is to make it as much as possible so that you don't have to
 -- think about cleaning up profile calls for efficiency.
 -- The first boolean is for detailed profiling, the second is for CPU usage.
-function profile.enabled(detailed,cpu)
+function profile.enabled(detailed, cpu)
 	profile_meta.__call = detailed and _profile or do_nothing
-	profile.draw = detailed and (cpu and display_both or display_profiles)
-		or (cpu and draw_cpu or do_nothing)
+	profile.draw = detailed and (cpu and display_both or display_profiles) or (cpu and draw_cpu or do_nothing)
 end
+
+
 :: spark.lua
 --[[pod_format="raw",created="2024-10-13 19:34:29",modified="2024-10-21 21:55:32",revision=192]]
 function spark(p)
 	-- pset(p.x, p.y, 8)
 	line(p.x, p.y, p.x - p.sx * 2, p.y - p.sy * 2, 7)
-	line(p.x+1, p.y, p.x - p.sx * 2 + 1, p.y - p.sy * 2, p.c)
+	line(p.x + 1, p.y, p.x - p.sx * 2 + 1, p.y - p.sy * 2, p.c)
 end
 
 function sparkblast(ex, ey, ewait)
-	local ang = rnd()	
-	for i = 1,6 do
-		local ang2 = ang+rnd(0.5)
-		local spd = rndrange(4,8)
+	local ang = rnd()
+	for i = 1, 6 do
+		local ang2 = ang + rnd(0.5)
+		local spd = rndrange(4, 8)
 		add(parts, {
 			draw = spark,
 			x = ex,
 			y = ey,
-			sx = sin(ang2)*spd,
-			sy = cos(ang2)*spd,
+			sx = sin(ang2) * spd,
+			sy = cos(ang2) * spd,
 			drag = 0.8,
 			wait = ewait,
-			maxage = rndrange(8,20),
+			maxage = rndrange(8, 20),
 			c = 10,
-			ctab = {7, 10},
+			ctab = { 7, 10 },
 		})
 	end
 end
+
+
 :: tools.lua
---[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-10-24 02:26:46",revision=173]]
+--[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-10-25 19:47:01",revision=239]]
 -- alternate to sgn, different in that 0 returns 0 instead of 1
 function mysgn(v)
 	return v == 0 and 0 or sgn(v)
@@ -1175,10 +1213,22 @@ end
 
 -- dither mask suite
 local threshold_map = {
-	0, 8, 2, 10,
-	12, 4, 14, 6,
-	3, 11, 1, 9,
-	15, 7, 13, 5,
+	0,
+	8,
+	2,
+	10,
+	12,
+	4,
+	14,
+	6,
+	3,
+	11,
+	1,
+	9,
+	15,
+	7,
+	13,
+	5,
 }
 
 local function make_mask(value)
@@ -1186,7 +1236,7 @@ local function make_mask(value)
 	for i = 1, 16 do
 		mask = mask * 2
 		if threshold_map[i] >= value then
-			mask += 1
+			mask = mask + 1
 		end
 	end
 	return mask
@@ -1202,8 +1252,9 @@ end
 function dither_mask(value)
 	return dither_masks[mid(0, flr(value * 16 + 0.5), 16)]
 end
+
 :: update.lua
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-24 02:26:46",revision=203]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-25 19:47:01",revision=279]]
 function upd_game()
 	profile("_update")
 
@@ -1234,28 +1285,34 @@ function upd_game()
 	end
 
 	-- INPUTS / MOVEMENT
-	local dir = butdic[btn() & 0b1111]
-
-	if lastdir ~= dir and dir >= 5 then
-		px = flr(px) -- or flr(px) + 0.5
-		py = flr(py) -- or flr(py) + 0.5
+	if btn(0) then
+		sprval = (sprval <= 1) and 1 or (sprval - 1)
 	end
-
-	local dshipspr = 0
-	banked = 0
-
-	if dir > 0 then
-		px = px + dirx[dir] * spd
-		py = py + diry[dir] * spd
-
-		dshipspr = mysgn(dirx[dir])
-		banked = 1
+	if btn(1) then
+		sprval = (sprval >= 5) and 5 or (sprval + 1)
 	end
-
-	shipspr = shipspr + mysgn(dshipspr - shipspr) * 0.18
-	shipspr = mid(-1, shipspr, 1)
-
-	lastdir = dir
+--	local dir = butdic[btn() & 0b1111]
+--
+--	if lastdir ~= dir and dir >= 5 then
+--		px = flr(px) -- or flr(px) + 0.5
+--		py = flr(py) -- or flr(py) + 0.5
+--	end
+--
+--	local dshipspr = 0
+--	banked = 0
+--
+--	if dir > 0 then
+--		px = px + dirx[dir] * spd
+--		py = py + diry[dir] * spd
+--
+--		dshipspr = mysgn(dirx[dir])
+--		banked = 1
+--	end
+--
+--	shipspr = shipspr + mysgn(dshipspr - shipspr) * 0.18
+--	shipspr = mid(-1, shipspr, 1)
+--
+--	lastdir = dir
 
 	-- boundary checking
 	if px < x_borders then
@@ -1316,17 +1373,16 @@ function upd_menu()
 	end
 end
 
-
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yNCAwMjoyNjo0NiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzgyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMzMCIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
-Y2F0aW9uPSJ0b29scy5sdWEjNDEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWVw
-bGF5Lmx1YSM0MSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0icGFydGljbGVzLmx1YSMy
-MjgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImV4cGxtYWluLmx1YSM1NCIsd29ya3Nw
-YWNlX2luZGV4PTF9LHtsb2NhdGlvbj0icHJvZmlsZXIubHVhIzg5Iix3b3Jrc3BhY2VfaW5kZXg9
-MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9jYXRpb249Im1h
-cC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3b3Jrc3Bh
-Y2VfaW5kZXg9NH19XV0=
+MC0yNSAxOTo0NzowMSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzI2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMyNiIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMzNCIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0idG9vbHMubHVhIzQxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1l
+cGxheS5sdWEjNDEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRpY2xlcy5sdWEj
+MjI4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJleHBsbWFpbi5sdWEjNTQiLHdvcmtz
+cGFjZV9pbmRleD0xfSx7bG9jYXRpb249InByb2ZpbGVyLmx1YSM4OSIsd29ya3NwYWNlX2luZGV4
+PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJt
+YXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3Nw
+YWNlX2luZGV4PTR9fV1d
 :: [eoc]

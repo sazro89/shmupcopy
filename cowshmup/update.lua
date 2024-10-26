@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-23 20:36:09",revision=200]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-25 19:47:01",revision=279]]
 function upd_game()
 	profile("_update")
 
@@ -29,28 +29,34 @@ function upd_game()
 	end
 
 	-- INPUTS / MOVEMENT
-	local dir = butdic[btn() & 0b1111]
-
-	if lastdir ~= dir and dir >= 5 then
-		px = flr(px) -- or flr(px) + 0.5
-		py = flr(py) -- or flr(py) + 0.5
+	if btn(0) then
+		sprval = (sprval <= 1) and 1 or (sprval - 1)
 	end
-
-	local dshipspr = 0
-	banked = 0
-
-	if dir > 0 then
-		px = px + dirx[dir] * spd
-		py = py + diry[dir] * spd
-
-		dshipspr = mysgn(dirx[dir])
-		banked = 1
+	if btn(1) then
+		sprval = (sprval >= 5) and 5 or (sprval + 1)
 	end
-
-	shipspr = shipspr + mysgn(dshipspr - shipspr) * 0.18
-	shipspr = mid(-1, shipspr, 1)
-
-	lastdir = dir
+--	local dir = butdic[btn() & 0b1111]
+--
+--	if lastdir ~= dir and dir >= 5 then
+--		px = flr(px) -- or flr(px) + 0.5
+--		py = flr(py) -- or flr(py) + 0.5
+--	end
+--
+--	local dshipspr = 0
+--	banked = 0
+--
+--	if dir > 0 then
+--		px = px + dirx[dir] * spd
+--		py = py + diry[dir] * spd
+--
+--		dshipspr = mysgn(dirx[dir])
+--		banked = 1
+--	end
+--
+--	shipspr = shipspr + mysgn(dshipspr - shipspr) * 0.18
+--	shipspr = mid(-1, shipspr, 1)
+--
+--	lastdir = dir
 
 	-- boundary checking
 	if px < x_borders then

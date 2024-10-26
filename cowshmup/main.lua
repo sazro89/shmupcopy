@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-23 20:36:09",revision=1428]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-25 19:47:01",revision=1511]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -10,7 +10,21 @@ include("profiler.lua")
 function _init()
 	profile("_init")
 	t = 0
+	debug = {}
 	profile.enabled(true, true)
+	
+	-- in the tutorial he stores a bunch of values needed for sspr in pico-8
+	-- we don't need that in picotron, but then he also bakes in offset values
+	-- so this array is for holding those kinds of values
+	myspr = {
+		{i=8, w=15, h=16, ox=6, oy=8},
+		{i=9, w=16, h=16, ox=7, oy=8},
+		{i=10, w=18, h=16, ox=8, oy=8},
+		{i=11, w=16, h=16, ox=8, oy=8},
+		{i=12, w=15, h=16, ox=8, oy=8},
+	}
+	
+	sprval = 3
 
 	butdic = { -- 0 - stop
 		1, -- 1  - left
