@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-25 19:47:01",revision=283]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-27 03:59:36",revision=317]]
 
 function drw_game()
 	for seg in all(cursegs) do
@@ -10,35 +10,47 @@ function drw_game()
 	rectfill(480, 0, 480 - x_borders, 270, 32)
 
 	for p in all(parts) do
-		if p.wait == nil then
+		if p.age >= 0 then
+			-- animate color
+			if p.ctab then
+				p.ctabv = p.ctabv or 0
+				local life = (p.age + p.ctabv) / p.maxage
+				local i = mid(1, flr(1 + life * #p.ctab), #p.ctab)
+				p.c = p.ctab[i]
+			end
 			p.draw(p)
 		end
 	end
 
 	for s in all(shots) do
-		spr(s.sani[flr(s.si)], s.x + 6, s.y)
+		mspr(s.sani[flr(s.si)], s.x, s.y)
 	end
 
 	for m in all(muzz) do
-		spr(m.sani[flr(m.si)], px + m.x, py + m.y)
+		mspr(m.sani[flr(m.si)], px + m.x, py + m.y)
 	end
 
---	spr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
-	mspr(sprval, px, py)
-	pset(px,py,8)
+	--	spr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
+	mspr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
+	-- rect(px, py, px + 1, py + 1, 8) -- ship hitbox
+	-- pset(px - 4, py + 0, 11) -- muzz alignment
+	-- pset(px + 5, py + 0, 11) -- muzz alignment
 
-	local fframe = (t % (#flamearr - 1)) + 1
+	local fframe = flr((t % (#flamearr - 1)) + 1)
 
-	spr(flamearr[fframe], px + 6 - banked, py + 14, true)
-	spr(flamearr[fframe], px + 2 + banked, py + 14)
+	mspr(flamearr[fframe], px - 2 + banked, py + 6)
+	mspr(flamearr[fframe], px + 3 - banked, py + 6, true)
 
 	debug[1] = "scroll: " .. scroll
+	debug[2] = "fframe: " .. (t % (#flamearr - 1)) + 1
 end
 
-function mspr(si, sx, sy)
+function mspr(si, sx, sy, flip_x, flip_y)
 	local ms = myspr[si]
---	spr(ms[1], sx, sy)
-	sspr(ms.i, 0, 0, ms.w, ms.h, sx-ms.ox, sy-ms.oy)
+	sspr(ms.i, 0, 0, ms.w, ms.h, sx - ms.ox, sy - ms.oy, ms.w, ms.h, ms.flip_x or flip_x, ms.flip_y or flip_y)
+	if ms.nextspr then
+		mspr(ms.nextspr, sx, sy)
+	end
 end
 
 function drw_menu()

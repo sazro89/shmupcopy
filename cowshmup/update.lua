@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-25 19:47:01",revision=279]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-27 03:59:36",revision=301]]
 function upd_game()
 	profile("_update")
 
@@ -23,40 +23,40 @@ function upd_game()
 			o = #cursegs < 1 and -128 or cursegs[#cursegs].o + 128,
 		})
 
-		if scroll - cursegs[1].o >= 384 then
+		if #cursegs > 2 and scroll - cursegs[1].o >= 384 then
 			deli(cursegs, 1)
 		end
 	end
 
 	-- INPUTS / MOVEMENT
-	if btn(0) then
-		sprval = (sprval <= 1) and 1 or (sprval - 1)
+	-- if btn(0) then
+	-- 	sprval = (sprval <= 1) and 1 or (sprval - 1)
+	-- end
+	-- if btn(1) then
+	-- 	sprval = (sprval >= 5) and 5 or (sprval + 1)
+	-- end
+	local dir = butdic[btn() & 0b1111]
+
+	if lastdir ~= dir and dir >= 5 then
+		px = flr(px) -- or flr(px) + 0.5
+		py = flr(py) -- or flr(py) + 0.5
 	end
-	if btn(1) then
-		sprval = (sprval >= 5) and 5 or (sprval + 1)
+
+	local dshipspr = 0
+	banked = 0
+
+	if dir > 0 then
+		px = px + dirx[dir] * spd
+		py = py + diry[dir] * spd
+
+		dshipspr = mysgn(dirx[dir])
+		banked = 1
 	end
---	local dir = butdic[btn() & 0b1111]
---
---	if lastdir ~= dir and dir >= 5 then
---		px = flr(px) -- or flr(px) + 0.5
---		py = flr(py) -- or flr(py) + 0.5
---	end
---
---	local dshipspr = 0
---	banked = 0
---
---	if dir > 0 then
---		px = px + dirx[dir] * spd
---		py = py + diry[dir] * spd
---
---		dshipspr = mysgn(dirx[dir])
---		banked = 1
---	end
---
---	shipspr = shipspr + mysgn(dshipspr - shipspr) * 0.18
---	shipspr = mid(-1, shipspr, 1)
---
---	lastdir = dir
+
+	shipspr = shipspr + mysgn(dshipspr - shipspr) * 0.18
+	shipspr = mid(-1, shipspr, 1)
+
+	lastdir = dir
 
 	-- boundary checking
 	if px < x_borders then

@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-10-25 19:47:01",revision=244]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-10-27 03:59:36",revision=266]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
@@ -70,7 +70,6 @@ function explode(ex, ey)
 		y = ey,
 		r = 17,
 		maxage = 2,
-		c = 0x0707,
 		ctab = { 0x0707, 0x070a },
 	})
 
@@ -83,80 +82,68 @@ function explode(ex, ey)
 end
 
 function dopart(p)
-	-- [ ] age function
-	-- [ ] max age counter
+	-- age and wait
+	p.age = p.age or 0
 
-	if p.wait then
-		-- wait countdown
-		p.wait = p.wait - 1
-		if p.wait <= 0 then
-			p.wait = nil
-			if p.c == nil and p.ctab then
-				p.c = p.ctab[1]
-			end
-		end
-	else
-		-- particle logic
-		p.age = p.age or 0
-		if p.age == 0 then
-			p.ox = p.x
-			p.oy = p.y
-			p.r = p.r or 1
-			p.ctabv = p.ctabv or 0
-		end
+	if p.age == 0 then
+		p.ox = p.x
+		p.oy = p.y
+		p.r = p.r or 1
+		p.ctabv = p.ctabv or 0
+		p.spd = p.spd or 1
+	end
+	p.age = p.age + 1
 
-		p.age = p.age + 1
-		-- animate color
-		if p.ctab then
-			local life = (p.age + p.ctabv) / p.maxage
-			local i = mid(1, flr(1 + life * #p.ctab), #p.ctab)
-			p.c = p.ctab[i]
-		end
+	if p.age <= 0 then
+		return
+	end
 
-		-- movement
+	-- particle logic
+	p.age = p.age + 1
+
+	-- movement
+	if p.to_x then
+		p.x = p.x + ((p.to_x - p.x) / (4 / p.spd))
+		p.y = p.y + ((p.to_y - p.y) / (4 / p.spd))
+	end
+
+	if p.sx then
+		p.x = p.x + p.sx
+		p.y = p.y + p.sy
 		if p.to_x then
-			p.x = p.x + ((p.to_x - p.x) / (4 / p.spd))
-			p.y = p.y + ((p.to_y - p.y) / (4 / p.spd))
+			p.to_x = p.to_x + p.sx
+			p.to_y = p.to_y + p.sy
 		end
+		if p.drag then
+			p.sx = p.sx * p.drag
+			p.sy = p.sy * p.drag
+		end
+	end
 
-		if p.sx then
-			p.x = p.x + p.sx
-			p.y = p.y + p.sy
-			if p.to_x then
-				p.to_x = p.to_x + p.sx
-				p.to_y = p.to_y + p.sy
-			end
-			if p.drag then
-				p.sx = p.sx * p.drag
-				p.sy = p.sy * p.drag
-			end
-		end
+	-- size
+	if p.to_r then
+		p.r = p.r + ((p.to_r - p.r) / (5 / p.spd))
+	end
 
-		-- size
-		if p.to_r then
-			p.r = p.r + ((p.to_r - p.r) / (5 / p.spd))
-		end
+	if p.sr then
+		p.r = p.r + p.sr
+	end
 
-		if p.sr then
-			p.r = p.r + p.sr
+	if p.age >= p.maxage or p.r < 0.5 then
+		if p.onend == "return" then
+			p.to_x = p.ox
+			p.to_y = p.oy
+			p.to_r = nil
+			p.sr = -0.3
+		elseif p.onend == "fade" then
+			p.to_r = nil
+			p.sr = -0.1 - rnd(0.3)
+		else
+			del(parts, p)
 		end
-
-		if p.age >= p.maxage or p.r < 0.5 then
-			if p.onend == "return" then
-				p.to_x = p.ox
-				p.to_y = p.oy
-				p.to_r = nil
-				p.sr = -0.3
-			elseif p.onend == "fade" then
-				p.to_r = nil
-				p.sr = -0.1 - rnd(0.3)
-			else
-				del(parts, p)
-			end
-			p.ctab = nil
-			p.onend = nil
-			p.maxage = 32000
-		end
+		p.ctab = nil
+		p.onend = nil
+		p.maxage = 32000
 	end
 	-- 2 main ways to logic and animate
 	-- sx/sy velocity system.  not great control if you want control over the particles final destination
@@ -190,10 +177,9 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 			sx = 0,
 			sy = edrift,
 			spd = espd or 1,
-			wait = ewait,
+			age = -ewait,
 			maxage = emaxage,
 			onend = eonend,
-			c = ectab[1],
 			ctab = ectab,
 			ctabv = rnd(4),
 		})
@@ -208,10 +194,9 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 		sx = 0,
 		sy = edrift,
 		spd = espd or 1,
-		wait = ewait,
+		age = -ewait,
 		maxage = emaxage,
 		onend = eonend,
-		c = ectab[1],
 		ctab = ectab,
 	})
 end
@@ -234,9 +219,8 @@ function sparkblast(ex, ey, ewait)
 			sx = sin(ang2) * spd,
 			sy = cos(ang2) * spd,
 			drag = 0.8,
-			wait = ewait,
+			age = -ewait,
 			maxage = rndrange(8, 20),
-			c = 10,
 			ctab = { 7, 10 },
 		})
 	end
