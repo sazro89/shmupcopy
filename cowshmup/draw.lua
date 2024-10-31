@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-27 03:59:36",revision=317]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-31 02:10:11",revision=325]]
 
 function drw_game()
 	for seg in all(cursegs) do
@@ -20,6 +20,10 @@ function drw_game()
 			end
 			p.draw(p)
 		end
+	end
+
+	for e in all(enemies) do
+		mspr(e.sani[flr(e.si)], e.x + xscroll, e.y)
 	end
 
 	for s in all(shots) do

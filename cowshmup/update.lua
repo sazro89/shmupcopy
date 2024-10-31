@@ -1,7 +1,5 @@
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-27 03:59:36",revision=301]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-31 02:10:11",revision=307]]
 function upd_game()
-	profile("_update")
-
 	-- SCROLLING
 	scroll = scroll + 0.5
 
@@ -85,10 +83,10 @@ function upd_game()
 
 	doshots()
 	domuzz()
+	doenemies()
 	for p in all(parts) do
 		dopart(p)
 	end
-	profile("_update")
 end
 
 function upd_menu()

@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-27 03:59:36",revision=1536]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-31 02:10:11",revision=1542]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -38,6 +38,10 @@ function _init()
 		{ i = 19, w = 3, h = 6, ox = 1, oy = 0 },
 		{ i = 20, w = 3, h = 8, ox = 1, oy = 0 },
 		{ i = 21, w = 3, h = 8, ox = 1, oy = 0 },
+		-- enemy sprites 18-20
+		{ i = 32, w = 16, h = 16, ox = 8, oy = 8 },
+		{ i = 33, w = 18, h = 17, ox = 9, oy = 8 },
+		{ i = 34, w = 18, h = 17, ox = 9, oy = 8 },
 	}
 
 	sprval = 3
@@ -172,6 +176,16 @@ function startgame()
 	shotwait = 0
 	muzz = {}
 	banked = 0
+	enemies = {}
+
+	add(enemies, {
+		x = 240,
+		y = 20,
+		sani = { 18, 19, 20 },
+		si = 1,
+		sx = 0,
+		sy = 0.5,
+	})
 
 	_upd = upd_game
 	_drw = drw_game

@@ -4,65 +4,95 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-MC0yNSAxOTo0NzowMSIscmV2aXNpb249NzA5XV1sejQAxAwAALE-AADzIXtbMF09e2JtcD1weHUA
-QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgA2nk9MCx6b29tPTEyfSw-AE-yAe0C
-AgAID08AHX-9AdYdBr0FBAAbP8X9AWgAHSkCDQIAXv0BAv0PAwAPVgAdMQoQGgIABAgAKxoACAAf
-ECIAUw_4AB0v8PAyAH7yHg8SBFAfF7AOEQ6QDgEHBgEOgA4hDQEOYA4BLBEOUA4BDBccEQ5ADgEM
-BwwBDAoAUSEMIQ4wCADAAQcBDiAOERwBBxEGCgDwDwENAQwHEQ0GDQEOAA4BLSENBg0HDQEeAR0G
-LQYNFgoAkQ0GBxYHBg0GHSIAgAcGDQEGBw0hOwBABREVDWAAX2EOYG4w9QAb8QISBGAfF8AOEQ6g
-DgEGBwEOkMMAEXDDABNgwwAXUMMAExHDABURwwByAQYBHBEHAcUAYwYNAQwXEcUAUD0xHQYHwwBQ
-Fj0GDRbCABcWwgBhEQcdEQcxNQAiFQHAAE9xDmB_wAAb8AQSEgRwHxfgDhEOwA4BFgEOoA5RjQEQ
-PIwB8gYBDBcsAQ5gHgEMBxwBDAEeQA4hDDGAAUEHAQwxvwB1MA4BBhEHEYQBRQYNEReFAQCrAFEN
-MQ0GDcYAcSYNBj0GDSaTAQmLAVAxBwEWAcoA-wMeAQYBBREFAQYBHlAOcQ6AfkCMAScCTwJwAQ0h
-DoAOEccAoQ4RDBccAQ5QDhGMASABDs8AMyEMEc8AAwoAUAYBBxEcjAEQEM0AYxEXDAENBswAxh0x
-PQEeARYNBj0WHcUAIhYNwwBAER0HEZACbw0VARUGAYwBIhEPwAADDwMhBgdGAkENIQ5wwAATUMAA
-FUDAABEwwAAVAcAABI0BMgEcEb4AUg0RBwwBigFxDQcNBg0hLUMCWA0GLQYdhgEAIgBAIQ0HBiED
-EgHEAD4RBQEPAw82BBUPMgB_-wUEBgQAHxgADhceFx4fFx4dDgAeAEEAGn8ICAQgB-AsNAAfj1AH
-DAdQB-AcOgAgvydABwwHQBfQB-AFPgAmA0IAP2AHQEMAIgVFAH9QB2AHUAdA2QF_8hAIEAQgGVAZ
-QAkXCTAJFwkgCTcJEAk3CQAJBwoXCgcZBgAxGhcaBAD-BgoJGgkKORpZGjkAOQAZEBkQCSAZIG8A
-IQBxADUaCTB1AFgKFwoJEAYAMRkaGQQAEVkCAG8JABkACTBrACUMbwAyMAkaBAASOQIAX0AZUBkg
-ZwEe-wc3F7BXgHdwd2CXUJdQl2B3gFegN-AWRwALHDhGAPEEYBfQF9AXoAcQFxAHYBcANwAXUAYA
--wBgd1AHAHcABzC3QJdgd3BdACNg8AQHUAdwPQP-EwsX0BdwB0AXQAcgByA3IAdgV5BXYAcQVxAH
-YFegN8AX8BdbABwQMFYAYTQH0AfwIVcAX3AXwDewSQAhL-DwMQD-pbf-EAYxvjGeET4RfgQAYp5R
-nlHeEQIAb54xvjH_BlcAMg8EAAUPYwAiL-Dw4AH-FKoHEd4RvjG_Md4RAgBvvlGeUf4F2AEqAUcA
-BwQAb95xfnH_BFMAMm-_ABHeEX4gAil--xAEER4RngQAATFxfnGvAAMCAA9bACFDcX5xfj8AEN5J
-ARMADQAQfg0AHwYDASQGUAAEDwEPAgEtM3F_cVUAIxG_BAAEAgAv-gipASoImgAPrgAyyvBGDQ8V
-HbAeHbANDgQATy4N8DZNAB-hHxUNsA4dDrAtDrAdDg1JAE8OLbA_SwAwIS0ODgAvDR6YACF1DxUN
-Dg2wDgUAET5TAAMEAA9QACAgPxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cA
-JgaOAA_aACsf8DEA----------------NF8ICATwMGIAHg_NBf------TDF8AQwCAC-8ITkAHCP8
-IToAH3w5ABzvISxRLFE8QTxBPFEsUSx3AB2TawErQSsBBh0BBQCfNisBDRENOzF7SAAcoRFbBjEr
-BhEWARsFAK9GARsdEQ0BG0GrSAAcUfsJCQobAwA0KQobCwA-IwqLRwAcS4FHBhEDAD8HRgFFABzR
-HTUtBTYFHQUGFQYFHQoAIAcsBQBiHRUdBQcWBQAfDVQAICEGLVUAEA0GABQtVgBvNgUdVS1FTwAd
-IgtpAgAiG1kCAA8-ABwDNgATG0YAHws-ABz-AfEEBh1BBh1BNjENEA0xMHE-ABxwcQZhBhEWIQQA
-j0YhHRANIUChQgAc75FXEVcRVhFWEQ0QLSFAgAAdcQEGTREHNg0EAP8CXRFcEQ0FFgUNEQANFQ0A
-EVAtAh0TDRgCCB0CFh0UAD9lHVVRABxAC5MLAwIAL-sfOQAcYFMbAyszOzoAHxk6ABwv_TAxAByy
-uzQbFDkbBEkLBFlCAg9AAB0-dPkcMwAcv3s0OzkUG0kEG1kEtQIjwL0FDRUtBQEFER0FAQIA3x0R
-BSENFUENAQVBDWFMAB2pFQ0lDQURBSEFAQIAL-EHSQAckX0VDQU9EQUBBZoAEAWUAM8FDTEFAR0x
-BQEFDWEXBB3xAwUNFQ0VHRUNBQ0GBR0VDQYlHfUA-wINFQYVHQYFBgUNBQ01PQUtBVgAHS-4MKAE
-KC87OVUGHT-5JLsyABwDbwAQC9UELzm7wwMeMFENYQIArx0FQR1RPQEFEX1CABx-8R4FEQURvTYA
-HDBhDVHkAb9BBR1RHSEFDQEdAUQAHy-4MDEATR-7MQAeYwoDCwMrA8YEHwk_ABzFA2ELA0EHA1EH
-CwNRCgARQQQAD0oAHJtBAxtRAwtBAxsJAA9HABz-CPsBQRsBBxEXAQsBBwEXIQNhAwETAQMR1AId
--w6LIUsBBxE7AQchKxEHAQcBGwEDAQcRKwNBKwELEZQAHRIrYgHxAHM1AyUUBQQFBAUkBaQCBAIA
-H3RLABz-CwsDSyNLAwUTCwMLEwQFQwUURQIUUiRCNCIESQAcYBsDGwMLIxwBX-EZNwEXSAcdcPEZ
-EwETARNGAA-1CR2A8QcDURNRAwt8ADABAwuIAE8BE0sB6gEewPEAA2ETUQsDURMRE0gAjwEDCxMb
-AwFLRwAc8QD7AkEbARcRBzEXAQdxAxEvAg8uAh2AuyE7EQcBKyEoAv8DBwEHERsRBwEDAQtBAysR
-AwErTQAcAxoCEhQIAB8SDgAIIpIECAAPYQAjEDQGAP8GMhYFAgQSBiUyNQIEIhUiBEIEAgRSUQAd
-MgtTC8gBgBNbA3sDWwMLBAAAowIQM6cCD00AHJDrAVsBA0sBA1sDACETSwYAD0MAHEB7AWsDAwBx
-SxMBWwMBWwkADxcCHVBzAVMRA6ECMBEDUV0CsRQBAxsDARIBMwESCgAfE7ECHy_DWyABMf8E_wAD
-WyM7EwsDOwMbAztDKwMbU4kAHW-yCHF8cXyICx3wBiIUMkQiFEIBBEIBDAEyAQwBXAEMUQYAD1oB
-KxERuQMADgARG34DEQsaAA-TAB3-A0sBE1sBA2sBWwMCWwMCawP7AEEAHP8CEwFLAwFbAWsCA1sC
-A1sD_wdAAB7-BhMBIwEzAQMBUwECUxJTAhM7I1sDexwBJr8EUQQiFCITMkMSI0UAKTADIhRfAa8i
-AQMLIxIBEwsztwIfANwDETuqAm8lMwUkNUS8BibwAiEiMQIEEhEMAgQyHFIMAQwySBEQPE4RXzEM
-ITwRRwIoEAShA0AiEwEiPgJvEiMLAwEz5gAdH-w4CR1v-AonDAf8tgAdf-wRBwwn-Ao2ABzwDGsF
-WwUMSwUHDTsFDQYNKxUNBg0bBS0GDQsFHREAEQUCAB8GJwwdT3V8-SAzAByABWsNBVsdBUtxAGA7
-DRUNBStaDa8bDTUNBQsNRQ0FTwAcEvGIDSMBFQgAP-UA87gDHW-zEAtTG9MEBSFvAxIjEvMQNwAc
--wL7CwUrBS0FLQUrBSsFIwUjBZ0DHS-xMCUOHiMFDeUBUy0GDQUtDAAPFAAKDwsCHh-9lgAdKg1l
-AgAPPwAcb40VDQX9I3wBIQB_Ad8rDQMbBSsNIwUrBQMrRQAfrzstBWsNOyMNA1s-ACDwAAcBKwUb
-AQMtBQ0BAzsFC1gFLwUDwAojPyFXgQwCH4ItBwwFLQUGJTUQIAUNJxAQFgwAIA0mCwB-NhUNRgUN
-VlgAHF98dX32GDQAHP8EB_UdVRYNRSYNNTYNJUYNFVYNBXYAH3AmHUYNFg02BAAvPZY-ABxRKwUD
-Ww0DADoFAxsYAh97SwAoISstDQBPKyMNAxYXHhAAdgoApgIgCwMkEiMTAQsAPyMFC5kMH0QrBRNL
-lQAXWwwAD7MCHTkLBVYDAF9lC2MLY0QAHD-2GHWaBR44VgULAwABdwAPJAMdI5Y9HAIPfwAMUG09
-OH19
+MC0zMSAwMjoxMDoxMSIscmV2aXNpb249NzQ0XV1sejQA1QwAAP89AADzIXtbMF09e2JtcD1weHUA
+QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgA23k9MCx6b29tPTEyfSw-AB-wMgD-
+R-IeDxIEUB8XsA4RDpAOAQcGAQ6ADiENAQ5gDgEsEQ5QDgEMFxwRDkAOAQwHDAEMCgBRIQwhDjAI
+AMABBwEOIA4RHAEHEQYKAPAPAQ0BDAcRDQYNAQ4ADgEtIQ0GDQcNAR4BHQYtBg0WCgCRDQYHFgcG
+DQYdIgCABwYNAQYHDSE7AEAFERUNYABfYQ5gbjD1ABvxAhIEYB8XwA4RDqAOAQYHAQ6QwwARcMMA
+E2DDABdQwwATEcMAFRHDAHIBBgEcEQcBxQBjBg0BDBcRxQBQPTEdBgfDAFAWPQYNFsIAFxbCAGER
+Bx0RBzE1ACIVAcAAT3EOYH7AABvwBBISBHAfF_AOEQ7ADgEWAQ6gDlGNARA8jAHyBgEMFywBDmAe
+AQwHHAEMAR5ADiEMMYABQQcBDDG-AHUwDgEGEQcRhAFFBg0RF4UBAKsAUQ0xDQYNxgBxJg0GPQYN
+JpMBCYsBUDEHARYBygD-Ax4BBgEFEQUBBgEeUA5xDoB_QIwBJwJPAnABDSEOgA4RxwChDhEMFxwB
+DlAOEYwBIAEOzwAzIQwRzwADCgBQBgEHERyMARAQzQBjERcMAQ0GzADGHTE9AR4BFg0GPRYdxQAi
+Fg3DAEARHQcRkAJvDRUBFQYBjAEiEQ-AAAMPAyEGB0YCQQ0hDnDAABNQwAAVQMAAETDAABUBwAAE
+jQEyARwRvgBSDREHDAGKAXENBw0GDSEtQwJYDQYtBh2GAQAiAEAhDQcGIQMSAcQAPhEFAQ8DDzYE
+FQ8yALBPAQEEBzEAGs8DAwQABwAHDAcABwA5ABsQBjkAbzcMJzAHEDkAGxIIOQARFzsADz0AIjBn
+DBexABAQBAAPgwF_8hAIEAQgGVAZQAkXCTAJFwkgCTcJEAk3CQAJBwoXCgcZBgAxGhcaBAD-BgoJ
+GgkKORpZGjkAOQAZEBkQCSAZIG8AGvEBBhAEEBkwGTAZIAkaCRAJFwQAYwAJChcKGQQAzykaORr5
+BQAZAAkQGS8BGzEEEASVAAECANAACRoZFxkXGRoZGvkBFwAPMAIb-wUKCgQwF1BXIHcQdwD3DgB3
+IFdAN_oADBk4QQDxBwwOBEAXkBeQF2AHEBcQByAXADcAFxAGAP8EIHcQBwB3AMcAlyB3MHdAV2A3
+MFoAGWEODQQgB1ACAP8T8AcXsBdQB0AXQAcAByA3IAdAV3BXQAcQVxAHQFeAN6AXUFkAGUAQDgQw
+VQBhNAfQB-AhVgCfcBfAN7A3wBdgSAAMD4UCHQ0xAPEAEB4QPhAeIA4RHjQeEQ4AogdABD8PBBgG
+8QgeAQ0BBBwHLAQBDQEeEQIEDAccCQwEAicAcQgELBkMBAh_BfEOAg4EDDkMBA4CAR4BGAQHOQcE
+GAEeAQIOCAQ3BAgWAJACCA4MNAwOCAJIAHEIAgweDAIISABkEQIOPA4CeQAzEhgSeAD-BCEyIQ0B
+HiEeMR4hDgAuED4QLgDZABmAEhEEYD6gLjQdBwDOAJE_QA4BBB0HLQQPCZMCBA0HHQkNBAIJB6QI
+BC0ZDQQIAQ8NzwBDDTkNBJcABNEAACkABtMAAQ4AUAgODTQN1QAAKACiBgECCAINHg0CCB4AUAwR
+Ag49RABAEA4hDtoAsBEOMC4ADgEyAQwG_wa-UQwBDoBOEQ7gHjDaAB5isB40HoAOqAEjDmDbAADS
+BgfbACYOMNkAJw4g1gACrgAD1wAAbQElDw3YABEMoAED1wACoAEE1QBDEQ4QHtMA8AYeMA4REhES
+EQ5gHhEWER6QDgEcAQ6YCD-gHnCwAh4PMQD----------------------8ZfCAgE8DCTAB4PjQX-
+-----0wxfAEMAgAv-CE5ABwj-CE6AB98OQAc7yEsUSxRPEE8QTxRLFEsdwAdk2sBK0ErAQYdAQUA
+nzYrAQ0RDTsxe0gAHKERWwYxKwYRFgEbBQCvRgEbHRENARtBq0gAHFH7CQkKGwMANCkKGwsAPyMK
+i0cAHEuBRwYRAwA-B0YBRQAc0R01LQU2BR0FBhUGBR0KACAHLAUAYh0VHQUHFgUAHw1UACAhBi1V
+ABANBgAULVYAbzYFHVUtRU8AHSILaQIAIhtZAgAPPwAcAzYAExtGAB8LPwAc-wHxBAYdQQYdQTYx
+DRANMTBxPwAccHEGYQYRFiEEAI9GIR0QDSFAoUIAHO_RVxFXEVYRVhENEC0hQIAAHXEBBk0RBzYN
+BAD-Al0RXBENBRYFDREADRUNABFQLQIdEw0YAggdAhYdFAA-ZR1VUQAcQAuTCwMCAC-7HzkAHGBT
+GwMrMzs6AB8ZOgAcL-kwMQAcsrs0GxQ5GwRJCwRZQgIPQAAdP3T5HDMAHL97NDs5FBtJBBtZBLUC
+I8C9BQ0VLQUBBREdBQECAN8dEQUhDRVBDQEFQQ1hTAAdqRUNJQ0FEQUhBQECAC-xB0kAHJF9FQ0F
+PREFAQWaABAFlADPBQ0xBQEdMQUBBQ1hFwQd8QMFDRUNFR0VDQUNBgUdFQ0GJR31AP8CDRUGFR0G
+BQYFDQUNNT0FLQVYAB0v_DCgBCgvOzlVBh0-_SS7MgAcA28AEAvVBC85u8MDHjBRDWECAK8dBUEd
+UT0BBRF9QgAcf-EeBREFEb02ABwwYQ1R5AG-QQUdUR0hBQ0BHQFEAB8v_DAxAE0f_zEAHmMKAwsD
+KwPGBB8JPgAcxQNhCwNBBwNRBwsDUQoAEUEEAA9KABybQQMbUQMLQQMbCQAPRwAc-wj7AUEbAQcR
+FwELAQcBFyEDYQMBEwEDEdQCHf8OiyFLAQcROwEHISsRBwEHARsBAwEHESsDQSsBCxGUAB0SK2IB
+8QBzNQMlFAUEBQQFJAWkAgQCAB90SwAc-wsLA0sjSwMFEwsDCxMEBUMFFEUCFFIkQjQiBEkAHGAb
+AxsDCyMcAV-xGTcBF0gHHXDxGRMBEwETRgAP9QkdgPEHA1ETUQMLfAAwAQMLiABPARNLAeoBHsDx
+AANhE1ELA1ETERNIAI8BAwsTGwMBS0cAHPEA_wJBGwEXEQcxFwEHcQMRLwIPLgIdgLshOxEHASsh
+KAL-AwcBBxEbEQcBAwELQQMrEQMBK00AHAMaAhIUCAAfEg4ACCKSBAgAD2EAIxA0BgD-BjIWBQIE
+EgYlMjUCBCIVIgRCBAIEUlEAHTILUwvIAYATWwN7A1sDCwQAAKMCEDOnAg9NAByQ6wFbAQNLAQNb
+AwAhE0sGAA9DABxAewFrAwMAcUsTAVsDAVsJAA8XAh1QcwFTEQOhAjARA1FdArEUAQMbAwESATMB
+EgoAHxOxAh8vg1sgATH-BPsAA1sjOxMLAzsDGwM7QysDG1OJAB1v8ghxfHF8iAsdwCIUMkQiFEIB
+BEIBDKknUAFcAQxRBgAPWgErERG5AwAOABEbfgMRCxoAD9MAHf8DSwETWwEDawFbAwJbAwJrA-sA
+QQAc-wITAUsDAVsBawIDWwIDWwP7B0AAHv8GEwEjATMBAwFTAQJTElMCEzsjWwN7HAEmvwRRBCIU
+IhMyQxIjRQApMAMiFF8BryIBAwsjEgETCzO3Ah8A3AMRO6oCbyUzBSQ1RLwGJvACISIxAgQSEQwC
+BDIcUgwBDDJIERA8ThFfMQwhPBFHAigQBKEDQCITASI_Am8SIwsDATPmAB0f-DgJHW-8CicMB-y2
+AB1--BEHDCf8CjYAHPAMawVbBQxLBQcNOwUNBg0rFQ0GDRsFLQYNCwUdEQARBQIAHwYnDB1PdXz9
+IDMAHIAFaw0FWx0FS3EAYDsNFQ0FK1oNrxsNNQ0FCw1FDQVPABwS8YgNIwEVCAA-9QDzuAMdb-MQ
+C1Mb0wQFIW8DEiMS8xA3ABz-AvsLBSsFLQUtBSsFKwUjBSMFnQMdL-EwJQ4eIwUN5QFTLQYNBS0M
+AA8UAAoPCwIeH-2WAB0qDWUCAA8-ABxvjRUNBf0jfAEhAH4B3ysNAxsFKw0jBSsFAytFAB_vOy0F
+aw07Iw0DWz8AIPAABwErBRsBAy0FDQEDOwULWAUvBQPACiM-IVeBDAIfgi0HDAUtBQYlNRAgBQ0n
+EBAWDAAgDSYLAH82FQ1GBQ1WWAAcX3x1ffYYNAAc-wQH5R1VFg1FJg01Ng0lRg0VVg0FdgAfcCYd
+Rg0WDTYEAC89lj8AHFErBQNbDQMAOgUDGxgCH3tLACghKy0NAE8rIw0DFhceEAB2CgCmAiALAyQS
+IxMBCwA-IwULmQwfRCsFE0uVABdbDAAPswIdOQsFVgMAX2ULYwtjRAAcP-YYdZoFHjhWBQsDAAF3
+AA8kAx0jlj0cAg9-AAxQbT04fX0=
+:: gfx/enemy-01.png
+b64$iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8-9hAAAAAXNSR0IArs4c6QAAAYFJREFU
+OI2NkzFLw1AUhb_Ekr-QyW7Bwf_gs1g7SFIqnbKIcwkEuoQsQqB0li6dgpWELG3pXP_DiGTTxd_Q
+oXF4vfGl7eCBQN5955y8e3OewR5VsKgAjHhg6GvBYV3WdbGzSgH46roAZMVU1_PYIwB0nhEPjJaI
+k2ef7fKdziplev6NM-YbBtnThNHnGQ8311zdXtB5nFAFi6olhO3yndl60xTbl1C8qROMfXiaMFpv
+GsamvMzWG7xS29HEfPTrslcqbm1gxAND_o4KzeGEWOfIDEyZgVcCwfCP_dE-EoPieKUaZhUsqrqF
+qCghTv6OfwipxUnjpLVBaFsQDHHyNpnXg95P48m8Hk7ehmCouHu00BEnysQ1lYkGZ_yDvVOcUwZz
+C7AtojghzC2iFx-Sndp0TcL7V6KiJLQtxd3jKIleCdGdC65JA_mOME9rsfwF4zCJeh5kWNLz3KJO
+4vBxwlfX5SiJQvRKGsOSL88OklgbyIaESloS6HXd5Ojq-vc6S_0XnbbNGOdESrIAAAAASUVORK5C
+YII=
+:: gfx/enemy-02.png
+b64$iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAYAAADQWvz5AAAAAXNSR0IArs4c6QAAAYBJREFU
+OI2VkzFrwkAUx-8n4ldw0i10yHewc6k6mESETFlKP0Ag4FBxKQTEuXTpFBATstTSuXbo4locstml
+n6FDr8P5LneXKPQPR5J3--fLe7kXhjPi0YqrzyyesFPe5rnkrFhW9k7Bmqaxu0kBAMuLL7jTUDNn
+94uTVTbq6BrE6sm4Ow2RFUt0N6lcBJYgqib4UYhWDyi24n4-lmHyJA_hhFUqmhcKqQaiet6eP2Ws
+Uakm8suM-bgCAYQn_AEeX151kPamOCnbMkWxOJFVHfoeWDxhGmhmtYDIh5u3kQVDYPitrSwYws3b
+QOQLr6LKHCFOBMxrCJgidxoC1q-wGCDwaMU7tsO37x_8Yzv8znI4x0Bcd2vOo5VYu7W217Edrs6U
+rIhO4KkFwGphPvLEhld2Px95mOWp8BiSIDqBQ99Dd5MCeQrk5VHTNyEIfWTKZ9SeDMQTVjucR8jN
+9RUuBzb824UGa1KymqDCTKmzo_XURo8yf1AAILjZ2r9Fp2jG-wAo-dIT4VkPIwAAAABJRU5ErkJg
+gg==
+:: gfx/enemy-03.png
+b64$iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAYAAADQWvz5AAAAAXNSR0IArs4c6QAAAYRJREFU
+OI2Vky9vwkAYxn9ttn6FKXANAj-JJxiI0jIWVN0_AAkJhlSSLOgFg1jI-pTMDDIzA4iZ2QVRBwaL
+RXATt956bUe2Sy7pvc_TX56_753BkSU6DyJ5NvpN4zfvyTHAJBrk1o8BNXOhXBehcy7Ex5O2Q_dc
+FMp1kU4KYKYhxWnIoLTB7bZl0a4o3e22GZQ2FKdh5rfNNMTfJ1S7AtFCfq8aquzvycC0RABBlCDl
+QDKeJEhL02n9qKtGBgLSk0kVN3exfBeCqhBUZaN3WyHu0PduK7Vv32L5rpqvxj9-_eTNtggcD7c-
+ZkINd7TVgkz8Gu7zGXRa9J5DTl8_laZAw9krPkB-DJ0Wrmcy8WsayO22wT5Ij20xnL0qzUj2CORE
+gmhPz7YI7i8hPEinZ9K7elTayJLl9YWH0W8aamrrCw_AkYWEOJ4C4Elb4HgZiJYoXulkMTjvHCfJ
+BcUwkKMFGN-KG966vtFSpN9b5tHGhjjdPDGZdIo-r-iO-fZQ-w37C_QLffv1evDJCm8AAAAASUVO
+RK5CYII=
 :: gfx/ship.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI1OjE4Iixtb2RpZmllZD0iMjAyNC0x
 MC0xMyAyMToyNToxOCIscmV2aXNpb249MF1dbHo0AAcEAACpNgAA8yF7WzBdPXtibXA9cHh1AEMg
@@ -98,11 +128,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yNSAxOTo0NzowMSJdXQ==
+MC0zMSAwMjoxMDoxMSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-MC0yNSAxOTo0NzowMSIscmV2aXNpb249MTE3NV1dbHo0AIkMAABpQAAA-xZ7e2JtcD11c2VyZGF0
+MC0zMSAwMjoxMDoxMSIscmV2aXNpb249MTE5OF1dbHo0AIkMAABpQAAA-xZ7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWYwMDAzBAAjIzlmQAAfMQQAIQ9AAPtXMzIwMDMcAA_AAFofMwQA
 IwVAAB8xBAAhDwAC-wESMAwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ACIyOQwAD4AAXh8zBAAjBUAA
 HzEEACEPAAL8UjEwMDI4DAAPgABZ42QwMDBkODAwZDQwMGQzCAAMEAAIGAAIMAAACAASZAwAEGUY
@@ -162,17 +192,17 @@ bHNlLG5hbWU9Im1hcCIscGFuX3g9LTQJAPICeT0tMTUxMCx0aWxlX2g9MTYKABB3CgCAem9vbT0x
 fX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yNSAxOTo0NzowMSJdXQ==
+MC0zMSAwMjoxMDoxMSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-MC0yNSAxOTo0NzowMSIscmV2aXNpb249MTA5NF1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
+MC0zMSAwMjoxMDoxMSIscmV2aXNpb249MTExN11dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-2B-L9gEHUP----_E
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yNSAxOTo0NzowMSJdXQ==
+MC0zMSAwMjoxMDoxMSJdXQ==
 :: blob.lua
 --[[pod_format="raw",created="2024-10-06 05:10:33",modified="2024-10-21 21:54:39",revision=1006]]
 include("dither.lua")
@@ -285,7 +315,7 @@ function dither_mask(value)
 end
 
 :: draw.lua
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-25 19:47:01",revision=283]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-10-31 02:10:11",revision=325]]
 
 function drw_game()
 	for seg in all(cursegs) do
@@ -297,35 +327,51 @@ function drw_game()
 	rectfill(480, 0, 480 - x_borders, 270, 32)
 
 	for p in all(parts) do
-		if p.wait == nil then
+		if p.age >= 0 then
+			-- animate color
+			if p.ctab then
+				p.ctabv = p.ctabv or 0
+				local life = (p.age + p.ctabv) / p.maxage
+				local i = mid(1, flr(1 + life * #p.ctab), #p.ctab)
+				p.c = p.ctab[i]
+			end
 			p.draw(p)
 		end
 	end
 
+	for e in all(enemies) do
+		mspr(e.sani[1], e.x, e.y)
+	end
+
 	for s in all(shots) do
-		spr(s.sani[flr(s.si)], s.x + 6, s.y)
+		mspr(s.sani[flr(s.si)], s.x, s.y)
 	end
 
 	for m in all(muzz) do
-		spr(m.sani[flr(m.si)], px + m.x, py + m.y)
+		mspr(m.sani[flr(m.si)], px + m.x, py + m.y)
 	end
 
---	spr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
-	mspr(sprval, px, py)
-	pset(px,py,8)
+	--	spr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
+	mspr(shiparr[flr(shipspr * 2.4 + 3.5)], px, py)
+	-- rect(px, py, px + 1, py + 1, 8) -- ship hitbox
+	-- pset(px - 4, py + 0, 11) -- muzz alignment
+	-- pset(px + 5, py + 0, 11) -- muzz alignment
 
-	local fframe = (t % (#flamearr - 1)) + 1
+	local fframe = flr((t % (#flamearr - 1)) + 1)
 
-	spr(flamearr[fframe], px + 6 - banked, py + 14, true)
-	spr(flamearr[fframe], px + 2 + banked, py + 14)
+	mspr(flamearr[fframe], px - 2 + banked, py + 6)
+	mspr(flamearr[fframe], px + 3 - banked, py + 6, true)
 
 	debug[1] = "scroll: " .. scroll
+	debug[2] = "fframe: " .. (t % (#flamearr - 1)) + 1
 end
 
-function mspr(si, sx, sy)
+function mspr(si, sx, sy, flip_x, flip_y)
 	local ms = myspr[si]
---	spr(ms[1], sx, sy)
-	sspr(ms.i, 0, 0, ms.w, ms.h, sx-ms.ox, sy-ms.oy)
+	sspr(ms.i, 0, 0, ms.w, ms.h, sx - ms.ox, sy - ms.oy, ms.w, ms.h, ms.flip_x or flip_x, ms.flip_y or flip_y)
+	if ms.nextspr then
+		mspr(ms.nextspr, sx, sy)
+	end
 end
 
 function drw_menu()
@@ -338,7 +384,7 @@ function drw_menu()
 end
 
 :: explmain.lua
---[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-10-25 19:47:01",revision=1153]]
+--[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-10-31 02:10:11",revision=1181]]
 -- [x] flash / contrast flame
 -- [ ] fireball
 -- [ ] smoke
@@ -569,7 +615,7 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 end
 
 :: gameplay.lua
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-10-25 19:47:01",revision=246]]
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-10-31 02:10:11",revision=274]]
 function doshots()
 	for s in all(shots) do
 		s.x = s.x + s.sx
@@ -589,38 +635,37 @@ function shoot()
 	local shotspd = -12
 	shotwait = 3
 	add(shots, {
-		x = px - 6,
-		y = py,
+		x = px - 5 + banked,
+		y = py - 4,
 		sx = 0,
 		sy = shotspd,
-		sani = { 24, 25, 26, 25 },
+		sani = { 6, 7, 8, 7 },
 		si = t % 4 + 1,
 	})
 	add(shots, {
-		x = px + 2,
-		y = py,
+		x = px + 5 - banked,
+		y = py - 4,
 		sx = 0,
 		sy = shotspd,
-		sani = { 24, 25, 26, 25 },
+		sani = { 6, 7, 8, 7 },
 		si = t % 4 + 1,
 	})
 	add(muzz, {
-		x = -4,
-		y = -8,
-		sani = { 27, 28, 29, 30 },
+		x = -4 + banked,
+		y = -1,
+		sani = { 9, 10, 11, 12 },
 		si = 0,
 	})
 	add(muzz, {
-		x = 4,
-		y = -8,
-		sani = { 27, 28, 29, 30 },
+		x = 6 - banked,
+		y = -1,
+		sani = { 9, 10, 11, 12 },
 		si = 0,
 	})
 end
 
-
 :: main.lua
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-25 19:47:01",revision=1511]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-31 02:10:11",revision=1542]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -634,18 +679,38 @@ function _init()
 	t = 0
 	debug = {}
 	profile.enabled(true, true)
-	
+
 	-- in the tutorial he stores a bunch of values needed for sspr in pico-8
 	-- we don't need that in picotron, but then he also bakes in offset values
 	-- so this array is for holding those kinds of values
 	myspr = {
-		{i=8, w=15, h=16, ox=6, oy=8},
-		{i=9, w=16, h=16, ox=7, oy=8},
-		{i=10, w=18, h=16, ox=8, oy=8},
-		{i=11, w=16, h=16, ox=8, oy=8},
-		{i=12, w=15, h=16, ox=8, oy=8},
+		-- ship sprites 1-5
+		{ i = 8, w = 15, h = 18, ox = 5, oy = 8 },
+		{ i = 9, w = 16, h = 18, ox = 7, oy = 8 },
+		{ i = 10, w = 18, h = 18, ox = 8, oy = 8 },
+		{ i = 11, w = 16, h = 18, ox = 7, oy = 8 },
+		{ i = 12, w = 15, h = 18, ox = 8, oy = 8 },
+		-- shot sprites 6-8
+		{ i = 24, w = 8, h = 16, ox = 3, oy = 0 },
+		{ i = 25, w = 6, h = 16, ox = 2, oy = 0 },
+		{ i = 26, w = 4, h = 16, ox = 1, oy = 0 },
+		-- muzz sprites 9-12
+		{ i = 27, w = 10, h = 10, ox = 5, oy = 9 },
+		{ i = 28, w = 12, h = 14, ox = 6, oy = 13 },
+		{ i = 29, w = 14, h = 13, ox = 7, oy = 12 },
+		{ i = 30, w = 16, h = 14, ox = 8, oy = 13 },
+		-- flame sprites 13-17
+		{ i = 17, w = 1, h = 1, ox = 0, oy = 0 },
+		{ i = 18, w = 3, h = 3, ox = 1, oy = 0 },
+		{ i = 19, w = 3, h = 6, ox = 1, oy = 0 },
+		{ i = 20, w = 3, h = 8, ox = 1, oy = 0 },
+		{ i = 21, w = 3, h = 8, ox = 1, oy = 0 },
+		-- enemy sprites 18-20
+		{ i = 32, w = 16, h = 16, ox = 8, oy = 8 },
+		{ i = 33, w = 18, h = 17, ox = 9, oy = 9 },
+		{ i = 34, w = 18, h = 17, ox = 9, oy = 9 },
 	}
-	
+
 	sprval = 3
 
 	butdic = { -- 0 - stop
@@ -675,8 +740,8 @@ function _init()
 
 	-- BUGFIX: dummy segment needed at start
 
-	shiparr = { 8, 9, 10, 11, 12 }
-	flamearr = { 17, 18, 17, 19, 18, 20, 19, 21 }
+	shiparr = { 1, 2, 3, 4, 5 }
+	flamearr = { 13, 14, 13, 15, 14, 16, 15, 17 }
 	-- lazydevs segs 3,3,3,3,3,2,1,0,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,0,15,14,1,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3
 	menusegs = { 5 }
 	menusegs[0] = 4
@@ -765,7 +830,7 @@ function startgame()
 	lastdir = 0
 	shipspr = 0
 
-	scroll = 11
+	scroll = 700 -- def 11
 	xscroll = 0
 	mapsegi = 1
 	seglib = {}
@@ -778,6 +843,13 @@ function startgame()
 	shotwait = 0
 	muzz = {}
 	banked = 0
+	enemies = {}
+
+	add(enemies, {
+		x = 240,
+		y = 135,
+		sani = { 18 },
+	})
 
 	_upd = upd_game
 	_drw = drw_game
@@ -787,7 +859,7 @@ end
 --[[pod_format="raw",created="2024-10-13 21:18:38",modified="2024-10-21 21:27:08",revision=487]]
 
 :: particles.lua
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-10-25 19:47:01",revision=244]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-10-31 02:10:11",revision=272]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
@@ -859,7 +931,6 @@ function explode(ex, ey)
 		y = ey,
 		r = 17,
 		maxage = 2,
-		c = 0x0707,
 		ctab = { 0x0707, 0x070a },
 	})
 
@@ -872,80 +943,68 @@ function explode(ex, ey)
 end
 
 function dopart(p)
-	-- [ ] age function
-	-- [ ] max age counter
+	-- age and wait
+	p.age = p.age or 0
 
-	if p.wait then
-		-- wait countdown
-		p.wait = p.wait - 1
-		if p.wait <= 0 then
-			p.wait = nil
-			if p.c == nil and p.ctab then
-				p.c = p.ctab[1]
-			end
-		end
-	else
-		-- particle logic
-		p.age = p.age or 0
-		if p.age == 0 then
-			p.ox = p.x
-			p.oy = p.y
-			p.r = p.r or 1
-			p.ctabv = p.ctabv or 0
-		end
+	if p.age == 0 then
+		p.ox = p.x
+		p.oy = p.y
+		p.r = p.r or 1
+		p.ctabv = p.ctabv or 0
+		p.spd = p.spd or 1
+	end
+	p.age = p.age + 1
 
-		p.age = p.age + 1
-		-- animate color
-		if p.ctab then
-			local life = (p.age + p.ctabv) / p.maxage
-			local i = mid(1, flr(1 + life * #p.ctab), #p.ctab)
-			p.c = p.ctab[i]
-		end
+	if p.age <= 0 then
+		return
+	end
 
-		-- movement
+	-- particle logic
+	p.age = p.age + 1
+
+	-- movement
+	if p.to_x then
+		p.x = p.x + ((p.to_x - p.x) / (4 / p.spd))
+		p.y = p.y + ((p.to_y - p.y) / (4 / p.spd))
+	end
+
+	if p.sx then
+		p.x = p.x + p.sx
+		p.y = p.y + p.sy
 		if p.to_x then
-			p.x = p.x + ((p.to_x - p.x) / (4 / p.spd))
-			p.y = p.y + ((p.to_y - p.y) / (4 / p.spd))
+			p.to_x = p.to_x + p.sx
+			p.to_y = p.to_y + p.sy
 		end
+		if p.drag then
+			p.sx = p.sx * p.drag
+			p.sy = p.sy * p.drag
+		end
+	end
 
-		if p.sx then
-			p.x = p.x + p.sx
-			p.y = p.y + p.sy
-			if p.to_x then
-				p.to_x = p.to_x + p.sx
-				p.to_y = p.to_y + p.sy
-			end
-			if p.drag then
-				p.sx = p.sx * p.drag
-				p.sy = p.sy * p.drag
-			end
-		end
+	-- size
+	if p.to_r then
+		p.r = p.r + ((p.to_r - p.r) / (5 / p.spd))
+	end
 
-		-- size
-		if p.to_r then
-			p.r = p.r + ((p.to_r - p.r) / (5 / p.spd))
-		end
+	if p.sr then
+		p.r = p.r + p.sr
+	end
 
-		if p.sr then
-			p.r = p.r + p.sr
+	if p.age >= p.maxage or p.r < 0.5 then
+		if p.onend == "return" then
+			p.to_x = p.ox
+			p.to_y = p.oy
+			p.to_r = nil
+			p.sr = -0.3
+		elseif p.onend == "fade" then
+			p.to_r = nil
+			p.sr = -0.1 - rnd(0.3)
+		else
+			del(parts, p)
 		end
-
-		if p.age >= p.maxage or p.r < 0.5 then
-			if p.onend == "return" then
-				p.to_x = p.ox
-				p.to_y = p.oy
-				p.to_r = nil
-				p.sr = -0.3
-			elseif p.onend == "fade" then
-				p.to_r = nil
-				p.sr = -0.1 - rnd(0.3)
-			else
-				del(parts, p)
-			end
-			p.ctab = nil
-			p.onend = nil
-			p.maxage = 32000
-		end
+		p.ctab = nil
+		p.onend = nil
+		p.maxage = 32000
 	end
 	-- 2 main ways to logic and animate
 	-- sx/sy velocity system.  not great control if you want control over the particles final destination
@@ -979,10 +1038,9 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 			sx = 0,
 			sy = edrift,
 			spd = espd or 1,
-			wait = ewait,
+			age = -ewait,
 			maxage = emaxage,
 			onend = eonend,
-			c = ectab[1],
 			ctab = ectab,
 			ctabv = rnd(4),
 		})
@@ -997,10 +1055,9 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 		sx = 0,
 		sy = edrift,
 		spd = espd or 1,
-		wait = ewait,
+		age = -ewait,
 		maxage = emaxage,
 		onend = eonend,
-		c = ectab[1],
 		ctab = ectab,
 	})
 end
@@ -1023,9 +1080,8 @@ function sparkblast(ex, ey, ewait)
 			sx = sin(ang2) * spd,
 			sy = cos(ang2) * spd,
 			drag = 0.8,
-			wait = ewait,
+			age = -ewait,
 			maxage = rndrange(8, 20),
-			c = 10,
 			ctab = { 7, 10 },
 		})
 	end
@@ -1042,7 +1098,7 @@ function domuzz()
 end
 
 :: profiler.lua
---[[pod_format="raw",created="2024-09-20 18:19:15",modified="2024-10-25 19:47:01",revision=137]]
+--[[pod_format="raw",created="2024-09-20 18:19:15",modified="2024-10-31 02:10:11",revision=167]]
 -- abledbody's profiler v1.1
 
 local function do_nothing() end
@@ -1194,7 +1250,7 @@ end
 
 
 :: tools.lua
---[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-10-25 19:47:01",revision=239]]
+--[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-10-31 02:10:11",revision=267]]
 -- alternate to sgn, different in that 0 returns 0 instead of 1
 function mysgn(v)
 	return v == 0 and 0 or sgn(v)
@@ -1254,7 +1310,7 @@ function dither_mask(value)
 end
 
 :: update.lua
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-25 19:47:01",revision=279]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-31 02:10:11",revision=307]]
 function upd_game()
 	profile("_update")
 
@@ -1279,40 +1335,40 @@ function upd_game()
 			o = #cursegs < 1 and -128 or cursegs[#cursegs].o + 128,
 		})
 
-		if scroll - cursegs[1].o >= 384 then
+		if #cursegs > 2 and scroll - cursegs[1].o >= 384 then
 			deli(cursegs, 1)
 		end
 	end
 
 	-- INPUTS / MOVEMENT
-	if btn(0) then
-		sprval = (sprval <= 1) and 1 or (sprval - 1)
+	-- if btn(0) then
+	-- 	sprval = (sprval <= 1) and 1 or (sprval - 1)
+	-- end
+	-- if btn(1) then
+	-- 	sprval = (sprval >= 5) and 5 or (sprval + 1)
+	-- end
+	local dir = butdic[btn() & 0b1111]
+
+	if lastdir ~= dir and dir >= 5 then
+		px = flr(px) -- or flr(px) + 0.5
+		py = flr(py) -- or flr(py) + 0.5
 	end
-	if btn(1) then
-		sprval = (sprval >= 5) and 5 or (sprval + 1)
+
+	local dshipspr = 0
+	banked = 0
+
+	if dir > 0 then
+		px = px + dirx[dir] * spd
+		py = py + diry[dir] * spd
+
+		dshipspr = mysgn(dirx[dir])
+		banked = 1
 	end
---	local dir = butdic[btn() & 0b1111]
---
---	if lastdir ~= dir and dir >= 5 then
---		px = flr(px) -- or flr(px) + 0.5
---		py = flr(py) -- or flr(py) + 0.5
---	end
---
---	local dshipspr = 0
---	banked = 0
---
---	if dir > 0 then
---		px = px + dirx[dir] * spd
---		py = py + diry[dir] * spd
---
---		dshipspr = mysgn(dirx[dir])
---		banked = 1
---	end
---
---	shipspr = shipspr + mysgn(dshipspr - shipspr) * 0.18
---	shipspr = mid(-1, shipspr, 1)
---
---	lastdir = dir
+
+	shipspr = shipspr + mysgn(dshipspr - shipspr) * 0.18
+	shipspr = mid(-1, shipspr, 1)
+
+	lastdir = dir
 
 	-- boundary checking
 	if px < x_borders then
@@ -1375,8 +1431,8 @@ end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNC0x
-MC0yNSAxOTo0NzowMSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzI2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMyNiIsd29ya3NwYWNl
+MC0zMSAwMjoxMDoxMSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzU1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMyNSIsd29ya3NwYWNl
 X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMzNCIsd29ya3NwYWNlX2luZGV4PTF9LHts
 b2NhdGlvbj0idG9vbHMubHVhIzQxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1l
 cGxheS5sdWEjNDEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRpY2xlcy5sdWEj

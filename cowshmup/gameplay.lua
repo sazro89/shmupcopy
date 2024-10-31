@@ -1,4 +1,15 @@
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-10-27 03:59:36",revision=268]]
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-10-31 02:10:11",revision=274]]
+function doenemies()
+	for e in all(enemies) do
+		e.x = e.x + e.sx
+		e.y = e.y + e.sy
+		e.si = e.si + 0.1
+		if flr(e.si) > #e.sani then
+			e.si = 1
+		end
+	end
+end
+
 function doshots()
 	for s in all(shots) do
 		s.x = s.x + s.sx
