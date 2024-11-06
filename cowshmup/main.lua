@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-10-31 02:10:11",revision=1542]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-11-06 05:56:15",revision=1632]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -42,6 +42,14 @@ function _init()
 		{ i = 32, w = 16, h = 16, ox = 8, oy = 8 },
 		{ i = 33, w = 18, h = 17, ox = 9, oy = 8 },
 		{ i = 34, w = 18, h = 17, ox = 9, oy = 8 },
+		-- enemy shot 21-22
+		{ i = 1, w = 7, h = 7, ox = 3, oy = 3 },
+		{ i = 2, w = 7, h = 7, ox = 3, oy = 3 },
+		-- enemy shot 23-26
+		{ i = 3, w = 6, h = 7, ox = 3, oy = 0 },
+		{ i = 4, w = 10, h = 9, ox = 5, oy = 2 },
+		{ i = 5, w = 16, h = 12, ox = 8, oy = 5 },
+		{ i = 6, w = 12, h = 12, ox = 6, oy = 6 },
 	}
 
 	sprval = 3
@@ -163,7 +171,7 @@ function startgame()
 	lastdir = 0
 	shipspr = 0
 
-	scroll = 700 -- def 11
+	scroll = 11 --700 -- default 11
 	xscroll = 0
 	mapsegi = 1
 	seglib = {}
@@ -177,15 +185,20 @@ function startgame()
 	muzz = {}
 	banked = 0
 	enemies = {}
+	buls = {}
+	splash = {}
 
-	add(enemies, {
-		x = 240,
-		y = 20,
-		sani = { 18, 19, 20 },
-		si = 1,
-		sx = 0,
-		sy = 0.5,
-	})
+	pcol = false
+
+	spawnenemy()
+	-- add(buls, {
+	-- 	x = 200,
+	-- 	y = 180,
+	-- 	sx = 0,
+	-- 	sy = 0,
+	-- 	sani = { 21, 22 },
+	-- 	si = 1,
+	-- })
 
 	_upd = upd_game
 	_drw = drw_game

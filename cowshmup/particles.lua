@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-10-31 02:10:11",revision=272]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-11-06 05:56:15",revision=349]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
@@ -232,6 +232,16 @@ function domuzz()
 
 		if flr(m.si) > #m.sani then
 			del(muzz, m)
+		end
+	end
+end
+
+function dosplash()
+	for s in all(splash) do
+		s.si = s.si + 1
+
+		if flr(s.si) > #s.sani then
+			del(splash, s)
 		end
 	end
 end

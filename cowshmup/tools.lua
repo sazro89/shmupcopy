@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-10-31 02:10:11",revision=267]]
+--[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-11-06 05:56:15",revision=345]]
 -- alternate to sgn, different in that 0 returns 0 instead of 1
 function mysgn(v)
 	return v == 0 and 0 or sgn(v)
@@ -55,4 +55,31 @@ end
 -- value 0-1
 function dither_mask(value)
 	return dither_masks[mid(0, flr(value * 16 + 0.5), 16)]
+end
+
+function col(x1, y1, w1, h1, x2, y2, w2, h2)
+	local a_left = x1
+	local a_top = y1
+	local a_right = x1 + w1 - 1
+	local a_bottom = y1 + h1 - 1
+
+	local b_left = x2
+	local b_top = y2
+	local b_right = x2 + w2 - 1
+	local b_bottom = y2 + h2 - 1
+
+	if a_top > b_bottom then
+		return false
+	end
+	if b_top > a_bottom then
+		return false
+	end
+	if a_left > b_right then
+		return false
+	end
+	if b_left > a_right then
+		return false
+	end
+
+	return true
 end

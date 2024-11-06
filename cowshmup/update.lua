@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-10-31 02:10:11",revision=307]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-11-06 05:56:15",revision=386]]
 function upd_game()
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -64,8 +64,8 @@ function upd_game()
 		px = 480 - x_borders - 15 -- 15 is sprite size with an offset
 	end
 
-	percentage_scrolled = mid(6 / 32, (px - x_borders - 3) / 201, 26 / 32)
-	xscroll = map_range(percentage_scrolled * -32, -26, -6, -40, 0)
+	percentage_scrolled = mid(6 / 32, (px - x_borders) / 201, 26 / 32)
+	xscroll = flr(map_range(percentage_scrolled * -32, -26, -6, -40, 0))
 
 	-- shooting
 	if shotwait > 0 then
@@ -81,9 +81,56 @@ function upd_game()
 		explode(40, 135)
 	end
 
-	doshots()
+	boss = btn(5)
+
+	doshots(shots)
+	doshots(buls)
+	dosplash()
 	domuzz()
 	doenemies()
+
+	-- colission
+	pcol = false
+	for e in all(enemies) do
+		e.iscol = false
+	end
+	-- shots vs enemies
+	for e in all(enemies) do
+		for s in all(shots) do
+			if col(flr(s.x - 3 + xscroll), flr(s.y), 8, 16, flr(e.x - 7 + xscroll), flr(e.y - 7), 16, 16) then
+				e.iscol = true
+				e.flash = 2
+				del(shots, s)
+				add(splash, {
+					x = s.x,
+					y = s.y,
+					sani = { 23, 24, 25, 26 },
+					si = 1,
+				})
+				e.hp = e.hp - 1
+
+				if e.hp <= 0 then
+					explode(e.x, e.y)
+					del(enemies, e)
+				end
+			end
+		end
+	end
+
+	-- ship vs enemies
+	for e in all(enemies) do
+		if col(flr(px - 7), flr(py - 7), 16, 16, flr(e.x - 7 + xscroll), flr(e.y - 7), 16, 16) then
+			pcol = true
+		end
+	end
+
+	-- ship vs bullets
+	for b in all(buls) do
+		if col(flr(px - 7), flr(py - 7), 16, 16, flr(b.x - 3 + xscroll), flr(b.y - 3), 6, 6) then
+			pcol = true
+		end
+	end
+
 	for p in all(parts) do
 		dopart(p)
 	end
