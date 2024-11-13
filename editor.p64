@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-MS0wOCAyMjo0MDo0MCIscmV2aXNpb249ODkyXV1sejQAsQ0AAMk_AADzIXtbMF09e2JtcD1weHUA
+MS0xMyAwOTozMDo1NCIscmV2aXNpb249ODk1XV1sejQAsQ0AAMk_AADzIXtbMF09e2JtcD1weHUA
 QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgA13k9MCx6b29tPTEyfSw-APAKBwcE
 ECcgBy8eBwAHHg8XHhcODQcNDhceDREAXy4HICcQTwAmQA4PFw5LABAHVQA-Dg0OUQAi-wYGBwQQ
 GiAKFwoQChcKAAo3CrcANwBCABqxCgkEMBkwCQAJABkEANAZGhkACRAJChcKCRAJUgDPAAkKAFcA
@@ -69,43 +69,86 @@ C5kMH0QrBRNLlQAXWwwAD7MCHTkLBVYDAF9lC2MLY0QAHD-2GHWaBR44VgULAwABdwAPJAMdI5Y9
 HAIPfwAMUG09OH19
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0wOCAyMjo0MDo0MCJdXQ==
+MS0xMyAwOTozMDo1NCJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNC0x
-MS0wOCAyMjo0MDo0MCIscmV2aXNpb249MTEwXV1sejQAaAAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
+MS0xMyAwOTozMDo1NCIscmV2aXNpb249MTEzXV1sejQAaAAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
 KCJpMTYiLDMyAwAvIjABAP--------------------vxCCIpLGhpZGRlbj1mYWxzZSxwYW5feD0w
 CADSeT0wLHRpbGVfaD0xNgoAEHcKAIB6b29tPTF9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0wOCAyMjo0MDo0MCJdXQ==
+MS0xMyAwOTozMDo1NCJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNC0x
-MS0wOCAyMjo0MDo0MCIscmV2aXNpb249MTExXV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
+MS0xMyAwOTozMDo1NCIscmV2aXNpb249MTE0XV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
 Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
 Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
 -70f-wEArM-ID0AADxBA--_w8P8BAP-qUP----8p
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0wOCAyMjo0MDo0MCJdXQ==
+MS0xMyAwOTozMDo1NCJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2024-11-08 22:40:40",revision=143]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2024-11-13 09:30:54",revision=147]]
 function draw_table()
 	cls(2)
-	spr(10, 10, 10)
+	-- spr(10, 10, 10)
+
+	refresh_table()
+
+	for i = 1, #menu do
+		for j = 1, #menu[i] do
+			local mymenu = menu[i][j]
+			bgprint(mymenu.text, mymenu.x, mymenu.y, 13)
+		end
+	end
+
+	--[[
 	for i = 1, #data do
 		for j = 1, #data[i] do
 			bgprint(data[i][j],-4+(7*j),-7+(12*i),7)
 		end
 	end
+	]]
 end
+
+function refresh_table()
+	--[[
+	menu = {
+		{
+			{
+				txt = "hello",
+				cmd = "say hello",
+				x = 2,
+				y = 2,
+			},
+		},
+	}
+	]]
+	menu = {}
+	-- for i = 1, #data do
+	for i, i_arr in ipairs(data) do
+		local line = {}
+		for j, j_arr in ipairs(i_arr) do
+			add(line, {
+				text = j_arr,
+				cmd = "edit",
+				x = 2 + 18 * j,
+				y = 2 + 8 * i,
+			})
+		end
+		add(menu, line)
+	end
+end
+
+
 :: input.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2024-11-08 22:40:40",revision=116]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2024-11-13 09:30:54",revision=120]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
@@ -114,29 +157,30 @@ function export()
 	debug[1]="exported"
 end
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-11-08 22:40:40",revision=149]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-11-13 09:30:54",revision=153]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
 include("io.lua")
 
 function _init()
-	input_file = "input.pod"
+	input_file = "myspr.pod"
 	output_file = "out.pod"
-	array_name = "test"
+	-- is this array_name needed?
+	array_name = "myspr"
 	data = fetch(input_file)
-	
+
 	debug = {}
 	_drw = draw_table
 	_upd = update_table
-	menuitem(1,"export",export)
+	menuitem(1, "export", export)
 end
 
 function _draw()
 	_drw()
-	
+
 	-- debug --
-	cursor(4,4)
+	cursor(4, 4)
 	color(8)
 	for txt in all(debug) do
 		print(txt)
@@ -147,6 +191,15 @@ function _update()
 	_upd()
 end
 
+:: myspr.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA5IDAwOjI4OjA2Iixtb2RpZmllZD0iMjAyNC0x
+MS0wOSAwMDoyODozOSIscmV2aXNpb249MV1dbHo0AEABAACmAgAA9Ax7e2g9MTgsaT04LG94PTUs
+b3k9OCx3PTE1fSwaABA5GgAVNxoAFjYaACAxMBsAFTgbABc4GwAfMTYABxoyNgADawBgNixpPTI0
+GwAQMxsAVzAsdz04GgAQNRoAFDIaABc2GgAQNhoAFDEaABI0GgAQMBoAFTfUABA5aQASMBsAEDQb
+AAHvABA2GwAgMTMcABIyHAAQMxwABvEAIDEyHAAWNDgAFjPyACcxM9gAANcAAW4AFDCIABExGQAA
+UAApMTihABEzGQAAugAvMTkZAAAAIgEvMjAZAAUfMRkAAAEGARszVQEDcAEQNxsAEDMbABw5pgEB
+GwAfNBsAAQAaABUxiQEA5wAVNxgAHzIYAAQVMxgABp8BVTksaT00gwEXMoMBMDIsaRUAA7EAFzWx
+AAAaABU2nAGANix3PTEyfX0=
 :: out.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDA0OjAxOjE4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDoyMDoxOSIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
@@ -158,18 +211,18 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2024-11-08 22:40:40",revision=101]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2024-11-13 09:30:54",revision=105]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2024-11-08 22:40:40",revision=117]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2024-11-13 09:30:54",revision=121]]
 function update_table()
 
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0wOCAyMjo0MDo0MCIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+MS0xMyAwOTozMDo1NCIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
 IzEyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM2Iix3b3Jrc3BhY2Vf
 aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzMiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9j
 YXRpb249InRvb2xzLmx1YSMyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpby5sdWEj
