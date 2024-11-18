@@ -1,0 +1,86 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0w
+OS0yOCAwNjozMTowNSIscmV2aXNpb249NDM4XV1sejQA-wEAAG00AADzIXtbMF09e2JtcD1weHUA
+QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgAynk9MCx6b29tPTh9LD4AT-IB7QIC
+AAgPTgAcf-0B1h0GvQUEABs-xf0BZwAcKQINAgBe-QEC-Q8DAA9VABwxChAaAgAECAArGgAIAB8Q
+IgBTD7cAHC-w8DEA--------pMfyAF0-Fb0_nR49Hn0EAGKdXp1e3R4CAG_dPr0_-QZYADMPBAAF
+D2QAIi-w8OIB-xS6bR8V3R69Pr0_3R4CAG_9Xp1e-QXaASsBSAAHBABv3X59fv0EVAAzb-0AHt0e
+fSMCKZ-yAD0fFR0enR4EAAAxfn1_sQADAgAPXAAhU38VfX59QAAQ3U0BEwANABB9DQAfBgYBJQZR
+AAQSAQ8FAS0AqQADVgAjHr0EAAQCAC-9CK4BKwicAA_wADLK8EYNDxUdsB4dsA0OBABPLg3wNk0A
+H_EfFQ2wDh0OsC0OsB0ODUkATw4tsD5LADAhLQ4OAC8NHpgAIXUPFQ0ODbAOBQARPlMAAwQAD1AA
+ICA-FdcAQQ4tsC6ZAC8tDi8BKQRJAC8OHeMAKUk-FbAteAEDBAAPlwAmBo4AD5oAKx-wMQD-----
+------------------------------------------_8UG09OH19
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0w
+OS0yOCAwNjozMTowNSJdXQ==
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0w
+OS0yOCAwNjozMTowNSIscmV2aXNpb249NDM5XV1sejQAJQIAAGB4AAD-Ent7Ym1wPXVzZXJkYXRh
+KCJpMTYiLDMwLDI1NiwiMDAwMwQAZB8xBAD--0lXMzIwMDMQAA8EAMofMwQAZB8xwAP--04WMBAA
+DwQAyh8zBABkHzHAA---TSYyORAADwQAyh8zBABkHzEEAP--SQA8CyYyOBAADwQAyh8zBABkHzHA
+A---TSYzNxAADwQAyh8zBABkHzHAA---ThY2EAAPBADKHzMEAGQfMcAD--9OFjUQAA8EAMofMwQA
+ZB8xwAP--04WNBAADwQAyh8zBABkHzHAA---Tg9kAtUfMwQAZB8xwAP--04WMhAADwQAyh8zBABk
+HzHAA---TgcQAA8EAMofMwQAZB8xwAP--04fMMAD----rA_AJf---68fMIAl----rx8wgCX---_v
+HzCAJf---68fMIAl----rx8wgCX---_vHzCAJf---68fMIAl----rwBjAgcQAA8EAMofMwQAZB8x
+BAD--0kEYwIvMDEEANAfMwQAZB8xBAD--0kvMzCAJf---64vMjmAJf---64vMjmAJf---64BwAMf
+NsAD----rx81wAP---_vHzTAA----68PZALVHzMEAGQfMcAD--9OHzLAA----68HEAAPBADKHzME
+AGQfMcAD--9OD4Al0vEKIiksaGlkZGVuPWZhbHNlLHBhbl94PS0yNwoA8gF5PTE4NDQsdGlsZV9o
+PTE2CgAQdwoAoHpvb209MC41fX0=
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0w
+OS0yOCAwNjozMTowNSJdXQ==
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0w
+OS0yOCAwNjozMTowNSIscmV2aXNpb249NDE2XV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
+Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
+Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
+-70f-wEArM-ID0AADxBA--_w8P8BAP-qUP----8p
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0w
+OS0yOCAwNjozMTowNSJdXQ==
+:: main.lua
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-09-28 06:31:05",revision=586]]
+function _init()
+	scroll = 142 --270 screen height - (8 tiles x 16 pixels)
+	seglib = {}
+	
+	-- order of these adds is important!
+	for i=1,32 do
+		col=0
+		row=248-((i-1)*8)
+		add(seglib,{
+			mx=col,
+			my=row
+		})
+	end
+	
+	mapsegs = {32,2,1,8}
+end
+
+function _draw()
+	cls(2)
+	for i=1,#mapsegs do
+		local myseg=seglib[mapsegs[i]]
+		local segy=scroll-(i-1)*128
+		map(myseg.mx,myseg.my,0,segy,30,8)
+--		print("\16\16\16\16\16\16\16\16",2,2,1)
+--		print(segy,2,2,7)
+	end	
+end
+
+function _update()
+	scroll += .5
+end
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNC0w
+OS0yOCAwNjozMTowNSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzI1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9p
+bmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlv
+bj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+:: [eoc]

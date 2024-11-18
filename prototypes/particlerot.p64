@@ -1,0 +1,282 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIwIDA5OjQzOjE4Iixtb2RpZmllZD0iMjAyNC0w
+OS0yMSAwNzowMjoxNSIscmV2aXNpb249MTMwXV1sejQAGQEAAOsxAADzIXtbMF09e2JtcD1weHUA
+QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgAy3k9MCx6b29tPTh9LD4A8CEGN5AX
+PxIXYAceDw4fFw8OHgdABx4NDxcXDA0eBzAHDh0MFwwdDgcgBx4dNx0eBxASABA3EgAICgACHAAV
+IC4AUTAHHg0MQgAATQDPHA0eB2AXPheQN-AGnwAiEBCfAEEMHxwMUABRDA0XDQycAFEcDRcNHJwA
+MRw3HJwAMBwNNxIACAoAAhwAFSAuABUwQgAATAAvHQycACcf8DEA------------------------
+----------------------------------------dVBtPTh9fQ==
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIwIDExOjEyOjIwIixtb2RpZmllZD0iMjAyNC0w
+OS0yMSAwNzowMjoxNiJdXQ==
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIwIDA5OjQzOjE4Iixtb2RpZmllZD0iMjAyNC0w
+OS0yMSAwNzowMjoxNSIscmV2aXNpb249MTI5XV1sejQAaAAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
+KCJpMTYiLDMyAwAvIjABAP--------------------vxCCIpLGhpZGRlbj1mYWxzZSxwYW5feD0w
+CADSeT0wLHRpbGVfaD0xNgoAEHcKAIB6b29tPTF9fQ==
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIwIDExOjEyOjIwIixtb2RpZmllZD0iMjAyNC0w
+OS0yMSAwNzowMjoxNiJdXQ==
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIwIDA5OjQzOjE5Iixtb2RpZmllZD0iMjAyNC0w
+OS0yMSAwNzowMjoxNSIscmV2aXNpb249MTMwXV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
+Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
+Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
+-70f-wEArM-ID0AADxBA--_w8P8BAP-qUP----8p
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIwIDExOjEyOjIwIixtb2RpZmllZD0iMjAyNC0w
+OS0yMSAwNzowMjoxNiJdXQ==
+:: main.lua
+--[[pod_format="raw",created="2024-09-20 09:43:18",modified="2024-09-21 07:02:15",revision=186]]
+include "rspr.lua"
+include "profiler.lua"
+
+function _init()
+-- frame counter
+frames = 0
+-- bullet array
+	buls={}
+-- larger value = sprites drawn
+-- hit around 2000 objects at 95% cpu with this naive approach
+	for i=1,800 do
+		local mybul={
+			x=rnd(480),
+			y=rnd(270),
+			col=flr(rnd(2))+1,
+			vx=(rnd()-.5)*rnd(5)+1,
+			vy=(rnd()-.5)*rnd(5)+1,
+			r=rnd(),
+			vr=rnd()
+		}
+		add(buls,mybul)
+	end
+-- enable profiling
+	profile.enabled(true,true)
+end
+
+function _draw()
+	profile("_draw")
+--clear the screen
+	cls(2)
+
+--draw our bullets
+	for bul in all(buls) do
+		spr(bul.col,bul.x,bul.y)
+-- 		rspr(bul.col,bul.x,bul.y,1,1,bul.r)
+--		for j=0,15 do
+--			local x0,y0 = rotate(0,j)
+--			local x1,y1 = rotate(15,j)
+--			tline3d(bul.col,x0+bul.x,y0+bul.y,x1+bul.x,y1+bul.y,0,j,16,j)
+--		end
+	end
+	profile.draw()
+	profile("_draw")
+end
+
+function _update()
+	profile("_update")
+--collision and movement
+	for bul in all(buls) do
+		bul.x+=bul.vx
+		if (bul.x < 16) bul.x=16 bul.vx*=-1
+		if (bul.x > 464) bul.x=464 bul.vx*=-1
+		bul.y+=bul.vy
+		if (bul.y < 16) bul.y=16 bul.vy*=-1
+		if (bul.y > 254) bul.y=254 bul.vy*=-1
+		bul.r+=bul.vr
+	end
+	frames += 1
+	profile("_update")
+end
+
+function rotate(x,y)
+	local a = angle
+	return cos(a)*x - sin(a)*y, cos(a)*y + sin(a)*x
+end
+:: profiler.lua
+--[[pod_format="raw",created="2024-09-20 18:24:16",modified="2024-09-21 07:02:15",revision=28]]
+-- abledbody's profiler v1.1
+
+local function do_nothing() end
+
+-- The metatable here is to make profile() possible.
+-- Why use a table at all? Because otherwise lua will try to cache the function call,
+-- which by default is do_nothing.
+local profile_meta = {__call = do_nothing}
+profile = {draw = do_nothing}
+setmetatable(profile,profile_meta)
+
+local running = {} -- All incomplete profiles
+ -- All complete profiles. Note that if the profiles haven't been drawn yet, it will
+ -- not be cleared, and further profiles of the same name will add to the usage metric.
+local profiles = {}
+-- All completed lingering profiles. These are never automatically cleared.
+local lingers = {}
+
+-- start_profile, stop_profile, and stop_linger are all internal functions,
+-- serving as paths for _profile to take. Lingers share start_profile.
+local function start_profile(name,linger)
+	local source = profiles[name]
+	running[name] = {
+		linger = linger,
+	}
+	local active = running[name]
+	active.start = stat(1) --Delaying CPU usage grab until the last possible second.
+end
+
+local function stop_profile(name,active,delta)
+	local profile = profiles[name]
+	if profile then
+		profile.time = delta+profile.time
+	else
+		profiles[name] = {
+			time = delta,
+			name = name,
+		}
+		add(profiles,profiles[name])
+	end
+end
+
+local function stop_linger(name,active,delta)
+	local profile = lingers[name]
+	if profile then
+		profile.time = profile.this_frame and delta+profile.time or delta
+		profile.this_frame = true
+	else
+		lingers[name] = {
+			time = delta,
+			this_frame = true,
+		}
+	end
+end
+
+-- The main functionality lives here.
+-- Takes in the name of what you're profiling, and whether or not to
+-- make the profile linger.
+local function _profile(_,name,linger)
+	local t = stat(1)
+	local active = running[name]
+	if active then
+		local delta = t-active.start
+
+		if active.linger then stop_linger(name,active,delta)
+		else stop_profile(name,active,delta) end
+
+		running[name] = nil
+	else
+		start_profile(name,linger)
+	end
+end
+
+-- Clears all lingering profiles.
+function profile.clear_lingers()
+	lingers = {}
+end
+
+local function draw_cpu()
+	print("cpu:"..string.sub(stat(1)*100,1,5).."%",1,1,7)
+end
+
+-- This draws the profiles, and then resets everything for the next frame.
+-- If it is not called, usage metrics will accumulate.
+-- Lingering profiles are always displayed after persistent profiles.
+local function display_profiles()
+	local i = 1
+	for prof in all(profiles) do
+		local usage = string.sub(prof.time*100,1,5).."%"
+		local to_print = prof.name..":"..usage
+		print(to_print,1,1+i*9,7)
+		i = i+1
+	end
+	for name,prof in pairs(lingers) do
+		local usage = string.sub(prof.time*100,1,5).."%"
+		local to_print = name..(prof.this_frame and "[X]:" or "[ ]:")..usage
+		print(to_print,1,1+i*9,7)
+		prof.this_frame = false
+		i = i+1
+	end
+	profiles = {}
+end
+
+local function display_both()
+	draw_cpu()
+	display_profiles()
+end
+
+-- This swaps out function calls depending on whether or not you want to have
+-- profiling. This is to make it as much as possible so that you don't have to
+-- think about cleaning up profile calls for efficiency.
+-- The first boolean is for detailed profiling, the second is for CPU usage.
+function profile.enabled(detailed,cpu)
+	profile_meta.__call = detailed and _profile or do_nothing
+	profile.draw = detailed and (cpu and display_both or display_profiles)
+		or (cpu and draw_cpu or do_nothing)
+end
+:: rspr.lua
+--[[pod_format="raw",created="2024-09-20 10:38:16",modified="2024-09-21 07:02:15",revision=77]]
+-- rspr.lua
+function rspr(sprite,cx,cy,sx,sy,rot)
+	sx = sx and sx or 1
+	sy = sy and sy or 1
+	rot = rot and rot or 0
+	local tex = get_spr(sprite)
+	local dx,dy = tex:width()*sx,tex:height()*sy
+	local quad = {
+		{x=0, y=0, u=0, v=0},
+		{x=dx, y=0, u=tex:width()-0.001, v=0},
+		{x=dx, y=dy, u=tex:width()-0.001, v=tex:height()-0.001},
+		{x=0, y=dy, u=0, v=tex:height()-0.001},
+	}
+	local c,s = cos(rot),-sin(rot)
+	local w,h = (dx-1)/2, (dy-1)/2
+	for _,v in pairs(quad) do
+		local x,y = v.x-w,v.y-h
+		v.x = c*x-s*y
+		v.y = s*x+c*y	
+	end
+	tquad(quad, tex, cx, cy)
+end
+
+function tquad(coords,tex,dx,dy)
+	local screen_max = get_display():height()-1
+	local p0,spans = coords[#coords],{}
+	local x0,y0,u0,v0=p0.x+dx,p0.y+dy,p0.u,p0.v
+	for i=1,#coords do
+		local p1 = coords[i]
+		local x1,y1,u1,v1=p1.x+dx,p1.y+dy,p1.u,p1.v
+		local _x1,_y1,_u1,_v1=x1,y1,u1,v1
+		if(y0>y1) x0,y0,x1,y1,u0,v0,u1,v1=x1,y1,x0,y0,u1,v1,u0,v0
+		local dy=y1-y0
+		local dx,du,dv=(x1-x0)/dy,(u1-u0)/dy,(v1-v0)/dy
+		if(y0<0) x0-=y0*dx u0-=y0*du v0-=y0*dv y0=0
+		local cy0=ceil(y0)
+		local sy=cy0-y0
+		x0+=sy*dx
+		u0+=sy*du
+		v0+=sy*dv
+		for y=cy0,min(ceil(y1)-1,screen_max) do
+			local span=spans[y]
+			if span then tline3d(tex,span.x,y,x0,y,span.u,span.v,u0,v0)
+			else spans[y]={x=x0,u=u0,v=v0} end
+			x0+=dx
+			u0+=du
+			v0+=dv
+		end
+		x0,y0,u0,v0=_x1,_y1,_u1,_v1
+	end
+end
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIwIDExOjExOjQxIixtb2RpZmllZD0iMjAyNC0w
+OS0yMSAwNzowMjoxNiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzExIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJyc3ByLmx1YSM1MSIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0icHJvZmlsZXIubHVhIzExNyIsd29ya3NwYWNlX2luZGV4PTF9
+LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAv
+MC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNl
+X2luZGV4PTR9fV1d
+:: [eoc]

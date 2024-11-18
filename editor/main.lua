@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-11-08 22:40:40",revision=149]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-11-14 08:53:40",revision=208]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
@@ -7,8 +7,7 @@ include("io.lua")
 function _init()
 	input_file = "myspr.pod"
 	output_file = "out.pod"
-	-- is this array_name needed?
-	array_name = "myspr"
+	array_name = "myspr" -- is this array_name needed?
 	data = fetch(input_file)
 
 	debug = {}

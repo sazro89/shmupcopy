@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-MS0wNiAwNTo1NjoxNSIscmV2aXNpb249ODMwXV1sejQAsQ0AAMk_AADzIXtbMF09e2JtcD1weHUA
+MS0xNCAwODo1NToyMSIscmV2aXNpb249ODMyXV1sejQAsQ0AAMk_AADzIXtbMF09e2JtcD1weHUA
 QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgA13k9MCx6b29tPTEyfSw-APAKBwcE
 ECcgBy8eBwAHHg8XHhcODQcNDhceDREAXy4HICcQTwAmQA4PFw5LABAHVQA-Dg0OUQAi-wYGBwQQ
 GiAKFwoQChcKAAo3CrcANwBCABqxCgkEMBkwCQAJABkEANAZGhkACRAJChcKCRAJUgDPAAkKAFcA
@@ -132,11 +132,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MS0wNiAwNTo1NjoxNiJdXQ==
+MS0xNCAwODo1NToyMiJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-MS0wNiAwNTo1NjoxNSIscmV2aXNpb249MTI3Ml1dbHo0AIoMAABqQAAA-xZ7e2JtcD11c2VyZGF0
+MS0xNCAwODo1NToyMSIscmV2aXNpb249MTI3NF1dbHo0AIoMAABqQAAA-xZ7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWYwMDAzBAAjIzlmQAAfMQQAIQ9AAPtXMzIwMDMcAA_AAFofMwQA
 IwVAAB8xBAAhDwAC-wESMAwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ACIyOQwAD4AAXh8zBAAjBUAA
 HzEEACEPAAL8UjEwMDI4DAAPgABZ42QwMDBkODAwZDQwMGQzCAAMEAAIGAAIMAAACAASZAwAEGUY
@@ -196,17 +196,17 @@ bHNlLG5hbWU9Im1hcCIscGFuX3g9LTE4CgDyAnk9LTE0NTMsdGlsZV9oPTE2CgAQdwoAgHpvb209
 MX19
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MS0wNiAwNTo1NjoxNiJdXQ==
+MS0xNCAwODo1NToyMiJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-MS0wNiAwNTo1NjoxNSIscmV2aXNpb249MTE4OV1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
+MS0xNCAwODo1NToyMSIscmV2aXNpb249MTE5MV1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-2B-L9gEHUP----_E
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-MS0wNiAwNTo1NjoxNiJdXQ==
+MS0xNCAwODo1NToyMiJdXQ==
 :: blob.lua
 --[[pod_format="raw",created="2024-10-06 05:10:33",modified="2024-10-21 21:54:39",revision=1006]]
 include("dither.lua")
@@ -319,7 +319,7 @@ function dither_mask(value)
 end
 
 :: draw.lua
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-11-06 05:56:15",revision=404]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-11-14 08:55:21",revision=407]]
 
 function drw_game()
 	cls(0)
@@ -410,7 +410,7 @@ function drw_menu()
 end
 
 :: explmain.lua
---[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-11-06 05:56:15",revision=1258]]
+--[[pod_format="raw",created="2024-10-06 04:41:06",modified="2024-11-14 08:55:21",revision=1261]]
 -- [x] flash / contrast flame
 -- [ ] fireball
 -- [ ] smoke
@@ -641,7 +641,7 @@ function grape(ex, ey, ewait, emaxage, espd, eonend, ectab, edrift)
 end
 
 :: gameplay.lua
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-11-06 05:56:15",revision=371]]
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-11-14 08:55:21",revision=374]]
 function spawnenemy()
 	-- add(enemies, {
 	-- 	-- play range for these enemies is 143-379 with current coordinate system
@@ -756,7 +756,7 @@ function shoot()
 end
 
 :: main.lua
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-11-06 05:56:15",revision=1632]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-11-14 08:55:21",revision=1636]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -774,41 +774,42 @@ function _init()
 	-- in the tutorial he stores a bunch of values needed for sspr in pico-8
 	-- we don't need that in picotron, but then he also bakes in offset values
 	-- so this array is for holding those kinds of values
-	myspr = {
-		-- ship sprites 1-5
-		{ i = 8, w = 15, h = 18, ox = 5, oy = 8 },
-		{ i = 9, w = 16, h = 18, ox = 7, oy = 8 },
-		{ i = 10, w = 18, h = 18, ox = 8, oy = 8 },
-		{ i = 11, w = 16, h = 18, ox = 7, oy = 8 },
-		{ i = 12, w = 15, h = 18, ox = 8, oy = 8 },
-		-- shot sprites 6-8
-		{ i = 24, w = 8, h = 16, ox = 3, oy = 0 },
-		{ i = 25, w = 6, h = 16, ox = 2, oy = 0 },
-		{ i = 26, w = 4, h = 16, ox = 1, oy = 0 },
-		-- muzz sprites 9-12
-		{ i = 27, w = 10, h = 10, ox = 5, oy = 9 },
-		{ i = 28, w = 12, h = 14, ox = 6, oy = 13 },
-		{ i = 29, w = 14, h = 13, ox = 7, oy = 12 },
-		{ i = 30, w = 16, h = 14, ox = 8, oy = 13 },
-		-- flame sprites 13-17
-		{ i = 17, w = 1, h = 1, ox = 0, oy = 0 },
-		{ i = 18, w = 3, h = 3, ox = 1, oy = 0 },
-		{ i = 19, w = 3, h = 6, ox = 1, oy = 0 },
-		{ i = 20, w = 3, h = 8, ox = 1, oy = 0 },
-		{ i = 21, w = 3, h = 8, ox = 1, oy = 0 },
-		-- enemy sprites 18-20
-		{ i = 32, w = 16, h = 16, ox = 8, oy = 8 },
-		{ i = 33, w = 18, h = 17, ox = 9, oy = 8 },
-		{ i = 34, w = 18, h = 17, ox = 9, oy = 8 },
-		-- enemy shot 21-22
-		{ i = 1, w = 7, h = 7, ox = 3, oy = 3 },
-		{ i = 2, w = 7, h = 7, ox = 3, oy = 3 },
-		-- enemy shot 23-26
-		{ i = 3, w = 6, h = 7, ox = 3, oy = 0 },
-		{ i = 4, w = 10, h = 9, ox = 5, oy = 2 },
-		{ i = 5, w = 16, h = 12, ox = 8, oy = 5 },
-		{ i = 6, w = 12, h = 12, ox = 6, oy = 6 },
-	}
+--	myspr = {
+--		-- ship sprites 1-5
+--		{ i = 8, w = 15, h = 18, ox = 5, oy = 8 },
+--		{ i = 9, w = 16, h = 18, ox = 7, oy = 8 },
+--		{ i = 10, w = 18, h = 18, ox = 8, oy = 8 },
+--		{ i = 11, w = 16, h = 18, ox = 7, oy = 8 },
+--		{ i = 12, w = 15, h = 18, ox = 8, oy = 8 },
+--		-- shot sprites 6-8
+--		{ i = 24, w = 8, h = 16, ox = 3, oy = 0 },
+--		{ i = 25, w = 6, h = 16, ox = 2, oy = 0 },
+--		{ i = 26, w = 4, h = 16, ox = 1, oy = 0 },
+--		-- muzz sprites 9-12
+--		{ i = 27, w = 10, h = 10, ox = 5, oy = 9 },
+--		{ i = 28, w = 12, h = 14, ox = 6, oy = 13 },
+--		{ i = 29, w = 14, h = 13, ox = 7, oy = 12 },
+--		{ i = 30, w = 16, h = 14, ox = 8, oy = 13 },
+--		-- flame sprites 13-17
+--		{ i = 17, w = 1, h = 1, ox = 0, oy = 0 },
+--		{ i = 18, w = 3, h = 3, ox = 1, oy = 0 },
+--		{ i = 19, w = 3, h = 6, ox = 1, oy = 0 },
+--		{ i = 20, w = 3, h = 8, ox = 1, oy = 0 },
+--		{ i = 21, w = 3, h = 8, ox = 1, oy = 0 },
+--		-- enemy sprites 18-20
+--		{ i = 32, w = 16, h = 16, ox = 8, oy = 8 },
+--		{ i = 33, w = 18, h = 17, ox = 9, oy = 8 },
+--		{ i = 34, w = 18, h = 17, ox = 9, oy = 8 },
+--		-- enemy shot 21-22
+--		{ i = 1, w = 7, h = 7, ox = 3, oy = 3 },
+--		{ i = 2, w = 7, h = 7, ox = 3, oy = 3 },
+--		-- enemy shot 23-26
+--		{ i = 3, w = 6, h = 7, ox = 3, oy = 0 },
+--		{ i = 4, w = 10, h = 9, ox = 5, oy = 2 },
+--		{ i = 5, w = 16, h = 12, ox = 8, oy = 5 },
+--		{ i = 6, w = 12, h = 12, ox = 6, oy = 6 },
+--	}
+	myspr = fetch("myspr.pod")
 
 	sprval = 3
 
@@ -965,8 +966,17 @@ end
 :: moveandshoot.lua
 --[[pod_format="raw",created="2024-10-13 21:18:38",modified="2024-10-21 21:27:08",revision=487]]
 
+:: myspr.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA5IDAwOjI4OjA2Iixtb2RpZmllZD0iMjAyNC0x
+MS0wOSAwMDoyODozOSIscmV2aXNpb249MV1dbHo0AEABAACmAgAA9Ax7e2g9MTgsaT04LG94PTUs
+b3k9OCx3PTE1fSwaABA5GgAVNxoAFjYaACAxMBsAFTgbABc4GwAfMTYABxoyNgADawBgNixpPTI0
+GwAQMxsAVzAsdz04GgAQNRoAFDIaABc2GgAQNhoAFDEaABI0GgAQMBoAFTfUABA5aQASMBsAEDQb
+AAHvABA2GwAgMTMcABIyHAAQMxwABvEAIDEyHAAWNDgAFjPyACcxM9gAANcAAW4AFDCIABExGQAA
+UAApMTihABEzGQAAugAvMTkZAAAAIgEvMjAZAAUfMRkAAAEGARszVQEDcAEQNxsAEDMbABw5pgEB
+GwAfNBsAAQAaABUxiQEA5wAVNxgAHzIYAAQVMxgABp8BVTksaT00gwEXMoMBMDIsaRUAA7EAFzWx
+AAAaABU2nAGANix3PTEyfX0=
 :: particles.lua
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-11-06 05:56:15",revision=349]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-11-14 08:55:21",revision=352]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
@@ -1215,7 +1225,7 @@ function dosplash()
 end
 
 :: profiler.lua
---[[pod_format="raw",created="2024-09-20 18:19:15",modified="2024-11-06 05:56:15",revision=248]]
+--[[pod_format="raw",created="2024-09-20 18:19:15",modified="2024-11-14 08:55:21",revision=252]]
 -- abledbody's profiler v1.1
 
 local function do_nothing() end
@@ -1367,7 +1377,7 @@ end
 
 
 :: tools.lua
---[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-11-06 05:56:15",revision=345]]
+--[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-11-14 08:55:21",revision=348]]
 -- alternate to sgn, different in that 0 returns 0 instead of 1
 function mysgn(v)
 	return v == 0 and 0 or sgn(v)
@@ -1454,7 +1464,7 @@ function col(x1, y1, w1, h1, x2, y2, w2, h2)
 end
 
 :: update.lua
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-11-06 05:56:15",revision=386]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-11-14 08:55:21",revision=389]]
 function upd_game()
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -1620,8 +1630,8 @@ end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNC0x
-MS0wNiAwNTo1NjoxNiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzU0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM0OSIsd29ya3NwYWNl
+MS0xNCAwODo1NToyMiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzUzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM0OSIsd29ya3NwYWNl
 X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSM4NCIsd29ya3NwYWNlX2luZGV4PTF9LHts
 b2NhdGlvbj0idG9vbHMubHVhIzQxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1l
 cGxheS5sdWEjNjMiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRpY2xlcy5sdWEj
