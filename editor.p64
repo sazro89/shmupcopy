@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-MS0xOCAyMToyMzowNiIscmV2aXNpb249MTQ0MF1dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
+MS0yMiAwMToyMToxNSIscmV2aXNpb249MTY2N11dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -69,28 +69,28 @@ BQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBfZQtjC2NEABw-9hh1mgUeOFYFCwMAAXcADyQDHSOW
 PRwCD38ADFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0xOCAyMToyMzowNiJdXQ==
+MS0yMiAwMToyMToxNiJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNC0x
-MS0xOCAyMToyMzowNiIscmV2aXNpb249NjU2XV1sejQAaAAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
+MS0yMiAwMToyMToxNSIscmV2aXNpb249ODgwXV1sejQAaAAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
 KCJpMTYiLDMyAwAvIjABAP--------------------vxCCIpLGhpZGRlbj1mYWxzZSxwYW5feD0w
 CADSeT0wLHRpbGVfaD0xNgoAEHcKAIB6b29tPTF9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0xOCAyMToyMzowNiJdXQ==
+MS0yMiAwMToyMToxNiJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNC0x
-MS0xOCAyMToyMzowNiIscmV2aXNpb249NjU3XV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
+MS0yMiAwMToyMToxNSIscmV2aXNpb249ODgxXV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
 Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
 Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
 -70f-wEArM-ID0AADxBA--_w8P8BAP-qUP----8p
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0xOCAyMToyMzowNiJdXQ==
+MS0yMiAwMToyMToxNiJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2024-11-18 21:23:06",revision=875]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2024-11-22 01:21:15",revision=1146]]
 function draw_table()
 	cls(2)
 
@@ -106,20 +106,9 @@ function draw_table()
 				-- make copy of local cell we're working with
 				local mymenu = menu[_i][_j]
 				
-				-- print background of cell
-				printh(mymenu.text)
+				-- print cell
 				bgprint(mymenu.w, mymenu.x+scrollx, mymenu.y+scrolly, _c) --*****
-				
-				-- intermediary value for formatting output
-				-- defaults to nk for "no key" if no key can be found
-				local _out = (mymenu.key) and mymenu.key or "nk"
-				
-				-- prints output text
-				if mymenu.key == "_add" then
-					print(mymenu.text, mymenu.x+scrollx, 1+mymenu.y+scrolly, _c)
-				else
-					print(_out .. ": " .. mymenu.text, mymenu.x+scrollx, 1+mymenu.y+scrolly, _c)
-				end
+				print(mymenu.text, mymenu.x+scrollx, 1+mymenu.y+scrolly, _c)
 			end
 		end
 	end
@@ -127,61 +116,49 @@ end
 
 function refresh_table()
 	menu = {}
-	i, j = 1, 1
-	for _i, _v in pairs(data) do
+	
+	for i = 1, #data do
 		local row = {}
-		for _index, _value in pairs(_v) do
+		for j = 1, #data[i] do
 			add(row, {
-				text = _value,
-				key = _index,
+				text = data[i][j],
 				cmd = "edit",
 				cmdx = j,
 				cmdy = i,
-				x = -35 + 37 * j,
+				x = -30 + 32 * j,
 				y = -11 + 13 * i,
-				w = "       "
+				w = "      ",
 			})
-			j = j + 1
 		end
-		-- after data is iterated through to generate
-		-- a menu but before adding it to the menu
-		
-		if i == cury then
-			add(row,{
-				text = "   +   ",
-				key = "_add",
+		if cury == i then
+			add(row, {
+				text = " + ",
 				cmd = "newcell",
-				cmdx = j,
 				cmdy = i,
-				x = -35 + 37 * j,
+				x = -30 + 32 * (#data[i] + 1),
 				y = -11 + 13 * i,
-				w = "       ",
+				w = "   ",
 			})
 		end
-	
 		add(menu, row)
-		i = i + 1
-		j = 1
 	end
 	add(menu,{{
-		text = "   +   ",
+		text = "  +  ",
 		key = "_add",
 		x = 2,
-		y = -11 + 13 * i,
-		w = "       ",
+		y = -11 + 13 * (#data + 1),
+		w = "     ",
 		cmd = "newline",
+		cmdx = j,
+		cmdy = i,
 	}})
-	
---	debug[3] = menu[cury][curx]["x"]
 end
-
-
 :: input.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2024-11-18 21:23:06",revision=682]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2024-11-22 01:21:15",revision=917]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
@@ -189,19 +166,20 @@ function export()
 	store(output_file,data)
 end
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-11-18 21:23:06",revision=776]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-11-22 01:21:15",revision=1019]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
 include("io.lua")
 
 function _init()
+	printh("new run")
 	modify_text_display = create_gui()
 	
 	window{width = 200, height = 200}
 	
 	input_file = "myspr.pod"
-	output_file = "out.pod"
+	output_file = "myspr.pod"
 	array_name = "myspr" -- is this array_name needed?
 	data = fetch(input_file)
 
@@ -214,15 +192,7 @@ function _init()
 	cury = 1
 	scrolly = 0
 	scrollx = 0
-	
---	data = {}
---	for i=1,30 do
---		local _row = {}
---		for j = 1, i do
---			add(_row,j)
---		end
---		add(data,_row)
---	end
+	scrollspeed = 4
 end
 
 function _draw()
@@ -245,23 +215,26 @@ end
 function _update()
 	_upd()
 	modify_text_display:update_all()
---	debug[1] = "curx: " .. curx
---	debug[2] = "cury: " .. cury
+--	debug[1] = "x: " .. menu[cury][curx].x
+--	debug[2] = "y: " .. menu[cury][curx].y
 end
 
 :: myspr.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA5IDAwOjI4OjA2Iixtb2RpZmllZD0iMjAyNC0x
-MS0wOSAwMDoyODozOSIscmV2aXNpb249MV1dbHo0AEABAACmAgAA9Ax7e2g9MTgsaT04LG94PTUs
-b3k9OCx3PTE1fSwaABA5GgAVNxoAFjYaACAxMBsAFTgbABc4GwAfMTYABxoyNgADawBgNixpPTI0
-GwAQMxsAVzAsdz04GgAQNRoAFDIaABc2GgAQNhoAFDEaABI0GgAQMBoAFTfUABA5aQASMBsAEDQb
-AAHvABA2GwAgMTMcABIyHAAQMxwABvEAIDEyHAAWNDgAFjPyACcxM9gAANcAAW4AFDCIABExGQAA
-UAApMTihABEzGQAAugAvMTkZAAAAIgEvMjAZAAUfMRkAAAEGARszVQEDcAEQNxsAEDMbABw5pgEB
-GwAfNBsAAQAaABUxiQEA5wAVNxgAHzIYAAQVMxgABp8BVTksaT00gwEXMoMBMDIsaRUAA7EAFzWx
-AAAaABU2nAGANix3PTEyfX0=
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTIwIDIyOjE5OjIyIixtb2RpZmllZD0iMjAyNC0x
+MS0yMCAyMjoxOToyMiIscmV2aXNpb249MF1dbHo0AAEBAABuAQAA8AV7ezgsMTUsMTgsNSw4fSx7
+OSwxNg4AETcOACAxMAwAQjE4LDgPABoxHgATMjsAAh4AQDI0LDggADAzLDAOADA1LDYOABIyDgAw
+Niw0DgASMQ4AIDcsWgBQMCw1LDkPACA4LEsAEDQxABAzEAAQOQ0AwTEzLDcsMTJ9LHszMDsAAV8A
+ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
+AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0AgTIsOCw1fSx7
+CwCAMTIsNiw2fX0=
 :: out.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDA0OjAxOjE4Iixtb2RpZmllZD0iMjAyNC0x
-MS0wOCAwNDoyMDoxOSIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
-Niw3fX0=
+MS0yMSAwMjoyNTozNCIscmV2aXNpb249M11dbHo0ABMBAAB-AQAA8AV7ezgsMTUsMTgsNSw4fSx7
+OSwxNg4AETcOACAxMAwAQjE4LDgPABoxHgATMjsAAh4AQDI0LDggADAzLDAOADA1LDYOABIyDgAw
+Niw0DgASMQ4AIDcsWgBQMCw1LDkPACA4LEsAEDQxABAzEAAQOQ0AwTEzLDcsMTJ9LHszMDsAAV8A
+ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
+AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0AgTIsOCw1fSx7
+CwDwCjEyLDYsNn0seyI1MCIsIjEiLDAsMCwwfX0=
 :: test.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjI1OjQ0Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
@@ -269,7 +242,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2024-11-18 21:23:06",revision=667]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2024-11-22 01:21:15",revision=900]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -280,7 +253,7 @@ function removeAllChildren(el)
 	end
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2024-11-18 21:23:06",revision=854]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2024-11-22 01:21:15",revision=1182]]
 function update_table()
 	refresh_table()
 	
@@ -292,7 +265,8 @@ function update_table()
 	if keyp("down") then
 		cury = cury + 1
 	end
-	cury = mid(1,cury,#menu)
+--	cury = mid(1,cury,#menu)
+	cury = (cury-1) % (#menu) + 1
 	
 	--left
 	if keyp("left") then
@@ -302,24 +276,27 @@ function update_table()
 	if keyp("right") then
 		curx = curx + 1
 	end
-	curx = mid(1,curx,#menu[cury])
+	curx = (curx-1) % (#menu[cury]) + 1
 	
 	local curmenu = menu[cury][curx]
-	if curmenu.y + scrolly > (200 - 30) then
-		scrolly = scrolly - 1
+		
+	if curmenu then
+		if curmenu.y + scrolly > (200 - 30) then
+			scrolly = scrolly - scrollspeed
+		end
+		if curmenu.y + scrolly < 22 then
+			scrolly = scrolly + scrollspeed
+		end
+		scrolly = min(0, scrolly)
+		
+		if curmenu.x + scrollx > (200 - 80) then
+			scrollx = scrollx - scrollspeed
+		end
+		if curmenu.x + scrollx < 22 then
+			scrollx = scrollx + scrollspeed
+		end
+		scrollx = min(0, scrollx)
 	end
-	if curmenu.y + scrolly < 22 then
-		scrolly = scrolly + 1
-	end
-	scrolly = min(0, scrolly)
-	
-	if curmenu.x + scrollx > (200 - 80) then
-		scrollx = scrollx - 1
-	end
-	if curmenu.x + scrollx < 22 then
-		scrollx = scrollx + 1
-	end
-	scrollx = min(0, scrollx)
 	
 	-- selecting a cell
 	if keyp("z") then
@@ -331,23 +308,12 @@ function update_table()
 			_upd = upd_type	
 			text_bar:set_keyboard_focus(true)
 			text_bar:set_text(tostring(mymenu.text))
+			mymenu.data = tonum(mymenu.data)
 		-- newline cell selected
 		elseif mymenu.cmd == "newline" then
-			current_page = "newline"
-			text_bar = spawntextbox() -- we should abstract this some
-			--[[
-				spawntextbox() returns a gui object with a textbox attached to it
-				we could parametize things about the box like size
-				we could have a table we pass in which gets treated by reference in lua
-				by prepopulating a table with a lot of values, we could limit input 
-				of this to what we think we'd need to pass in
-				off the top of my head i think that means we'd need a prompt string
-				and a way to point at the right object in the table
-			]]
-			_upd = upd_type
-		-- new column cell selected
+			add(data, { 0, 0, 0, 0, 0,})
 		elseif mymenu.cmd == "newcell" then
-		
+			add(data[mymenu.cmdy],0)
 		end
 	end
 end
@@ -356,30 +322,36 @@ function upd_type()
 
 end
 
-function spawntextbox()
+function spawntextbox(_i)
+	local enter_mode = _i
+	local editval
+	printh("spawntextbox enter_mode == \"newline\": " .. ((_i == "newline") and "true" or "false"))
 	local text_bar = modify_text_display:attach_text_editor{
-		x = mymenu.x+14, y = mymenu.y-1,
-		width = 21,
+		x = mymenu.x+14+scrollx, y = mymenu.y-1+scrolly,
+		width = 16,
 		height = 12,
 		margin_top = 3,
+
 		
 		key_callback = {
-			enter = function()
-				local editval = tonum(text_bar:get_text()[1])
-				--[[
-				local _input = {
-					text = 0,
-					key = _input_key,
-					cmd = "edit",
-					cmdx = j,
-					cmdy = i,
-					x = -35 + 37 * j,
-					y = -11 + 13 * i,
-					w = "       "
-				}
-				add(data,{_input})
-				]]
-				data[mymenu.cmdy][mymenu.key] = (editval) and editval or 0
+			enter = function(enter_mode)
+				editval = text_bar:get_text()[1]
+				printh("callback enter_mode == \"newline\": " .. ((enter_mode == "newline") and "true" or "false"))
+				if enter_mode == "newline" then
+					local _el = {
+						text = 0,
+						key = editval,
+						cmd = "edit",
+						cmdx = j,
+						cmdy = i,
+						x = -30 + 32 * j,
+						y = -11 + 13 * i,
+						w = "      "
+					}
+					add(data,{_el})
+				else
+					data[cury][curx] = (editval) and editval or 0
+				end
 				removeAllChildren(modify_text_display)
 				current_page = nil
 				_upd = update_table
@@ -390,10 +362,10 @@ function spawntextbox()
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0xOCAyMToyMzowNiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzU2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM3OCIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSM2NSIsd29ya3NwYWNlX2luZGV4PTF9LHts
-b2NhdGlvbj0idG9vbHMubHVhIzUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImlvLmx1
+MS0yMiAwMToyMToxNiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzI2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM0NCIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMyMCIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0idG9vbHMubHVhIzkiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImlvLmx1
 YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9p
 bmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlv
 bj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
