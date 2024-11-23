@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiIscmV2aXNpb249MjE2N11dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
+MS0yMyAxMTo1NzowNiIscmV2aXNpb249MjM4Ml1dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -69,36 +69,81 @@ BQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBfZQtjC2NEABw-9hh1mgUeOFYFCwMAAXcADyQDHSOW
 PRwCD38ADFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiJdXQ==
+MS0yMyAxMTo1NzowNiJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiIscmV2aXNpb249MTM3NV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+MS0yMyAxMTo1NzowNiIscmV2aXNpb249MTU4NV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiJdXQ==
+MS0yMyAxMTo1NzowNiJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiIscmV2aXNpb249MTM3Nl1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+MS0yMyAxMTo1NzowNiIscmV2aXNpb249MTU4NV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiJdXQ==
+MS0yMyAxMTo1NzowNiJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2024-11-23 10:36:36",revision=1774]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2024-11-23 11:57:06",revision=2057]]
+function draw_edit()
+	cls(2)
+	fillp(0b11001100001100111100110000110011)
+	rectfill(0,0,199,#menu*13+20,0x1502)
+	fillp(0b1010010110100101)
+	line(100,0-scrolly,100,200-scrolly,0x0d01)	
+	line(0,100-scrolly,200,100-scrolly,0x0d01)	
+
+	fillp()
+	draw_menu()
+	
+	if selected_sprite then
+		mspr(selected_sprite,100,100-scrolly)
+	end
+	
+	if (time()*2)%1<0.5 then
+		pset(100,100-scrolly,rnd{8,13,7,15})
+	end
+end
+
+
+function draw_list()
+	cls(2)
+	fillp(0b11001100001100111100110000110011)
+	rectfill(0,0,199,#menu*13+20,0x1502)
+	fillp(0b1010010110100101)
+	line(100,0-scrolly,100,200-scrolly,0x0d01)	
+	line(0,100-scrolly,200,100-scrolly,0x0d01)	
+
+	fillp()
+	draw_menu()
+	
+	local mymenu = menu[cury][curx]
+	if mymenu.cmdy then
+		mspr(mymenu.cmdy,100,100-scrolly)
+	end
+	
+	if (time()*2)%1<0.5 then
+		pset(100,100-scrolly,rnd{8,13,7,15})
+	end
+end
+
 function draw_table()
 	cls(1)
+	draw_menu()
+end
 
+function draw_menu()
 	if menu then
 		for _i = 1, #menu do
 			for _j = 1, #menu[_i] do
 				-- change color if cell is currently selected
-				local _c = menu[_i][_j].c or 22
+				local _c = menu[_i][_j].c or 18
 				if _i == cury and _j == curx then
 					_c = 7
 				end
@@ -108,7 +153,7 @@ function draw_table()
 				
 				-- print cell
 				bgprint(mymenu.w, mymenu.x, mymenu.y, _c) --*****
-				print(mymenu.text, mymenu.x, 1+mymenu.y, _c)
+				bgprint(mymenu.text, mymenu.x, mymenu.y, _c)
 				if _i == cury and _j == curx then
 					rect(mymenu.x-2, mymenu.y-2, mymenu.x+(#mymenu.w * 5), mymenu.y+11, _c)
 				end
@@ -116,59 +161,12 @@ function draw_table()
 		end
 	end
 end
-
-function refresh_table()
-	menu = {}
-	for i = 1, #data do
-		local row = {}
-		add(row, {
-				text = i,
-				cmd = "",
-				x = 2,
-				y = -11 + 13 * i,
-				w = "   ",
-				c = 18,
-			})
-		for j = 1, #data[i] do
-			add(row, {
-				text = data[i][j],
-				cmd = "edit",
-				cmdx = j,
-				cmdy = i,
-				x = -43 + 32 * (j + 1),
-				y = -11 + 13 * i,
-				w = "      ",
-			})
-		end
-		if cury == i then
-			add(row, {
-				text = " + ",
-				cmd = "newcell",
-				cmdy = i,
-				x = -43 + 32 * (#data[i] + 2),
-				y = -11 + 13 * i,
-				w = "   ",
-			})
-		end
-		add(menu, row)
-	end
-	add(menu,{{
-		text = " + ",
-		key = "_add",
-		x = 2,
-		y = -11 + 13 * (#data + 1),
-		w = "   ",
-		cmd = "newline",
-		cmdx = j,
-		cmdy = i,
-	}})
-end
 :: input.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2024-11-23 10:36:36",revision=1431]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2024-11-23 11:57:06",revision=1643]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
@@ -179,11 +177,12 @@ end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-11-23 10:36:36",revision=1573]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-11-23 11:57:06",revision=1796]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
 include("io.lua")
+include("ui.lua")
 
 function _init()
 	printh("new run")
@@ -194,14 +193,15 @@ function _init()
 	input_file = "myspr.pod"
 	output_file = "myspr.pod"
 	data = fetch(input_file)
+	myspr = data
 
 	debug = {}
 	msg = {}
-	_drw = draw_table
-	_upd = update_table
+	_drw = draw_list
+	_upd = update_list
 	menuitem(1, "export", export)
 	
-	curx = 2
+	curx = 1
 	cury = 1
 	scrolly = 0
 	scrollx = 0
@@ -261,7 +261,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2024-11-23 10:36:36",revision=1422]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2024-11-23 11:57:06",revision=1642]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -372,8 +372,150 @@ function print_table(node)
     print(output_str)
 end
 
+function width_to_string(_num)
+	local _out = ""
+	for i = 0,_num+1 do
+		_out ..= " "
+	end
+	return _out
+end
+
+function mspr(si, sx, sy, mag, flip_x, flip_y)
+	local ms = myspr[si]
+	mag = mag or 1
+	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
+	sspr(ms[1], 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2]*mag, ms[3]*mag, ms.flip_x or flip_x, ms.flip_y or flip_y)
+	if ms.nextspr then
+		mspr(ms.nextspr, sx, sy)
+	end
+end
+:: ui.lua
+--[[pod_format="raw",created="2024-11-23 10:46:36",modified="2024-11-23 11:57:06",revision=220]]
+function refresh_edit()
+	menu = {}
+end
+
+function refresh_list()
+	menu = {}
+	for i = 1, #data do
+		local row = {}
+		add(row, {
+				text = "spr " .. i,
+				cmd = "editspr",
+				cmdy = i,
+				x = 2,
+				y = -11 + 13 * i,
+				w = width_to_string(4+#tostr(i)),
+		})
+		add(menu, row)
+	end
+	add(menu,{{
+		text = " + ",
+		key = "_add",
+		x = 2,
+		y = -11 + 13 * (#data + 1),
+		w = "   ",
+		cmd = "newline",
+		cmdx = j,
+		cmdy = i,
+	}})
+end
+
+function refresh_table()
+	menu = {}
+	for i = 1, #data do
+		local row = {}
+		add(row, {
+				text = i,
+				cmd = "",
+				x = 2,
+				y = -11 + 13 * i,
+				w = "   ",
+				c = 18,
+			})
+		for j = 1, #data[i] do
+			add(row, {
+				text = data[i][j],
+				cmd = "edit",
+				cmdx = j,
+				cmdy = i,
+				x = -43 + 32 * (j + 1),
+				y = -11 + 13 * i,
+				w = "      ",
+			})
+		end
+		if cury == i then
+			add(row, {
+				text = " + ",
+				cmd = "newcell",
+				cmdy = i,
+				x = -43 + 32 * (#data[i] + 2),
+				y = -11 + 13 * i,
+				w = "   ",
+			})
+		end
+		add(menu, row)
+	end
+	add(menu,{{
+		text = " + ",
+		key = "_add",
+		x = 2,
+		y = -11 + 13 * (#data + 1),
+		w = "   ",
+		cmd = "newline",
+		cmdx = j,
+		cmdy = i,
+	}})
+end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2024-11-23 10:36:36",revision=1811]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2024-11-23 11:57:06",revision=2043]]
+function update_edit()
+	refresh_edit()
+end
+
+function update_list()
+	refresh_list()
+	
+	wheel_y = ({mouse()})[5]
+	
+	--up
+	if keyp("up") then
+		cury = cury - 1
+	end
+	--down
+	if keyp("down") then
+		cury = cury + 1
+	end
+	cury = (cury-1) % (#menu) + 1
+	cury = cury - wheel_y
+	cury = mid(1, cury, #menu)
+	
+	local curmenu = menu[cury][curx]
+	
+	if curmenu then
+		if curmenu.y + scrolly > (200 - 30) then
+			scrolly = scrolly - scrollspeed
+		end
+		if curmenu.y + scrolly < 22 then
+			scrolly = scrolly + scrollspeed
+		end
+		scrolly = min(0, scrolly)
+		
+		camera(0,-scrolly)
+	end
+	
+	if btnp(4) then
+		local mymenu = menu[cury][curx]
+		if mymenu.cmd == "newline" then
+			add(data,{0, 0, 0, 0, 0})
+		elseif mymenu.cmd == "editspr" then
+			selected_sprite = mymenu.cmdy
+			_upd = update_edit
+			_drw = draw_edit
+		end
+	end
+end
+
 function update_table()
 	refresh_table()
 	
@@ -416,7 +558,7 @@ function update_table()
 		end
 		scrolly = min(0, scrolly)
 		
-		if curmenu.x + scrollx > (200 - 80) then
+		if curmenu.x + scrollx > (400 - 80) then
 			scrollx = scrollx - scrollspeed
 		end
 		if curmenu.x + scrollx < 22 then
@@ -502,11 +644,12 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImRyYXcubHVhIzcyIix3b3Jrc3BhY2Vf
-aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzE1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
-Y2F0aW9uPSJ0b29scy5sdWEjNiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iaW8ubHVh
-IzYiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2lu
-ZGV4PTJ9LHtsb2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9u
-PSJzZngvMC5zZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
+MS0yMyAxMTo1NzowNiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzExIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM2NCIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
+Y2F0aW9uPSJ0b29scy5sdWEjMTIzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpby5s
+dWEjNiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0idWkubHVhIzIiLHdvcmtzcGFjZV9p
+bmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlv
+bj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngiLHdv
+cmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]
