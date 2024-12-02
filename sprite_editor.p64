@@ -4,110 +4,188 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMTo1NzowNiIscmV2aXNpb249MjM4Ml1dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
-AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
-BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
-EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
-AAqXAHcgV50AG9AQDARQCRAJsAkQCZAJVQBgAAlACRAJFABwEAkwOTAJIGkAIRAKEACRAAkACQoH
-EAcKiwD-CCAKBzAHCiAZIApQCiAJ8AEJsAkgCZAJgAAcvwoEAAmwCfBxCdAJOQAbTxAE8PAyABry
-Hg8SBFAfF7AOEQ6QDgEHBgEOgA4hDQEOYA4BLBEOUA4BDBccEQ5ADgEMBwwBDAoAUSEMIQ4wCADA
-AQcBDiAOERwBBxEGCgDwDwENAQwHEQ0GDQEOAA4BLSENBg0HDQEeAR0GLQYNFgoAkQ0GBxYHBg0G
-HSIAgAcGDQEGBw0hOwBABREVDWAAX2EOYG4w9QAb8QISBGAfF8AOEQ6gDgEGBwEOkMMAEXDDABNg
-wwAXUMMAExHDABURwwByAQYBHBEHAcUAYwYNAQwXEcUAUD0xHQYHwwBQFj0GDRbCABcWwgBhEQcd
-EQcxNQAiFQHAAE9xDmB_wAAb8AQSEgRwHxfgDhEOwA4BFgEOoA5RjQEQPIwB8gYBDBcsAQ5gHgEM
-BxwBDAEeQA4hDDGAAUEHAQwxvwB1MA4BBhEHEYQBRQYNEReFAQCrAFENMQ0GDcYAcSYNBj0GDSaT
-AQmLAVAxBwEWAcoA-wMeAQYBBREFAQYBHlAOcQ6AfkCMAScCTwJwAQ0hDoAOEccAoQ4RDBccAQ5Q
-DhGMASABDs8AMyEMEc8AAwoAUAYBBxEcjAEQEM0AYxEXDAENBswAxh0xPQEeARYNBj0WHcUAIhYN
-wwBAER0HEZACbw0VARUGAYwBIhEPwAADDwMhBgdGAkENIQ5wwAATUMAAFUDAABEwwAAVAcAABI0B
-MgEcEb4AUg0RBwwBigFxDQcNBg0hLUMCWA0GLQYdhgEAIgBAIQ0HBiEDEgHEAD4RBQEPAw8EBBUP
-MgCwTwEBBAcxABq-AwMEAAcABwwHAAdKBhsgAwY5AF83DCcwB6gFGyIDCDkAERc7AA89ACIwZwwX
-sQAQEAQAD4MBfvIQCBAEIBlQGUAJFwkwCRcJIAk3CRAJNwkACQcKFwoHGQYAMRoXGgQA-wYKCRoJ
-CjkaWRo5ADkAGRAZEAkgGSBvABrxAQYQBBAZMBkwGSAJGgkQCRcEABAA0gcTGQQAYCkaORr5BfEH
-LxAZLwEbMQQQBJUAAQIA0AAJGhkXGRcZGhka_QEXAA96CBzQCgQwF1BXIHcQdwD3Dl8IL0A36gAM
-GThBAPEHDA4EQBeQF5AXYAcQFxAHIBcANwAXEAYA-wQgdxAHAHcAxwCXIHcwd0BXYDcwWgAZYQ4N
-BCAHUAIA-xPwBxewF1AHQBdABwAHIDcgB0BXcFdABxBXEAdAV4A3oBdQWQAZQBAOBDBVAGE0B9AH
-8CFWAJ9wF8A3sDfAF2BIAAwPhQIdDTEA8QAQHhA_EB4gDhEeNB4RDgCiB0AEPw8EGAbxCB4BDQEE
-HAcsBAENAR4RAgQMBxwJDAQCJwBxCAQsGQwECH4F8Q4CDgQMOQwEDgIBHgEYBAc5BwQYAR4BAg4I
-BDcECBYAkAIIDgw0DA4IAkgAcQgCDB4MAghIAGQRAg48DgJ5ADMSGBJ4AP8EITIhDQEeIR4xHiEO
-AC4QPhAuANkAGYASEQRgPqAuNB0HAM4AkT5ADgEEHQctBA8JkwIEDQcdCQ0EAgkHpAgELRkNBAgB
-Dw3PAEMNOQ0ElwAE0QAAKQAG0wABDgBQCA4NNA3VAAAoAKIGAQIIAg0eDQIIHgBQDBECDj1EAEAQ
-DiEO2gCwEQ4wLgAOATIBDAb7Br9RDAEOgE4RDuAeMNoAHmKwHjQegA6oASMOYNsAANIGB9sAJg4w
-2QAnDiDWAAKuAAPXAABtASUPDdgAEQygAQPXAAKgAQTVAEMRDhAe0wDwBh4wDhESERIRDmAeERYR
-HpAOARwBDpgIP_AecLACHg8xAP----------------------xl8ICATwMJMAHg_NBf------TDF8
-AQwCAC-8ITkAHCP8IToAH3w5ABzvISxRLFE8QTxBPFEsUSx3AB2TawErQSsBBh0BBQCfNisBDREN
-OzF7SAAcoRFbBjErBhEWARsFAK9GARsdEQ0BG0GrSAAcUfsJCQobAwA0KQobCwA-IwqLRwAcS4FH
-BhEDAD8HRgFFABzRHTUtBTYFHQUGFQYFHQoAIAcsBQBiHRUdBQcWBQAfDVQAICEGLVUAEA0GABQt
-VgBvNgUdVS1FTwAdIgtpAgAiG1kCAA8-ABwDNgATG0YAHws-ABz-AfEEBh1BBh1BNjENEA0xMHE-
-ABxwcQZhBhEWIQQAj0YhHRANIUChQgAc75FXEVcRVhFWEQ0QLSFAgAAdcQEGTREHNg0EAP8CXRFc
-EQ0FFgUNEQANFQ0AEVAtAh0TDRgCCB0CFh0UAD9lHVVRABxAC5MLAwIAL-sfOQAcYFMbAyszOzoA
-Hxk6ABwv_TAxAByyuzQbFDkbBEkLBFlCAg9AAB0-dPkcMwAcv3s0OzkUG0kEG1kEtQIjwL0FDRUt
-BQEFER0FAQIA3x0RBSENFUENAQVBDWFMAB2pFQ0lDQURBSEFAQIAL-EHSQAckX0VDQU9EQUBBZoA
-EAWUAM8FDTEFAR0xBQEFDWEXBB3xAwUNFQ0VHRUNBQ0GBR0VDQYlHfUA-wINFQYVHQYFBgUNBQ01
-PQUtBVgAHS-4MKAEKC87OVUGHT-5JLsyABwDbwAQC9UELzm7wwMeMFENYQIArx0FQR1RPQEFEX1C
-ABx-8R4FEQURvTYAHDBhDVHkAb9BBR1RHSEFDQEdAUQAHy-4MDEATR-7MQAeYwoDCwMrA8YEHwk_
-ABzFA2ELA0EHA1EHCwNRCgARQQQAD0oAHJtBAxtRAwtBAxsJAA9HABz-CPsBQRsBBxEXAQsBBwEX
-IQNhAwETAQMR1AId-w6LIUsBBxE7AQchKxEHAQcBGwEDAQcRKwNBKwELEZQAHRIrYgHxAHM1AyUU
-BQQFBAUkBaQCBAIAH3RLABz-CwsDSyNLAwUTCwMLEwQFQwUURQIUUiRCNCIESQAcYBsDGwMLIxwB
-X-EZNwEXSAcdcPEZEwETARNGAA-1CR2A8QcDURNRAwt8ADABAwuIAE8BE0sB6gEewPEAA2ETUQsD
-URMRE0gAjwEDCxMbAwFLRwAc8QD7AkEbARcRBzEXAQdxAxEvAg8uAh2AuyE7EQcBKyEoAv8DBwEH
-ERsRBwEDAQtBAysRAwErTQAcAxoCEhQIAB8SDgAIIpIECAAPYQAjEDQGAP8GMhYFAgQSBiUyNQIE
-IhUiBEIEAgRSUQAdMgtTC8gBgBNbA3sDWwMLBAAAowIQM6cCD00AHJDrAVsBA0sBA1sDACETSwYA
-D0MAHEB7AWsDAwBxSxMBWwMBWwkADxcCHVBzAVMRA6ECMBEDUV0CsRQBAxsDARIBMwESCgAfE7EC
-Hy_DWyABMf8E_wADWyM7EwsDOwMbAztDKwMbU4kAHW-yCHF8cXyICx3AIhQyRCIUQgEEQgEMqSdQ
-AVwBDFEGAA9aASsREbkDAA4AERt_AxELGgAP0wAd-wNLARNbAQNrAVsDAlsDAmsD_wBBABz-AhMB
-SwMBWwFrAgNbAgNbA-sHQAAe-wYTASMBMwEDAVMBAlMSUwITOyNbA3scASa-BFEEIhQiEzJDEiNF
-ACkwAyIUXwGvIgEDCyMSARMLM7cCHwDcAxE7qgJvJTMFJDVEvAYm8AIhIjECBBIRDAIEMhxSDAEM
-MkgREDxOEV8xDCE8EUcCKBAEoQNAIhMBIj4CbxIjCwMBM_YAHR-8OAkdb-wKJwwH-LYAHX-8EQcM
-J-wKNgAc8AxrBVsFDEsFBw07BQ0GDSsVDQYNGwUtBg0LBR0RABEFAgAfBicMHU91fP0gMwAcgAVr
-DQVbHQVLcQBgOw0VDQUrWg2vGw01DQULDUUNBU8AHBLxiA0jARUIAD-1APO4Ax1v8xALUxvTBAUh
-bwMSIxLzEDcAHP8C_wsFKwUtBS0FKwUrBSMFIwWdAx0v8TAlDh4jBQ3lAVMtBg0FLQwADxQACg8L
-Ah4f-ZYAHSoNZQIADz8AHG_NFQ0F-SN8ASEAfgHfKw0DGwUrDSMFKwUDK0UAH687LQVrDTsjDQNb
-PwAg8AAHASsFGwEDLQUNAQM7BQtYBS8FA8AKIz8hV4EMAh_CLQcMBS0FBiU1ECAFDScQEBYMACAN
-JgsAfzYVDUYFDVZYABxffHV99hg0ABz-BAflHVUWDUUmDTU2DSVGDRVWDQV2AB9wJh1GDRYNNgQA
-Lz2WPwAcUSsFA1sNAwA6BQMbGAIfe0sAKCErLQ0ATysjDQMWFx4QAHYKAKYCIAsDJBIjEwELAD8j
-BQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBfZQtjC2NEABw-9hh1mgUeOFYFCwMAAXcADyQDHSOW
-PRwCD38ADFBtPTh9fQ==
+MS0zMCAxMzo0NToyNSIscmV2aXNpb249OTE3XV1sejQAKQ8AAFRAAADzIXtbMF09e2JtcD1weHUA
+QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgA13k9MCx6b29tPTEyfSw-APAKBwcE
+ECcgBy8eBwAHHg8XHhcODQcNDhceDREAXy4HICcQTwAmQA4PFw5LABAHVQA-Dg0OUQAi-wYGBwQQ
+GiAKFwoQChcKAAo3CrcANwBCABqxCgkEMBkwCQAJABkEANAZGhkACRAJChcKCRAJUgDPAAkKAFcA
+CpcAdyBXnQAb0BAMBFAJEAmwCRAJkAlVAGAACUAJEAkUAHAQCTA5MAkgaQAhEAoQAJEACQAJCgcQ
+BwqLAP8IIAoHMAcKIBkgClAKIAnwAQmwCSAJkAmAAB7-AAAJsAnwcQnQCfADCXAJID8AG08QBPDw
+MgAa8h4PEgRQHxewDhEOkA4BBwYBDoAOIQ0BDmAOASwRDlAOAQwXHBEOQA4BDAcMAQwKAFEhDCEO
+MAgAwAEHAQ4gDhEcAQcRBgoA8A8BDQEMBxENBg0BDgAOAS0hDQYNBw0BHgEdBi0GDRYKAJENBgcW
+BwYNBh0iAIAHBg0BBgcNITsAQAURFQ1gAF9hDmBuMPUAG-ECEgRgHxfADhEOoA4BBgcBDpDDABFw
+wwATYMMAF1DDABMRwwAVEcMAcgEGARwRBwHFAGMGDQEMFxHFAFA9MR0GB8MAUBY9Bg0WwgAXFsIA
+YREHHREHMTUAIhUBwABPcQ5gfsAAG-AEEhIEcB8X4A4RDsAOARYBDqAOUY0BEDyMAfIGAQwXLAEO
+YB4BDAccAQwBHkAOIQwxgAFBBwEMMb8AdTAOAQYRBxGEAUUGDREXhQEAqwBRDTENBg3GAHEmDQY9
+Bg0mkwEJiwFQMQcBFgHKAP8DHgEGAQURBQEGAR5QDnEOgH5AjAEnAk8CcAENIQ6ADhHHAKEOEQwX
+HAEOUA4RjAEgAQ7PADMhDBHPAAMKAFAGAQcRHIwBEBDNAGMRFwwBDQbMAMYdMT0BHgEWDQY9Fh3F
+ACIWDcMAQBEdBxGQAm8NFQEVBgGMASIRD8AAAw8DIQYHRgJBDSEOcMAAE1DAABVAwAARMMAAFQHA
+AASNATIBHBG_AFINEQcMAYoBcQ0HDQYNIS1DAlgNBi0GHYYBACIAQCENBwYhAxIBxAA_EQUBDwMP
+BAQVDzIAsE8BAQQHMQAavwMDBAAHAAcMBwAHUAYbIAMGOQBfNwwnMAeuBRsiAwg5ABEXOwAPPQAi
+MGcMF7EAEBAEAA_DAX7yEAgQBCAZUBlACRcJMAkXCSAJNwkQCTcJAAkHChcKBxkGADEaFxoEAP8F
+CgkaCQo5GlkaOQA5ABkQGRAJIBm_BhvxAQYQBBAZMBkwGSAJGgkQCRcEABAA2AcTGQQAYCkaORr5
+BfcHLxAZLwEbMQQQBJUAAQIA0AAJGhkXGRcZGhka_QEXAA_ACBzQCgQwF1BXIHcQdwD3DmUIL0A3
+6gAMGThBAPEHDA4EQBeQF5AXYAcQFxAHIBcANwAXEAYA-wQgdxAHAHcAxwCXIHcwd0BXYDcwWgAZ
+YQ4NBCAHUAIA-xPwBxewF1AHQBdABwAHIDcgB0BXcFdABxBXEAdAV4A3oBdQWQAZQBAOBDBVAGE0
+B9AH8CFWAJ9wF8A3sDfAF2BIAAwPhQIdDTEA8QAQHhA_EB4gDhEeNB4RDgCiB0AEPw8EGAbxCB4B
+DQEEHAcsBAENAR4RAgQMBxwJDAQCJwBxCAQsGQwECH4F8Q4CDgQMOQwEDgIBHgEYBAc5BwQYAR4B
+Ag4IBDcECBYAkAIIDgw0DA4IAkgAcQgCDB4MAghIAGQRAg48DgJ5ADMSGBJ4AP8EITIhDQEeIR4x
+HiEOAC4QPhAuANkAGYASEQRgPqAuNB0HAM4AkT5ADgEEHQctBA8JkwIEDQcdCQ0EAgkHpAgELRkN
+BAgBDw3PAEMNOQ0ElwAE0QAAKQAG0wABDgBQCA4NNA3VAAAoAKIGAQIIAg0eDQIIHgBQDBECDj1E
+AEAQDiEO2gCwEQ4wLgAOATIBDAb7Br9RDAEOgE4RDuAeMNoAHmKwHjQegA6oASMOYNsAANIGB9sA
+Jg4w2QAnDiDWAAKuAAPXAABtASUPDdgAEQygAQPXAAKgAQTVAEMRDhAe0wDwBh4wDhESERIRDmAe
+ERYRHpAOARwBDpgIP_AecMwAGfAUHBsEsD7wBh40HvADDhQ-DxQO8AEOBH0EDuAOBB0XHQcJHQS3
+CYAEDScdBxkNBL4JAOEAMRctKeEAwYAOAQgCBE05DQQCCE0IUggCBC1ZDgDAYA4BGAIEDXkNBAIY
+XQggAQgAAVAHWR0EDh8A8ABADhEOAQ4CBEctBAIOAQ7aCAD_AZE4AhQ3FAI4AQwkAfANDAYRKA0S
+NBINKBEGDAEeAQYMERgeHTIdHhgRDDgBMAwhAjMBsQ4NFw0ODAIOCAIhOADwDSEJAQIIEh4XHhII
+AgEJIQ4gHjECGB4XHhgCMR7bC3IxEgg9CBIx0AiADAcMMQI4AjH0CACFANEMFwYMIQkxCSEMBhcM
+SALxAgYHBgwRBgwRHBEMBhEMBgcGnAAwHBYMyAkQF1wLMAwWHJ4AwwccAR4hDBEMIR4BHCYAEBaR
+ACAuMXcCIAwWYABQIQ5APkAGAEwu8AAuVwVjLTIuODc1sQFiLTAuMTI1tgEfMWYEHg8xAP------
+----------------dl8ICATwMJMAHg_NBf------TDF8AQwCAC-8ITkAHCP8IToAH3w5ABzvISxR
+LFE8QTxBPFEsUSx3AB2TawErQSsBBh0BBQCfNisBDRENOzF7SAAcoRFbBjErBhEWARsFAK9GARsd
+EQ0BG0GrSAAcUfsJCQobAwA0KQobCwA-IwqLRwAcS4FHBhEDAD8HRgFFABzRHTUtBTYFHQUGFQYF
+HQoAIAcsBQBiHRUdBQcWBQAfDVQAICEGLVUAEA0GABQtVgBvNgUdVS1FTwAdIgtpAgAiG1kCAA8-
+ABwDNgATG0YAHws-ABz-AfEEBh1BBh1BNjENEA0xMHE-ABxwcQZhBhEWIQQAj0YhHRANIUChQgAc
+75FXEVcRVhFWEQ0QLSFAgAAdcQEGTREHNg0EAP8CXRFcEQ0FFgUNEQANFQ0AEVAtAh0TDRgCCB0C
+Fh0UAD9lHVVRABxAC5MLAwIAL-sfOQAcYFMbAyszOzoAHxk6ABwv_TAxAByyuzQbFDkbBEkLBFlC
+Ag9AAB0-dPkcMwAcv3s0OzkUG0kEG1kEtQIjwL0FDRUtBQEFER0FAQIA3x0RBSENFUENAQVBDWFM
+AB2pFQ0lDQURBSEFAQIAL-EHSQAckX0VDQU9EQUBBZoAEAWUAM8FDTEFAR0xBQEFDWEXBB3xAwUN
+FQ0VHRUNBQ0GBR0VDQYlHfUA-wINFQYVHQYFBgUNBQ01PQUtBVgAHS-4MKAEKC87OVUGHT-5JLsy
+ABwDbwAQC9UELzm7wwMeMFENYQIArx0FQR1RPQEFEX1CABx-8R4FEQURvTYAHDBhDVHkAb9BBR1R
+HSEFDQEdAUQAHy-4MDEATR-7MQAeYwoDCwMrA8YEHwk_ABzFA2ELA0EHA1EHCwNRCgARQQQAD0oA
+HJtBAxtRAwtBAxsJAA9HABz-CPsBQRsBBxEXAQsBBwEXIQNhAwETAQMR1AId-w6LIUsBBxE7AQch
+KxEHAQcBGwEDAQcRKwNBKwELEZQAHRIrYgHxAHM1AyUUBQQFBAUkBaQCBAIAH3RLABz-CwsDSyNL
+AwUTCwMLEwQFQwUURQIUUiRCNCIESQAcYBsDGwMLIxwBX-EZNwEXSAcdcPEZEwETARNGAA-1CR2A
+8QcDURNRAwt8ADABAwuIAE8BE0sB6gEewPEAA2ETUQsDURMRE0gAjwEDCxMbAwFLRwAc8QD7AkEb
+ARcRBzEXAQdxAxEvAg8uAh2AuyE7EQcBKyEoAv8DBwEHERsRBwEDAQtBAysRAwErTQAcAxoCEhQI
+AB8SDgAIIpIECAAPYQAjEDQGAP8GMhYFAgQSBiUyNQIEIhUiBEIEAgRSUQAdMgtTC8gBgBNbA3sD
+WwMLBAAAowIQM6cCD00AHJDrAVsBA0sBA1sDACETSwYAD0MAHEB7AWsDAwBxSxMBWwMBWwkADxcC
+HVBzAVMRA6ECMBEDUV0CsRQBAxsDARIBMwESCgAfE7ECHy_DWyABMf8E_wADWyM7EwsDOwMbAztD
+KwMbU4kAHW-yCHF8cXyICx3AIhQyRCIUQgEEQgEMLilQAVwBDFEGAA9aASsREbkDAA4AERt_AxEL
+GgAP0wAd-wNLARNbAQNrAVsDAlsDAmsD_wBBABz-AhMBSwMBWwFrAgNbAgNbA-sHQAAe-wYTASMB
+MwEDAVMBAlMSUwITOyNbA3scASa-BFEEIhQiEzJDEiNFACkwAyIUXwGvIgEDCyMSARMLM7cCHwDc
+AxE7qgJvJTMFJDVEvAYm8AIhIjECBBIRDAIEMhxSDAEMMkgREDxOEV8xDCE8EUcCKBAEoQNAIhMB
+Ij4CbxIjCwMBM_YAHR-8OAkdb-wKJwwH-LYAHX-8EQcMJ-wKNgAc8AxrBVsFDEsFBw07BQ0GDSsV
+DQYNGwUtBg0LBR0RABEFAgAfBicMHU91fP0gMwAcgAVrDQVbHQVLcQBgOw0VDQUrWg2vGw01DQUL
+DUUNBU8AHBLxiA0jARUIAD-1APO4Ax1v8xALUxvTBAUhbwMSIxLzEDcAHP8C_wsFKwUtBS0FKwUr
+BSMFIwWdAx0v8TAlDh4jBQ3lAVMtBg0FLQwADxQACg8LAh4f-ZYAHSoNZQIADz8AHG_NFQ0F-SN8
+ASEAfgHfKw0DGwUrDSMFKwUDK0UAH687LQVrDTsjDQNbPwAg8AAHASsFGwEDLQUNAQM7BQtYBS8F
+A8AKIz8hV4EMAh_CLQcMBS0FBiU1ECAFDScQEBYMACANJgsAfzYVDUYFDVZYABxffHV99hg0ABz-
+BAflHVUWDUUmDTU2DSVGDRVWDQV2AB9wJh1GDRYNNgQALz2WPwAcUSsFA1sNAwA6BQMbGAIfe0sA
+KCErLQ0ATysjDQMWFx4QAHYKAKYCIAsDJBIjEwELAD8jBQuZDB9EKwUTS5UAF1sMAA_zAh05CwVW
+AwBfZQtjC2NEABw-9hh1mgUeOFYFCwMAAXcADyQDHSOWPRwCD38ADFBtPTh9fQ==
+:: gfx/enemy-01.png
+b64$iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8-9hAAAAAXNSR0IArs4c6QAAAYFJREFU
+OI2NkzFLw1AUhb_Ekr-QyW7Bwf_gs1g7SFIqnbKIcwkEuoQsQqB0li6dgpWELG3pXP_DiGTTxd_Q
+oXF4vfGl7eCBQN5955y8e3OewR5VsKgAjHhg6GvBYV3WdbGzSgH46roAZMVU1_PYIwB0nhEPjJaI
+k2ef7fKdziplev6NM-YbBtnThNHnGQ8311zdXtB5nFAFi6olhO3yndl60xTbl1C8qROMfXiaMFpv
+GsamvMzWG7xS29HEfPTrslcqbm1gxAND_o4KzeGEWOfIDEyZgVcCwfCP_dE-EoPieKUaZhUsqrqF
+qCghTv6OfwipxUnjpLVBaFsQDHHyNpnXg95P48m8Hk7ehmCouHu00BEnysQ1lYkGZ_yDvVOcUwZz
+C7AtojghzC2iFx-Sndp0TcL7V6KiJLQtxd3jKIleCdGdC65JA_mOME9rsfwF4zCJeh5kWNLz3KJO
+4vBxwlfX5SiJQvRKGsOSL88OklgbyIaESloS6HXd5Ojq-vc6S_0XnbbNGOdESrIAAAAASUVORK5C
+YII=
+:: gfx/enemy-02.png
+b64$iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAYAAADQWvz5AAAAAXNSR0IArs4c6QAAAYBJREFU
+OI2VkzFrwkAUx-8n4ldw0i10yHewc6k6mESETFlKP0Ag4FBxKQTEuXTpFBATstTSuXbo4locstml
+n6FDr8P5LneXKPQPR5J3--fLe7kXhjPi0YqrzyyesFPe5rnkrFhW9k7Bmqaxu0kBAMuLL7jTUDNn
+94uTVTbq6BrE6sm4Ow2RFUt0N6lcBJYgqib4UYhWDyi24n4-lmHyJA_hhFUqmhcKqQaiet6eP2Ws
+Uakm8suM-bgCAYQn_AEeX151kPamOCnbMkWxOJFVHfoeWDxhGmhmtYDIh5u3kQVDYPitrSwYws3b
+QOQLr6LKHCFOBMxrCJgidxoC1q-wGCDwaMU7tsO37x_8Yzv8znI4x0Bcd2vOo5VYu7W217Edrs6U
+rIhO4KkFwGphPvLEhld2Px95mOWp8BiSIDqBQ99Dd5MCeQrk5VHTNyEIfWTKZ9SeDMQTVjucR8jN
+9RUuBzb824UGa1KymqDCTKmzo_XURo8yf1AAILjZ2r9Fp2jG-wAo-dIT4VkPIwAAAABJRU5ErkJg
+gg==
+:: gfx/enemy-03.png
+b64$iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAYAAADQWvz5AAAAAXNSR0IArs4c6QAAAYRJREFU
+OI2Vky9vwkAYxn9ttn6FKXANAj-JJxiI0jIWVN0_AAkJhlSSLOgFg1jI-pTMDDIzA4iZ2QVRBwaL
+RXATt956bUe2Sy7pvc_TX56_753BkSU6DyJ5NvpN4zfvyTHAJBrk1o8BNXOhXBehcy7Ex5O2Q_dc
+FMp1kU4KYKYhxWnIoLTB7bZl0a4o3e22GZQ2FKdh5rfNNMTfJ1S7AtFCfq8aquzvycC0RABBlCDl
+QDKeJEhL02n9qKtGBgLSk0kVN3exfBeCqhBUZaN3WyHu0PduK7Vv32L5rpqvxj9-_eTNtggcD7c-
+ZkINd7TVgkz8Gu7zGXRa9J5DTl8_laZAw9krPkB-DJ0Wrmcy8WsayO22wT5Ij20xnL0qzUj2CORE
+gmhPz7YI7i8hPEinZ9K7elTayJLl9YWH0W8aamrrCw_AkYWEOJ4C4Elb4HgZiJYoXulkMTjvHCfJ
+BcUwkKMFGN-KG966vtFSpN9b5tHGhjjdPDGZdIo-r-iO-fZQ-w37C_QLffv1evDJCm8AAAAASUVO
+RK5CYII=
+:: gfx/myspr.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTIwIDIyOjE5OjIyIixtb2RpZmllZD0iMjAyNC0x
+MS0zMCAxMzo0NToxMCIscmV2aXNpb249Nl1dbHo0ACEBAACNAQAA8AV7ezgsMTUsMTgsNSw4fSx7
+OSwxNg4AETcOACAxMAwAQjE4LDgPABoxHgATMjsAAh4AQDI0LDggADAzLDAOADA1LDYOABIyDgAw
+Niw0DgASMQ4AIDcsWgBQMCw1LDkPACA4LEsAEDQxABAzEAAQOQ0AwTEzLDcsMTJ9LHszMDsAAV8A
+ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
+AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0A4DIsOCw1fSx7
+NiwiMTYiEADwASI4Iiw2fSx7IjM1IiwiMjgFAOA3IiwiMTMiLCIxMyJ9fQ==
+:: gfx/ship.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI1OjE4Iixtb2RpZmllZD0iMjAyNC0x
+MC0xMyAyMToyNToxOCIscmV2aXNpb249MF1dbHo0AAcEAACpNgAA8yF7WzBdPXtibXA9cHh1AEMg
+EBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANp5PTAsem9vbT0xMn0sPwBP8gHtAgIA
+CA9PAB1--QHWHQa9BQQAGz-F-QFoAB0pAg0CAF79AQL9DwMAD1YAHTEKEBoCAAQIACsaAAgAHxAi
+AFMPuAAdL-DwMgCB8A1gEcABBwYBsCENAZABLBGAAQwXHBFwAQwHDAEMCABAIQwhYAYA8BkBBwFQ
+ERwBBxEGAVABDQEMBxENBg0BMAEtIQ0GDQcNASABHQYtBg0WCgD-Dw0GBxYHBg0GHQEwAQcGDQEG
+Bw0hUAEFERUNEXBhMKIAIS8GB6IABCBgEaIAIlARogCQQAEGARwRBwEGCgBgDQEMFxEGkAD0BD0x
+HQYHARABHRY9Bg0WARABDRahAP8CIBEHHREHMUABBhUBFQ0RYHGfACKAFgGgUZABPAGcACAsAZwA
+8AEcAQwBUCEMMQwhMAEHAQwxngBgMAEGEQcRQgEAIwExDREXQwEQACMB9gQGDTENBg0GBxEmDQY9
+Bg0mER0GRQH-AwAxBwEWAQcxMAEGAQURBQEGAacAJPEEBwYBoAENIaARLAGAEQwXHAFwEUYBgAFg
+IQwhDBFQqgABCADwAgYBBxEcAQYBMAENBhEXDAENswDgBwYdMT0BEAEWDQY9Fh1PAQKkAADzAc8x
+BxEdBxFAEQ0VARWfACYvBgefAAkiAWCfACABYEcBQQEcEUBFATAHDAGHAnANBw0GDSEtWgFAFg0G
+LdoBFQFEAWABMCENBwaXAr8BUBENFREFAXBhQI0DgQ8yABz-BQQGBAAfGAAOFx4XHh8XHh0OAB4A
+QQAafwgIBCAH8Cw0AB_PUAcMB1AH8Bw6ACC-J0AHDAdAF9AH8AU_ACYDQgA-YAdAQwAiBUUAf1AH
+YAdQB0DZAX7yEAgQBCAZUBlACRcJMAkXCSAJNwkQCTcJAAkHChcKBxkGADEaFxoEAP8GCgkaCQo5
+GlkaOQA5ABkQGRAJIBkgbwAhAHEANRoJMHUAWAoXCgkQBgAxGRoZBAARWQIAbwkAGQAJMGsAJQxv
+ADIwCRoEABI5AgBfQBlQGSBnAR7-BzcXsFeAd3B3YJdQl1CXYHeAV6A38BZHAB3xBGAX0BfQF6AH
+EBcQB2AXADcAF1AGAP8AYHdQBwB3AAcwt0CXYHdwXgAkYPAEB1AHcD8D-xMLF9AXcAdAF0AHIAcg
+NyAHYFeQV2AHEFcQB2BXoDfAF-AXXAAdEDBXAGE0B9AH8CFYAF9wF8A3sEoAIi-w8DIA--------
+--------------------------------------------------VQPTEyfX0=
+:: gfx/stage.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI2OjIzIixtb2RpZmllZD0iMjAyNC0x
+MC0xMyAyMToyNjoyMyIscmV2aXNpb249MF1dbHo0AP8BAABtNAAA8yF7WzBdPXtibXA9cHh1AEMg
+EBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIAMp5PTAsem9vbT04fSw_AE-yAe0CAgAI
+D04AHH-9AdYdBr0FBAAbP8X9AWcAHCkCDQIAXv0BAv0PAwAPVQAcMQoQGgIABAgAKxoACAAfECIA
+Uw_3ABwv8PAxAP-------6TH8gBdPxW9Pp0ePR59BABinV6dXt0eAgBvnT69Pv0GWAAzDwQABQ9k
+ACIv8PDiAf8Uum0fFd0evT69Pt0eAgBvvV6dXv0F2gErAUgABwQAb91_fX79BFQAM2-9AB7dHn0j
+Aimf8gA9HxUdHp0eBAAAMX59frEAAwIAD1wAIVN-FX1_fUAAEN1NARMADQAQfQ0AHwYGASUGUQAE
+EgEPBQEtAKkAA1YAIx69BAAEAgAv-QiuASsInAAPsAAyyvBGDQ8VHbAeHbANDgQATy4N8DZNAB-h
+HxUNsA4dDrAtDrAdDg1JAE8OLbA_SwAwIS0ODgAvDR6YACF1DxUNDg2wDgUAET5TAAMEAA9QACAg
+PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
+----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMTo1NzowNiJdXQ==
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
+MS0zMCAxMzo0NToyNSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMTo1NzowNiIscmV2aXNpb249MTU4NV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+MS0zMCAxMzo0NToyNSIscmV2aXNpb249MTgwOV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMTo1NzowNiJdXQ==
+MS0zMCAxMzo0NToyNSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMTo1NzowNiIscmV2aXNpb249MTU4NV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+MS0zMCAxMzo0NToyNSIscmV2aXNpb249MTgwOV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMTo1NzowNiJdXQ==
+MS0zMCAxMzo0NToyNSJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2024-11-23 11:57:06",revision=2057]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2024-11-30 13:45:25",revision=2325]]
 function draw_edit()
+	camera(0,0)
 	cls(2)
 	fillp(0b11001100001100111100110000110011)
-	rectfill(0,0,199,#menu*13+20,0x1502)
-	fillp(0b1010010110100101)
-	line(100,0-scrolly,100,200-scrolly,0x0d01)	
-	line(0,100-scrolly,200,100-scrolly,0x0d01)	
+	rectfill(0,0,199,199,0x1502)
+	fillp(0b1010010110100101)		-- sets checkerboard
+	line(100,0,100,200,0x0d01)	-- crosshair
+	line(0,100,200,100,0x0d01)	-- crosshair
 
-	fillp()
+	fillp() -- resets fill pattern
 	draw_menu()
 	
 	if selected_sprite then
-		mspr(selected_sprite,100,100-scrolly)
+		mspr(selected_sprite,100,100)
 	end
 	
 	if (time()*2)%1<0.5 then
-		pset(100,100-scrolly,rnd{8,13,7,15})
+		pset(100,100,rnd{8,13,7,15})
 	end
 end
 
@@ -121,15 +199,18 @@ function draw_list()
 	line(0,100-scrolly,200,100-scrolly,0x0d01)	
 
 	fillp()
-	draw_menu()
+	printh(menu == nil)
 	
+	draw_menu()
+
 	local mymenu = menu[cury][curx]
+	
 	if mymenu.cmdy then
-		mspr(mymenu.cmdy,100,100-scrolly)
+		mspr(mymenu.cmdy,100,100-scrolly,magnification)
 	end
 	
 	if (time()*2)%1<0.5 then
-		pset(100,100-scrolly,rnd{8,13,7,15})
+		rectfill(100,100-scrolly,100+magnification-1, 100-scrolly+magnification-1, rnd{8,13,7,15})
 	end
 end
 
@@ -166,7 +247,7 @@ b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2024-11-23 11:57:06",revision=1643]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2024-11-30 13:45:25",revision=1881]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
@@ -177,7 +258,7 @@ end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-11-23 11:57:06",revision=1796]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",icon=userdata("u8",16,16,"01010101010101010101010101010101010606070707070707070707070606010106060707070707070707070706060101060607070707070707070707060601010606070707070707070707070606010106060707070707070707070706060101060607070707070707070707060601010606070707070707070707070606010106060606060606060606060606060101060606060606060606060606060601010606060606060606060606060606010106060601010101010101010106060101060606010707070701010101060601010606060107070707010101010606010001060601070707070101010106060100000101010101010101010101010101"),modified="2024-11-30 13:45:25",revision=2036]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
@@ -190,8 +271,8 @@ function _init()
 	
 	window{width = 200, height = 200}
 	
-	input_file = "myspr.pod"
-	output_file = "myspr.pod"
+	input_file = "gfx/myspr.pod"
+	output_file = "gfx/myspr.pod"
 	data = fetch(input_file)
 	myspr = data
 
@@ -206,6 +287,7 @@ function _init()
 	scrolly = 0
 	scrollx = 0
 	scrollspeed = 4
+	magnification = 1
 end
 
 function _draw()
@@ -261,7 +343,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2024-11-23 11:57:06",revision=1642]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2024-11-30 13:45:25",revision=1886]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -382,17 +464,57 @@ end
 
 function mspr(si, sx, sy, mag, flip_x, flip_y)
 	local ms = myspr[si]
-	mag = mag or 1
+	mag = (mag) and mag or 1
 	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
-	sspr(ms[1], 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2]*mag, ms[3]*mag, ms.flip_x or flip_x, ms.flip_y or flip_y)
+	sspr(ms[1], 0, 0, ms[2], ms[3], sx - ms[4]*mag, sy - ms[5]*mag, ms[2]*mag, ms[3]*mag, ms.flip_x or flip_x, ms.flip_y or flip_y)
 	if ms.nextspr then
 		mspr(ms.nextspr, sx, sy)
 	end
 end
 :: ui.lua
---[[pod_format="raw",created="2024-11-23 10:46:36",modified="2024-11-23 11:57:06",revision=220]]
+--[[pod_format="raw",created="2024-11-23 10:46:36",modified="2024-11-30 13:45:25",revision=491]]
 function refresh_edit()
 	menu = {}
+	
+	add(menu,{{
+		text = "< sprite "..selected_sprite.. " >",
+		w = width_to_string(9+#tostr(selected_sprite)),
+		cmd = "sprhead",
+		x = 2,
+		y = 2,
+	}})
+	local label = {"id:", "x:", "y:", "ox:", "oy:", "fx:", "fy:"}
+	for i = 1, 7 do
+		local s = tostr(data[selected_sprite][i])
+		if s == nil then
+			s = "[nil]"
+		end
+		
+		add(menu,{
+			{
+				text = label[i],
+				w = "    ",
+				x = 2,
+				y = 2+i*13,
+			},
+			{
+				text = s,
+				w = width_to_string(#s),
+				cmd = "editval",
+				cmdy = selected_sprite,
+				cmdx = i,
+				x = 17,
+				y = 2+i*13,
+			},
+		})
+	end
+	add(menu,{{
+		text = "DELETE",
+		w = width_to_string(6),
+		cmd = "delspr",
+		x = 2,
+		y = 108,
+	}})
 end
 
 function refresh_list()
@@ -468,9 +590,76 @@ function refresh_table()
 	}})
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2024-11-23 11:57:06",revision=2043]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2024-11-30 13:45:25",revision=2330]]
 function update_edit()
 	refresh_edit()
+	
+	curx = (cury == 1 or cury == 9) and 1 or 2
+	wheel_y = ({mouse()})[5]
+	
+	--up
+	if keyp("up") then
+		cury = cury - 1
+	end
+	--down
+	if keyp("down") then
+		cury = cury + 1
+	end
+	cury = (cury-1) % (#menu) + 1
+	cury = cury - wheel_y
+	cury = mid(1, cury, #menu)
+	
+	if keyp("left") then
+		selected_sprite -= 1
+	end
+	if keyp("right") then
+		selected_sprite += 1
+	end
+	selected_sprite = mid(1, selected_sprite, #data)
+	
+	if keyp("x") then
+		_drw = draw_list
+		_upd = update_list
+		curx = 1
+		cury = selected_sprite
+		refresh_list()
+		return
+	end
+	
+	if keyp("z") then
+		mymenu = menu[cury][curx]
+		if mymenu.cmd == "editval" then
+			current_page = "edit"
+			prev_upd = "update_edit"
+			text_bar = spawntextbox()
+			_upd = upd_type	
+			text_bar:set_keyboard_focus(true)
+			text_bar:set_text(tostr(data[mymenu.cmdy][mymenu.cmdx]))
+			mymenu.data = tonum(mymenu.data)
+		elseif mymenu.cmd == "delspr" then
+			deli(data,selected_sprite)
+			_drw = draw_list
+			_upd = update_list
+			curx = 1
+			cury = 1
+			refresh_list()	
+		end
+	end
+
+	printh("cury: " .. cury .. ", curx: " .. curx)
+	local curmenu = menu[cury][curx]
+	
+	if curmenu then
+		if curmenu.y + scrolly > (200 - 30) then
+			scrolly = scrolly - scrollspeed
+		end
+		if curmenu.y + scrolly < 22 then
+			scrolly = scrolly + scrollspeed
+		end
+		scrolly = min(0, scrolly)
+		
+		camera(0,-scrolly)
+	end
 end
 
 function update_list()
@@ -504,7 +693,16 @@ function update_list()
 		camera(0,-scrolly)
 	end
 	
-	if btnp(4) then
+	--left and right control zoom between 1-5x
+	if keyp("left") then
+		magnification -= 1
+	end
+	if keyp("right") then
+		magnification += 1
+	end
+	magnification = mid(1,magnification,5)
+	
+	if keyp("z") then
 		local mymenu = menu[cury][curx]
 		if mymenu.cmd == "newline" then
 			add(data,{0, 0, 0, 0, 0})
@@ -512,6 +710,7 @@ function update_list()
 			selected_sprite = mymenu.cmdy
 			_upd = update_edit
 			_drw = draw_edit
+			cury = 1
 		end
 	end
 end
@@ -605,38 +804,43 @@ function spawntextbox(_i)
 			enter = function(enter_mode)
 				editval = text_bar:get_text()[1]
 				if (editval == "") then
-					-- if current x is on the last cell
-					if mymenu.cmdx == #data[mymenu.cmdy] then
-						if mymenu.cmdx == 1 then
-							deli(data, mymenu.cmdy)
-						else
-							deli(data[mymenu.cmdy],mymenu.cmdx)
-						end
-					else
-						editval = tonum(editval)
-						data[cury][curx-1] = (editval) and editval or 0
-					end
-				else
-					if enter_mode == "newline" then
-						local _el = {
-							text = 0,
-							key = editval,
-							cmd = "edit",
-							cmdx = j,
-							cmdy = i,
-							x = -30 + 32 * j,
-							y = -11 + 13 * i,
-							w = "      "
-						}
-						add(data,{_el})
-					else
-						editval = tonum(editval)
-						data[cury][curx-1] = (editval) and editval or 0
-					end
+					editval = 0
+-- this is all for edit_table, we might want to split these up
+--					-- if current x is on the last cell
+--					if mymenu.cmdx == #data[mymenu.cmdy] then
+--						if mymenu.cmdx == 1 then
+--							deli(data, mymenu.cmdy)
+--						else
+--							deli(data[mymenu.cmdy],mymenu.cmdx)
+--						end
+--					else
+--						editval = tonum(editval)
+--						data[cury][curx-1] = (editval) and editval or 0
+--					end
+--				else
+--					if enter_mode == "newline" then
+--						local _el = {
+--							text = 0,
+--							key = editval,
+--							cmd = "edit",
+--							cmdx = j,
+--							cmdy = i,
+--							x = -30 + 32 * j,
+--							y = -11 + 13 * i,
+--							w = "      "
+--						}
+--						add(data,{_el})
+--					else
+--						editval = tonum(editval)
+--						data[cury][curx-1] = (editval) and editval or 0
+--					end
 				end
 				removeAllChildren(modify_text_display)
 				current_page = nil
-				_upd = update_table
+				if prev_upd == "update_edit" then
+					data[mymenu.cmdy][mymenu.cmdx] = (editval) and editval or 0			
+					_upd = update_edit
+				end
 			end
 		}
 	}
@@ -644,12 +848,12 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMTo1NzowNiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzExIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM2NCIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
+MS0zMCAxMzo0NToyNSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzE0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM1Iix3b3Jrc3BhY2Vf
+aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzQ3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
 Y2F0aW9uPSJ0b29scy5sdWEjMTIzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpby5s
-dWEjNiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0idWkubHVhIzIiLHdvcmtzcGFjZV9p
-bmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlv
-bj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngiLHdv
-cmtzcGFjZV9pbmRleD00fX1dXQ==
+dWEjNiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0idWkubHVhIzQxIix3b3Jrc3BhY2Vf
+aW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9jYXRp
+b249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3
+b3Jrc3BhY2VfaW5kZXg9NH19XV0=
 :: [eoc]

@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-11-06 05:56:15",revision=386]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-11-30 13:12:15",revision=479]]
 function upd_game()
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -78,7 +78,7 @@ function upd_game()
 
 	-- dokaaaaaaaaaan!!!
 	if btnp(5) then
-		explode(40, 135)
+		explode(240, 135)
 	end
 
 	boss = btn(5)

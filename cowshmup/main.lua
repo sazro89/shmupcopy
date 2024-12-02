@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-11-06 05:56:15",revision=1632]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-11-30 13:12:15",revision=1742]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -16,41 +16,77 @@ function _init()
 	-- in the tutorial he stores a bunch of values needed for sspr in pico-8
 	-- we don't need that in picotron, but then he also bakes in offset values
 	-- so this array is for holding those kinds of values
-	myspr = {
-		-- ship sprites 1-5
-		{ i = 8, w = 15, h = 18, ox = 5, oy = 8 },
-		{ i = 9, w = 16, h = 18, ox = 7, oy = 8 },
-		{ i = 10, w = 18, h = 18, ox = 8, oy = 8 },
-		{ i = 11, w = 16, h = 18, ox = 7, oy = 8 },
-		{ i = 12, w = 15, h = 18, ox = 8, oy = 8 },
-		-- shot sprites 6-8
-		{ i = 24, w = 8, h = 16, ox = 3, oy = 0 },
-		{ i = 25, w = 6, h = 16, ox = 2, oy = 0 },
-		{ i = 26, w = 4, h = 16, ox = 1, oy = 0 },
-		-- muzz sprites 9-12
-		{ i = 27, w = 10, h = 10, ox = 5, oy = 9 },
-		{ i = 28, w = 12, h = 14, ox = 6, oy = 13 },
-		{ i = 29, w = 14, h = 13, ox = 7, oy = 12 },
-		{ i = 30, w = 16, h = 14, ox = 8, oy = 13 },
-		-- flame sprites 13-17
-		{ i = 17, w = 1, h = 1, ox = 0, oy = 0 },
-		{ i = 18, w = 3, h = 3, ox = 1, oy = 0 },
-		{ i = 19, w = 3, h = 6, ox = 1, oy = 0 },
-		{ i = 20, w = 3, h = 8, ox = 1, oy = 0 },
-		{ i = 21, w = 3, h = 8, ox = 1, oy = 0 },
-		-- enemy sprites 18-20
-		{ i = 32, w = 16, h = 16, ox = 8, oy = 8 },
-		{ i = 33, w = 18, h = 17, ox = 9, oy = 8 },
-		{ i = 34, w = 18, h = 17, ox = 9, oy = 8 },
-		-- enemy shot 21-22
-		{ i = 1, w = 7, h = 7, ox = 3, oy = 3 },
-		{ i = 2, w = 7, h = 7, ox = 3, oy = 3 },
-		-- enemy shot 23-26
-		{ i = 3, w = 6, h = 7, ox = 3, oy = 0 },
-		{ i = 4, w = 10, h = 9, ox = 5, oy = 2 },
-		{ i = 5, w = 16, h = 12, ox = 8, oy = 5 },
-		{ i = 6, w = 12, h = 12, ox = 6, oy = 6 },
-	}
+--	myspr = {
+--		-- ship sprites 1-5
+--		{ i = 8, w = 15, h = 18, ox = 5, oy = 8 },
+--		{ i = 9, w = 16, h = 18, ox = 7, oy = 8 },
+--		{ i = 10, w = 18, h = 18, ox = 8, oy = 8 },
+--		{ i = 11, w = 16, h = 18, ox = 7, oy = 8 },
+--		{ i = 12, w = 15, h = 18, ox = 8, oy = 8 },
+--		-- shot sprites 6-8
+--		{ i = 24, w = 8, h = 16, ox = 3, oy = 0 },
+--		{ i = 25, w = 6, h = 16, ox = 2, oy = 0 },
+--		{ i = 26, w = 4, h = 16, ox = 1, oy = 0 },
+--		-- muzz sprites 9-12
+--		{ i = 27, w = 10, h = 10, ox = 5, oy = 9 },
+--		{ i = 28, w = 12, h = 14, ox = 6, oy = 13 },
+--		{ i = 29, w = 14, h = 13, ox = 7, oy = 12 },
+--		{ i = 30, w = 16, h = 14, ox = 8, oy = 13 },
+--		-- flame sprites 13-17
+--		{ i = 17, w = 1, h = 1, ox = 0, oy = 0 },
+--		{ i = 18, w = 3, h = 3, ox = 1, oy = 0 },
+--		{ i = 19, w = 3, h = 6, ox = 1, oy = 0 },
+--		{ i = 20, w = 3, h = 8, ox = 1, oy = 0 },
+--		{ i = 21, w = 3, h = 8, ox = 1, oy = 0 },
+--		-- enemy sprites 18-20
+--		{ i = 32, w = 16, h = 16, ox = 8, oy = 8 },
+--		{ i = 33, w = 18, h = 17, ox = 9, oy = 8 },
+--		{ i = 34, w = 18, h = 17, ox = 9, oy = 8 },
+--		-- enemy shot 21-22
+--		{ i = 1, w = 7, h = 7, ox = 3, oy = 3 },
+--		{ i = 2, w = 7, h = 7, ox = 3, oy = 3 },
+--		-- enemy shot 23-26
+--		{ i = 3, w = 6, h = 7, ox = 3, oy = 0 },
+--		{ i = 4, w = 10, h = 9, ox = 5, oy = 2 },
+--		{ i = 5, w = 16, h = 12, ox = 8, oy = 5 },
+--		{ i = 6, w = 12, h = 12, ox = 6, oy = 6 },
+--	}
+--	myspr = {
+--		-- ship sprites 1-5
+--		{ 8, 15, 18, 5, 8 },
+--		{ 9, 16, 18, 7, 8 },
+--		{ 10, 18, 18, 8, 8 },
+--		{ 11, 16, 18, 7, 8 },
+--		{ 12, 15, 18, 8, 8 },
+--		-- shot sprites 6-8
+--		{ 24, 8, 16, 3, 0 },
+--		{ 25, 6, 16, 2, 0 },
+--		{ 26, 4, 16, 1, 0 },
+--		-- muzz sprites 9-12
+--		{ 27, 10, 10, 5, 9 },
+--		{ 28, 12, 14, 6, 13 },
+--		{ 29, 14, 13, 7, 12 },
+--		{ 30, 16, 14, 8, 13 },
+--		-- flame sprites 13-17
+--		{ 17, 1, 1, 0, 0 },
+--		{ 18, 3, 3, 1, 0 },
+--		{ 19, 3, 6, 1, 0 },
+--		{ 20, 3, 8, 1, 0 },
+--		{ 21, 3, 8, 1, 0 },
+--		-- enemy sprites 18-20
+--		{ 32, 16, 16, 8, 8 },
+--		{ 33, 18, 17, 9, 8 },
+--		{ 34, 18, 17, 9, 8 },
+--		-- enemy shot 21-22
+--		{ 1, 7, 7, 3, 3 },
+--		{ 2, 7, 7, 3, 3 },
+--		-- enemy shot 23-26
+--		{ 3, 6, 7, 3, 0 },
+--		{ 4, 10, 9, 5, 2 },
+--		{ 5, 16, 12, 8, 5 },
+--		{ 6, 12, 12, 6, 6 },
+--	}
+	myspr = fetch("gfx/myspr.pod")
 
 	sprval = 3
 
@@ -163,6 +199,8 @@ end
 function _update()
 	t = t + 1
 	_upd()
+	debug[1] = #myspr
+	debug[2] = tostr(myspr[1][1])
 end
 
 function startgame()

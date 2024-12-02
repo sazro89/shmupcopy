@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-11-06 05:56:15",revision=404]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-11-30 13:12:15",revision=497]]
 
 function drw_game()
 	cls(0)
@@ -66,14 +66,16 @@ function drw_game()
 	camera(0, 0)
 	rectfill(0, 0, x_borders, 270, 32)
 	rectfill(480, 0, 480 - x_borders, 270, 32)
-	debug[1] = "scroll: " .. scroll
-	debug[2] = "fframe: " .. (t % (#flamearr - 1)) + 1
-	debug[3] = "enemies: " .. #enemies
+--	debug[1] = "scroll: " .. scroll
+--	debug[2] = "fframe: " .. (t % (#flamearr - 1)) + 1
+--	debug[3] = "enemies: " .. #enemies
 end
 
 function mspr(si, sx, sy, flip_x, flip_y)
 	local ms = myspr[si]
-	sspr(ms.i, 0, 0, ms.w, ms.h, sx - ms.ox, sy - ms.oy, ms.w, ms.h, ms.flip_x or flip_x, ms.flip_y or flip_y)
+	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
+	sspr(ms[1], 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2], ms[3], ms.flip_x or flip_x, ms.flip_y or flip_y)
+--	sspr(ms[1], 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2], ms[3])
 	if ms.nextspr then
 		mspr(ms.nextspr, sx, sy)
 	end
