@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiIscmV2aXNpb249MjE2N11dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
+Mi0wOSAxNzo1Nzo1OSIscmV2aXNpb249MjE2OV1dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -69,28 +69,28 @@ BQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBfZQtjC2NEABw-9hh1mgUeOFYFCwMAAXcADyQDHSOW
 PRwCD38ADFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiJdXQ==
+Mi0wOSAxNzo1Nzo1OSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiIscmV2aXNpb249MTM3NV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+Mi0wOSAxNzo1Nzo1OSIscmV2aXNpb249MTM3N11dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiJdXQ==
+Mi0wOSAxNzo1Nzo1OSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiIscmV2aXNpb249MTM3Nl1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+Mi0wOSAxNzo1Nzo1OSIscmV2aXNpb249MTM3OF1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiJdXQ==
+Mi0wOSAxNzo1Nzo1OSJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2024-11-23 10:36:36",revision=1774]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2024-12-09 17:57:59",revision=1777]]
 function draw_table()
 	cls(1)
 
@@ -168,7 +168,7 @@ b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2024-11-23 10:36:36",revision=1431]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2024-12-09 17:57:59",revision=1434]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
@@ -179,7 +179,7 @@ end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-11-23 10:36:36",revision=1573]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2024-12-09 17:57:59",revision=1576]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
@@ -261,7 +261,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2024-11-23 10:36:36",revision=1422]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2024-12-09 17:57:59",revision=1425]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -373,7 +373,7 @@ function print_table(node)
 end
 
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2024-11-23 10:36:36",revision=1811]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2024-12-09 17:57:59",revision=1814]]
 function update_table()
 	refresh_table()
 	
@@ -502,7 +502,7 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNC0x
-MS0yMyAxMDozNjozNiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+Mi0wOSAxNzo1Nzo1OSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
 IzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImRyYXcubHVhIzcyIix3b3Jrc3BhY2Vf
 aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzE1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
 Y2F0aW9uPSJ0b29scy5sdWEjNiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iaW8ubHVh

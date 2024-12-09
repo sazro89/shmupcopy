@@ -1,29 +1,28 @@
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-11-30 13:12:15",revision=456]]
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-12-09 21:15:03",revision=740]]
 function spawnenemy()
-	-- add(enemies, {
-	-- 	-- play range for these enemies is 143-379 with current coordinate system
-	-- 	x = map_range(rnd(), 0, 1, 143, 379),
-	-- 	-- x = 379,
-	-- 	-- x = 143,
-	-- 	y = -16,
-	-- 	sani = { 18, 19, 20 },
-	-- 	si = 1,
-	-- 	sx = 0,
-	-- 	sy = 0,
-	-- 	brain = 1,
-	-- 	age = 0,
-	-- })
+	-- play range for these enemies is 143-379 with current coordinate system
 	add(enemies, {
 		x = 240,
 		y = 120,
-		sani = { 18, 19, 20 },
+		ani = { 18, 19, 20 },
+		anis = 6,
 		si = 1,
 		sx = 0,
 		sy = 0,
 		brain = 2,
 		age = 0,
 		flash = 0,
-		hp = 15,
+		hp = 15000,
+	})
+	
+	add(buls, {
+		x = 280,
+		y = 64,
+		sx = 0,
+		sy = 0,
+		ani = {21, 22},
+		anis = 4,
+		age = 1,
 	})
 end
 
@@ -40,8 +39,8 @@ function doenemies()
 						y = e.y,
 						sx = 0,
 						sy = 2,
-						sani = { 21, 22 },
-						si = 1,
+						ani = { 21, 22 },
+						anis = 2,
 					})
 				end
 				-- stay
@@ -57,22 +56,15 @@ function doenemies()
 		e.age = e.age + 1
 		e.x = e.x + e.sx
 		e.y = e.y + e.sy
-		e.si = e.si + 0.15
-		if flr(e.si) > #e.sani then
-			e.si = 1
-		end
 	end
 end
 
 function doshots(arr)
 	for s in all(arr) do
+		s.age = s.age + 1
 		s.x = s.x + s.sx
 		s.y = s.y + s.sy
-		s.si = s.si + 0.5
 
-		if flr(s.si) > #s.sani then
-			s.si = 1
-		end
 		if s.y < -16 or s.y > 280 then
 			del(arr, s)
 		end
@@ -80,34 +72,43 @@ function doshots(arr)
 end
 
 function shoot()
+--	slowmo = true
 	local shotspd = -12
-	shotwait = 3
+	shotwait = 2
 	add(shots, {
 		x = px - 5 + banked - xscroll,
 		y = py - 4,
 		sx = 0,
 		sy = shotspd,
-		sani = { 6, 7, 8, 7 },
-		si = t % 4 + 1,
+		ani = { 6, 7, 8, 7 },
+		anis = 2,
+		age = t % 4 + 1,
 	})
 	add(shots, {
 		x = px + 5 - banked - xscroll,
 		y = py - 4,
 		sx = 0,
 		sy = shotspd,
-		sani = { 6, 7, 8, 7 },
-		si = t % 4 + 1,
+		ani = { 6, 7, 8, 7 },
+		anis = 2,
+		age = t % 4 + 1,
 	})
-	add(muzz, {
+	add(parts,{
+		draw = sprite,
+		maxage = 4,
 		x = -4 + banked,
 		y = -1,
-		sani = { 9, 10, 11, 12 },
-		si = 0,
+		ani = { 9, 10, 11, 12 },
+		age = -1,
+		plock = true,
 	})
-	add(muzz, {
+	add(parts,{
+		draw = sprite,
+		maxage = 4,
 		x = 6 - banked,
 		y = -1,
-		sani = { 9, 10, 11, 12 },
-		si = 0,
+		ani = { 9, 10, 11, 12 },
+		age = -1,
+		plock = true,
 	})
 end

@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-11-30 13:12:15",revision=479]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-12-09 21:15:03",revision=764]]
 function upd_game()
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -27,12 +27,6 @@ function upd_game()
 	end
 
 	-- INPUTS / MOVEMENT
-	-- if btn(0) then
-	-- 	sprval = (sprval <= 1) and 1 or (sprval - 1)
-	-- end
-	-- if btn(1) then
-	-- 	sprval = (sprval >= 5) and 5 or (sprval + 1)
-	-- end
 	local dir = butdic[btn() & 0b1111]
 
 	if lastdir ~= dir and dir >= 5 then
@@ -85,27 +79,23 @@ function upd_game()
 
 	doshots(shots)
 	doshots(buls)
-	dosplash()
-	domuzz()
 	doenemies()
 
 	-- colission
 	pcol = false
-	for e in all(enemies) do
-		e.iscol = false
-	end
 	-- shots vs enemies
 	for e in all(enemies) do
 		for s in all(shots) do
-			if col(flr(s.x - 3 + xscroll), flr(s.y), 8, 16, flr(e.x - 7 + xscroll), flr(e.y - 7), 16, 16) then
-				e.iscol = true
+			if not s.delme and col(flr(s.x - 3 + xscroll), flr(s.y), 8, 16, flr(e.x - 7 + xscroll), flr(e.y - 7), 16, 16) then
 				e.flash = 2
-				del(shots, s)
-				add(splash, {
+				s.delme = true
+				add(parts, {
+					draw = sprite,
 					x = s.x,
 					y = s.y,
-					sani = { 23, 24, 25, 26 },
-					si = 1,
+					age = -2,
+					ani = { 23, 24, 25, 26 },
+					maxage = 4,
 				})
 				e.hp = e.hp - 1
 
@@ -157,7 +147,7 @@ function upd_menu()
 	end
 
 	-- INPUTS
-	if btnp(5) then
+	if btnp(5) or btnp(4) then
 		startgame()
 	end
 end

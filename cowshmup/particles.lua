@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-11-30 13:12:15",revision=434]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-12-09 21:15:03",revision=686]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
@@ -97,9 +97,6 @@ function dopart(p)
 	if p.age <= 0 then
 		return
 	end
-
-	-- particle logic
-	p.age = p.age + 1
 
 	-- movement
 	if p.to_x then
@@ -226,22 +223,11 @@ function sparkblast(ex, ey, ewait)
 	end
 end
 
-function domuzz()
-	for m in all(muzz) do
-		m.si = m.si + 1
-
-		if flr(m.si) > #m.sani then
-			del(muzz, m)
-		end
+function sprite(p)
+	local _x,_y = p.x, p.y
+	if p.plock then
+		_x += px - xscroll
+		_y += py
 	end
-end
-
-function dosplash()
-	for s in all(splash) do
-		s.si = s.si + 1
-
-		if flr(s.si) > #s.sani then
-			del(splash, s)
-		end
-	end
+	mspr(cyc(p.age,p.ani,p.anis), _x, _y)
 end
