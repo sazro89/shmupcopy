@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-12-09 21:15:03",revision=686]]
+--[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-12-16 05:47:04",revision=703]]
 -- alternate to sgn, different in that 0 returns 0 instead of 1
 function mysgn(v)
 	return v == 0 and 0 or sgn(v)

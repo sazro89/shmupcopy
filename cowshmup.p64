@@ -3,8 +3,8 @@ version 2
 
 :: gfx/
 :: gfx/0.gfx
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNC0x
-Mi0wOSAyMToxNTowMyIscmV2aXNpb249MTE0NF1dbHo0ACkPAABUQAAA8yF7WzBdPXtibXA9cHh1
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
+MS0yMyAyMjoyNTowOCIscmV2aXNpb249MTQ1MF1dbHo0ACkPAABUQAAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -73,6 +73,11 @@ BQPACiM-IVeBDAIfgi0HDAUtBQYlNRAgBQ0nEBAWDAAgDSYLAH82FQ1GBQ1WWAAcX3x1ffYYNAAc
 -wQH5R1VFg1FJg01Ng0lRg0VVg0FdgAfcCYdRg0WDTYEAC89lj8AHFErBQNbDQMAOgUDGxgCH3tL
 ACghKy0NAE8rIw0DFhceEAB2CgCmAiALAyQSIxMBCwA-IwULmQwfRCsFE0uVABdbDAAPswIdOQsF
 VgMAX2ULYwtjRAAcP-YYdZoFHjhWBQsDAAF3AA8kAx0jlj0cAg9-AAxQbT04fX0=
+:: gfx/anilib.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEyLTE1IDIzOjA2OjA5Iixtb2RpZmllZD0iMjAyNC0x
+Mi0xNiAwNjoyOTozNCIscmV2aXNpb249NF1dbHo0AFQAAABYAAAAgHt7MTMsMTQsBgARNQkAETYJ
+APAIN30sezksMTAsMTEsMTJ9LHs2LDcsOCwXAPAHMjMsMjQsMjUsMjZ9LHsxOCwxOSwyMBkAsDEs
+MjJ9LHsyN319
 :: gfx/enemy-01.png
 b64$iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8-9hAAAAAXNSR0IArs4c6QAAAYFJREFU
 OI2NkzFLw1AUhb_Ekr-QyW7Bwf_gs1g7SFIqnbKIcwkEuoQsQqB0li6dgpWELG3pXP_DiGTTxd_Q
@@ -104,13 +109,14 @@ gmhPz7YI7i8hPEinZ9K7elTayJLl9YWH0W8aamrrCw_AkYWEOJ4C4Elb4HgZiJYoXulkMTjvHCfJ
 BcUwkKMFGN-KG966vtFSpN9b5tHGhjjdPDGZdIo-r-iO-fZQ-w37C_QLffv1evDJCm8AAAAASUVO
 RK5CYII=
 :: gfx/myspr.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTIwIDIyOjE5OjIyIixtb2RpZmllZD0iMjAyNC0x
-MS0zMCAxMzo0NToxMCIscmV2aXNpb249Nl1dbHo0ACEBAACNAQAA8AV7ezgsMTUsMTgsNSw4fSx7
-OSwxNg4AETcOACAxMAwAQjE4LDgPABoxHgATMjsAAh4AQDI0LDggADAzLDAOADA1LDYOABIyDgAw
-Niw0DgASMQ4AIDcsWgBQMCw1LDkPACA4LEsAEDQxABAzEAAQOQ0AwTEzLDcsMTJ9LHszMDsAAV8A
-ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
-AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0A4DIsOCw1fSx7
-NiwiMTYiEADwASI4Iiw2fSx7IjM1IiwiMjgFAOA3IiwiMTMiLCIxMyJ9fQ==
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTIwIDIyOjE5OjIyIixtb2RpZmllZD0iMjAyNS0w
+MS0yMyAwMDozODozMSIscmV2aXNpb249MTZdXWx6NABMAQAAzgEAAPAFe3s4LDE1LDE4LDUsOH0s
+ezksMTYOABE3DgAgMTAMAEIxOCw4DwAaMR4AEzI7AAIeAEAyNCw4IAAwMywwDgAwNSw2DgASMg4A
+MDYsNA4AEjEOACA3LFoAUDAsNSw5DwAgOCxLABA0MQAQMxAAEDkNAMExMyw3LDEyfSx7MzA7AAFf
+AAAgAEAxNywxSgABTABjMTgsMywzWQBjMTksMyw2DQBkMjAsMyw4DQAXMQ0AITMyUQATNrkAIDMz
+xQBCMTcsOQ8AGTQPAFAxLDcsN2QAAEYABwwAAGkAEzftABA0zQBAOSw1LK8AETVdAOAyLDgsNX0s
+ezYsIjE2IhAA8AEiOCIsNn0seyIzNSIsIjI4BQBiNyIsIjEzBQAAGwAAEAAxNCIsCAARMQwABBYA
+JDE0BQARNwQAcH0sezAsIjYVAKA2IiwiMiIsMH19
 :: gfx/ship.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI1OjE4Iixtb2RpZmllZD0iMjAyNC0x
 MC0xMyAyMToyNToxOCIscmV2aXNpb249MF1dbHo0AAcEAACpNgAA8yF7WzBdPXtibXA9cHh1AEMg
@@ -145,12 +151,12 @@ HxUNsA4dDrAtDrAdDg1JAE8OLbA_SwAwIS0ODgAvDR6YACF1DxUNDg2wDgUAET5TAAMEAA9QACAg
 PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-Mi0wOSAyMToxNTowMyJdXQ==
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
+MS0yMyAyMjoyNTowOCJdXQ==
 :: map/
 :: map/0.map
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-Mi0wOSAyMToxNTowMyIscmV2aXNpb249MTU3NF1dbHo0AIoMAABqQAAA-xZ7e2JtcD11c2VyZGF0
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
+MS0yMyAyMjoyNTowOCIscmV2aXNpb249MTg3Ml1dbHo0AIoMAABqQAAA-xZ7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWYwMDAzBAAjIzlmQAAfMQQAIQ9AAPtXMzIwMDMcAA_AAFofMwQA
 IwVAAB8xBAAhDwAC-wESMAwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ACIyOQwAD4AAXh8zBAAjBUAA
 HzEEACEPAAL8UjEwMDI4DAAPgABZ42QwMDBkODAwZDQwMGQzCAAMEAAIGAAIMAAACAASZAwAEGUY
@@ -209,8 +215,8 @@ HzQkABQPIAAJDzwAEQ9EAAkEFAAPCAAFHzQIAAQEIAAIDAAfNDQAFAUYAPEVIiksaGlkZGVuPWZh
 bHNlLG5hbWU9Im1hcCIscGFuX3g9LTE4CgDyAnk9LTE0NTMsdGlsZV9oPTE2CgAQdwoAgHpvb209
 MX19
 :: map/.info.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-Mi0wOSAyMToxNTowMyJdXQ==
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
+MS0yMyAyMjoyNTowOCJdXQ==
 :: prototypes/
 :: prototypes/blob.lua
 --[[pod_format="raw",created="2024-10-06 05:10:33",modified="2024-10-21 21:54:39",revision=1006]]
@@ -587,20 +593,20 @@ end
 
 
 :: prototypes/.info.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEyLTA5IDE3OjE2OjIzIixtb2RpZmllZD0iMjAyNC0x
-Mi0wOSAyMToxNTowMyJdXQ==
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEyLTA5IDE3OjE2OjIzIixtb2RpZmllZD0iMjAyNS0w
+MS0yMyAyMjoyNTowOCJdXQ==
 :: sfx/
 :: sfx/0.sfx
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNC0x
-Mi0wOSAyMToxNTowMyIscmV2aXNpb249MTQ5MV1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
+MS0yMyAyMjoyNTowNyIscmV2aXNpb249MTc4OF1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-2B-L9gEHUP----_E
 :: sfx/.info.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNC0x
-Mi0wOSAyMToxNTowMyJdXQ==
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
+MS0yMyAyMjoyNTowOCJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-12-09 21:15:03",revision=781]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2025-01-23 22:25:08",revision=1146]]
 
 function drw_game()
 	cls(0)
@@ -617,13 +623,11 @@ function drw_game()
 				pal(i, flash_arr[i])
 			end
 		end
---		mspr(cyc(e.age,e.ani,e.anis), e.x, e.y)
 		drawobj(e)
 		pal()
 	end
 	
 	for s in all(shots) do
---		mspr(cyc(s.age, s.ani, s.anis), s.x, s.y)
 		drawobj(s)
 		if s.delme then
 			del(shots,s)
@@ -631,7 +635,7 @@ function drw_game()
 	end
 
 	for p in all(parts) do
-		if p.age >= 0 then
+		if p.age and p.age >= 0 then
 			-- animate color
 			if p.ctab then
 				p.ctabv = p.ctabv or 0
@@ -643,16 +647,30 @@ function drw_game()
 		end
 	end
 	
-	camera(0, 0)
-	
-	mspr(flr(shipspr * 2.4 + 3.5), px, py)
+	-- ship
+	if inviz == 0 then
+		if invul <= 0 or (time() * 15) % 1 < 0.5 then
+			camera(0, 0) 
+			
+			if freeze > 0 then
+				for i = 1,31 do
+					pal(i,7)
+				end
+			end
+			drawobj(pspr)
+			
+			local fframe = flr((t % (#anilib[1] - 1)) + 1)
+		
+			mspr(anilib[1][fframe], px - 2 + banked, py + 6)
+			mspr(anilib[1][fframe], px + 3 - banked, py + 6, true)
+			
+			pal()
+			camera(-xscroll, 0)
+		end
+	else
+		inviz -= 1
+	end
 
-	local fframe = flr((t % (#flamearr - 1)) + 1)
-
-	mspr(flamearr[fframe], px - 2 + banked, py + 6)
-	mspr(flamearr[fframe], px + 3 - banked, py + 6, true)
-
-	camera(-xscroll, 0)
 	
 	-- enemy bullets last to favor visibility
 	for b in all(buls) do
@@ -665,8 +683,8 @@ function drw_game()
 	rectfill(0, 0, x_borders, 270, 32)
 	rectfill(480, 0, 480 - x_borders, 270, 32)
 
---	debug[1] = "scroll: " .. scroll
---	debug[2] = "fframe: " .. (t % (#flamearr - 1)) + 1
+	debug[1] = "scroll: " .. scroll
+--	debug[2] = "fframe: " .. (t % (#anilib[1] - 1)) + 1
 --	debug[3] = "enemies: " .. #enemies
 
 	mspr(27,40,135)
@@ -681,6 +699,12 @@ function mspr(si, sx, sy, flip_x, flip_y)
 	end
 end
 
+function msprc(si, sx, sy)
+	local ms = myspr[si]
+	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
+	rect(sx - ms[4], sy - ms[5], sx - ms[4] + ms[2] - 1, sy - ms[5] + ms[3] - 1, rnd({8,14,15}))
+end
+
 function drw_menu()
 	for seg in all(menucursegs) do
 		map(seg.x, seg.y, x_borders - 20 + (sin(t % 300 / 300) * 20), scroll - seg.o, 21, 8)
@@ -689,36 +713,57 @@ function drw_menu()
 	rectfill(480, 0, 480 - x_borders, 270, 32)
 end
 
+:: enlib.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEyLTE2IDA1OjUxOjQzIixtb2RpZmllZD0iMjAyNS0w
+MS0yMyAyMTo1NjowNiIscmV2aXNpb249NV1dbHo0ACEAAAAfAAAA8BB7ezUsNiwxLDUwMCwyOX0s
+ezcsMSwyLDk5OSwyOX19
 :: explmain.lua
 --[[pod_format="raw",created="2024-12-09 17:16:23",modified="2024-12-09 19:33:45",revision=127]]
 
 :: gameplay.lua
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-12-09 21:15:03",revision=740]]
-function spawnenemy()
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2025-01-23 22:25:08",revision=1114]]
+--gameplay
+
+function die()
+	freeze = 6
+end
+
+function respawn()
+	explode(px-xscroll, py)
+	inviz = 30
+	invul = 150
+end
+
+function spawnenemy(_i, _x, _y)
 	-- play range for these enemies is 143-379 with current coordinate system
+	local en = enlib[_i]
+	
 	add(enemies, {
-		x = 240,
-		y = 120,
-		ani = { 18, 19, 20 },
-		anis = 6,
-		si = 1,
+		x = _x,
+		y = _y,
+		ani = anilib[en[1]],
+		anis = en[2],
 		sx = 0,
 		sy = 0,
-		brain = 2,
+		brain = en[3],
 		age = 0,
 		flash = 0,
-		hp = 15000,
+		hp = en[4],
+		col = en[5],
 	})
 	
+	--[[
 	add(buls, {
 		x = 280,
 		y = 64,
 		sx = 0,
 		sy = 0,
-		ani = {21, 22},
+		ani = anilib[6],
 		anis = 4,
 		age = 1,
 	})
+	]]--
+	
 end
 
 function doenemies()
@@ -726,7 +771,7 @@ function doenemies()
 		if e.brain == 1 then
 			if e.age < 12 then
 				-- fly down
-				e.sy = 1.5
+				e.sy = 2.3
 			elseif e.age < 120 then
 				if e.age == 60 then
 					add(buls, {
@@ -734,12 +779,14 @@ function doenemies()
 						y = e.y,
 						sx = 0,
 						sy = 2,
-						ani = { 21, 22 },
-						anis = 2,
+						ani = anilib[6],
+						anis = 4,
+						age = 1,
+						col = 21,
 					})
 				end
 				-- stay
-				e.sy = max(0, e.sy - 0.03)
+				e.sy = max(0, e.sy - 0.02)
 			else
 				-- fly up
 				e.sy = e.sy - 0.04
@@ -775,25 +822,27 @@ function shoot()
 		y = py - 4,
 		sx = 0,
 		sy = shotspd,
-		ani = { 6, 7, 8, 7 },
+		ani = anilib[3],
 		anis = 2,
 		age = t % 4 + 1,
+		col = 30,
 	})
 	add(shots, {
 		x = px + 5 - banked - xscroll,
 		y = py - 4,
 		sx = 0,
 		sy = shotspd,
-		ani = { 6, 7, 8, 7 },
+		ani = anilib[3],
 		anis = 2,
 		age = t % 4 + 1,
+		col = 30,
 	})
 	add(parts,{
 		draw = sprite,
 		maxage = 4,
 		x = -4 + banked,
 		y = -1,
-		ani = { 9, 10, 11, 12 },
+		ani = anilib[2],
 		age = -1,
 		plock = true,
 	})
@@ -802,14 +851,14 @@ function shoot()
 		maxage = 4,
 		x = 6 - banked,
 		y = -1,
-		ani = { 9, 10, 11, 12 },
+		ani = anilib[2],
 		age = -1,
 		plock = true,
 	})
 end
 
 :: main.lua
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-12-09 21:15:03",revision=1992]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2025-01-23 22:25:08",revision=2357]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -824,8 +873,12 @@ function _init()
 	debug = {}
 	profile.enabled(true, true)
 
-	myspr = fetch("gfx/myspr.pod")
-
+	myspr = fetch("/shmup/myspr.pod")
+	anilib = fetch("/shmup/anilib.pod")
+	enlib = fetch("/shmup/enlib.pod")
+	sched = fetch("/shmup/sched.pod")
+	mapsegs = fetch("/shmup/mapsegs.pod")
+	
 	sprval = 3
 
 	butdic = { -- 0 - stop
@@ -853,74 +906,21 @@ function _init()
 	-- 216px horizontal space mirrors 5:4 tate at 270:216
 	-- on a 480px wide display, this would require two padding sections at 132px each
 
-	-- BUGFIX: dummy segment needed at start
-
-	flamearr = { 13, 14, 13, 15, 14, 16, 15, 17 }
-	-- lazydevs segs 3,3,3,3,3,2,1,0,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,0,15,14,1,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3
 	menusegs = { 5 }
 	menusegs[0] = 4
 	menucursegs = {}
 	scroll = 0
 	mapsegi = 0
 	xscroll = 0
-
-	mapsegs = {
-		0,
-		3,
-		3,
-		3,
-		3,
-		3,
-		2,
-		1,
-		28,
-		1,
-		7,
-		6,
-		5,
-		10,
-		4,
-		11,
-		6,
-		11,
-		11,
-		5,
-		9,
-		10,
-		8,
-		1,
-		28,
-		14,
-		15,
-		1,
-		12,
-		13,
-		19,
-		19,
-		16,
-		17,
-		18,
-		16,
-		17,
-		18,
-		17,
-		18,
-		19,
-		20,
-		21,
-		22,
-		23,
-		24,
-		25,
-		26,
-		27,
-		3,
-		3,
-		3,
-	}
+	
+	-- global hitstop
+	freeze = 0
 
 	_upd = upd_menu
 	_drw = drw_menu
+	
+	-- show hitboxes if true
+	coldebug = false
 end
 
 function _draw()
@@ -939,10 +939,18 @@ function _update()
 			flip()
 		end
 	end
-	t = t + 1
-	_upd()
 --	debug[1] = #parts
 --	debug[2] = tostr(myspr[1][1])
+	
+	if freeze > 0 then
+		freeze -= 1
+		if freeze == 0 then
+			respawn()
+		end
+	else
+		t = t + 1
+		_upd()
+	end
 end
 
 function startgame()
@@ -965,25 +973,31 @@ function startgame()
 	banked = 0
 	enemies = {}
 	buls = {}
+	
+	schedi = 1
 
 	pcol = false
-
-	spawnenemy()
-	-- add(buls, {
-	-- 	x = 200,
-	-- 	y = 180,
-	-- 	sx = 0,
-	-- 	sy = 0,
-	-- 	sani = { 21, 22 },
-	-- 	si = 1,
-	-- })
-
+	
+	pspr = {
+		x = 0,
+		y = 0,
+		age = 0,
+		ani = {3},
+		col = 28,
+	}
+	
+	invul = 0
+	inviz = 0
+	freeze = 0
+	
 	_upd = upd_game
 	_drw = drw_game
+	
+--	debug[1] = "yes!"
 end
 
 :: particles.lua
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2024-12-09 21:15:03",revision=686]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2025-01-23 22:25:08",revision=1004]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
@@ -1217,7 +1231,7 @@ function sprite(p)
 	mspr(cyc(p.age,p.ani,p.anis), _x, _y)
 end
 :: profiler.lua
---[[pod_format="raw",created="2024-09-20 18:19:15",modified="2024-12-09 21:15:03",revision=570]]
+--[[pod_format="raw",created="2024-09-20 18:19:15",modified="2025-01-23 22:25:08",revision=902]]
 -- abledbody's profiler v1.1
 
 local function do_nothing() end
@@ -1340,7 +1354,7 @@ end
 
 
 :: tools.lua
---[[pod_format="raw",created="2024-10-21 21:26:41",modified="2024-12-09 21:15:03",revision=686]]
+--[[pod_format="raw",created="2024-10-21 21:26:41",modified="2025-01-23 22:25:08",revision=1021]]
 -- alternate to sgn, different in that 0 returns 0 instead of 1
 function mysgn(v)
 	return v == 0 and 0 or sgn(v)
@@ -1426,6 +1440,41 @@ function col(x1, y1, w1, h1, x2, y2, w2, h2)
 	return true
 end
 
+function col2(oa, ob, xscr)
+	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
+	local msa = myspr[oa.col]
+	local msb = myspr[ob.col]
+	
+	local a_left = oa.x - msa[4] - (xscr and xscroll or 0)
+	local a_top = oa.y - msa[5]
+	local a_right = a_left + msa[2] - 1
+	local a_bottom = a_top + msa[3] - 1
+
+	local b_left = ob.x - msb[4]
+	local b_top = ob.y - msb[5]
+	local b_right = b_left + msb[2] - 1
+	local b_bottom = b_top + msb[3] - 1
+
+	if xscr then
+		
+	end
+	
+	if a_top > b_bottom then
+		return false
+	end
+	if b_top > a_bottom then
+		return false
+	end
+	if a_left > b_right then
+		return false
+	end
+	if b_left > a_right then
+		return false
+	end
+
+	return true
+end
+
 function cyc(age, arr, anis)
 	anis = anis or 1
 	return arr[(age\anis) % #arr + 1]
@@ -1433,9 +1482,12 @@ end
 
 function drawobj(obj)
 	mspr(cyc(obj.age, obj.ani, obj.anis), obj.x, obj.y)
+	if coldebug and obj.col then
+		msprc(obj.col, obj.x, obj.y)
+	end
 end
 :: update.lua
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-12-09 21:15:03",revision=764]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2025-01-23 22:25:08",revision=1113]]
 function upd_game()
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -1463,6 +1515,13 @@ function upd_game()
 		end
 	end
 
+	-- SPAWNING
+	
+	if sched[schedi] and sched[schedi][1] < scroll then
+		spawnenemy(sched[schedi][2], sched[schedi][3], sched[schedi][4])
+		schedi += 1
+	end	
+
 	-- INPUTS / MOVEMENT
 	local dir = butdic[btn() & 0b1111]
 
@@ -1486,6 +1545,10 @@ function upd_game()
 	shipspr = mid(-1, shipspr, 1)
 
 	lastdir = dir
+	
+	pspr.x = px
+	pspr.y = py
+	pspr.ani[1] = flr(shipspr * 2.4 + 3.5)
 
 	-- boundary checking
 	if px < x_borders then
@@ -1523,7 +1586,7 @@ function upd_game()
 	-- shots vs enemies
 	for e in all(enemies) do
 		for s in all(shots) do
-			if not s.delme and col(flr(s.x - 3 + xscroll), flr(s.y), 8, 16, flr(e.x - 7 + xscroll), flr(e.y - 7), 16, 16) then
+			if not s.delme and col2(e,s) then
 				e.flash = 2
 				s.delme = true
 				add(parts, {
@@ -1531,7 +1594,7 @@ function upd_game()
 					x = s.x,
 					y = s.y,
 					age = -2,
-					ani = { 23, 24, 25, 26 },
+					ani = anilib[4],
 					maxage = 4,
 				})
 				e.hp = e.hp - 1
@@ -1545,17 +1608,21 @@ function upd_game()
 	end
 
 	-- ship vs enemies
-	for e in all(enemies) do
-		if col(flr(px - 7), flr(py - 7), 16, 16, flr(e.x - 7 + xscroll), flr(e.y - 7), 16, 16) then
-			pcol = true
+	if invul <= 0 then
+		for e in all(enemies) do
+			if col2(pspr, e, true) then 
+				die()
+			end
 		end
-	end
-
-	-- ship vs bullets
-	for b in all(buls) do
-		if col(flr(px - 7), flr(py - 7), 16, 16, flr(b.x - 3 + xscroll), flr(b.y - 3), 6, 6) then
-			pcol = true
-		end
+	
+		-- ship vs bullets
+		for b in all(buls) do
+			if col2(pspr, b, true) then
+				die()
+			end
+		end	
+	else
+		invul -= 1
 	end
 
 	for p in all(parts) do
@@ -1590,13 +1657,13 @@ function upd_menu()
 end
 
 :: .info.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNC0x
-Mi0wOSAyMToxNTowMyIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzcyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM3MiIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSM5OCIsd29ya3NwYWNlX2luZGV4PTF9LHts
-b2NhdGlvbj0idG9vbHMubHVhIzkyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1l
-cGxheS5sdWEjNzQiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRpY2xlcy5sdWEj
-MjI4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwcm9maWxlci5sdWEjODkiLHdvcmtz
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNS0w
+MS0yMyAyMjoyNTowOCIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzE4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM3NyIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMzMyIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0idG9vbHMubHVhIzEyOSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Ft
+ZXBsYXkubHVhIzUwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXJ0aWNsZXMubHVh
+IzQyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwcm9maWxlci5sdWEjNjUiLHdvcmtz
 cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHts
 b2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5z
 ZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==

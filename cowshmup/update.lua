@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-12-09 21:15:03",revision=764]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2024-12-16 05:47:04",revision=783]]
 function upd_game()
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -94,7 +94,7 @@ function upd_game()
 					x = s.x,
 					y = s.y,
 					age = -2,
-					ani = { 23, 24, 25, 26 },
+					ani = anilib[4],
 					maxage = 4,
 				})
 				e.hp = e.hp - 1

@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-12-09 21:15:03",revision=781]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2024-12-16 05:47:04",revision=802]]
 
 function drw_game()
 	cls(0)
@@ -45,10 +45,10 @@ function drw_game()
 	
 	mspr(flr(shipspr * 2.4 + 3.5), px, py)
 
-	local fframe = flr((t % (#flamearr - 1)) + 1)
+	local fframe = flr((t % (#anilib[1] - 1)) + 1)
 
-	mspr(flamearr[fframe], px - 2 + banked, py + 6)
-	mspr(flamearr[fframe], px + 3 - banked, py + 6, true)
+	mspr(anilib[1][fframe], px - 2 + banked, py + 6)
+	mspr(anilib[1][fframe], px + 3 - banked, py + 6, true)
 
 	camera(-xscroll, 0)
 	
@@ -64,7 +64,7 @@ function drw_game()
 	rectfill(480, 0, 480 - x_borders, 270, 32)
 
 --	debug[1] = "scroll: " .. scroll
---	debug[2] = "fframe: " .. (t % (#flamearr - 1)) + 1
+--	debug[2] = "fframe: " .. (t % (#anilib[1] - 1)) + 1
 --	debug[3] = "enemies: " .. #enemies
 
 	mspr(27,40,135)

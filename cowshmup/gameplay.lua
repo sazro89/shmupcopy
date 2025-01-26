@@ -1,12 +1,12 @@
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-12-09 21:15:03",revision=740]]
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2024-12-16 05:47:04",revision=763]]
 function spawnenemy()
 	-- play range for these enemies is 143-379 with current coordinate system
 	add(enemies, {
 		x = 240,
 		y = 120,
-		ani = { 18, 19, 20 },
+		ani = anilib[5],
 		anis = 6,
-		si = 1,
+--		si = 1,
 		sx = 0,
 		sy = 0,
 		brain = 2,
@@ -20,7 +20,7 @@ function spawnenemy()
 		y = 64,
 		sx = 0,
 		sy = 0,
-		ani = {21, 22},
+		ani = anilib[6],
 		anis = 4,
 		age = 1,
 	})
@@ -39,8 +39,9 @@ function doenemies()
 						y = e.y,
 						sx = 0,
 						sy = 2,
-						ani = { 21, 22 },
-						anis = 2,
+						ani = anilib[6],
+						anis = 4,
+						age = 1,
 					})
 				end
 				-- stay
@@ -80,7 +81,7 @@ function shoot()
 		y = py - 4,
 		sx = 0,
 		sy = shotspd,
-		ani = { 6, 7, 8, 7 },
+		ani = anilib[3],
 		anis = 2,
 		age = t % 4 + 1,
 	})
@@ -89,7 +90,7 @@ function shoot()
 		y = py - 4,
 		sx = 0,
 		sy = shotspd,
-		ani = { 6, 7, 8, 7 },
+		ani = anilib[3],
 		anis = 2,
 		age = t % 4 + 1,
 	})
@@ -98,7 +99,7 @@ function shoot()
 		maxage = 4,
 		x = -4 + banked,
 		y = -1,
-		ani = { 9, 10, 11, 12 },
+		ani = anilib[2],
 		age = -1,
 		plock = true,
 	})
@@ -107,7 +108,7 @@ function shoot()
 		maxage = 4,
 		x = 6 - banked,
 		y = -1,
-		ani = { 9, 10, 11, 12 },
+		ani = anilib[2],
 		age = -1,
 		plock = true,
 	})

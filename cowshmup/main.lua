@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-12-09 21:15:03",revision=1992]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2024-12-16 05:47:04",revision=2014]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -14,7 +14,8 @@ function _init()
 	profile.enabled(true, true)
 
 	myspr = fetch("gfx/myspr.pod")
-
+	anilib = fetch("gfx/anilib.pod")
+	enlib = fetch("enlib.pod")
 	sprval = 3
 
 	butdic = { -- 0 - stop
@@ -42,17 +43,14 @@ function _init()
 	-- 216px horizontal space mirrors 5:4 tate at 270:216
 	-- on a 480px wide display, this would require two padding sections at 132px each
 
-	-- BUGFIX: dummy segment needed at start
-
-	flamearr = { 13, 14, 13, 15, 14, 16, 15, 17 }
-	-- lazydevs segs 3,3,3,3,3,2,1,0,1,7,6,5,10,4,11,6,11,11,5,9,10,8,1,0,15,14,1,13,12,19,19,18,17,16,18,17,16,17,16,19,22,21,20,27,26,25,23,24,3,3
 	menusegs = { 5 }
 	menusegs[0] = 4
 	menucursegs = {}
 	scroll = 0
 	mapsegi = 0
 	xscroll = 0
-
+	
+	-- BUGFIX: dummy segment needed at start
 	mapsegs = {
 		0,
 		3,
