@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-MS0zMCAwNTozMjo1OCIscmV2aXNpb249MTYwN11dbHo0AIgPAADCQAAA8yF7WzBdPXtibXA9cHh1
+Mi0wMiAwNjo0OTo0NiIscmV2aXNpb249MTYwOV1dbHo0AIgPAADCQAAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -154,11 +154,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-MS0zMCAwNTozMjo1OCJdXQ==
+Mi0wMiAwNjo0OTo0NiJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
-MS0zMCAwNTozMjo1OCIscmV2aXNpb249MjAxNF1dbHo0AMYMAABoQAAA-xZ7e2JtcD11c2VyZGF0
+Mi0wMiAwNjo0OTo0NiIscmV2aXNpb249MjAxNl1dbHo0AMYMAABoQAAA-xZ7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWYwMDAzBAAjIzlmQAAfMQQAIQ9AAPtXMzIwMDMcAA_AAFofMwQA
 IwVAAB8xBAAhDwAC-wESMAwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ACIyOQwAD4AAXh8zBAAjBUAA
 HzEEACEPAAL8UjEwMDI4DAAPgABZ42QwMDBkODAwZDQwMGQzCAAMEAAIGAAIMAAACAASZAwAEGUY
@@ -219,7 +219,7 @@ ZW49ZmFsc2UsbmFtZT0ibWFwIixwYW5feD0zNAkA8gF5PTE2OTksdGlsZV9oPTE2CgAQdwoAgHpv
 b209MX19
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-MS0zMCAwNTozMjo1OCJdXQ==
+Mi0wMiAwNjo0OTo0NiJdXQ==
 :: prototypes/
 :: prototypes/blob.lua
 --[[pod_format="raw",created="2024-10-06 05:10:33",modified="2024-10-21 21:54:39",revision=1006]]
@@ -597,19 +597,19 @@ end
 
 :: prototypes/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEyLTA5IDE3OjE2OjIzIixtb2RpZmllZD0iMjAyNS0w
-MS0zMCAwNTozMjo1OCJdXQ==
+Mi0wMiAwNjo0OTo0NiJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
-MS0zMCAwNTozMjo1OCIscmV2aXNpb249MTkyOF1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
+Mi0wMiAwNjo0OTo0NiIscmV2aXNpb249MTkzMF1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-2B-L9gEHUP----_E
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-MS0zMCAwNTozMjo1OCJdXQ==
+Mi0wMiAwNjo0OTo0NiJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2025-01-30 05:32:58",revision=1346]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2025-02-02 06:49:46",revision=1349]]
 
 function drw_game()
 	cls(0)
@@ -726,7 +726,7 @@ ezcsMSwyLDk5OSwyOX19
 --[[pod_format="raw",created="2024-12-09 17:16:23",modified="2024-12-09 19:33:45",revision=127]]
 
 :: gameplay.lua
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2025-01-30 05:32:58",revision=1270]]
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2025-02-02 06:49:46",revision=1273]]
 --gameplay
 
 function die()
@@ -863,7 +863,7 @@ function shoot()
 end
 
 :: main.lua
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2025-01-30 05:32:58",revision=2547]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2025-02-02 06:49:46",revision=2551]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -1007,7 +1007,7 @@ function startgame()
 end
 
 :: particles.lua
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2025-01-30 05:32:58",revision=1152]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2025-02-02 06:49:46",revision=1155]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
@@ -1241,7 +1241,7 @@ function sprite(p)
 	mspr(cyc(p.age,p.ani,p.anis), _x, _y)
 end
 :: profiler.lua
---[[pod_format="raw",created="2024-09-20 18:19:15",modified="2025-01-30 05:32:58",revision=1059]]
+--[[pod_format="raw",created="2024-09-20 18:19:15",modified="2025-02-02 06:49:46",revision=1063]]
 -- abledbody's profiler v1.1
 
 local function do_nothing() end
@@ -1364,7 +1364,7 @@ end
 
 
 :: tools.lua
---[[pod_format="raw",created="2024-10-21 21:26:41",modified="2025-01-30 05:32:58",revision=1175]]
+--[[pod_format="raw",created="2024-10-21 21:26:41",modified="2025-02-02 06:49:46",revision=1178]]
 -- alternate to sgn, different in that 0 returns 0 instead of 1
 function mysgn(v)
 	return v == 0 and 0 or sgn(v)
@@ -1497,7 +1497,7 @@ function drawobj(obj)
 	end
 end
 :: update.lua
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2025-01-30 05:32:58",revision=1278]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2025-02-02 06:49:46",revision=1281]]
 function upd_game()
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -1668,13 +1668,13 @@ end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNS0w
-MS0zMCAwNTozMjo1OCIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-Izk2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM4OSIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSM1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
-Y2F0aW9uPSJ0b29scy5sdWEjMTI3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1l
-cGxheS5sdWEjMjAiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRpY2xlcy5sdWEj
-NDIiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InByb2ZpbGVyLmx1YSM2NSIsd29ya3Nw
-YWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xv
-Y2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNm
-eCIsd29ya3NwYWNlX2luZGV4PTR9fV1d
+Mi0wMiAwNjo0OTo0NiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzEwOSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZHJhdy5sdWEjODkiLHdvcmtzcGFj
+ZV9pbmRleD0xfSx7bG9jYXRpb249InVwZGF0ZS5sdWEjNSIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0idG9vbHMubHVhIzEyNyIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Ft
+ZXBsYXkubHVhIzIwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXJ0aWNsZXMubHVh
+IzQyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwcm9maWxlci5sdWEjNjUiLHdvcmtz
+cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHts
+b2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5z
+ZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]

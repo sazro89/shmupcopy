@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-MS0zMSAwMjowNjozNSIscmV2aXNpb249MTk2Nl1dbHo0AAwOAAA5PwAA8yF7WzBdPXtibXA9cHh1
+Mi0wNSAxMTozODo1NCIscmV2aXNpb249MjIzMV1dbHo0AAwOAAA5PwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -147,11 +147,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-MS0zMSAwMjowNjozNSJdXQ==
+Mi0wNSAxMTozODo1NCJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
-MS0zMSAwMjowNjozNSIscmV2aXNpb249MjM4MV1dbHo0AFsMAABoQAAA-xN7e2JtcD11c2VyZGF0
+Mi0wNSAxMTozODo1NCIscmV2aXNpb249MjY0NV1dbHo0AFsMAABoQAAA-xN7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWQwAQAmADwAPzlmMAEAJi85ZkAA-zEvZTABACYvOWUAAv94PzMy
 MAAC-_sAAQA-MjkwAAL-538zMTAwMjgwQAAmDwEAIQA8AAD-AaNkODAwZDQwMGQzCAAMEAAIGAAI
 MAAACAASZAwAAIcCI2RiEAAXMBAAF2MYAARMABcwVAATOSQAW2EwMGMxEAATMAQACBgAGmIIAC9j
@@ -210,21 +210,25 @@ IiksaGlkZGVuPWZhbHNlLG5hbWU9Im1hcCIscGFuX3g9MjgJAPIBeT0xNzUwLHRpbGVfaD0xNgoA
 EHcKAIB6b29tPTF9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAxLTI3IDAyOjAyOjA0Iixtb2RpZmllZD0iMjAyNS0w
-MS0zMSAwMjowNjozNSJdXQ==
+Mi0wNSAxMTozODo1NCJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-MS0zMSAwMjowNjozNSIscmV2aXNpb249MTg4M11dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+Mi0wNSAxMTozODo1NCIscmV2aXNpb249MjE0N11dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-MS0zMSAwMjowNjozNSJdXQ==
+Mi0wNSAxMTozODo1NCJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-01-31 02:06:35",revision=2429]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-05 11:38:54",revision=2804]]
 function draw_map()
 	cls(1)
+	
+	if mapfocus == "map" then
+		draw_menu()
+	end
 	
 	for i = 1, #mapsegs do
 		local seg = {
@@ -234,37 +238,49 @@ function draw_map()
 		}
 		
 		map(seg.x, seg.y, mapoffset, mapscroll - seg.o, 16, 8)
-		
-		for sched in all(data) do
-			-- x coordinates are +/- 8 to center
-			-- y coordinates need to account for mapscroll, the offset for the editor (376),
-			--		the ingame mapscroll they're scheduled to appear (sched[1]),
-			--		and the coordinates they're supposed to spawn at at that scroll (sched[4])
-			local schx = sched[3]
-			local schy = mapscroll - 378 - sched[1] + sched[4]
-			local en = enlib[sched[2]]
-			local ani = anilib[en[1]]
-			
-			mspr(cyc(_t, ani, en[2]), schx, schy)
-		end
-		
-		-- timeline
-		for i = 0, 30 do
-			local iscr = mapscroll - 384 + (13 - i)
-			if i == 13 or iscr % 5 == 0 then
-				local col = i == 13 and 14 or 7
-				print(padString(iscr, 4, " ") .. " - ", mapoffset - 29, i * 9, col)
-			end
-			
-			if iscr < 0 then
-				break
-			end
-		end
-		
-		debug[1] = "x: " .. mouse_map_x
-		debug[2] = "y: " .. mouse_map_y
-		debug[3] = "scroll: " .. mapscroll - 384
 	end
+	
+	for sched in all(data) do
+		-- x coordinates are +/- 8 to center
+		-- y coordinates need to account for mapscroll, the offset for the editor (376),
+		--		the ingame mapscroll they're scheduled to appear (sched[1]),
+		--		and the coordinates they're supposed to spawn at at that scroll (sched[4])
+		local schx = sched[3]
+		local schy = mapscroll - 378 - sched[1] + sched[4]
+		local en = enlib[sched[2]]
+		local ani = anilib[en[1]]
+		
+		mspr(cyc(_t, ani, en[2]), schx, schy)
+	end
+	
+	-- timeline
+	for i = 0, 29 do
+		local iscr = mapscroll - 384 + (13 - i)
+		local ens = spawnlist(iscr)
+		if i == 13 or iscr % 5 == 0 then
+			local col = i == 13 and 14 or 7
+			print(padString(iscr, 4, " ") .. " - ", mapoffset - 29, i * 9, col)
+		end
+		
+		col = 7
+		
+		if #ens > 0 then
+			print("spawn - " .. padString(iscr, 4, " ") .. " - ", mapoffset - 70, i * 9, col)
+		end
+		
+		if iscr < 0 then
+			break
+		end
+	end
+	
+	if mapfocus == "menu" then
+		draw_menu()
+		rect(480 - mapoffset, 0, 479, 269, 7)
+	end
+	debug[1] = "x: " .. mouse_map_x
+	debug[2] = "y: " .. mouse_map_y
+--	debug[3] = "scroll: " .. mapscroll - 384
+--	end
 end
 
 function draw_table()
@@ -273,6 +289,32 @@ function draw_table()
 	debug[2] = ""
 	debug[3] = ""
 	
+	draw_menu()
+--	if menu then
+--		for _i = 1, #menu do
+--			for _j = 1, #menu[_i] do
+--				-- change color if cell is currently selected
+--				local _c = menu[_i][_j].c or 22
+--				if _i == cury and _j == curx then
+--					_c = 7
+--				end
+--				
+--				-- make copy of local cell we're working with
+--				local mymenu = menu[_i][_j]
+--				
+--				-- print cell
+--				bgprint(mymenu.w, mymenu.x, mymenu.y, _c) --*****
+--				print(mymenu.text, mymenu.x, 1+mymenu.y, _c)
+--				if _i == cury and _j == curx then
+--					rect(mymenu.x-2, mymenu.y-2, mymenu.x+(#mymenu.w * 5), mymenu.y+11, _c)
+--				end
+--			end
+--		end
+--	end
+--	debug[1] = #mapsegs -- outputs as 52 which is the # of segments...
+end
+
+function draw_menu()
 	if menu then
 		for _i = 1, #menu do
 			for _j = 1, #menu[_i] do
@@ -294,11 +336,58 @@ function draw_table()
 			end
 		end
 	end
---	debug[1] = #mapsegs -- outputs as 52 which is the # of segments...
 end
 
 function refresh_map()
-
+	menu = {}
+	local title = {}
+	local curpos = mapscroll - 384
+	add(title, {
+--		txt = padString(mapscroll, 4, " "),
+		text = "enemy list",
+		w = "          ",
+		cmd = "",
+		x = 480 - mapoffset + 2,
+		y = 2,
+		c = 6,
+	})
+	add(title, {
+		text = "pos: " .. padString(curpos, 4, " "),
+		w = "         ",
+		cmd = "",
+		x = 480 - mapoffset + 3 + 63,
+		y = 2,
+		c = 6,
+	})
+	add(menu,title)
+	
+	local ens = spawnlist(curpos)
+	local numens = (#ens) and #ens or 0
+	if #ens > 0 then
+		local list = {}
+		for i = 1, #ens do
+			add(list, {
+				text = padString(ens[i][2], 2, "0"),
+				w = "  ",
+				cmd = "",
+				x = 480 - mapoffset + 4,
+				y = 3 + (13 * i),
+				c = 7,
+			})
+		end
+		add(menu,list)
+	end
+	add(menu,{{
+		text = " + ",
+		cmd = "",
+		x = 480 - mapoffset + 4,
+		y = 3 + (13 * (numens + 1)),
+		w = "   ",
+		c = 7,
+--		key = "",
+--		cmdx = j,
+--		cmdy = i,
+	}})
 end
 
 function refresh_table()
@@ -352,7 +441,7 @@ b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-01-31 02:06:35",revision=2004]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-05 11:38:54",revision=2278]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
@@ -363,7 +452,7 @@ end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-01-31 02:06:35",revision=2176]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-05 11:38:54",revision=2464]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
@@ -389,14 +478,22 @@ function _init()
 	_upd = update_map
 	menuitem(1, "export", export)
 	
-	curx = 2
-	cury = 1
+	curx = 1
+	cury = 2
 	scrolly = 0
 	scrollx = 0
 	scrollspeed = 4
 	
 	mapscroll = 398
 	mapoffset = 112
+	
+	defaultmapfocus = "map"
+	mapfocus = "map"
+	
+	-- trying to speed up the editor by limiting what we render
+	-- turns out we were doing too much work per map segment rendered lol
+	-- keeping this here just in case though
+--	cursegs = {}
 	
 	_t = 0
 end
@@ -456,7 +553,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-01-31 02:06:35",revision=1975]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-05 11:38:54",revision=2254]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -665,17 +762,26 @@ function padString(v, l, ch)
 	
 	return sv
 end
+
+function spawnlist(scr)
+	local ret = {}
+	for s in all(data) do
+		if s[1] == scr then
+			add(ret, s)
+		end
+	end
+	return ret
+end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-01-31 02:06:35",revision=2435]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-05 11:38:54",revision=2735]]
 function update_map()
+	refresh_map()
 	wheel_y = ({mouse()})[5]
-	
-	mapscroll += wheel_y*16
 	
 	prev_mouse_b = mouse_b or 0 -- for single clicks
 	mouse_x,mouse_y,mouse_b = mouse()
 	
---	debug[2] = mouse_y
+	mapscroll += wheel_y*16
 	-- need to bind to map coordinates
 	-- we'll let ourselves place things up to 50px off screen left & right
 	-- map is 256px wide so coordinates in app are 102-358 (screen size is 460px wide)
@@ -683,17 +789,39 @@ function update_map()
 	mouse_map_y = mapscroll - mouse_y - 128
 	
 	if keyp("down") then
-		mapscroll -= 1
+		if mapfocus == "map" then
+			mapscroll -= 1
+		elseif mapfocus == "menu" then
+			cury += 1
+		end
 	end
 	
 	if keyp("up") then
-		mapscroll += 1
+		if mapfocus == "map" then
+			mapscroll += 1
+		elseif mapfocus == "menu" then
+			cury -= 1
+		end
 	end
+	
+	cury = mid(2, cury, #menu)
+	
+	if keyp("tab") then
+		if mapfocus == "map" then
+			mapfocus = "menu"
+		elseif mapfocus == "menu" then
+			mapfocus = "map"
+		end
+	end
+	
+	mapscroll = max(14 + 384, mapscroll)
 	
 	if keyp("t") then
 		_drw = draw_table
 		_upd = update_table
-		refresh_table()
+		refresh_table()	
+		curx = 2
+		cury = 1
 		return
 	end
 	
@@ -794,6 +922,9 @@ function update_table()
 	if keyp("m") then
 		_drw = draw_map
 		_upd = update_map
+		mapfocus = defaultmapfocus
+		curx = 1
+		cury = 2
 		refresh_map()
 		return
 	end
@@ -854,11 +985,11 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-MS0zMSAwMjowNjozNSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMyOSIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMyNyIsd29ya3NwYWNlX2luZGV4PTF9LHts
-b2NhdGlvbj0idG9vbHMubHVhIzIwNyIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iaW8u
-bHVhIzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNl
-X2luZGV4PTJ9LHtsb2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0
-aW9uPSJzZngvMC5zZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
+Mi0wNSAxMTozODo1NCIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzMzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxNTgiLHdvcmtzcGFj
+ZV9pbmRleD0xfSx7bG9jYXRpb249InVwZGF0ZS5sdWEjMTkiLHdvcmtzcGFjZV9pbmRleD0xfSx7
+bG9jYXRpb249InRvb2xzLmx1YSMyMTEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlv
+Lmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFj
+ZV9pbmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2Nh
+dGlvbj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
 :: [eoc]
