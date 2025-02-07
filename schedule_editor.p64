@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0wNSAxMTozODo1NCIscmV2aXNpb249MjIzMV1dbHo0AAwOAAA5PwAA8yF7WzBdPXtibXA9cHh1
+Mi0wNyAxNDowNjoxOSIscmV2aXNpb249MjUyOV1dbHo0AAwOAAA5PwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -147,11 +147,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wNSAxMTozODo1NCJdXQ==
+Mi0wNyAxNDowNjoxOSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
-Mi0wNSAxMTozODo1NCIscmV2aXNpb249MjY0NV1dbHo0AFsMAABoQAAA-xN7e2JtcD11c2VyZGF0
+Mi0wNyAxNDowNjoxOSIscmV2aXNpb249MjkzNl1dbHo0AFsMAABoQAAA-xN7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWQwAQAmADwAPzlmMAEAJi85ZkAA-zEvZTABACYvOWUAAv94PzMy
 MAAC-_sAAQA-MjkwAAL-538zMTAwMjgwQAAmDwEAIQA8AAD-AaNkODAwZDQwMGQzCAAMEAAIGAAI
 MAAACAASZAwAAIcCI2RiEAAXMBAAF2MYAARMABcwVAATOSQAW2EwMGMxEAATMAQACBgAGmIIAC9j
@@ -210,62 +210,41 @@ IiksaGlkZGVuPWZhbHNlLG5hbWU9Im1hcCIscGFuX3g9MjgJAPIBeT0xNzUwLHRpbGVfaD0xNgoA
 EHcKAIB6b29tPTF9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAxLTI3IDAyOjAyOjA0Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wNSAxMTozODo1NCJdXQ==
+Mi0wNyAxNDowNjoxOSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wNSAxMTozODo1NCIscmV2aXNpb249MjE0N11dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+Mi0wNyAxNDowNjoxOSIscmV2aXNpb249MjQzOF1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wNSAxMTozODo1NCJdXQ==
+Mi0wNyAxNDowNjoxOSJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-05 11:38:54",revision=2804]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-07 14:06:19",revision=3196]]
+function draw_drop()
+	draw_bg()
+	rectfill(dropx - 2, dropy - 1, dropx + 30, dropy + 1 + 12*4, 0)
+	draw_menu()
+end
+
 function draw_map()
-	cls(1)
-	
-	if mapfocus == "map" then
-		draw_menu()
-	end
-	
-	for i = 1, #mapsegs do
-		local seg = {
-			x = 0,
-			y = 248 - ((mapsegs[i] - 1) * 8),
-			o = 128 * i,
-		}
-		
-		map(seg.x, seg.y, mapoffset, mapscroll - seg.o, 16, 8)
-	end
-	
-	for sched in all(data) do
-		-- x coordinates are +/- 8 to center
-		-- y coordinates need to account for mapscroll, the offset for the editor (376),
-		--		the ingame mapscroll they're scheduled to appear (sched[1]),
-		--		and the coordinates they're supposed to spawn at at that scroll (sched[4])
-		local schx = sched[3]
-		local schy = mapscroll - 378 - sched[1] + sched[4]
-		local en = enlib[sched[2]]
-		local ani = anilib[en[1]]
-		
-		mspr(cyc(_t, ani, en[2]), schx, schy)
-	end
+	draw_bg()
 	
 	-- timeline
+	local curpos = mapscroll - 384
 	for i = 0, 29 do
-		local iscr = mapscroll - 384 + (13 - i)
+		local iscr = curpos + (13 - i)
 		local ens = spawnlist(iscr)
+		local col = i == 13 and 14 or 7
 		if i == 13 or iscr % 5 == 0 then
-			local col = i == 13 and 14 or 7
-			print(padString(iscr, 4, " ") .. " - ", mapoffset - 29, i * 9, col)
+			print(padString(iscr, 4, " ") .. " - ", mapoffset - 31, i * 9, col)
 		end
 		
-		col = 7
-		
 		if #ens > 0 then
-			print("spawn - " .. padString(iscr, 4, " ") .. " - ", mapoffset - 70, i * 9, col)
+			print("spawn - ", mapoffset - 72, i * 9, 7)
+			print(padString(iscr, 4, " ") .. " - ", mapoffset - 31, i * 9, col)
 		end
 		
 		if iscr < 0 then
@@ -273,12 +252,17 @@ function draw_map()
 		end
 	end
 	
+	draw_menu()
+	
 	if mapfocus == "menu" then
-		draw_menu()
 		rect(480 - mapoffset, 0, 479, 269, 7)
 	end
-	debug[1] = "x: " .. mouse_map_x
-	debug[2] = "y: " .. mouse_map_y
+--	debug[1] = "x: " .. mouse_map_x
+--	debug[2] = "y: " .. mouse_map_y
+	debug[1] = "curx: " .. curx
+	debug[2] = "cury: " .. cury
+	debug[3] = "mode: " .. mapfocus
+--	debug[4] = "cmd: " .. menu[cury][curx].cmd
 --	debug[3] = "scroll: " .. mapscroll - 384
 --	end
 end
@@ -290,28 +274,6 @@ function draw_table()
 	debug[3] = ""
 	
 	draw_menu()
---	if menu then
---		for _i = 1, #menu do
---			for _j = 1, #menu[_i] do
---				-- change color if cell is currently selected
---				local _c = menu[_i][_j].c or 22
---				if _i == cury and _j == curx then
---					_c = 7
---				end
---				
---				-- make copy of local cell we're working with
---				local mymenu = menu[_i][_j]
---				
---				-- print cell
---				bgprint(mymenu.w, mymenu.x, mymenu.y, _c) --*****
---				print(mymenu.text, mymenu.x, 1+mymenu.y, _c)
---				if _i == cury and _j == curx then
---					rect(mymenu.x-2, mymenu.y-2, mymenu.x+(#mymenu.w * 5), mymenu.y+11, _c)
---				end
---			end
---		end
---	end
---	debug[1] = #mapsegs -- outputs as 52 which is the # of segments...
 end
 
 function draw_menu()
@@ -338,110 +300,54 @@ function draw_menu()
 	end
 end
 
-function refresh_map()
-	menu = {}
-	local title = {}
-	local curpos = mapscroll - 384
-	add(title, {
---		txt = padString(mapscroll, 4, " "),
-		text = "enemy list",
-		w = "          ",
-		cmd = "",
-		x = 480 - mapoffset + 2,
-		y = 2,
-		c = 6,
-	})
-	add(title, {
-		text = "pos: " .. padString(curpos, 4, " "),
-		w = "         ",
-		cmd = "",
-		x = 480 - mapoffset + 3 + 63,
-		y = 2,
-		c = 6,
-	})
-	add(menu,title)
+function draw_bg()
+	cls(1)
 	
-	local ens = spawnlist(curpos)
-	local numens = (#ens) and #ens or 0
-	if #ens > 0 then
-		local list = {}
-		for i = 1, #ens do
-			add(list, {
-				text = padString(ens[i][2], 2, "0"),
-				w = "  ",
-				cmd = "",
-				x = 480 - mapoffset + 4,
-				y = 3 + (13 * i),
-				c = 7,
-			})
-		end
-		add(menu,list)
+	for i = 1, #mapsegs do
+		local seg = {
+			x = 0,
+			y = 248 - ((mapsegs[i] - 1) * 8),
+			o = 128 * i,
+		}
+		
+		map(seg.x, seg.y, mapoffset, mapscroll - seg.o, 16, 8)
 	end
-	add(menu,{{
-		text = " + ",
-		cmd = "",
-		x = 480 - mapoffset + 4,
-		y = 3 + (13 * (numens + 1)),
-		w = "   ",
-		c = 7,
---		key = "",
---		cmdx = j,
---		cmdy = i,
-	}})
-end
-
-function refresh_table()
-	menu = {}
-	for i = 1, #data do
-		local row = {}
-		add(row, {
-				text = i,
-				cmd = "",
-				x = 2,
-				y = -11 + 13 * i,
-				w = "   ",
-				c = 18,
-			})
-		for j = 1, #data[i] do
-			add(row, {
-				text = data[i][j],
-				cmd = "edit",
-				cmdx = j,
-				cmdy = i,
-				x = -43 + 32 * (j + 1),
-				y = -11 + 13 * i,
-				w = "      ",
-			})
-		end
-		if cury == i then
-			add(row, {
-				text = " + ",
-				cmd = "newcell",
-				cmdy = i,
-				x = -43 + 32 * (#data[i] + 2),
-				y = -11 + 13 * i,
-				w = "   ",
-			})
-		end
-		add(menu, row)
+	
+	genens()
+	
+	if selected_schedule then
+		-- selection lines
+		-- x
+		poke(0x550b,0x3f) -- sets black to transparent
+		fillp(0b0101010101010101)
+		line(0 + 	mapoffset, selected_schedule[4], 479 - mapoffset, selected_schedule[4], 7)
+		-- y
+		fillp(0b0000111100001111)
+		line(selected_schedule[3], 0, selected_schedule[3], 270, col)
+		--diags
+		line(selected_schedule[3], selected_schedule[4], selected_schedule[3] - 30, selected_schedule[4] - 30, 7)
+		line(selected_schedule[3], selected_schedule[4], selected_schedule[3] + 30, selected_schedule[4] + 30, 7)
+		line(selected_schedule[3], selected_schedule[4], selected_schedule[3] + 30, selected_schedule[4] - 30, 7)
+		line(selected_schedule[3], selected_schedule[4], selected_schedule[3] - 30, selected_schedule[4] + 30, 7)
+		poke(0x550b,0x00) -- set back to black
+		fillp()
 	end
-	add(menu,{{
-		text = " + ",
-		key = "_add",
-		x = 2,
-		y = -11 + 13 * (#data + 1),
-		w = "   ",
-		cmd = "newline",
-		cmdx = j,
-		cmdy = i,
-	}})
+		
+	for e in all (enemies) do
+		mspr(e.s, e.x, e.y)
+		
+		if e.sch == selected_schedule then
+			local col = (_t%60) < 30 and 23 or 7
+			rect(e.x - 8, e.y - 8, e.x + 8, e.y + 8, col)				
+		end
+	end
 end
 :: input.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-05 11:38:54",revision=2278]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-07 14:06:19",revision=2574]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
@@ -452,10 +358,11 @@ end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-05 11:38:54",revision=2464]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-07 14:06:19",revision=2763]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
+include("ui.lua")
 include("io.lua")
 
 function _init()
@@ -472,6 +379,8 @@ function _init()
 	anilib = fetch("/shmup/anilib.pod")
 	enlib = fetch("/shmup/enlib.pod")
 	
+	enemies = {}
+	
 	debug = {}
 	msg = {}
 	_drw = draw_map
@@ -486,6 +395,8 @@ function _init()
 	
 	mapscroll = 398
 	mapoffset = 112
+	
+	selected_schedule = nil
 	
 	defaultmapfocus = "map"
 	mapfocus = "map"
@@ -553,7 +464,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-05 11:38:54",revision=2254]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-07 14:06:19",revision=2593]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -772,19 +683,384 @@ function spawnlist(scr)
 	end
 	return ret
 end
-:: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-05 11:38:54",revision=2735]]
-function update_map()
-	refresh_map()
+
+function str_to_width(s)
+	return 5*#s
+end
+
+function mousecol(box)
+	local width = str_to_width(box.w)
+	local height = 11
+	
+	if mouse_x < box.x then return false end
+	if mouse_y < box.y then return false end
+	if mouse_x > box.x + width then return false end
+	if mouse_y > box.y + height then return false end
+	
+	return true
+end
+
+function dobutton(b)
+	if b.cmd == "adden" then
+		local sch = {}
+		sch[1] = mapscroll - 384
+		sch[2] = 1
+		sch[3] = 128 + 112
+		sch[4] = 16
+		add(data, sch)
+	elseif b.cmd == "editen" then
+		dropx = mid(mapoffset, b.cmdsch[3], 480 - mapoffset - (6*5))
+		dropy = mid(2, b.cmdsch[4], 268 - 13 * 4)
+		
+		refresh_drop()
+		_drw = draw_drop
+		_upd = update_drop
+		curx = 1
+		cury = 1
+	end
+-- reference code
+-- editable cell selected
+--			if mymenu.cmd == "edit" then
+-- newline cell selected
+--			elseif mymenu.cmd == "newline" then
+--				add(data, { 0 })
+--			elseif mymenu.cmd == "newcell" then
+--				add(data[mymenu.cmdy],0)
+--			end
+end
+
+function do_mouse()
 	wheel_y = ({mouse()})[5]
 	
 	prev_mouse_b = mouse_b or 0 -- for single clicks
+	old_mouse_x = mouse_x or nil
+	old_mouse_y = mouse_y or nil
+	
 	mouse_x,mouse_y,mouse_b = mouse()
+	
+	mousemoved = false
+	if mouse_x != old_mouse_x or mouse_y != old_mouse_y then
+		mousemoved = true
+	end
+		
+	lc = mb_state(mouse_b, prev_mouse_b)
+end
+
+function mouse_col(obj)
+	local col = myspr[obj.col]
+	
+	local m_left = mouse_x
+	local m_top = mouse_y
+	local m_right = mouse_x
+	local m_bottom = mouse_y
+
+	local obj_left = obj.x - col[4]
+	local obj_top = obj.y - col[5]
+	local obj_right = obj_left + col[2] - 1
+	local obj_bottom = obj_top + col[3] - 1
+
+	if m_top > obj_bottom then
+		return false
+	end
+	if obj_top > m_bottom then
+		return false
+	end
+	if m_left > obj_right then
+		return false
+	end
+	if obj_left > m_right then
+		return false
+	end
+
+	return true
+end
+
+function col2(oa, ob, xscr)
+	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
+	local msa = myspr[oa.col]
+	local msb = myspr[ob.col]
+	
+	local a_left = oa.x - msa[4] - (xscr and xscroll or 0)
+	local a_top = oa.y - msa[5]
+	local a_right = a_left + msa[2] - 1
+	local a_bottom = a_top + msa[3] - 1
+
+	local b_left = ob.x - msb[4]
+	local b_top = ob.y - msb[5]
+	local b_right = b_left + msb[2] - 1
+	local b_bottom = b_top + msb[3] - 1
+
+	if xscr then
+		
+	end
+	
+	if a_top > b_bottom then
+		return false
+	end
+	if b_top > a_bottom then
+		return false
+	end
+	if a_left > b_right then
+		return false
+	end
+	if b_left > a_right then
+		return false
+	end
+
+	return true
+end
+
+function genens()
+	enemies = {}
+	for sched in all(data) do
+		-- x coordinates are +/- 8 to center
+		-- y coordinates need to account for mapscroll, the offset for the editor (376),
+		--		the ingame mapscroll they're scheduled to appear (sched[1]),
+		--		and the coordinates they're supposed to spawn at at that scroll (sched[4])
+		local schx = sched[3]
+		local schy = mapscroll - 378 - sched[1] + sched[4]
+		local en = enlib[sched[2] ]
+		local ani = anilib[en[1] ]
+		
+		add(enemies, {
+			x = schx,
+			y = schy,
+			s = cyc(_t, ani, en[2]),
+			sch = sched,
+			col = en[5],
+		})
+	end
+end
+:: ui.lua
+--[[pod_format="raw",created="2025-02-07 13:43:39",modified="2025-02-07 14:06:19",revision=47]]
+function refresh_drop()
+	menu = {}
+	
+	add(menu, {{
+		text = "change",
+		w = "      ",
+		cmd = "",
+		x = dropx,
+		y = dropy,
+		c = 13,
+	}})
+	add(menu, {{
+		text = " move ",
+		w = "      ",
+		cmd = "",
+		x = dropx,
+		y = dropy + 13,
+		c = 13,
+	}})
+	add(menu, {{
+		text = " copy ",
+		w = "      ",
+		cmd = "",
+		x = dropx,
+		y = dropy + 26,
+		c = 13,
+	}})
+	add(menu, {{
+		text = "delete",
+		w = "      ",
+		cmd = "",
+		x = dropx,
+		y = dropy + 39,
+		c = 13,
+	}})
+end
+
+function refresh_map()
+	menu = {}
+	local title = {}
+	local curpos = mapscroll - 384
+	local props_spacing = 480 - mapoffset + 3 + 63
+	add(title, {
+		text = "enemy list",
+		w = "          ",
+		cmd = "",
+		x = 480 - mapoffset + 2,
+		y = 2,
+		c = 6,
+	})
+	add(title, {
+		text = "en. props",
+		w = "         ",
+		cmd = "",
+		x = props_spacing,
+		y = 2,
+		c = 6,
+	})
+	add(menu,title)
+	
+	local ens = spawnlist(curpos)
+	local numens = (#ens) and #ens or 0
+	if #ens > 0 then
+		local list = {}
+		for i = 1, #ens do
+			add(list, {
+				text = padString(ens[i][2], 2, "0"),
+				w = "  ",
+				cmd = "editen",
+				cmdsch = ens[i],
+				x = 480 - mapoffset + 4,
+				y = 3 + (13 * i),
+				c = 7,
+			})
+		end
+		add(menu,list)
+	end
+	add(menu,{{
+		text = " + ",
+		cmd = "adden",
+		x = 480 - mapoffset + 4,
+		y = 3 + (13 * (numens + 1)),
+		w = "   ",
+		c = 7,
+--		key = "",
+--		cmdx = j,
+--		cmdy = i,
+	}})
+	
+	-- enemy properties
+	-- this might be able to happen soon now that enemies are abstracted as objects
+	-- currently only need 3 boxes? type, xoff and yoff
+	-- approach can't work because this will blow up as soon as we shift onto a value
+	-- need modal approach
+--	if numens > 0 and cury <= numens + 1 then 
+--		add(menu,{{
+--			text = "type:  " .. ,
+--			w = "         ", -- 9 chars
+--			cmd = "",
+--			x = props_spacing,
+--			y = 2 + 11 * 1,
+--			c = 7,
+--		}})
+--	end
+end
+
+function refresh_table()
+	menu = {}
+	for i = 1, #data do
+		local row = {}
+		add(row, {
+				text = i,
+				cmd = "",
+				x = 2,
+				y = -11 + 13 * i,
+				w = "   ",
+				c = 18,
+			})
+		for j = 1, #data[i] do
+			add(row, {
+				text = data[i][j],
+				cmd = "edit",
+				cmdx = j,
+				cmdy = i,
+				x = -43 + 32 * (j + 1),
+				y = -11 + 13 * i,
+				w = "      ",
+			})
+		end
+		if cury == i then
+			add(row, {
+				text = " + ",
+				cmd = "newcell",
+				cmdy = i,
+				x = -43 + 32 * (#data[i] + 2),
+				y = -11 + 13 * i,
+				w = "   ",
+			})
+		end
+		add(menu, row)
+	end
+	add(menu,{{
+		text = " + ",
+		key = "_add",
+		x = 2,
+		y = -11 + 13 * (#data + 1),
+		w = "   ",
+		cmd = "newline",
+		cmdx = j,
+		cmdy = i,
+	}})
+end
+:: update.lua
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-07 14:06:19",revision=3085]]
+function update_drop()
+	refresh_drop()
+	do_mouse()
+	
+	-- key control
+	--up
+	if keyp("up") then
+		cury = cury - 1
+	end
+	--down
+	if keyp("down") then
+		cury = cury + 1
+	end
+	cury = (cury-1) % (#menu) + 1
+	cury = mid(1, cury, #menu)
+	
+	--left
+	if keyp("left") then
+		curx = curx - 1
+	end
+	--right
+	if keyp("right") then
+		curx = curx + 1
+	end
+	curx = mid(1, curx, #menu[cury])
+--	if cury < #menu then
+--		curx = (curx-2) % (#menu[cury]-1) + 2
+--	else
+--		curx = 1
+--	end
+
+	-- mouse control
+	local mousehit = false
+	if mousemoved or lc == "clicked" then
+		for my = 1, #menu do
+			for mx = 1, #menu[my] do
+				if mousecol(menu[my][mx]) then
+					curx = mx
+					cury = my
+					selected_schedule = menu[cury][curx].cmdsch
+					mousehit = true
+					if lc == "clicked" then
+						dobutton(menu[cury][curx])
+					end
+				end
+			end
+		end
+	end
+	if not mousehit then
+		for e in all(enemies) do
+			if mouse_col(e) then
+				selected_schedule = e.sch
+				mousehit = true
+				if lc == "clicked" then
+					refresh_drop()
+					_drw = draw_drop
+					_upd = update_drop
+					curx = 1
+					cury = 1
+				end
+			end
+		end
+	end
+end
+
+function update_map()
+	refresh_map()
+	
+	do_mouse()
 	
 	mapscroll += wheel_y*16
 	-- need to bind to map coordinates
 	-- we'll let ourselves place things up to 50px off screen left & right
-	-- map is 256px wide so coordinates in app are 102-358 (screen size is 460px wide)
+	-- map is 256px wide so coordinates in app are 112-368 (screen size is 480px wide)
 	mouse_map_x = mid(-50, mouse_x - mapoffset, 306)
 	mouse_map_y = mapscroll - mouse_y - 128
 	
@@ -806,6 +1082,10 @@ function update_map()
 	
 	cury = mid(2, cury, #menu)
 	
+	if keyp("z") then
+		dobutton(menu[cury][curx])
+	end
+	
 	if keyp("tab") then
 		if mapfocus == "map" then
 			mapfocus = "menu"
@@ -816,10 +1096,47 @@ function update_map()
 	
 	mapscroll = max(14 + 384, mapscroll)
 	
+	selected_schedule = menu[cury][curx].cmdsch
+	
+	-- mouse control
+	local mousehit = false
+	if mousemoved or lc == "clicked" then
+		for my = 2, #menu do
+			for mx = 1, #menu[my] do
+				if mousecol(menu[my][mx]) then
+					curx = mx
+					cury = my
+					selected_schedule = menu[cury][curx].cmdsch
+					mousehit = true
+					if lc == "clicked" then
+						dobutton(menu[cury][curx])
+					end
+				end
+			end
+		end
+	end
+	if not mousehit then
+		for e in all(enemies) do
+			if mouse_col(e) then
+				selected_schedule = e.sch
+				mousehit = true
+				if lc == "clicked" then
+					dropx, dropy = e.x, e.y
+					refresh_drop()
+					_drw = draw_drop
+					_upd = update_drop
+					curx = 1
+					cury = 1
+				end
+			end
+		end
+	end
+	
+	
 	if keyp("t") then
+		refresh_table()	
 		_drw = draw_table
 		_upd = update_table
-		refresh_table()	
 		curx = 2
 		cury = 1
 		return
@@ -829,18 +1146,7 @@ function update_map()
 		quicksort(data)
 	end
 	
-	lc = mb_state(mouse_b, prev_mouse_b)
-	
-	if lc == "clicked" then
-		local sch = {}
-		
-		sch[1] = mouse_map_y - 270
-		sch[2] = 1
-		sch[3] = mouse_map_x + 102 -- 102 is padding size
-		sch[4] = -16
-		
-		add(data, sch)
-	end
+
 end
 
 function update_table()
@@ -985,11 +1291,12 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wNSAxMTozODo1NCIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzMzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxNTgiLHdvcmtzcGFj
-ZV9pbmRleD0xfSx7bG9jYXRpb249InVwZGF0ZS5sdWEjMTkiLHdvcmtzcGFjZV9pbmRleD0xfSx7
-bG9jYXRpb249InRvb2xzLmx1YSMyMTEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlv
-Lmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFj
-ZV9pbmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2Nh
-dGlvbj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+Mi0wNyAxNDowNjoxOSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxMSIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxMzUiLHdvcmtzcGFjZV9pbmRleD0xfSx7
+bG9jYXRpb249InRvb2xzLmx1YSMyNDYiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlv
+Lmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1aS5sdWEjNzAiLHdvcmtzcGFj
+ZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2Nh
+dGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngi
+LHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]
