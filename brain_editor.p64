@@ -1,0 +1,510 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
+Mi0xMCAwNDoyODowMyIscmV2aXNpb249MjE4Nl1dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
+AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
+BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
+EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
+AAqXAHcgV50AG9AQDARQCRAJsAkQCZAJVQBgAAlACRAJFABwEAkwOTAJIGkAIRAKEACRAAkACQoH
+EAcKiwD-CCAKBzAHCiAZIApQCiAJ8AEJsAkgCZAJgAAcvwoEAAmwCfBxCdAJOQAbTxAE8PAyABry
+Hg8SBFAfF7AOEQ6QDgEHBgEOgA4hDQEOYA4BLBEOUA4BDBccEQ5ADgEMBwwBDAoAUSEMIQ4wCADA
+AQcBDiAOERwBBxEGCgDwDwENAQwHEQ0GDQEOAA4BLSENBg0HDQEeAR0GLQYNFgoAkQ0GBxYHBg0G
+HSIAgAcGDQEGBw0hOwBABREVDWAAX2EOYG4w9QAb8QISBGAfF8AOEQ6gDgEGBwEOkMMAEXDDABNg
+wwAXUMMAExHDABURwwByAQYBHBEHAcUAYwYNAQwXEcUAUD0xHQYHwwBQFj0GDRbCABcWwgBhEQcd
+EQcxNQAiFQHAAE9xDmB_wAAb8AQSEgRwHxfgDhEOwA4BFgEOoA5RjQEQPIwB8gYBDBcsAQ5gHgEM
+BxwBDAEeQA4hDDGAAUEHAQwxvwB1MA4BBhEHEYQBRQYNEReFAQCrAFENMQ0GDcYAcSYNBj0GDSaT
+AQmLAVAxBwEWAcoA-wMeAQYBBREFAQYBHlAOcQ6AfkCMAScCTwJwAQ0hDoAOEccAoQ4RDBccAQ5Q
+DhGMASABDs8AMyEMEc8AAwoAUAYBBxEcjAEQEM0AYxEXDAENBswAxh0xPQEeARYNBj0WHcUAIhYN
+wwBAER0HEZACbw0VARUGAYwBIhEPwAADDwMhBgdGAkENIQ5wwAATUMAAFUDAABEwwAAVAcAABI0B
+MgEcEb4AUg0RBwwBigFxDQcNBg0hLUMCWA0GLQYdhgEAIgBAIQ0HBiEDEgHEAD4RBQEPAw8EBBUP
+MgCwTwEBBAcxABq-AwMEAAcABwwHAAdKBhsgAwY5AF83DCcwB6gFGyIDCDkAERc7AA89ACIwZwwX
+sQAQEAQAD4MBfvIQCBAEIBlQGUAJFwkwCRcJIAk3CRAJNwkACQcKFwoHGQYAMRoXGgQA-wYKCRoJ
+CjkaWRo5ADkAGRAZEAkgGSBvABrxAQYQBBAZMBkwGSAJGgkQCRcEABAA0gcTGQQAYCkaORr5BfEH
+LxAZLwEbMQQQBJUAAQIA0AAJGhkXGRcZGhka_QEXAA96CBzQCgQwF1BXIHcQdwD3Dl8IL0A36gAM
+GThBAPEHDA4EQBeQF5AXYAcQFxAHIBcANwAXEAYA-wQgdxAHAHcAxwCXIHcwd0BXYDcwWgAZYQ4N
+BCAHUAIA-xPwBxewF1AHQBdABwAHIDcgB0BXcFdABxBXEAdAV4A3oBdQWQAZQBAOBDBVAGE0B9AH
+8CFWAJ9wF8A3sDfAF2BIAAwPhQIdDTEA8QAQHhA_EB4gDhEeNB4RDgCiB0AEPw8EGAbxCB4BDQEE
+HAcsBAENAR4RAgQMBxwJDAQCJwBxCAQsGQwECH4F8Q4CDgQMOQwEDgIBHgEYBAc5BwQYAR4BAg4I
+BDcECBYAkAIIDgw0DA4IAkgAcQgCDB4MAghIAGQRAg48DgJ5ADMSGBJ4AP8EITIhDQEeIR4xHiEO
+AC4QPhAuANkAGYASEQRgPqAuNB0HAM4AkT5ADgEEHQctBA8JkwIEDQcdCQ0EAgkHpAgELRkNBAgB
+Dw3PAEMNOQ0ElwAE0QAAKQAG0wABDgBQCA4NNA3VAAAoAKIGAQIIAg0eDQIIHgBQDBECDj1EAEAQ
+DiEO2gCwEQ4wLgAOATIBDAb7Br9RDAEOgE4RDuAeMNoAHmKwHjQegA6oASMOYNsAANIGB9sAJg4w
+2QAnDiDWAAKuAAPXAABtASUPDdgAEQygAQPXAAKgAQTVAEMRDhAe0wDwBh4wDhESERIRDmAeERYR
+HpAOARwBDpgIP_AecLACHg8xAP----------------------xl8ICATwMJMAHg_NBf------TDF8
+AQwCAC-8ITkAHCP8IToAH3w5ABzvISxRLFE8QTxBPFEsUSx3AB2TawErQSsBBh0BBQCfNisBDREN
+OzF7SAAcoRFbBjErBhEWARsFAK9GARsdEQ0BG0GrSAAcUfsJCQobAwA0KQobCwA-IwqLRwAcS4FH
+BhEDAD8HRgFFABzRHTUtBTYFHQUGFQYFHQoAIAcsBQBiHRUdBQcWBQAfDVQAICEGLVUAEA0GABQt
+VgBvNgUdVS1FTwAdIgtpAgAiG1kCAA8-ABwDNgATG0YAHws-ABz-AfEEBh1BBh1BNjENEA0xMHE-
+ABxwcQZhBhEWIQQAj0YhHRANIUChQgAc75FXEVcRVhFWEQ0QLSFAgAAdcQEGTREHNg0EAP8CXRFc
+EQ0FFgUNEQANFQ0AEVAtAh0TDRgCCB0CFh0UAD9lHVVRABxAC5MLAwIAL-sfOQAcYFMbAyszOzoA
+Hxk6ABwv_TAxAByyuzQbFDkbBEkLBFlCAg9AAB0-dPkcMwAcv3s0OzkUG0kEG1kEtQIjwL0FDRUt
+BQEFER0FAQIA3x0RBSENFUENAQVBDWFMAB2pFQ0lDQURBSEFAQIAL-EHSQAckX0VDQU9EQUBBZoA
+EAWUAM8FDTEFAR0xBQEFDWEXBB3xAwUNFQ0VHRUNBQ0GBR0VDQYlHfUA-wINFQYVHQYFBgUNBQ01
+PQUtBVgAHS-4MKAEKC87OVUGHT-5JLsyABwDbwAQC9UELzm7wwMeMFENYQIArx0FQR1RPQEFEX1C
+ABx-8R4FEQURvTYAHDBhDVHkAb9BBR1RHSEFDQEdAUQAHy-4MDEATR-7MQAeYwoDCwMrA8YEHwk_
+ABzFA2ELA0EHA1EHCwNRCgARQQQAD0oAHJtBAxtRAwtBAxsJAA9HABz-CPsBQRsBBxEXAQsBBwEX
+IQNhAwETAQMR1AId-w6LIUsBBxE7AQchKxEHAQcBGwEDAQcRKwNBKwELEZQAHRIrYgHxAHM1AyUU
+BQQFBAUkBaQCBAIAH3RLABz-CwsDSyNLAwUTCwMLEwQFQwUURQIUUiRCNCIESQAcYBsDGwMLIxwB
+X-EZNwEXSAcdcPEZEwETARNGAA-1CR2A8QcDURNRAwt8ADABAwuIAE8BE0sB6gEewPEAA2ETUQsD
+URMRE0gAjwEDCxMbAwFLRwAc8QD7AkEbARcRBzEXAQdxAxEvAg8uAh2AuyE7EQcBKyEoAv8DBwEH
+ERsRBwEDAQtBAysRAwErTQAcAxoCEhQIAB8SDgAIIpIECAAPYQAjEDQGAP8GMhYFAgQSBiUyNQIE
+IhUiBEIEAgRSUQAdMgtTC8gBgBNbA3sDWwMLBAAAowIQM6cCD00AHJDrAVsBA0sBA1sDACETSwYA
+D0MAHEB7AWsDAwBxSxMBWwMBWwkADxcCHVBzAVMRA6ECMBEDUV0CsRQBAxsDARIBMwESCgAfE7EC
+Hy_DWyABMf8E_wADWyM7EwsDOwMbAztDKwMbU4kAHW-yCHF8cXyICx3AIhQyRCIUQgEEQgEMqSdQ
+AVwBDFEGAA9aASsREbkDAA4AERt_AxELGgAP0wAd-wNLARNbAQNrAVsDAlsDAmsD_wBBABz-AhMB
+SwMBWwFrAgNbAgNbA-sHQAAe-wYTASMBMwEDAVMBAlMSUwITOyNbA3scASa-BFEEIhQiEzJDEiNF
+ACkwAyIUXwGvIgEDCyMSARMLM7cCHwDcAxE7qgJvJTMFJDVEvAYm8AIhIjECBBIRDAIEMhxSDAEM
+MkgREDxOEV8xDCE8EUcCKBAEoQNAIhMBIj4CbxIjCwMBM_YAHR-8OAkdb-wKJwwH-LYAHX-8EQcM
+J-wKNgAc8AxrBVsFDEsFBw07BQ0GDSsVDQYNGwUtBg0LBR0RABEFAgAfBicMHU91fP0gMwAcgAVr
+DQVbHQVLcQBgOw0VDQUrWg2vGw01DQULDUUNBU8AHBLxiA0jARUIAD-1APO4Ax1v8xALUxvTBAUh
+bwMSIxLzEDcAHP8C_wsFKwUtBS0FKwUrBSMFIwWdAx0v8TAlDh4jBQ3lAVMtBg0FLQwADxQACg8L
+Ah4f-ZYAHSoNZQIADz8AHG_NFQ0F-SN8ASEAfgHfKw0DGwUrDSMFKwUDK0UAH687LQVrDTsjDQNb
+PwAg8AAHASsFGwEDLQUNAQM7BQtYBS8FA8AKIz8hV4EMAh_CLQcMBS0FBiU1ECAFDScQEBYMACAN
+JgsAfzYVDUYFDVZYABxffHV99hg0ABz-BAflHVUWDUUmDTU2DSVGDRVWDQV2AB9wJh1GDRYNNgQA
+Lz2WPwAcUSsFA1sNAwA6BQMbGAIfe0sAKCErLQ0ATysjDQMWFx4QAHYKAKYCIAsDJBIjEwELAD8j
+BQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBfZQtjC2NEABw-9hh1mgUeOFYFCwMAAXcADyQDHSOW
+PRwCD38ADFBtPTh9fQ==
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
+Mi0xMCAwNDoyODowMyJdXQ==
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
+Mi0xMCAwNDoyODowMyIscmV2aXNpb249MTM5NF1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
+MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
+Mi0xMCAwNDoyODowMyJdXQ==
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
+Mi0xMCAwNDoyODowMyIscmV2aXNpb249MTM5NV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
+EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
+--_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
+Mi0xMCAwNDoyODowMyJdXQ==
+:: draw.lua
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-10 04:28:03",revision=1796]]
+function draw_table()
+	cls(1)
+
+	if menu then
+		for _i = 1, #menu do
+			for _j = 1, #menu[_i] do
+				-- change color if cell is currently selected
+				local _c = menu[_i][_j].c or 22
+				if _i == cury and _j == curx then
+					_c = 7
+				end
+				
+				-- make copy of local cell we're working with
+				local mymenu = menu[_i][_j]
+				
+				-- print cell
+				bgprint(mymenu.w, mymenu.x, mymenu.y, _c) --*****
+				print(mymenu.text, mymenu.x, 1+mymenu.y, _c)
+				if _i == cury and _j == curx then
+					rect(mymenu.x-2, mymenu.y-2, mymenu.x+(#mymenu.w * 5), mymenu.y+11, _c)
+				end
+			end
+		end
+	end
+end
+
+function refresh_table()
+	menu = {}
+	for i = 1, #data do
+		local row = {}
+		add(row, {
+				text = i,
+				cmd = "",
+				x = 2,
+				y = -11 + 13 * i,
+				w = "   ",
+				c = 18,
+			})
+		for j = 1, #data[i] do
+			add(row, {
+				text = data[i][j],
+				cmd = "edit",
+				cmdx = j,
+				cmdy = i,
+				x = -43 + 32 * (j + 1),
+				y = -11 + 13 * i,
+				w = "      ",
+			})
+		end
+		if cury == i then
+			add(row, {
+				text = " + ",
+				cmd = "newcell",
+				cmdy = i,
+				x = -43 + 32 * (#data[i] + 2),
+				y = -11 + 13 * i,
+				w = "   ",
+			})
+		end
+		add(menu, row)
+	end
+	add(menu,{{
+		text = " + ",
+		key = "_add",
+		x = 2,
+		y = -11 + 13 * (#data + 1),
+		w = "   ",
+		cmd = "newline",
+		cmdx = j,
+		cmdy = i,
+	}})
+end
+:: input.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
+MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
+Niw3fX0=
+:: io.lua
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-10 04:28:03",revision=1452]]
+-- warning, export overwrites all of output_file every time it's used!
+-- can store everything directly as variables, a lot of interesting uses i can think of
+
+function export()
+	store(output_file,data)
+	add(msg,{text="Exported!",t=120})
+end
+
+
+:: main.lua
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-10 04:28:03",revision=1596]]
+include("draw.lua")
+include("update.lua")
+include("tools.lua")
+include("io.lua")
+
+function _init()
+	printh("new run")
+	modify_text_display = create_gui()
+	
+	window{width = 200, height = 200}
+	
+	input_file = "/shmup/brains.pod"
+	output_file = "/shmup/brains.pod"
+	data = fetch(input_file)
+
+	debug = {}
+	msg = {}
+	_drw = draw_table
+	_upd = update_table
+	menuitem(1, "export", export)
+	
+	curx = 2
+	cury = 1
+	scrolly = 0
+	scrollx = 0
+	scrollspeed = 4
+end
+
+function _draw()
+	_drw()
+	
+	if current_page == "edit" then
+		modify_text_display:draw_all()
+	elseif current_page == "newline" then
+		modify_text_display:draw_all()
+	end
+	
+	if #msg > 0 then
+		bgprint(msg[1].text,100-(#msg[1].text*2.5),97,14)
+		msg[1].t = msg[1].t - 1
+		if msg[1].t <= 0 then
+			deli(msg,1)
+		end
+	end
+	
+	-- debug --
+	cursor(4, 4)
+	color(8)
+	for txt in all(debug) do
+		print(txt)
+	end
+end
+
+function _update()
+	_upd()
+	modify_text_display:update_all()
+end
+
+:: myspr.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTIwIDIyOjE5OjIyIixtb2RpZmllZD0iMjAyNC0x
+MS0yMyAwMjo0Mjo1MSIscmV2aXNpb249NF1dbHo0AAEBAABuAQAA8AV7ezgsMTUsMTgsNSw4fSx7
+OSwxNg4AETcOACAxMAwAQjE4LDgPABoxHgATMjsAAh4AQDI0LDggADAzLDAOADA1LDYOABIyDgAw
+Niw0DgASMQ4AIDcsWgBQMCw1LDkPACA4LEsAEDQxABAzEAAQOQ0AwTEzLDcsMTJ9LHszMDsAAV8A
+ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
+AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0AgTIsOCw1fSx7
+CwCAMTIsNiw2fX0=
+:: out.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDA0OjAxOjE4Iixtb2RpZmllZD0iMjAyNC0x
+MS0yMSAwMjoyNTozNCIscmV2aXNpb249M11dbHo0ABMBAAB-AQAA8AV7ezgsMTUsMTgsNSw4fSx7
+OSwxNg4AETcOACAxMAwAQjE4LDgPABoxHgATMjsAAh4AQDI0LDggADAzLDAOADA1LDYOABIyDgAw
+Niw0DgASMQ4AIDcsWgBQMCw1LDkPACA4LEsAEDQxABAzEAAQOQ0AwTEzLDcsMTJ9LHszMDsAAV8A
+ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
+AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0AgTIsOCw1fSx7
+CwDwCjEyLDYsNn0seyI1MCIsIjEiLDAsMCwwfX0=
+:: test.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjI1OjQ0Iixtb2RpZmllZD0iMjAyNC0x
+MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
+:: test.txt
+--[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
+test="useful data"
+:: tools.lua
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-10 04:28:03",revision=1442]]
+function bgprint(txt,x,y,c)
+	print("\#0"..txt,x,y,c)
+end
+
+function fillBG(self, col)
+	rectfill(1,1,self.width-2,self.height-2,col)
+end
+
+function fillSELECTED(self, col)
+	rectfill(-1,-1,self.width+1,self.height+1,col)
+end
+
+function removeAllChildren(el)
+	for child in all(el.child) do
+		el:detach(child)
+	end
+end
+
+function dump(o)
+   if type(o) == 'table' then
+      local s = '{ '
+      for k,v in pairs(o) do
+         if type(k) ~= 'number' then k = '"'..k..'"' end
+         s = s .. '['..k..'] = ' .. dump(v) .. ','
+      end
+      return s .. '} '
+   else
+      return tostring(o)
+   end
+end
+
+function print_table(node)
+    local cache, stack, output = {},{},{}
+    local depth = 1
+    local output_str = "{\n"
+
+    while true do
+        local size = 0
+        for k,v in pairs(node) do
+            size = size + 1
+        end
+
+        local cur_index = 1
+        for k,v in pairs(node) do
+            if (cache[node] == nil) or (cur_index >= cache[node]) then
+
+                if (string.find(output_str,"}",output_str:len())) then
+                    output_str = output_str .. ",\n"
+                elseif not (string.find(output_str,"\n",output_str:len())) then
+                    output_str = output_str .. "\n"
+                end
+
+                -- This is necessary for working with HUGE tables otherwise we run out of memory using concat on huge strings
+                table.insert(output,output_str)
+                output_str = ""
+
+                local key
+                if (type(k) == "number" or type(k) == "boolean") then
+                    key = "["..tostring(k).."]"
+                else
+                    key = "['"..tostring(k).."']"
+                end
+
+                if (type(v) == "number" or type(v) == "boolean") then
+                    output_str = output_str .. string.rep('\t',depth) .. key .. " = "..tostring(v)
+                elseif (type(v) == "table") then
+                    output_str = output_str .. string.rep('\t',depth) .. key .. " = {\n"
+                    table.insert(stack,node)
+                    table.insert(stack,v)
+                    cache[node] = cur_index+1
+                    break
+                else
+                    output_str = output_str .. string.rep('\t',depth) .. key .. " = '"..tostring(v).."'"
+                end
+
+                if (cur_index == size) then
+                    output_str = output_str .. "\n" .. string.rep('\t',depth-1) .. "}"
+                else
+                    output_str = output_str .. ","
+                end
+            else
+                -- close the table
+                if (cur_index == size) then
+                    output_str = output_str .. "\n" .. string.rep('\t',depth-1) .. "}"
+                end
+            end
+
+            cur_index = cur_index + 1
+        end
+
+        if (size == 0) then
+            output_str = output_str .. "\n" .. string.rep('\t',depth-1) .. "}"
+        end
+
+        if (#stack > 0) then
+            node = stack[#stack]
+            stack[#stack] = nil
+            depth = cache[node] == nil and depth + 1 or depth - 1
+        else
+            break
+        end
+    end
+
+    -- This is necessary for working with HUGE tables otherwise we run out of memory using concat on huge strings
+    table.insert(output,output_str)
+    output_str = table.concat(output)
+
+    print(output_str)
+end
+
+:: update.lua
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-10 04:28:03",revision=1837]]
+function update_table()
+	refresh_table()
+	
+	wheel_y = ({mouse()})[5]
+	
+	--up
+	if keyp("up") then
+		cury = cury - 1
+	end
+	--down
+	if keyp("down") then
+		cury = cury + 1
+	end
+	cury = (cury-1) % (#menu) + 1
+	cury = cury - wheel_y
+	cury = mid(1, cury, #menu)
+	
+	--left
+	if keyp("left") then
+		curx = curx - 1
+	end
+	--right
+	if keyp("right") then
+		curx = curx + 1
+	end
+	if cury < #menu then
+		curx = (curx-2) % (#menu[cury]-1) + 2
+	else
+		curx = 1
+	end
+	
+	local curmenu = menu[cury][curx]
+	
+	if curmenu then
+		if curmenu.y + scrolly > (200 - 30) then
+			scrolly = scrolly - scrollspeed
+		end
+		if curmenu.y + scrolly < 22 then
+			scrolly = scrolly + scrollspeed
+		end
+		scrolly = min(0, scrolly)
+		
+		if curmenu.x + scrollx > (200 - 80) then
+			scrollx = scrollx - scrollspeed
+		end
+		if curmenu.x + scrollx < 22 then
+			scrollx = scrollx + scrollspeed
+		end
+		scrollx = min(0, scrollx)
+		
+		camera(-scrollx,-scrolly)
+	end
+	
+	-- selecting a cell
+	if keyp("z") then
+		mymenu = menu[cury][curx]
+		-- editable cell selected
+		if mymenu.cmd == "edit" then
+			current_page = "edit"
+			text_bar = spawntextbox()
+			_upd = upd_type	
+			text_bar:set_keyboard_focus(true)
+			text_bar:set_text(tostring(mymenu.text))
+			mymenu.data = tonum(mymenu.data)
+		-- newline cell selected
+		elseif mymenu.cmd == "newline" then
+			add(data, { 0 })
+		elseif mymenu.cmd == "newcell" then
+			add(data[mymenu.cmdy],0)
+		end
+	end
+end
+
+function upd_type()
+	-- no need to check for input if we're typing
+end
+
+function spawntextbox(_i)
+	local enter_mode = _i
+	local editval
+	local text_bar = modify_text_display:attach_text_editor{
+		x = mymenu.x+14+scrollx, y = mymenu.y-1+scrolly,
+		width = 16,
+		height = 12,
+		margin_top = 2,
+		key_callback = {
+			enter = function(enter_mode)
+				editval = text_bar:get_text()[1]
+				if editval == "" or editval == nil then
+					-- if current x is on the last cell
+					if mymenu.cmdx == #data[mymenu.cmdy] then
+						if mymenu.cmdx == 1 then
+							deli(data, mymenu.cmdy)
+						else
+							deli(data[mymenu.cmdy],mymenu.cmdx)
+						end
+					else
+						data[cury][curx-1] = editval
+					end
+				else
+					if enter_mode == "newline" then
+						local _el = {
+							text = 0,
+							key = editval,
+							cmd = "edit",
+							cmdx = j,
+							cmdy = i,
+							x = -30 + 32 * j,
+							y = -11 + 13 * i,
+							w = "      "
+						}
+						add(data,{_el})
+					else
+						data[cury][curx-1] = editval
+					end
+				end
+				removeAllChildren(modify_text_display)
+				current_page = nil
+				_upd = update_table
+			end
+		}
+	}
+	return text_bar
+end
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
+Mi0xMCAwNDoyODowMyIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzQyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM3MiIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxMTQiLHdvcmtzcGFjZV9pbmRleD0xfSx7
+bG9jYXRpb249InRvb2xzLmx1YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpby5s
+dWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2Vf
+aW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRp
+b249InNmeC8wLnNmeCIsd29ya3NwYWNlX2luZGV4PTR9fV1d
+:: [eoc]

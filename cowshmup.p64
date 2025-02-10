@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0wMiAwNjo0OTo0NiIscmV2aXNpb249MTYwOV1dbHo0AIgPAADCQAAA8yF7WzBdPXtibXA9cHh1
+Mi0xMCAyMTo1NzoyNSIscmV2aXNpb249MTY0OV1dbHo0AIgPAADCQAAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -154,11 +154,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wMiAwNjo0OTo0NiJdXQ==
+Mi0xMCAyMTo1NzoyNSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
-Mi0wMiAwNjo0OTo0NiIscmV2aXNpb249MjAxNl1dbHo0AMYMAABoQAAA-xZ7e2JtcD11c2VyZGF0
+Mi0xMCAyMTo1NzoyNSIscmV2aXNpb249MjA1Nl1dbHo0AMYMAABoQAAA-xZ7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWYwMDAzBAAjIzlmQAAfMQQAIQ9AAPtXMzIwMDMcAA_AAFofMwQA
 IwVAAB8xBAAhDwAC-wESMAwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ACIyOQwAD4AAXh8zBAAjBUAA
 HzEEACEPAAL8UjEwMDI4DAAPgABZ42QwMDBkODAwZDQwMGQzCAAMEAAIGAAIMAAACAASZAwAEGUY
@@ -219,7 +219,7 @@ ZW49ZmFsc2UsbmFtZT0ibWFwIixwYW5feD0zNAkA8gF5PTE2OTksdGlsZV9oPTE2CgAQdwoAgHpv
 b209MX19
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wMiAwNjo0OTo0NiJdXQ==
+Mi0xMCAyMTo1NzoyNSJdXQ==
 :: prototypes/
 :: prototypes/blob.lua
 --[[pod_format="raw",created="2024-10-06 05:10:33",modified="2024-10-21 21:54:39",revision=1006]]
@@ -597,19 +597,19 @@ end
 
 :: prototypes/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEyLTA5IDE3OjE2OjIzIixtb2RpZmllZD0iMjAyNS0w
-Mi0wMiAwNjo0OTo0NiJdXQ==
+Mi0xMCAyMTo1NzoyNSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
-Mi0wMiAwNjo0OTo0NiIscmV2aXNpb249MTkzMF1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
+Mi0xMCAyMTo1NzoyNSIscmV2aXNpb249MTk3MF1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-2B-L9gEHUP----_E
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wMiAwNjo0OTo0NiJdXQ==
+Mi0xMCAyMTo1NzoyNSJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2025-02-02 06:49:46",revision=1349]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2025-02-10 21:57:25",revision=1393]]
 
 function drw_game()
 	cls(0)
@@ -655,7 +655,6 @@ function drw_game()
 	-- ship
 	if inviz == 0 then
 		if invul <= 0 or (time() * 15) % 1 < 0.5 then
-			camera(0, 0) 
 			
 			if freeze > 0 then
 				for i = 1,31 do
@@ -666,11 +665,10 @@ function drw_game()
 			
 			local fframe = flr((t % (#anilib[1] - 1)) + 1)
 		
-			mspr(anilib[1][fframe], px - 2 + banked, py + 6)
-			mspr(anilib[1][fframe], px + 3 - banked, py + 6, true)
+			mspr(anilib[1][fframe], pspr.x - 2 + banked, py + 6)
+			mspr(anilib[1][fframe], pspr.x + 3 - banked, py + 6, true)
 			
 			pal()
-			camera(-xscroll, 0)
 		end
 	else
 		inviz -= 1
@@ -726,7 +724,7 @@ ezcsMSwyLDk5OSwyOX19
 --[[pod_format="raw",created="2024-12-09 17:16:23",modified="2024-12-09 19:33:45",revision=127]]
 
 :: gameplay.lua
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2025-02-02 06:49:46",revision=1273]]
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2025-02-10 21:57:25",revision=1320]]
 --gameplay
 
 function die()
@@ -750,59 +748,31 @@ function spawnenemy(_i, _x, _y)
 		anis = en[2],
 		sx = 0,
 		sy = 0,
-		brain = en[3],
+		ang = 0,
+		spd = 1,
+		brain = 1, -- brains[en[3]],
+		brain_index = 1,
 		age = 0,
 		flash = 0,
 		hp = en[4],
 		col = en[5],
-	})
-	
-	--[[
-	add(buls, {
-		x = 280,
-		y = 64,
-		sx = 0,
-		sy = 0,
-		ani = anilib[6],
-		anis = 4,
-		age = 1,
-	})
-	]]--
-	
+	})	
 end
 
 function doenemies()
 	for e in all(enemies) do
-		if e.brain == 1 then
-			if e.age < 12 then
-				-- fly down
-				e.sy = 2.3
-			elseif e.age < 120 then
-				if e.age == 60 then
-					add(buls, {
-						x = e.x,
-						y = e.y,
-						sx = 0,
-						sy = 2,
-						ani = anilib[6],
-						anis = 4,
-						age = 1,
-						col = 21,
-					})
-				end
-				-- stay
-				e.sy = max(0, e.sy - 0.02)
-			else
-				-- fly up
-				e.sy = e.sy - 0.04
-				if e.y < -16 then
-					del(enemies, e)
-				end
-			end
+		local brain = brains[e.brain]
+		if brain[e.brain_index] == "hed" then
+			e.ang = brain[e.brain_index+1]
+			e.spd = brain[e.brain_index+2]
 		end
-		e.age = e.age + 1
+		e.sx = sin(e.ang) * e.spd
+		e.sy = cos(e.ang) * e.spd
+		
 		e.x = e.x + e.sx
 		e.y = e.y + e.sy
+		
+		e.age = e.age + 1
 	end
 end
 
@@ -863,7 +833,7 @@ function shoot()
 end
 
 :: main.lua
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2025-02-02 06:49:46",revision=2551]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2025-02-10 21:57:25",revision=2595]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -883,7 +853,7 @@ function _init()
 	enlib = fetch("/shmup/enlib.pod")
 	sched = fetch("/shmup/sched.pod")
 	mapsegs = fetch("/shmup/mapsegs.pod")
-	
+	brains = fetch("/shmup/brains.pod")
 	gfx = fetch("/shmup/gfx/spr.gfx")
 	
 	sprval = 3
@@ -1007,7 +977,7 @@ function startgame()
 end
 
 :: particles.lua
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2025-02-02 06:49:46",revision=1155]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2025-02-10 21:57:25",revision=1197]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
@@ -1241,7 +1211,7 @@ function sprite(p)
 	mspr(cyc(p.age,p.ani,p.anis), _x, _y)
 end
 :: profiler.lua
---[[pod_format="raw",created="2024-09-20 18:19:15",modified="2025-02-02 06:49:46",revision=1063]]
+--[[pod_format="raw",created="2024-09-20 18:19:15",modified="2025-02-10 21:57:25",revision=1108]]
 -- abledbody's profiler v1.1
 
 local function do_nothing() end
@@ -1364,7 +1334,7 @@ end
 
 
 :: tools.lua
---[[pod_format="raw",created="2024-10-21 21:26:41",modified="2025-02-02 06:49:46",revision=1178]]
+--[[pod_format="raw",created="2024-10-21 21:26:41",modified="2025-02-10 21:57:25",revision=1221]]
 -- alternate to sgn, different in that 0 returns 0 instead of 1
 function mysgn(v)
 	return v == 0 and 0 or sgn(v)
@@ -1455,7 +1425,7 @@ function col2(oa, ob, xscr)
 	local msa = myspr[oa.col]
 	local msb = myspr[ob.col]
 	
-	local a_left = oa.x - msa[4] - (xscr and xscroll or 0)
+	local a_left = oa.x - msa[4]
 	local a_top = oa.y - msa[5]
 	local a_right = a_left + msa[2] - 1
 	local a_bottom = a_top + msa[3] - 1
@@ -1464,10 +1434,6 @@ function col2(oa, ob, xscr)
 	local b_top = ob.y - msb[5]
 	local b_right = b_left + msb[2] - 1
 	local b_bottom = b_top + msb[3] - 1
-
-	if xscr then
-		
-	end
 	
 	if a_top > b_bottom then
 		return false
@@ -1497,7 +1463,7 @@ function drawobj(obj)
 	end
 end
 :: update.lua
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2025-02-02 06:49:46",revision=1281]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2025-02-10 21:57:25",revision=1335]]
 function upd_game()
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -1556,20 +1522,23 @@ function upd_game()
 
 	lastdir = dir
 	
-	pspr.x = px
-	pspr.y = py
-	pspr.ani[1] = flr(shipspr * 2.4 + 3.5)
-
 	-- boundary checking
 	if px < x_borders then
 		px = x_borders
 	end
 	if px > 480 - x_borders - 15 then
 		px = 480 - x_borders - 15 -- 15 is sprite size with an offset
-	end
-
+	end	
+	
 	percentage_scrolled = mid(6 / 32, (px - x_borders) / 201, 26 / 32)
 	xscroll = flr(map_range(percentage_scrolled * -32, -26, -6, -40, 0))
+	
+	pspr.x = px - xscroll
+	pspr.y = py
+	pspr.ani[1] = flr(shipspr * 2.4 + 3.5)
+
+
+
 
 	-- shooting
 	if shotwait > 0 then
@@ -1620,14 +1589,14 @@ function upd_game()
 	-- ship vs enemies
 	if invul <= 0 then
 		for e in all(enemies) do
-			if col2(pspr, e, true) then 
+			if col2(pspr, e) then 
 				die()
 			end
 		end
 	
 		-- ship vs bullets
 		for b in all(buls) do
-			if col2(pspr, b, true) then
+			if col2(pspr, b) then
 				die()
 			end
 		end	
@@ -1668,11 +1637,11 @@ end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wMiAwNjo0OTo0NiIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzEwOSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZHJhdy5sdWEjODkiLHdvcmtzcGFj
-ZV9pbmRleD0xfSx7bG9jYXRpb249InVwZGF0ZS5sdWEjNSIsd29ya3NwYWNlX2luZGV4PTF9LHts
-b2NhdGlvbj0idG9vbHMubHVhIzEyNyIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Ft
-ZXBsYXkubHVhIzIwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXJ0aWNsZXMubHVh
+Mi0xMCAyMTo1NzoyNSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzIwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM1NyIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxMjEiLHdvcmtzcGFjZV9pbmRleD0xfSx7
+bG9jYXRpb249InRvb2xzLmx1YSM5MSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Ft
+ZXBsYXkubHVhIzQwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXJ0aWNsZXMubHVh
 IzQyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwcm9maWxlci5sdWEjNjUiLHdvcmtz
 cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHts
 b2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5z
