@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0wOSAxNDo0MDo0NyIscmV2aXNpb249MTcxOV1dbHo0AIgPAADCQAAA8yF7WzBdPXtibXA9cHh1
+Mi0xMiAyMjo0MToyNSIscmV2aXNpb249MTcyN11dbHo0AIgPAADCQAAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -154,11 +154,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wOSAxNDo0MDo0NyJdXQ==
+Mi0xMiAyMjo0MToyNSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
-Mi0wOSAxNDo0MDo0NyIscmV2aXNpb249MzA4N11dbHo0AFsMAABoQAAA-xN7e2JtcD11c2VyZGF0
+Mi0xMiAyMjo0MToyNSIscmV2aXNpb249MzA5NV1dbHo0AFsMAABoQAAA-xN7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWQwAQAmADwAPzlmMAEAJi85ZkAA-zEvZTABACYvOWUAAv94PzMy
 MAAC-_sAAQA-MjkwAAL-538zMTAwMjgwQAAmDwEAIQA8AAD-AaNkODAwZDQwMGQzCAAMEAAIGAAI
 MAAACAASZAwAAIcCI2RiEAAXMBAAF2MYAARMABcwVAATOSQAW2EwMGMxEAATMAQACBgAGmIIAC9j
@@ -217,19 +217,19 @@ IiksaGlkZGVuPWZhbHNlLG5hbWU9Im1hcCIscGFuX3g9MjgJAPIBeT0xNzUwLHRpbGVfaD0xNgoA
 EHcKAIB6b29tPTF9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAxLTI3IDAyOjAyOjA0Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wOSAxNDo0MDo0NyJdXQ==
+Mi0xMiAyMjo0MToyNSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wOSAxNDo0MDo0NyIscmV2aXNpb249MjU4OV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+Mi0xMiAyMjo0MToyNSIscmV2aXNpb249MjU5N11dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wOSAxNDo0MDo0NyJdXQ==
+Mi0xMiAyMjo0MToyNSJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-09 14:40:47",revision=3373]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-12 22:41:25",revision=3382]]
 function draw_move()
 	draw_bg()
 	draw_menu()
@@ -362,7 +362,7 @@ b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-09 14:40:47",revision=2732]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-12 22:41:25",revision=2741]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
@@ -373,7 +373,7 @@ end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-09 14:40:47",revision=2923]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-12 22:41:25",revision=2932]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
@@ -480,7 +480,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-09 14:40:47",revision=2791]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-12 22:41:25",revision=2802]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -855,22 +855,24 @@ end
 function genens()
 	enemies = {}
 	for sched in all(data) do
-		-- x coordinates are +/- 8 to center
-		-- y coordinates need to account for mapscroll, the offset for the editor (376),
-		--		the ingame mapscroll they're scheduled to appear (sched[1]),
-		--		and the coordinates they're supposed to spawn at at that scroll (sched[4])
-		local schx = sched[3]
-		local schy = mapscroll - 378 - sched[1] + sched[4]
-		local en = enlib[sched[2] ]
-		local ani = anilib[en[1] ]
-		
-		add(enemies, {
-			x = schx,
-			y = schy,
-			s = cyc(_t, ani, en[2]),
-			sch = sched,
-			col = en[5],
-		})
+		if sched[1] <= mapscroll then
+			-- x coordinates are +/- 8 to center
+			-- y coordinates need to account for mapscroll, the offset for the editor (376),
+			--		the ingame mapscroll they're scheduled to appear (sched[1]),
+			--		and the coordinates they're supposed to spawn at at that scroll (sched[4])
+			local schx = sched[3]
+			local schy = mapscroll - 378 - sched[1] + sched[4]
+			local en = enlib[sched[2] ]
+			local ani = anilib[en[1] ]
+			
+			add(enemies, {
+				x = schx,
+				y = schy,
+				s = cyc(_t, ani, en[2]),
+				sch = sched,
+				col = en[5],
+			})
+		end
 	end
 end
 
@@ -885,7 +887,7 @@ function print_props(sch, c)
 	end
 end
 :: ui.lua
---[[pod_format="raw",created="2025-02-07 13:43:39",modified="2025-02-09 14:40:47",revision=232]]
+--[[pod_format="raw",created="2025-02-07 13:43:39",modified="2025-02-12 22:41:25",revision=243]]
 function refresh_move()
 	menu = {}
 end
@@ -1079,7 +1081,7 @@ function statemove()
 	_upd = update_move
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-09 14:40:47",revision=3303]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-12 22:41:25",revision=3314]]
 function update_move()
 	refresh_move()
 	
@@ -1104,11 +1106,18 @@ function update_move()
 	
 	if keyp("w") then
 		selected_schedule[1] += 1
+		if selected_schedule[1] > mapscroll then
+			mapscroll = selected_schedule[1]
+		end
 	end
 	if keyp("s") then
 		selected_schedule[1] -= 1
+
 	end	
 	selected_schedule[1] += wheel_y*5
+	if selected_schedule[1] < 0 then
+		selected_schedule[1] = 0
+	end
 	
 	if keyp("z") or keyp("x") or rc == "clicked" then
 		quicksort(data)
@@ -1423,10 +1432,10 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0wOSAxNDo0MDo0NyIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+Mi0xMiAyMjo0MToyNSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
 IzM3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM0Iix3b3Jrc3BhY2Vf
-aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
-Y2F0aW9uPSJ0b29scy5sdWEjMTc3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpby5s
+aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzI2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
+Y2F0aW9uPSJ0b29scy5sdWEjMzg3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpby5s
 dWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0idWkubHVhIzUwIix3b3Jrc3BhY2Vf
 aW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9jYXRp
 b249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3

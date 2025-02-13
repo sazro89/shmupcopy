@@ -4,95 +4,141 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0xMCAwNDoyODowMyIscmV2aXNpb249MjE4Nl1dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
+Mi0xMyAwNTo1MjoxNyIscmV2aXNpb249MTc1OV1dbHo0ADoSAACiRgAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
 AAqXAHcgV50AG9AQDARQCRAJsAkQCZAJVQBgAAlACRAJFABwEAkwOTAJIGkAIRAKEACRAAkACQoH
-EAcKiwD-CCAKBzAHCiAZIApQCiAJ8AEJsAkgCZAJgAAcvwoEAAmwCfBxCdAJOQAbTxAE8PAyABry
-Hg8SBFAfF7AOEQ6QDgEHBgEOgA4hDQEOYA4BLBEOUA4BDBccEQ5ADgEMBwwBDAoAUSEMIQ4wCADA
-AQcBDiAOERwBBxEGCgDwDwENAQwHEQ0GDQEOAA4BLSENBg0HDQEeAR0GLQYNFgoAkQ0GBxYHBg0G
-HSIAgAcGDQEGBw0hOwBABREVDWAAX2EOYG4w9QAb8QISBGAfF8AOEQ6gDgEGBwEOkMMAEXDDABNg
-wwAXUMMAExHDABURwwByAQYBHBEHAcUAYwYNAQwXEcUAUD0xHQYHwwBQFj0GDRbCABcWwgBhEQcd
-EQcxNQAiFQHAAE9xDmB_wAAb8AQSEgRwHxfgDhEOwA4BFgEOoA5RjQEQPIwB8gYBDBcsAQ5gHgEM
-BxwBDAEeQA4hDDGAAUEHAQwxvwB1MA4BBhEHEYQBRQYNEReFAQCrAFENMQ0GDcYAcSYNBj0GDSaT
-AQmLAVAxBwEWAcoA-wMeAQYBBREFAQYBHlAOcQ6AfkCMAScCTwJwAQ0hDoAOEccAoQ4RDBccAQ5Q
-DhGMASABDs8AMyEMEc8AAwoAUAYBBxEcjAEQEM0AYxEXDAENBswAxh0xPQEeARYNBj0WHcUAIhYN
-wwBAER0HEZACbw0VARUGAYwBIhEPwAADDwMhBgdGAkENIQ5wwAATUMAAFUDAABEwwAAVAcAABI0B
-MgEcEb4AUg0RBwwBigFxDQcNBg0hLUMCWA0GLQYdhgEAIgBAIQ0HBiEDEgHEAD4RBQEPAw8EBBUP
-MgCwTwEBBAcxABq-AwMEAAcABwwHAAdKBhsgAwY5AF83DCcwB6gFGyIDCDkAERc7AA89ACIwZwwX
-sQAQEAQAD4MBfvIQCBAEIBlQGUAJFwkwCRcJIAk3CRAJNwkACQcKFwoHGQYAMRoXGgQA-wYKCRoJ
-CjkaWRo5ADkAGRAZEAkgGSBvABrxAQYQBBAZMBkwGSAJGgkQCRcEABAA0gcTGQQAYCkaORr5BfEH
-LxAZLwEbMQQQBJUAAQIA0AAJGhkXGRcZGhka_QEXAA96CBzQCgQwF1BXIHcQdwD3Dl8IL0A36gAM
-GThBAPEHDA4EQBeQF5AXYAcQFxAHIBcANwAXEAYA-wQgdxAHAHcAxwCXIHcwd0BXYDcwWgAZYQ4N
-BCAHUAIA-xPwBxewF1AHQBdABwAHIDcgB0BXcFdABxBXEAdAV4A3oBdQWQAZQBAOBDBVAGE0B9AH
-8CFWAJ9wF8A3sDfAF2BIAAwPhQIdDTEA8QAQHhA_EB4gDhEeNB4RDgCiB0AEPw8EGAbxCB4BDQEE
-HAcsBAENAR4RAgQMBxwJDAQCJwBxCAQsGQwECH4F8Q4CDgQMOQwEDgIBHgEYBAc5BwQYAR4BAg4I
-BDcECBYAkAIIDgw0DA4IAkgAcQgCDB4MAghIAGQRAg48DgJ5ADMSGBJ4AP8EITIhDQEeIR4xHiEO
-AC4QPhAuANkAGYASEQRgPqAuNB0HAM4AkT5ADgEEHQctBA8JkwIEDQcdCQ0EAgkHpAgELRkNBAgB
-Dw3PAEMNOQ0ElwAE0QAAKQAG0wABDgBQCA4NNA3VAAAoAKIGAQIIAg0eDQIIHgBQDBECDj1EAEAQ
-DiEO2gCwEQ4wLgAOATIBDAb7Br9RDAEOgE4RDuAeMNoAHmKwHjQegA6oASMOYNsAANIGB9sAJg4w
-2QAnDiDWAAKuAAPXAABtASUPDdgAEQygAQPXAAKgAQTVAEMRDhAe0wDwBh4wDhESERIRDmAeERYR
-HpAOARwBDpgIP_AecLACHg8xAP----------------------xl8ICATwMJMAHg_NBf------TDF8
-AQwCAC-8ITkAHCP8IToAH3w5ABzvISxRLFE8QTxBPFEsUSx3AB2TawErQSsBBh0BBQCfNisBDREN
-OzF7SAAcoRFbBjErBhEWARsFAK9GARsdEQ0BG0GrSAAcUfsJCQobAwA0KQobCwA-IwqLRwAcS4FH
-BhEDAD8HRgFFABzRHTUtBTYFHQUGFQYFHQoAIAcsBQBiHRUdBQcWBQAfDVQAICEGLVUAEA0GABQt
-VgBvNgUdVS1FTwAdIgtpAgAiG1kCAA8-ABwDNgATG0YAHws-ABz-AfEEBh1BBh1BNjENEA0xMHE-
-ABxwcQZhBhEWIQQAj0YhHRANIUChQgAc75FXEVcRVhFWEQ0QLSFAgAAdcQEGTREHNg0EAP8CXRFc
-EQ0FFgUNEQANFQ0AEVAtAh0TDRgCCB0CFh0UAD9lHVVRABxAC5MLAwIAL-sfOQAcYFMbAyszOzoA
-Hxk6ABwv_TAxAByyuzQbFDkbBEkLBFlCAg9AAB0-dPkcMwAcv3s0OzkUG0kEG1kEtQIjwL0FDRUt
-BQEFER0FAQIA3x0RBSENFUENAQVBDWFMAB2pFQ0lDQURBSEFAQIAL-EHSQAckX0VDQU9EQUBBZoA
-EAWUAM8FDTEFAR0xBQEFDWEXBB3xAwUNFQ0VHRUNBQ0GBR0VDQYlHfUA-wINFQYVHQYFBgUNBQ01
-PQUtBVgAHS-4MKAEKC87OVUGHT-5JLsyABwDbwAQC9UELzm7wwMeMFENYQIArx0FQR1RPQEFEX1C
-ABx-8R4FEQURvTYAHDBhDVHkAb9BBR1RHSEFDQEdAUQAHy-4MDEATR-7MQAeYwoDCwMrA8YEHwk_
-ABzFA2ELA0EHA1EHCwNRCgARQQQAD0oAHJtBAxtRAwtBAxsJAA9HABz-CPsBQRsBBxEXAQsBBwEX
-IQNhAwETAQMR1AId-w6LIUsBBxE7AQchKxEHAQcBGwEDAQcRKwNBKwELEZQAHRIrYgHxAHM1AyUU
-BQQFBAUkBaQCBAIAH3RLABz-CwsDSyNLAwUTCwMLEwQFQwUURQIUUiRCNCIESQAcYBsDGwMLIxwB
-X-EZNwEXSAcdcPEZEwETARNGAA-1CR2A8QcDURNRAwt8ADABAwuIAE8BE0sB6gEewPEAA2ETUQsD
-URMRE0gAjwEDCxMbAwFLRwAc8QD7AkEbARcRBzEXAQdxAxEvAg8uAh2AuyE7EQcBKyEoAv8DBwEH
-ERsRBwEDAQtBAysRAwErTQAcAxoCEhQIAB8SDgAIIpIECAAPYQAjEDQGAP8GMhYFAgQSBiUyNQIE
-IhUiBEIEAgRSUQAdMgtTC8gBgBNbA3sDWwMLBAAAowIQM6cCD00AHJDrAVsBA0sBA1sDACETSwYA
-D0MAHEB7AWsDAwBxSxMBWwMBWwkADxcCHVBzAVMRA6ECMBEDUV0CsRQBAxsDARIBMwESCgAfE7EC
-Hy_DWyABMf8E_wADWyM7EwsDOwMbAztDKwMbU4kAHW-yCHF8cXyICx3AIhQyRCIUQgEEQgEMqSdQ
-AVwBDFEGAA9aASsREbkDAA4AERt_AxELGgAP0wAd-wNLARNbAQNrAVsDAlsDAmsD_wBBABz-AhMB
-SwMBWwFrAgNbAgNbA-sHQAAe-wYTASMBMwEDAVMBAlMSUwITOyNbA3scASa-BFEEIhQiEzJDEiNF
-ACkwAyIUXwGvIgEDCyMSARMLM7cCHwDcAxE7qgJvJTMFJDVEvAYm8AIhIjECBBIRDAIEMhxSDAEM
-MkgREDxOEV8xDCE8EUcCKBAEoQNAIhMBIj4CbxIjCwMBM_YAHR-8OAkdb-wKJwwH-LYAHX-8EQcM
-J-wKNgAc8AxrBVsFDEsFBw07BQ0GDSsVDQYNGwUtBg0LBR0RABEFAgAfBicMHU91fP0gMwAcgAVr
-DQVbHQVLcQBgOw0VDQUrWg2vGw01DQULDUUNBU8AHBLxiA0jARUIAD-1APO4Ax1v8xALUxvTBAUh
-bwMSIxLzEDcAHP8C_wsFKwUtBS0FKwUrBSMFIwWdAx0v8TAlDh4jBQ3lAVMtBg0FLQwADxQACg8L
-Ah4f-ZYAHSoNZQIADz8AHG_NFQ0F-SN8ASEAfgHfKw0DGwUrDSMFKwUDK0UAH687LQVrDTsjDQNb
-PwAg8AAHASsFGwEDLQUNAQM7BQtYBS8FA8AKIz8hV4EMAh_CLQcMBS0FBiU1ECAFDScQEBYMACAN
-JgsAfzYVDUYFDVZYABxffHV99hg0ABz-BAflHVUWDUUmDTU2DSVGDRVWDQV2AB9wJh1GDRYNNgQA
-Lz2WPwAcUSsFA1sNAwA6BQMbGAIfe0sAKCErLQ0ATysjDQMWFx4QAHYKAKYCIAsDJBIjEwELAD8j
-BQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBfZQtjC2NEABw-9hh1mgUeOFYFCwMAAXcADyQDHSOW
-PRwCD38ADFBtPTh9fQ==
+EAcKiwD-CCAKBzAHCiAZIApQCiAJ8AEJsAkgCZAJgAAe-wAACbAJ8HEJ0AnwAwlwCSA-ABtPEATw
+8DIAGvIeDxIEUB8XsA4RDpAOAQcGAQ6ADiENAQ5gDgEsEQ5QDgEMFxwRDkAOAQwHDAEMCgBRIQwh
+DjAIAMABBwEOIA4RHAEHEQYKAPAPAQ0BDAcRDQYNAQ4ADgEtIQ0GDQcNAR4BHQYtBg0WCgCRDQYH
+FgcGDQYdIgCABwYNAQYHDSE7AEAFERUNYABfYQ5gbjD1ABvxAhIEYB8XwA4RDqAOAQYHAQ6QwwAR
+cMMAE2DDABdQwwATEcMAFRHDAHIBBgEcEQcBxQBjBg0BDBcRxQBQPTEdBgfDAFAWPQYNFsIAFxbC
+AGERBx0RBzE1ACIVAcAAT3EOYH7AABvwBBISBHAfF_AOEQ7ADgEWAQ6gDlGNARA8jAHyBgEMFywB
+DmAeAQwHHAEMAR5ADiEMMYABQQcBDDG-AHUwDgEGEQcRhAFFBg0RF4UBAKsAUQ0xDQYNxgBxJg0G
+PQYNJpMBCYsBUDEHARYBygD-Ax4BBgEFEQUBBgEeUA5xDoB_QIwBJwJPAnABDSEOgA4RxwChDhEM
+FxwBDlAOEYwBIAEOzwAzIQwRzwADCgBQBgEHERyMARAQzQBjERcMAQ0GzADGHTE9AR4BFg0GPRYd
+xQAiFg3DAEARHQcRkAJvDRUBFQYBjAEiEQ-AAAMPAyEGB0YCQQ0hDnDAABNQwAAVQMAAETDAABUB
+wAAEjQEyARwRvgBSDREHDAGKAXENBw0GDSEtQwJYDQYtBh2GAQAiAEAhDQcGIQMSAcQAPhEFAQ8D
+DwQEFQ8yALBPAQEEBzEAGr8DAwQABwAHDAcAB1AGGyADBjkAXzcMJzAHrgUbIgMIOQARFzsADz0A
+IjBnDBexABAQBAAPgwF_8hAIEAQgGVAZQAkXCTAJFwkgCTcJEAk3CQAJBwoXCgcZBgAxGhcaBAD-
+BQoJGgkKORpZGjkAOQAZEBkQCSAZvgYb8QEGEAQQGTAZMBkgCRoJEAkXBAAQANgHExkEAGApGjka
+_QX3By8QGS8BGzEEEASVAAECANAACRoZFxkXGRoZGvkBFwAPgAgc0AoEMBdQVyB3EHcA9w5lCC9A
+N_oADBk4QQDxBwwOBEAXkBeQF2AHEBcQByAXADcAFxAGAP8EIHcQBwB3AMcAlyB3MHdAV2A3MFoA
+GWEODQQgB1ACAP8T8AcXsBdQB0AXQAcAByA3IAdAV3BXQAcQVxAHQFeAN6AXUFkAGUAQDgQwVQBh
+NAfQB-AhVgCfcBfAN7A3wBdgSAAMD4UCHQ0xAPEAEB4QPhAeIA4RHjQeEQ4AogdABD8PBBgG8Qge
+AQ0BBBwHLAQBDQEeEQIEDAccCQwEAicAcQgELBkMBAh_BfEOAg4EDDkMBA4CAR4BGAQHOQcEGAEe
+AQIOCAQ3BAgWAJACCA4MNAwOCAJIAHEIAgweDAIISABkEQIOPA4CeQAzEhgSeAD-BCEyIQ0BHiEe
+MR4hDgAuED4QLgDZABmAEhEEYD6gLjQdBwDOAJE_QA4BBB0HLQQPCZMCBA0HHQkNBAIJB6QIBC0Z
+DQQIAQ8NzwBDDTkNBJcABNEAACkABtMAAQ4AUAgODTQN1QAAKACiBgECCAINHg0CCB4AUAwRAg49
+RABAEA4hDtoAsBEOMC4ADgEyAQwG_wa-UQwBDoBOEQ7gHjDaAB5isB40HoAOqAEjDmDbAADSBgfb
+ACYOMNkAJw4g1gACrgAD1wAAbQElDw3YABEMoAED1wACoAEE1QBDEQ4QHtMA8AYeMA4REhESEQ5g
+HhEWER6QDgEcAQ6YCD-gHnDMABnwFBwbBLA_8AYeNB7wAw4UPw8UDvABDgR9BA7gDgQdFx0HCR0E
+twmABA0nHQcZDQS_CQDhADEXLSnhAMGADgEIAgRNOQ0EAghNCFIIAgQtWQ4AwGAOARgCBA15DQQC
+GF0IIAEIAAFQB1kdBA4fAPAAQA4RDgEOAgRHLQQCDgEO2ggA-gGROAIUNxQCOAEMJAHwDQwGESgN
+EjQSDSgRBgwBHgEGDBEYHh0yHR4YEQw4ATAMIQIzAbEODRcNDgwCDggCITgA8A0hCQECCBIeFx4S
+CAIBCSEOIB4xAhgeFx4YAjEe2wtyMRIIPQgSMdAIgAwHDDECOAIx9AgAhQDRDBcGDCEJMQkhDAYX
+DEgC8QIGBwYMEQYMERwRDAYRDAYHBpwAMBwWDMgJEBdcCzAMFhyeAMMHHAEeIQwRDCEeARwmABAW
+kQAgLjF3AiAMFmAAUCEOQD5ABgBMLvAALlcFYy0yLjg3NbEBYi0wLjEyNbYBHzFmBB4PMQCQD-kE
+FyMPEPoEEQsoACEPDPsEEQpiATELDxz8BGEICwEeARpUA7EaAR4BCwgKBDcEChYA8QULCggHNAcI
+CgsBHhELCgsHGAcLCkoAZBELCDcIC3wANBsaG-wEHzv8BEgjDxAiBBMM-QQhDwwlBBQL-gQxDA8c
+KQQhCgyaABEb1AARGysAggwKCwQ3BAsKmQKBDAsKBzQHCgv1ArIBBgEMCwwHGgcMCx4Agw8NEQwK
+NwoMAAUzHBscAAUyPAEIAAUfCAAFQQffACcOMN0AKA4g2gACsgAD2wACAwUF3ABFCAEeEdsAAAMB
+FRHZAAEDBQLWAAADBTccERwDBR4YAwUPugI0D34D6xMDfQMRAycAIQ8bfQMRC8IBMQMPGn0DRQoD
+AR6pAjMeAQPLAQAWAKADCwoPCjQICgsDSwBxCwMIGggDC0sAZBEDCjgKA3wANBMbE34DHzN_A0gT
+A54CFAN9AxEboAIUDH0DANIAAKMCAqMAIQEc1AARHCsAkgMLDAQ3BAwLAw4AgwwLCjQKCwwDfQOU
+AwwDChsKAwwDfQNTAws6CwN9AzMTHBN9Ax8zfQNKBt4AJw4w3AAoDiDZAAKxAAPaAAJ8AwXbABAK
+pQEgDAuyASMLDKYBgQwDCBsIAwwDfQNRAws4CwN9AzcTERN9Ax8afQP-RSkPGfsGEQl9AxMJ_gYS
+H30DAOQGERnPAREZ7gZRCQQ3BAkWACILCX0DEQn7BnMJCwgaCAsJ_wZECjgKC3wALxsZ_wZTExmg
+AgT7BhEJoQIWCfoGEh_kAgL6BgTUAALsBgHWAAPcBiEMCX0DFQn6BnYJDAobCgwJ_gY1CzoL_gYf
+GfoGVBkZ_gYE3AAoDiDZAAKxAAPaAAP5BgTbAAB9AyIMCX0DEwn6BnMJDAgbCAwJ_gY_CzgL_gYP
+fQMqDzEA-----------------yqnCAgErBFMARwBPAQAP0wRrEQAHGC8AVwRbAECAD9cIZyAACIw
+bAFcAgAfMT4AIz9cAXy6ACQUnPgAEjHAAA_AAB3fnDE8AWwhfAFsATwhrLwAID9sIUx2ASYgnDE2
+AQIEAB_8WAIeDzEA----8GEICAR8AQwCAC-8ITkAHCP8IToAH3w5ABzvISxRLFE8QTxBPFEsUSx3
+AB2TawErQSsBBh0BBQCfNisBDRENOzF7SAAcoRFbBjErBhEWARsFAK9GARsdEQ0BG0GrSAAcUfsJ
+CQobAwA0KQobCwA-IwqLRwAcS4FHBhEDAD8HRgFFABzRHTUtBTYFHQUGFQYFHQoAIAcsBQBiHRUd
+BQcWBQAfDVQAICEGLVUAEA0GABQtVgBvNgUdVS1FTwAdIgtpAgAiG1kCAA8-ABwDNgATG0YAHws-
+ABz-AfEEBh1BBh1BNjENEA0xMHE-ABxwcQZhBhEWIQQAj0YhHRANIUChQgAc75FXEVcRVhFWEQ0Q
+LSFAgAAdcQEGTREHNg0EAP8CXRFcEQ0FFgUNEQANFQ0AEVAtAh0TDRgCCB0CFh0UAD9lHVVRABxA
+C5MLAwIAL-sfOQAcYFMbAyszOzoAHxk6ABwv_TAxAByyuzQbFDkbBEkLBFlCAg9AAB0-dPkcMwAc
+v3s0OzkUG0kEG1kEtQIjwL0FDRUtBQEFER0FAQIA3x0RBSENFUENAQVBDWFMAB2pFQ0lDQURBSEF
+AQIAL-EHSQAckX0VDQU9EQUBBZoAEAWUAM8FDTEFAR0xBQEFDWEXBB3xAwUNFQ0VHRUNBQ0GBR0V
+DQYlHfUA-wINFQYVHQYFBgUNBQ01PQUtBVgAHS-4MKAEKC87OVUGHT-5JLsyABwDbwAQC9UELzm7
+wwMeMFENYQIArx0FQR1RPQEFEX1CABx-8R4FEQURvTYAHDBhDVHkAb9BBR1RHSEFDQEdAUQAHy-4
+MDEATR-7MQAeYwoDCwMrA8YEHwk_ABzFA2ELA0EHA1EHCwNRCgARQQQAD0oAHJtBAxtRAwtBAxsJ
+AA9HABz-CPsBQRsBBxEXAQsBBwEXIQNhAwETAQMR1AId-w6LIUsBBxE7AQchKxEHAQcBGwEDAQcR
+KwNBKwELEZQAHRIrYgHxAHM1AyUUBQQFBAUkBaQCBAIAH3RLABz-CwsDSyNLAwUTCwMLEwQFQwUU
+RQIUUiRCNCIESQAcYBsDGwMLIxwBX-EZNwEXSAcdcPEZEwETARNGAA-1CR2A8QcDURNRAwt8ADAB
+AwuIAE8BE0sB6gEewPEAA2ETUQsDURMRE0gAjwEDCxMbAwFLRwAc8QD7AkEbARcRBzEXAQdxAxEv
+Ag8uAh2AuyE7EQcBKyEoAv8DBwEHERsRBwEDAQtBAysRAwErTQAcAxoCEhQIAB8SDgAIIpIECAAP
+YQAjEDQGAP8GMhYFAgQSBiUyNQIEIhUiBEIEAgRSUQAdMgtTC8gBgBNbA3sDWwMLBAAAowIQM6cC
+D00AHJDrAVsBA0sBA1sDACETSwYAD0MAHEB7AWsDAwBxSxMBWwMBWwkADxcCHVBzAVMRA6ECMBED
+UV0CsRQBAxsDARIBMwESCgAfE7ECHy_DWyABMf8E_wADWyM7EwsDOwMbAztDKwMbU4kAHW-yCHF8
+cXyICx3AIhQyRCIUQgEEQgEMfC9QAVwBDFEGAA9aASsREbkDAA4AERt_AxELGgAP0wAd-wNLARNb
+AQNrAVsDAlsDAmsD_wBBABz-AhMBSwMBWwFrAgNbAgNbA-sHQAAe-wYTASMBMwEDAVMBAlMSUwIT
+OyNbA3scASa-BFEEIhQiEzJDEiNFACkwAyIUXwGvIgEDCyMSARMLM7cCHwDcAxE7qgJvJTMFJDVE
+vAYm8AIhIjECBBIRDAIEMhxSDAEMMkgREDxOEV8xDCE8EUcCKAANKVAUIhMBIj4CbxIjCwMBM_YA
+HR-8OAkdb-wKJwwH-LYAHX-8EQcMJ-wKNgAc8AxrBVsFDEsFBw07BQ0GDSsVDQYNGwUtBg0LBR0R
+ABEFAgAfBicMHU91fP0gMwAcgAVrDQVbHQVLcQBgOw0VDQUrWg2vGw01DQULDUUNBU8AHBLxiA0j
+ARUIAD-1APO4Ax1v8xALUxvTBAUhbwMSIxLzEDcAHP8C_wsFKwUtBS0FKwUrBSMFIwWdAx0v8TAl
+Dh4jBQ3lAVMtBg0FLQwADxQACg8LAh4f-ZYAHSoNZQIADz8AHG_NFQ0F-SN8ASEAfgHfKw0DGwUr
+DSMFKwUDK0UAH687LQVrDTsjDQNbPwAg8AAHASsFGwEDLQUNAQM7BQtYBS8FA8AKIz8hV4EMAh_C
+LQcMBS0FBiU1ECAFDScQEBYMACANJgsAfzYVDUYFDVZYABxffHV99hg0ABz-BAflHVUWDUUmDTU2
+DSVGDRVWDQV2AB9wJh1GDRYNNgQALz2WPwAcUSsFA1sNAwA6BQMbGAIfe0sAKCErLQ0ATysjDQMW
+Fx4QAHYKAKYCIAsDJBIjEwELAD8jBQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBfZQtjC2NEABw-
+9hh1mgUeOFYFCwMAAXcADyQDHSOWPRwCD38ADFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMCAwNDoyODowMyJdXQ==
+Mi0xMyAwNTo1MjoxNyJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMCAwNDoyODowMyIscmV2aXNpb249MTM5NF1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+Mi0xMyAwNTo1MjoxNyIscmV2aXNpb249MTk3M11dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMCAwNDoyODowMyJdXQ==
+Mi0xMyAwNTo1MjoxNyJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMCAwNDoyODowMyIscmV2aXNpb249MTM5NV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+Mi0xMyAwNTo1MjoxNyIscmV2aXNpb249MTk3NF1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMCAwNDoyODowMyJdXQ==
+Mi0xMyAwNTo1MjoxNyJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-10 04:28:03",revision=1796]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-13 05:52:17",revision=2430]]
+function draw_setup()
+
+end
+
+function draw_brain()
+	cls(18)
+	
+	drawgrid(back_grid, 16)
+	drawgrid(front_grid, 6)
+	
+	for e in all (enemies) do
+		drawobj(e)
+	end	
+	
+	rectfill(0,0,101,200,1)
+	
+	draw_menu()
+	
+	line(102,0,102,200, 6)
+end
+
 function draw_table()
 	cls(1)
+	
+	draw_menu()
+end
+
+function draw_menu()
 
 	if menu then
 		for _i = 1, #menu do
@@ -117,94 +163,89 @@ function draw_table()
 	end
 end
 
-function refresh_table()
-	menu = {}
-	for i = 1, #data do
-		local row = {}
-		add(row, {
-				text = i,
-				cmd = "",
-				x = 2,
-				y = -11 + 13 * i,
-				w = "   ",
-				c = 18,
-			})
-		for j = 1, #data[i] do
-			add(row, {
-				text = data[i][j],
-				cmd = "edit",
-				cmdx = j,
-				cmdy = i,
-				x = -43 + 32 * (j + 1),
-				y = -11 + 13 * i,
-				w = "      ",
-			})
-		end
-		if cury == i then
-			add(row, {
-				text = " + ",
-				cmd = "newcell",
-				cmdy = i,
-				x = -43 + 32 * (#data[i] + 2),
-				y = -11 + 13 * i,
-				w = "   ",
-			})
-		end
-		add(menu, row)
+function drawgrid(grid, col)
+	for l in all(grid) do
+		line(l+116,1,l+116,200,col)
+		line(101,200-l,300,200-l,col)
 	end
-	add(menu,{{
-		text = " + ",
-		key = "_add",
-		x = 2,
-		y = -11 + 13 * (#data + 1),
-		w = "   ",
-		cmd = "newline",
-		cmdx = j,
-		cmdy = i,
-	}})
 end
 :: input.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-10 04:28:03",revision=1452]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-13 05:52:17",revision=2051]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
 function export()
 	store(output_file,data)
+	store(metadata_output_file,meta)
 	add(msg,{text="Exported!",t=120})
 end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-10 04:28:03",revision=1596]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-13 05:52:17",revision=2245]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
 include("io.lua")
+include("ui.lua")
 
 function _init()
 	printh("new run")
 	modify_text_display = create_gui()
 	
-	window{width = 200, height = 200}
+	window{width = 300, height = 200}
 	
 	input_file = "/shmup/brains.pod"
 	output_file = "/shmup/brains.pod"
-	data = fetch(input_file)
+	metadata_file = "/shmup/brain_meta.pod"
+	metadata_output_file = "/shmup/brain_meta.pod"
+	
+	brains = fetch(input_file)
+	data = brains
+	
+	meta = fetch(metadata_file)
+	-- metatable is:
+	--  1. enemy type
+	--  2. x coordinate
+	--  3. y coordinate
+	
+--	meta = {
+--		{1,200,0},
+--		{2,200,100},
+--	}
+	
+	myspr = fetch("/shmup/myspr.pod")
+	enlib = fetch("/shmup/enlib.pod")
+	anilib = fetch("/shmup/anilib.pod")
+	gfx = fetch("/shmup/gfx/spr.gfx")
 
 	debug = {}
 	msg = {}
-	_drw = draw_table
-	_upd = update_table
+	_drw = draw_brain
+	_upd = update_brain
 	menuitem(1, "export", export)
 	
-	curx = 2
+	curx = 1
 	cury = 1
 	scrolly = 0
 	scrollx = 0
+	
+	selected_brain = 1
+	
+	cmdlist = {
+		"hed",
+		"wai",
+		"asp",
+	}
+	
+	enemies = {}
+	front_grid = {}
+	back_grid = {}
+	
 	scrollspeed = 4
 end
 
@@ -218,7 +259,7 @@ function _draw()
 	end
 	
 	if #msg > 0 then
-		bgprint(msg[1].text,100-(#msg[1].text*2.5),97,14)
+		bgprint(msg[1].text,150-(#msg[1].text*2.5)-scrollx,97-scrolly,14)
 		msg[1].t = msg[1].t - 1
 		if msg[1].t <= 0 then
 			deli(msg,1)
@@ -261,7 +302,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-10 04:28:03",revision=1442]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-13 05:52:17",revision=2166]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -372,8 +413,494 @@ function print_table(node)
     print(output_str)
 end
 
+function width_to_string(_num)
+	local _out = ""
+	for i = 0,_num+1 do
+		_out ..= " "
+	end
+	return _out
+end
+
+function pad_string(v, l, ch)
+	local sv = tostr(v)
+	
+	if #sv < l then
+		local diff = l - #sv
+		for i = 1, diff do
+			sv = ch .. sv
+		end
+	end
+	
+	return sv
+end
+
+function mspr(si, sx, sy, flip_x, flip_y)
+	local ms = myspr[si]
+	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
+--	sspr(gfx[ms[1]].bmp, 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2], ms[3], ms.flip_x or flip_x, ms.flip_y or flip_y)
+	sspr(ms[1], 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2], ms[3], ms.flip_x or flip_x, ms.flip_y or flip_y)
+	if ms.nextspr then
+		mspr(ms.nextspr, sx, sy)
+	end
+end
+
+function cyc(age, arr, anis)
+	anis = anis or 1
+	return arr[(age\anis) % #arr + 1]
+end
+
+function drawobj(obj)
+	mspr(cyc(obj.age, obj.ani, obj.anis), obj.x, obj.y)
+	if coldebug and obj.col then
+		msprc(obj.col, obj.x, obj.y)
+	end
+end
+
+function spawnenemy(_i, _x, _y)
+	-- play range for these enemies is 143-379 with current coordinate system
+	local en = enlib[_i]
+	
+	add(enemies, {
+		x = _x + 100, -- 100 is offset for editor ui
+		y = _y,
+		ani = anilib[en[1]],
+		anis = en[2],
+		sx = 0,
+		sy = 0,
+		ang = 0,
+		spd = 0,
+		brain = selected_brain, --brains[en[3]],
+		brain_index = 1,
+		age = 0,
+		flash = 0,
+		hp = en[4],
+		col = en[5],
+		wait = 0
+	})	
+end
+
+function doenemies()
+	for e in all(enemies) do
+		if e.wait > 0 then
+			e.wait -= 1
+		else
+			dobrain(e)
+		end
+		
+		if e.aspt then
+			e.spd += e.asps
+			if abs(e.aspt - e.spd) < abs(e.asps) then
+				e.spd = e.aspt
+				e.aspt = nil
+			end
+		end
+	
+		e.sx = sin(e.ang) * e.spd
+		e.sy = cos(e.ang) * e.spd
+		
+		e.x = e.x + e.sx
+		e.y = e.y + e.sy
+		
+		e.age = e.age + 1	
+		if not onscreen(e) then
+			del(enemies, e)
+		end
+	end
+	
+
+end
+
+function dobrain(e)
+	local my_brain = brains[e.brain]
+	local exit = false
+	
+	if e.brain_index < #my_brain then
+		local cmd = my_brain[e.brain_index]
+		local param1 = my_brain[e.brain_index + 1]
+		local param2 = my_brain[e.brain_index + 2]
+		
+		if cmd == "hed" then
+			-- set heading / speed
+			e.ang = param1
+			e.spd = param2
+		elseif cmd == "wai" then
+			-- set timer for previous command
+			e.wait = param1
+--			exit = true
+		elseif cmd == "asp" then
+			-- animate speed
+			e.aspt = param1
+			e.asps = param2
+		end
+	end
+	-- advance index to next command (always comes in threes)
+	e.brain_index += 3
+	
+--	if exit then return end
+	-- makes it so commands will skip straight to wait statements within 1f
+
+--	dobrain(e)
+end
+
+function onscreen(obj)
+	if obj.x < 84 then return false end
+	if obj.y <  -16 then return false end
+
+	if obj.x >  316 then return false end
+	if obj.y >  216 then return false end
+	
+	return true
+end
+
+function dogrid(grid, spacing, speed)
+	if #grid == 0 then
+		for i = -spacing, 226, spacing do
+			add(grid, i)
+		end
+	else
+		updategrid(grid, spacing, speed)
+	end
+--	if not grid[1] then
+--		-- initialize grid
+--		for i = (spacing * -1), i < 226, spacing do
+--			add(grid, i)
+--		end
+--	else
+--		-- update grids
+--		updategrid(grid, spacing, speed)
+--	end
+end
+
+function updategrid(grid, spacing, speed)
+--	store("/shmup/debug.pod", grid)
+	for l = 1, #grid do
+		local addline = false
+		if #grid == l and grid[l] <= 210 then
+			del(grid, grid[1])
+			add(grid, 210 + spacing)
+		end
+		
+		grid[l] -= speed
+	end
+end
+:: ui.lua
+--[[pod_format="raw",created="2025-02-11 20:44:15",modified="2025-02-13 05:52:17",revision=662]]
+function refresh_setup()
+	menu = {}
+	
+	local brain_name = ""
+	if selected_brain < 10 then
+		brain_name = pad_string(selected_brain, 2, "0")
+	else
+		brain_name = selected_brain
+	end	
+	
+	add(menu,{{
+		text = "< Brain " .. brain_name .. " >",
+		w =    "            ",
+		cmd = "",
+		x = 2,
+		y = 2,
+		c = 13,
+	}})	
+	
+	local captions = {"en","x ","y "}
+	local selected_meta = meta[selected_brain]
+	for i = 1, 3 do
+		local row = {}
+		add(row,{
+			text = captions[i],
+			w = "  ",
+			cmd = "",
+			x = 2,
+			y = 2 + 13 * i,
+			c = 13,
+		})
+		
+		add(row,{
+			text = selected_meta[i],
+			w = "      ",
+			cmd = "edit",
+			cmdy = i,
+			x = 14,
+			y = 2 + 13 * i,
+			c = 13,
+		})
+		add(menu, row)
+	end
+end
+
+function refresh_brain()
+	menu = {}
+	local brain_name = ""
+	if selected_brain < 10 then
+		brain_name = pad_string(selected_brain, 2, "0")
+	else
+		brain_name = selected_brain
+	end	
+	
+	if selected_brain > #data then
+		-- empty brain slot
+		add(menu,{{
+			text = "< New Brain ",
+			w = "            ",
+			cmd = "newbrain",
+			x = 2,
+			y = 2,
+			c = 13,
+		}})
+		return
+	end
+	
+	add(menu,{{
+		text = "< Brain " .. brain_name .. " >",
+		w = "            ",
+		cmd = "head",
+		x = 2,
+		y = 2,
+		c = 13,
+	}})
+	add(menu,{{
+		text = "\143setup",
+		w =    "       ",
+		cmd = "setup",
+		x = 2,
+		y = 15,
+		c = 13,
+	}})
+	
+	local my_brain = brains[selected_brain]
+	local ry = 30
+--	local max_x = 0
+--	local max_width = 0
+	
+	for i = 1, #my_brain, 3 do
+		local row = {}
+		add(row, {
+			text = my_brain[i],
+			w = "     ",
+			cmd = "edit",
+			cmdi = i,
+			cmdb = selected_brain,
+			x = 2,
+			y = ry,
+			c = 13,
+		})
+		local rx = 29
+		
+		for j = 1, 2 do
+			add(row, {
+				text = my_brain[i+j],
+				w = "       ",
+				cmd = "edit",
+				cmdi = i+j,
+				cmdb = selected_brain,
+				x = rx,
+				y = ry,
+				c = 13,
+			})
+			rx += 37
+		end
+		
+		add(menu, row)
+		ry += 13
+	end
+	
+	add(menu, {{
+		text = " + ",
+		w = "   ",
+		cmd = "newline",
+		cmdb = selected_brain,
+		x = 2,
+		y = ry,
+		c = 13,
+	}})
+end
+
+function refresh_table()
+	menu = {}
+	for i = 1, #data do
+		local row = {}
+		add(row, {
+				text = i,
+				cmd = "",
+				x = 2,
+				y = -11 + 13 * i,
+				w = "   ",
+				c = 18,
+			})
+		for j = 1, #data[i] do
+			add(row, {
+				text = data[i][j],
+				cmd = "edit",
+				cmdx = j,
+				cmdy = i,
+				x = -43 + 32 * (j + 1),
+				y = -11 + 13 * i,
+				w = "      ",
+			})
+		end
+		if cury == i then
+			add(row, {
+				text = " + ",
+				cmd = "newcell",
+				cmdy = i,
+				x = -43 + 32 * (#data[i] + 2),
+				y = -11 + 13 * i,
+				w = "   ",
+			})
+		end
+		add(menu, row)
+	end
+	add(menu,{{
+		text = " + ",
+		key = "_add",
+		x = 2,
+		y = -11 + 13 * (#data + 1),
+		w = "   ",
+		cmd = "newline",
+		cmdx = j,
+		cmdy = i,
+	}})
+end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-10 04:28:03",revision=1837]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-13 05:52:17",revision=2562]]
+function update_setup()
+	refresh_setup()
+	curx = 2
+	
+	--up
+	if keyp("up") then
+		cury = cury - 1
+	end
+	--down
+	if keyp("down") then
+		cury = cury + 1
+	end
+	cury = (cury-1) % (#menu) + 1
+	cury = mid(2, cury, #menu)
+	
+	-- selecting a cell
+	if keyp("z") then
+		mymenu = menu[cury][curx]
+		-- editable cell selected
+		if mymenu.cmd == "edit" then
+			current_page = "edit"
+			text_bar = spawntextbox()
+			_upd = upd_type	
+			_prev_upd = update_setup
+			text_bar:set_keyboard_focus(true)
+			text_bar:set_text(tostring(mymenu.text))
+		end
+	end
+	
+	-- backing out
+	if keyp("x") then
+		refresh_brain()
+		_upd = update_brain
+	end
+	
+	if data[selected_brain] then
+		if #enemies == 0 then
+			local selected_meta = meta[selected_brain]
+			if enlib[selected_meta[1]] then
+				spawnenemy(selected_meta[1], selected_meta[2], selected_meta[3])
+			end
+		end
+		doenemies()
+	else
+		enemies = {}
+	end
+end
+
+function update_brain()
+	refresh_brain()
+	
+	dogrid(front_grid, 30, .25)
+	dogrid(back_grid, 20, .15)
+--	debug[1] = #front_grid
+--	debug[2] = #back_grid
+	
+	--up
+	if keyp("up") then
+		cury = cury - 1
+	end
+	--down
+	if keyp("down") then
+		cury = cury + 1
+	end
+	cury = (cury-1) % (#menu) + 1
+	cury = mid(1, cury, #menu)
+	
+	if cury == 1 then
+		if keyp("left") then
+			selected_brain -= 1
+			enemies = {}
+		end
+		if keyp("right") then
+			selected_brain += 1
+			enemies = {}
+		end
+		
+		selected_brain = mid(1, selected_brain, #brains + 1)
+	else
+		if keyp("left") then
+			curx = curx - 1
+		end
+		if keyp("right") then
+			curx = curx + 1
+		end
+		
+		curx = mid(1, curx, #menu[cury])
+	end
+	
+	-- selecting a cell
+	if keyp("z") then
+		mymenu = menu[cury][curx]
+		-- editable cell selected
+		if mymenu.cmd == "edit" then
+			current_page = "edit"
+			text_bar = spawntextbox()
+			_upd = upd_type	
+			_prev_upd = update_brain
+			text_bar:set_keyboard_focus(true)
+			text_bar:set_text(tostring(mymenu.text))
+		-- newline cell selected
+		elseif mymenu.cmd == "newline" then
+			add(data[mymenu.cmdb], "wai")
+			add(data[mymenu.cmdb], 0)
+			add(data[mymenu.cmdb], 0)
+		elseif mymenu.cmd == "setup" then
+			refresh_setup()
+			_upd = update_setup
+			return
+		elseif mymenu.cmd == "newbrain" then
+			add(data,{
+				"wai",
+				0,
+				0,
+			})
+			add(meta,{
+				1,
+				100,
+				10,
+			})
+		end
+		
+		return
+	end
+	
+	if data[selected_brain] then
+		if #enemies == 0 then
+			local selected_meta = meta[selected_brain]
+			spawnenemy(selected_meta[1], selected_meta[2], selected_meta[3])
+		end
+		doenemies()
+	else
+		enemies = {}
+	end
+end
+
 function update_table()
 	refresh_table()
 	
@@ -435,6 +962,7 @@ function update_table()
 			current_page = "edit"
 			text_bar = spawntextbox()
 			_upd = upd_type	
+			_prev_upd = update_table
 			text_bar:set_keyboard_focus(true)
 			text_bar:set_text(tostring(mymenu.text))
 			mymenu.data = tonum(mymenu.data)
@@ -462,37 +990,85 @@ function spawntextbox(_i)
 		key_callback = {
 			enter = function(enter_mode)
 				editval = text_bar:get_text()[1]
-				if editval == "" or editval == nil then
-					-- if current x is on the last cell
-					if mymenu.cmdx == #data[mymenu.cmdy] then
-						if mymenu.cmdx == 1 then
-							deli(data, mymenu.cmdy)
+				if _prev_upd == update_table then
+					if editval == "" or editval == nil then
+						-- if current x is on the last cell
+						if mymenu.cmdx == #data[mymenu.cmdy] then
+							if mymenu.cmdx == 1 then
+								deli(data, mymenu.cmdy)
+							else
+								deli(data[mymenu.cmdy],mymenu.cmdx)
+							end
 						else
-							deli(data[mymenu.cmdy],mymenu.cmdx)
+							data[cury][curx-1] = editval
 						end
 					else
-						data[cury][curx-1] = editval
+						if enter_mode == "newline" then
+							local _el = {
+								text = 0,
+								key = editval,
+								cmd = "edit",
+								cmdx = j,
+								cmdy = i,
+								x = -30 + 32 * j,
+								y = -11 + 13 * i,
+								w = "      "
+							}
+							add(data,{_el})
+						else
+							data[cury][curx-1] = editval
+						end
 					end
-				else
-					if enter_mode == "newline" then
-						local _el = {
-							text = 0,
-							key = editval,
-							cmd = "edit",
-							cmdx = j,
-							cmdy = i,
-							x = -30 + 32 * j,
-							y = -11 + 13 * i,
-							w = "      "
-						}
-						add(data,{_el})
+				elseif _prev_upd == update_brain then
+					enemies = {}
+					if mymenu.cmdi % 3 == 1 then
+						-- editing command entry
+						if editval == "" or editval == nil then
+							-- lobotomy function
+							deli(data[mymenu.cmdb],mymenu.cmdi)
+							deli(data[mymenu.cmdb],mymenu.cmdi)
+							deli(data[mymenu.cmdb],mymenu.cmdi)
+							
+							if #data[mymenu.cmdb] == 0 then
+								deli(data, mymenu.cmdb)
+								deli(meta, mymenu.cmdb)
+								add(msg,{text="Brain Deleted!",t=120})
+							end
+							
+							removeAllChildren(modify_text_display)
+							current_page = nil
+							_upd = _prev_upd
+							return
+						else
+							local found = false
+							for c in all(cmdlist) do
+								if editval == c then
+									found = true
+								end
+							end
+							if not found then
+								editval = "wai"
+							end
+						end
 					else
-						data[cury][curx-1] = editval
+						-- editing parameters
+						editval = tonum(editval)
+						if editval == nil then
+							editval = 0
+						end
 					end
+					data[mymenu.cmdb][mymenu.cmdi] = editval
+				elseif _prev_upd == update_setup then
+					enemies = {}
+					editval = tonum(editval)
+					if editval == nil then
+						editval = 0
+					end
+					meta[selected_brain][mymenu.cmdy] = editval
 				end
 				removeAllChildren(modify_text_display)
 				current_page = nil
-				_upd = update_table
+				_upd = _prev_upd
 			end
 		}
 	}
@@ -500,11 +1076,12 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMCAwNDoyODowMyIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzQyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM3MiIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxMTQiLHdvcmtzcGFjZV9pbmRleD0xfSx7
-bG9jYXRpb249InRvb2xzLmx1YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpby5s
-dWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2Vf
-aW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRp
-b249InNmeC8wLnNmeCIsd29ya3NwYWNlX2luZGV4PTR9fV1d
+Mi0xMyAwNTo1MjoxNyIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzUzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxOSIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxMTciLHdvcmtzcGFjZV9pbmRleD0xfSx7
+bG9jYXRpb249InRvb2xzLmx1YSMxOTEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlv
+Lmx1YSMxMCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0idWkubHVhIzM3Iix3b3Jrc3Bh
+Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9j
+YXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4
+Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
 :: [eoc]
