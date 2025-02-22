@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSIscmV2aXNpb249MTc4MV1dbHo0AGATAACdRwAA8yF7WzBdPXtibXA9cHh1
+Mi0yMiAxMzo1MDowOSIscmV2aXNpb249MTk5NV1dbHo0AGATAACdRwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -92,168 +92,93 @@ Iz8hV4EMAh_CLQcMBS0FBiU1ECAFDScQEBYMACANJgsAfzYVDUYFDVZYABxffHV99hg0ABz-BAfl
 HVUWDUUmDTU2DSVGDRVWDQV2AB9wJh1GDRYNNgQALz2WPwAcUSsFA1sNAwA6BQMbGAIfe0sAKCEr
 LQ0ATysjDQMWFx4QAHYKAKYCIAsDJBIjEwELAD8jBQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBf
 ZQtjC2NEABw-9hh1mgUeOFYFCwMAAXcADyQDHSOWPRwCD38ADFBtPTh9fQ==
-:: gfx/enemy-01.png
-b64$iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8-9hAAAAAXNSR0IArs4c6QAAAYFJREFU
-OI2NkzFLw1AUhb_Ekr-QyW7Bwf_gs1g7SFIqnbKIcwkEuoQsQqB0li6dgpWELG3pXP_DiGTTxd_Q
-oXF4vfGl7eCBQN5955y8e3OewR5VsKgAjHhg6GvBYV3WdbGzSgH46roAZMVU1_PYIwB0nhEPjJaI
-k2ef7fKdziplev6NM-YbBtnThNHnGQ8311zdXtB5nFAFi6olhO3yndl60xTbl1C8qROMfXiaMFpv
-GsamvMzWG7xS29HEfPTrslcqbm1gxAND_o4KzeGEWOfIDEyZgVcCwfCP_dE-EoPieKUaZhUsqrqF
-qCghTv6OfwipxUnjpLVBaFsQDHHyNpnXg95P48m8Hk7ehmCouHu00BEnysQ1lYkGZ_yDvVOcUwZz
-C7AtojghzC2iFx-Sndp0TcL7V6KiJLQtxd3jKIleCdGdC65JA_mOME9rsfwF4zCJeh5kWNLz3KJO
-4vBxwlfX5SiJQvRKGsOSL88OklgbyIaESloS6HXd5Ojq-vc6S_0XnbbNGOdESrIAAAAASUVORK5C
-YII=
-:: gfx/enemy-02.png
-b64$iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAYAAADQWvz5AAAAAXNSR0IArs4c6QAAAYBJREFU
-OI2VkzFrwkAUx-8n4ldw0i10yHewc6k6mESETFlKP0Ag4FBxKQTEuXTpFBATstTSuXbo4locstml
-n6FDr8P5LneXKPQPR5J3--fLe7kXhjPi0YqrzyyesFPe5rnkrFhW9k7Bmqaxu0kBAMuLL7jTUDNn
-94uTVTbq6BrE6sm4Ow2RFUt0N6lcBJYgqib4UYhWDyi24n4-lmHyJA_hhFUqmhcKqQaiet6eP2Ws
-Uakm8suM-bgCAYQn_AEeX151kPamOCnbMkWxOJFVHfoeWDxhGmhmtYDIh5u3kQVDYPitrSwYws3b
-QOQLr6LKHCFOBMxrCJgidxoC1q-wGCDwaMU7tsO37x_8Yzv8znI4x0Bcd2vOo5VYu7W217Edrs6U
-rIhO4KkFwGphPvLEhld2Px95mOWp8BiSIDqBQ99Dd5MCeQrk5VHTNyEIfWTKZ9SeDMQTVjucR8jN
-9RUuBzb824UGa1KymqDCTKmzo_XURo8yf1AAILjZ2r9Fp2jG-wAo-dIT4VkPIwAAAABJRU5ErkJg
-gg==
-:: gfx/enemy-03.png
-b64$iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAYAAADQWvz5AAAAAXNSR0IArs4c6QAAAYRJREFU
-OI2Vky9vwkAYxn9ttn6FKXANAj-JJxiI0jIWVN0_AAkJhlSSLOgFg1jI-pTMDDIzA4iZ2QVRBwaL
-RXATt956bUe2Sy7pvc_TX56_753BkSU6DyJ5NvpN4zfvyTHAJBrk1o8BNXOhXBehcy7Ex5O2Q_dc
-FMp1kU4KYKYhxWnIoLTB7bZl0a4o3e22GZQ2FKdh5rfNNMTfJ1S7AtFCfq8aquzvycC0RABBlCDl
-QDKeJEhL02n9qKtGBgLSk0kVN3exfBeCqhBUZaN3WyHu0PduK7Vv32L5rpqvxj9-_eTNtggcD7c-
-ZkINd7TVgkz8Gu7zGXRa9J5DTl8_laZAw9krPkB-DJ0Wrmcy8WsayO22wT5Ij20xnL0qzUj2CORE
-gmhPz7YI7i8hPEinZ9K7elTayJLl9YWH0W8aamrrCw_AkYWEOJ4C4Elb4HgZiJYoXulkMTjvHCfJ
-BcUwkKMFGN-KG966vtFSpN9b5tHGhjjdPDGZdIo-r-iO-fZQ-w37C_QLffv1evDJCm8AAAAASUVO
-RK5CYII=
-:: gfx/myspr.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTIwIDIyOjE5OjIyIixtb2RpZmllZD0iMjAyNS0w
-MS0yMyAwMjozMjo0NCIscmV2aXNpb249MTddXWx6NABMAQAAzgEAAPAFe3s4LDE1LDE4LDUsOH0s
-ezksMTYOABE3DgAgMTAMAEIxOCw4DwAaMR4AEzI7AAIeAEAyNCw4IAAwMywwDgAwNSw2DgASMg4A
-MDYsNA4AEjEOACA3LFoAUDAsNSw5DwAgOCxLABA0MQAQMxAAEDkNAMExMyw3LDEyfSx7MzA7AAFf
-AAAgAEAxNywxSgABTABjMTgsMywzWQBjMTksMyw2DQBkMjAsMyw4DQAXMQ0AITMyUQATNrkAIDMz
-xQBCMTcsOQ8AGTQPAFAxLDcsN2QAAEYABwwAAGkAEzftABA0zQBAOSw1LK8AETVdAOAyLDgsNX0s
-ezYsIjE2IhAA8AEiOCIsNn0seyIzNSIsIjI4BQBiNyIsIjEzBQAAGwAAEAAxNCIsCAARMQwABBYA
-JDE0BQARNwQAcH0sezAsIjYVAKA2IiwiMiIsMH19
-:: gfx/myspr_meta.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAxLTE2IDIxOjQyOjQzIixtb2RpZmllZD0iMjAyNS0w
-MS0yMyAwMjozMjo0NCIscmV2aXNpb249NF1dbHo0AMsAAADYAQAA43t7InNoaXAgMSIsMH0sDQAY
-Mg0AGDMNABg0DQATNQ0A33BsYXllciBzaG90IDEUAAAfMhQAAARWAGhtdXp6IDENABgyDQAJJwAE
-fQAmamVoAAAMABcyDAAXMwwACDAABKwAeXVmbyBhIDEOABkyDgAEQgBaZW5lbXnVAAcTABUyCQG-
-b3Qgc3BsYXNoIDEUAAAPKAABHzMUAAAErAB6YmlnIHVmbzIBlmhpdGJveCIsM4UABBMAITE4KAAC
-lQCwaGl0Ym94Iiw3fX0=
-:: gfx/ship.gfx
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI1OjE4Iixtb2RpZmllZD0iMjAyNC0x
-MC0xMyAyMToyNToxOCIscmV2aXNpb249MF1dbHo0AAcEAACpNgAA8yF7WzBdPXtibXA9cHh1AEMg
-EBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANp5PTAsem9vbT0xMn0sPwBP8gHtAgIA
-CA9PAB1--QHWHQa9BQQAGz-F-QFoAB0pAg0CAF79AQL9DwMAD1YAHTEKEBoCAAQIACsaAAgAHxAi
-AFMPuAAdL-DwMgCB8A1gEcABBwYBsCENAZABLBGAAQwXHBFwAQwHDAEMCABAIQwhYAYA8BkBBwFQ
-ERwBBxEGAVABDQEMBxENBg0BMAEtIQ0GDQcNASABHQYtBg0WCgD-Dw0GBxYHBg0GHQEwAQcGDQEG
-Bw0hUAEFERUNEXBhMKIAIS8GB6IABCBgEaIAIlARogCQQAEGARwRBwEGCgBgDQEMFxEGkAD0BD0x
-HQYHARABHRY9Bg0WARABDRahAP8CIBEHHREHMUABBhUBFQ0RYHGfACKAFgGgUZABPAGcACAsAZwA
-8AEcAQwBUCEMMQwhMAEHAQwxngBgMAEGEQcRQgEAIwExDREXQwEQACMB9gQGDTENBg0GBxEmDQY9
-Bg0mER0GRQH-AwAxBwEWAQcxMAEGAQURBQEGAacAJPEEBwYBoAENIaARLAGAEQwXHAFwEUYBgAFg
-IQwhDBFQqgABCADwAgYBBxEcAQYBMAENBhEXDAENswDgBwYdMT0BEAEWDQY9Fh1PAQKkAADzAc8x
-BxEdBxFAEQ0VARWfACYvBgefAAkiAWCfACABYEcBQQEcEUBFATAHDAGHAnANBw0GDSEtWgFAFg0G
-LdoBFQFEAWABMCENBwaXAr8BUBENFREFAXBhQI0DgQ8yABz-BQQGBAAfGAAOFx4XHh8XHh0OAB4A
-QQAafwgIBCAH8Cw0AB_PUAcMB1AH8Bw6ACC-J0AHDAdAF9AH8AU_ACYDQgA-YAdAQwAiBUUAf1AH
-YAdQB0DZAX7yEAgQBCAZUBlACRcJMAkXCSAJNwkQCTcJAAkHChcKBxkGADEaFxoEAP8GCgkaCQo5
-GlkaOQA5ABkQGRAJIBkgbwAhAHEANRoJMHUAWAoXCgkQBgAxGRoZBAARWQIAbwkAGQAJMGsAJQxv
-ADIwCRoEABI5AgBfQBlQGSBnAR7-BzcXsFeAd3B3YJdQl1CXYHeAV6A38BZHAB3xBGAX0BfQF6AH
-EBcQB2AXADcAF1AGAP8AYHdQBwB3AAcwt0CXYHdwXgAkYPAEB1AHcD8D-xMLF9AXcAdAF0AHIAcg
-NyAHYFeQV2AHEFcQB2BXoDfAF-AXXAAdEDBXAGE0B9AH8CFYAF9wF8A3sEoAIi-w8DIA--------
---------------------------------------------------VQPTEyfX0=
-:: gfx/stage.gfx
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI2OjIzIixtb2RpZmllZD0iMjAyNC0x
-MC0xMyAyMToyNjoyMyIscmV2aXNpb249MF1dbHo0AP8BAABtNAAA8yF7WzBdPXtibXA9cHh1AEMg
-EBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIAMp5PTAsem9vbT04fSw_AE-yAe0CAgAI
-D04AHH-9AdYdBr0FBAAbP8X9AWcAHCkCDQIAXv0BAv0PAwAPVQAcMQoQGgIABAgAKxoACAAfECIA
-Uw_3ABwv8PAxAP-------6TH8gBdPxW9Pp0ePR59BABinV6dXt0eAgBvnT69Pv0GWAAzDwQABQ9k
-ACIv8PDiAf8Uum0fFd0evT69Pt0eAgBvvV6dXv0F2gErAUgABwQAb91_fX79BFQAM2-9AB7dHn0j
-Aimf8gA9HxUdHp0eBAAAMX59frEAAwIAD1wAIVN-FX1_fUAAEN1NARMADQAQfQ0AHwYGASUGUQAE
-EgEPBQEtAKkAA1YAIx69BAAEAgAv-QiuASsInAAPsAAyyvBGDQ8VHbAeHbANDgQATy4N8DZNAB-h
-HxUNsA4dDrAtDrAdDg1JAE8OLbA_SwAwIS0ODgAvDR6YACF1DxUNDg2wDgUAET5TAAMEAA9QACAg
-PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
-----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSJdXQ==
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
+Mi0yMiAxMzo1MDoxMCJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSIscmV2aXNpb249MjAxNV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+Mi0yMiAxMzo1MDowOSIscmV2aXNpb249MTY3NF1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSJdXQ==
+Mi0yMiAxMzo1MDoxMCJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSIscmV2aXNpb249MjAxNV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+Mi0yMiAxMzo1MDowOSIscmV2aXNpb249MTY3M11dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSJdXQ==
+Mi0yMiAxMzo1MDoxMCJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-22 08:18:15",revision=2553]]
-function draw_edit()
-	camera(0,0)
-	cls(2)
-	fillp(0b11001100001100111100110000110011)
-	rectfill(0,0,199,199,0x1502)
-	fillp(0b1010010110100101)		-- sets checkerboard
-	line(100,0,100,200,0x0d01)	-- crosshair
-	line(0,100,200,100,0x0d01)	-- crosshair
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-22 13:50:09",revision=2110]]
+function draw_pats()
+	-- ui setup
+	cls(18)
+	
+	-- grid area
+	draw_grid(back_grid, 16, 100, 0, 200, 200)
+	draw_grid(front_grid, 6, 100, 0 , 200, 200)
 
-	fillp() -- resets fill pattern
-	draw_menu()
+		-- enemy	
+	circ(enspr.x, enspr.y-scrolly, 4, 8)
 
-	if selected_sprite then
-		if meta[selected_sprite][2] > 0 then
-			mspr(meta[selected_sprite][2],100,100)
-			msprc(selected_sprite,100,100)
-		else
-			mspr(selected_sprite,100,100)
-		end
+		-- player
+	circ(pspr.x + x_offset, pspr.y-scrolly, 4, 11)
+	
+		-- bullets
+	for b in all(buls) do
+		drawobj(b)
 	end
-
-	if (time()*2)%1<0.5 then
-		pset(100,100,rnd{8,13,7,15})
-	end
-end
-
-
-function draw_list()
-	cls(2)
-	fillp(0b11001100001100111100110000110011)
-	rectfill(0,0,199,#menu*13+20,0x1502)
-	fillp(0b1010010110100101)
-	line(100,0-scrolly,100,200-scrolly,0x0d01)
-	line(0,100-scrolly,200,100-scrolly,0x0d01)
-
-	fillp()
-	printh(menu == nil)
+	
+	-- menu
+		--background
+	rectfill(0,0-scrolly,101,200-scrolly,1)
+	line(102,0-scrolly,102,200-scrolly, 6)
 
 	draw_menu()
-
-	local mymenu = menu[cury][curx]
-
-	if mymenu.cmdy then
-		if meta[mymenu.cmdy][2] > 0 then
-			mspr(meta[mymenu.cmdy][2],100,100-scrolly)
-			msprc(mymenu.cmdy,100,100-scrolly)
-		else
-			mspr(mymenu.cmdy,100,100-scrolly)
-		end
-	end
-
-	if (time()*2)%1<0.5 then
-		rectfill(100,100-scrolly,100+magnification-1, 100-scrolly+magnification-1, rnd{8,13,7,15})
-	end
 end
 
 function draw_table()
 	cls(1)
+
 	draw_menu()
+--	if menu then
+--		for _i = 1, #menu do
+--			for _j = 1, #menu[_i] do
+--				-- change color if cell is currently selected
+--				local _c = menu[_i][_j].c or 22
+--				if _i == cury and _j == curx then
+--					_c = 7
+--				end
+--				
+--				-- make copy of local cell we're working with
+--				local mymenu = menu[_i][_j]
+--				
+--				-- print cell
+--				bgprint(mymenu.w, mymenu.x, mymenu.y, _c) --*****
+--				print(mymenu.text, mymenu.x, 1+mymenu.y, _c)
+--				if _i == cury and _j == curx then
+--					rect(mymenu.x-2, mymenu.y-2, mymenu.x+(#mymenu.w * 5), mymenu.y+11, _c)
+--				end
+--			end
+--		end
+--	end
+end
+
+function draw_grid(_grid, _col, _x, _y, _w, _h)
+	
+	for l in all(_grid) do
+		-- vert
+		line(l + _x, _y - scrolly - 10, l + _x, _y + _h + 10 - scrolly - 1, _col)
+		
+		-- hori
+		line(_x - 10, _h - l - scrolly - 1, _x + _w + 10 ,_h - l - scrolly - 1, _col)
+	end
 end
 
 function draw_menu()
@@ -261,105 +186,184 @@ function draw_menu()
 		for _i = 1, #menu do
 			for _j = 1, #menu[_i] do
 				-- change color if cell is currently selected
-				local _c = menu[_i][_j].c or 18
+				local _c = menu[_i][_j].c or 22
 				if _i == cury and _j == curx then
 					_c = 7
 				end
-
+				
 				-- make copy of local cell we're working with
 				local mymenu = menu[_i][_j]
-
+				
 				-- print cell
 				bgprint(mymenu.w, mymenu.x, mymenu.y, _c) --*****
-				bgprint(mymenu.text, mymenu.x, mymenu.y, _c)
+				print(mymenu.text, mymenu.x, 1+mymenu.y, _c)
 				if _i == cury and _j == curx then
 					rect(mymenu.x-2, mymenu.y-2, mymenu.x+(#mymenu.w * 5), mymenu.y+11, _c)
+				end
+				if _i == execy then
+--					rect(mymenu.x-2, mymenu.y-2, mymenu.x+(#mymenu.w * 5), mymenu.y+11, 14)
+					line(0,-10 + 13 * execy,0,1 + 13 * execy,14)
 				end
 			end
 		end
 	end
 end
+:: gamefunctions.lua
+--[[pod_format="raw",created="2025-02-22 05:49:01",modified="2025-02-22 13:50:09",revision=260]]
+function doshots(arr)
+	for s in all(arr) do
+		s.age = s.age + 1
+		s.x = s.x + s.sx
+		s.y = s.y + s.sy
+
+		if s.y < -16 or s.y > 280 then
+			del(arr, s)
+		end
+	end
+end
+
+function drawobj(obj)
+	mspr(cyc(obj.age, obj.ani, obj.anis), obj.x, obj.y)
+	if coldebug and obj.col then
+		msprc(obj.col, obj.x, obj.y)
+	end
+end
+
+function mspr(si, sx, sy, flip_x, flip_y)
+	local ms = myspr[si]
+	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
+--	sspr(gfx[ms[1]].bmp, 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2], ms[3], ms.flip_x or flip_x, ms.flip_y or flip_y)
+	sspr(ms[1], 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2], ms[3], ms[6] or flip_x, ms[7] or flip_y)
+	if ms.nextspr then
+		mspr(ms.nextspr, sx, sy)
+	end
+end
+
+function cyc(age, arr, anis)
+	anis = anis or 1
+	return arr[(age\anis) % #arr + 1]
+end
+
+
 :: input.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-22 08:18:15",revision=2102]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-22 05:52:44",revision=1489]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
 function export()
 	store(output_file,data)
-	store(metadata_output_file,meta)
 	add(msg,{text="Exported!",t=120})
 end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",icon=userdata("u8",16,16,"01010101010101010101010101010101010606070707070707070707070606010106060707070707070707070706060101060607070707070707070707060601010606070707070707070707070606010106060707070707070707070706060101060607070707070707070707060601010606070707070707070707070606010106060606060606060606060606060101060606060606060606060606060601010606060606060606060606060606010106060601010101010101010106060101060606010707070701010101060601010606060107070707010101010606010001060601070707070101010106060100000101010101010101010101010101"),modified="2025-02-22 08:18:15",revision=2262]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-22 13:50:09",revision=1929]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
 include("io.lua")
 include("ui.lua")
+include("gamefunctions.lua")
+include("pats.lua")
 
 function _init()
-	printh("new run")
+--	printh("new run")
+	
 	modify_text_display = create_gui()
-
-	window{width = 200, height = 200}
-
-	input_file = "/shmup/myspr.pod"
-	output_file = "/shmup/myspr.pod"
-	metadata_file = "/shmup/myspr_meta.pod"
-	metadata_output_file = "/shmup/myspr_meta.pod"
+	visual_area = create_gui()
+	
+	window{width = 300, height = 200, title = "pat editor"}
+	
+	input_file = "/shmup/pats.pod"
+	output_file = "/shmup/pats.pod"
 	data = fetch(input_file)
-	meta = fetch(metadata_file)
-	myspr = data
+	pats = data
 
-	-- initial seed function for metadata table
-	--[[
-	meta = {}
-	for x = 1, #data do
-		mobj = {}
-		mobj[1] = "sprite " .. x
-		-- values greater than 0 refer to a specific sprite, 0 means
-		mobj[2] = 0
-		meta[x] = mobj
-	end
-	]]--
-
+	myspr = fetch("/shmup/myspr.pod")
+	anilib = fetch("/shmup/anilib.pod")
+	gfx = fetch("/shmup/gfx/spr.gfx")
+	
 	debug = {}
 	msg = {}
-	_drw = draw_list
-	_upd = update_list
+	_drw = draw_pats
+	_upd = update_pats
 	menuitem(1, "export", export)
-
+	
 	curx = 1
 	cury = 1
 	scrolly = 0
 	scrollx = 0
-	scrollspeed = 7
-	magnification = 1
+	scrollspeed = 4
+	
+	selpat = 1
+	
+	front_grid = {}
+	back_grid = {}
+	
+	x_offset = 100
+	
+	pspr = {
+		x = 100,
+		y = 180,
+	}
+	
+	enspr = {
+		x = 100,
+		y = 100
+	}
+	
+	buls = {}
+	
+	-- medium
+--	data[1] = {
+--		"base", -- name
+--		0,      -- ang
+--		1,      -- speed
+--		11,     -- ani
+--		3,      -- ani speed
+--		40,     -- collision (basic medium bullet sprite)		
+--	}
+--	-- small
+--	data[2] = {
+--		"base", -- name
+--		0,      -- ang
+--		1,      -- speed
+--		12,     -- ani
+--		3,      -- ani speed
+--		40,     -- collision (basic medium bullet sprite)		
+--	}
+--	-- large
+--	data[3] = {
+--		"base", -- name
+--		0,      -- ang
+--		1,      -- speed
+--		13,     -- ani
+--		3,      -- ani speed
+--		40,     -- collision (basic medium bullet sprite)		
+--	}
 end
 
 function _draw()
 	_drw()
-
+	
 	if current_page == "edit" then
 		modify_text_display:draw_all()
 	elseif current_page == "newline" then
 		modify_text_display:draw_all()
 	end
-
+	
 	if #msg > 0 then
-		bgprint(msg[1].text,100-(#msg[1].text*2.5),97-scrolly,14)
+		bgprint(msg[1].text,150-(#msg[1].text*2.5),97,14)
 		msg[1].t = msg[1].t - 1
 		if msg[1].t <= 0 then
 			deli(msg,1)
 		end
 	end
-
+	
 	-- debug --
 	cursor(4, 4)
 	color(8)
@@ -389,6 +393,49 @@ Niw0DgASMQ4AIDcsWgBQMCw1LDkPACA4LEsAEDQxABAzEAAQOQ0AwTEzLDcsMTJ9LHszMDsAAV8A
 ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
 AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0AgTIsOCw1fSx7
 CwDwCjEyLDYsNn0seyI1MCIsIjEiLDAsMCwwfX0=
+:: pats.lua
+--[[pod_format="raw",created="2025-02-22 05:55:30",modified="2025-02-22 13:50:09",revision=277]]
+function pat_shoot(en, pat)
+	local mybuls = make_pat(pat)
+	
+	for b in all(mybuls) do
+		b.x += en.x
+		b.y += en.y
+		
+		b.sx = sin(b.ang) * b.spd
+		b.sy = cos(b.ang) * b.spd
+		add(buls,b)
+	end
+	
+--	add(buls, {
+--		x = en.x,
+--		y = en.y,
+--		sx = 0,
+--		sy = 1,
+--		ani = anilib[data[3][4]],
+--		anis = 3,
+--		age = 0,
+--	})
+end
+
+function make_pat(pat)
+	local mypat = pats[pat]
+	local ret = {}
+	
+	if mypat[1] == "base" then
+		add(ret, {
+			age = 0,
+			x = 0,
+			y = 0,
+			ang = mypat[2],
+			spd = mypat[3],
+			ani = anilib[mypat[4]],
+			anis = mypat[5],
+			col = mypat[6],
+		})
+	end
+	return ret
+end
 :: test.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjI1OjQ0Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
@@ -396,7 +443,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-22 08:18:15",revision=2112]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-22 13:50:09",revision=1742]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -507,6 +554,100 @@ function print_table(node)
     print(output_str)
 end
 
+function dogrid(grid, spacing, speed, x_orientation, y_orientation)
+	if #grid == 0 then
+		for i = -spacing, 226, spacing do
+			add(grid, i)
+		end
+	else
+		updategrid(grid, spacing, speed, x_orientation, y_orientation)
+	end
+end
+
+function updategrid(grid, spacing, speed, x_orientation, y_orientation)
+	for l = 1, #grid do
+		local addline = false
+		if #grid == l and grid[l] <= 210 then
+			del(grid, grid[1])
+			add(grid, 210 + spacing)
+		end
+		
+		grid[l] -= speed
+	end
+end
+
+function do_mouse()
+	wheel_y = ({mouse()})[5]
+	
+	prev_mouse_b = mouse_b or 0 -- for single clicks
+	old_mouse_x = mouse_x or nil
+	old_mouse_y = mouse_y or nil
+	
+	mouse_x,mouse_y,mouse_b = mouse()
+	
+	mousemoved = false
+	if mouse_x != old_mouse_x or mouse_y != old_mouse_y then
+		mousemoved = true
+	end
+		
+	lc, rc, mc = mb_state(mouse_b, prev_mouse_b)
+end
+
+function mb_state(m, m_prev)
+	if not m or not m_prev then return end
+	
+	mlb = m & 1 > 0
+	mrb = m & 2 > 0
+	mmb = m & 4 > 0
+	
+	pmlb = m_prev & 1 > 0
+	pmrb = m_prev & 2 > 0
+	pmmb = m_prev & 4 > 0
+	
+	if mlb and pmlb then
+		left_mouse = "held"
+	elseif mlb and not pmlb then
+		left_mouse = "clicked"
+	elseif not mlb and pmlb then
+		left_mouse = "released"
+	elseif not mlb and not pmlb then
+		left_mouse = "up"
+	end
+	
+	if mrb and pmrb then
+		right_mouse = "held"
+	elseif mrb and not pmrb then
+		right_mouse = "clicked"
+	elseif not mrb and pmrb then
+		right_mouse = "released"
+	elseif not mrb and not pmrb then
+		right_mouse = "up"
+	end
+	
+	if mmb and pmmb then
+		middle_mouse = "held"
+	elseif mmb and not pmmb then
+		middle_mouse = "clicked"
+	elseif not mmb and pmmb then
+		middle_mouse = "released"
+	elseif not mmb and not pmmb then
+		middle_mouse = "up"
+	end
+	
+	return left_mouse, right_mouse, middle_mouse
+end
+
+-- returns a random value inclusively between low and high
+function rndrange(low, high)
+	return flr(rnd(high + 1 - low) + low)
+end
+
+-- alternate to sgn, different in that 0 returns 0 instead of 1
+function mysgn(v)
+	return v == 0 and 0 or sgn(v)
+end
+
+-- takes an integer input and returns a string of length _num consisting of spaces
 function width_to_string(_num)
 	local _out = ""
 	for i = 0,_num+1 do
@@ -515,108 +656,101 @@ function width_to_string(_num)
 	return _out
 end
 
-function mspr(si, sx, sy, mag, flip_x, flip_y)
-	local ms = myspr[si]
-	mag = (mag) and mag or 1
-	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
-	sspr(ms[1], 0, 0, ms[2], ms[3], sx - ms[4]*mag, sy - ms[5]*mag, ms[2]*mag, ms[3]*mag, ms[6] or flip_x, ms[7] or flip_y)
-	if ms.nextspr then
-		mspr(ms.nextspr, sx, sy)
+-- pads string v to length l with character ch
+function pad_string(v, l, ch)
+	local sv = tostr(v)
+	
+	if #sv < l then
+		local diff = l - #sv
+		for i = 1, diff do
+			sv = ch .. sv
+		end
 	end
-end
-
-function msprc(si, sx, sy)
-	local ms = myspr[si]
-	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
-	rect(sx - ms[4], sy - ms[5], sx - ms[4] + ms[2] - 1, sy - ms[5] + ms[3] - 1, rnd({8,14,15}))
+	
+	return sv
 end
 :: ui.lua
---[[pod_format="raw",created="2024-11-23 10:46:36",modified="2025-02-22 08:18:15",revision=758]]
-function refresh_edit()
+--[[pod_format="raw",created="2025-02-22 03:45:15",modified="2025-02-22 13:50:09",revision=341]]
+function refresh_pats()
 	menu = {}
-
-	add(menu,{{
-		text = "< " ..selected_sprite.." "..meta[selected_sprite][1].. " >",
-		w = width_to_string(3+#tostr(selected_sprite)+#meta[selected_sprite][1]),
-		cmd = "sprhead",
+	
+	if selpat > #pats then
+		add(menu, {{
+			text = "< new pat >",
+			w = "           ",
+			cmd = "newpat",
+			x = 2,
+			y = 2,
+			c = 14,	
+		}})
+		
+		return
+	end
+	
+	local mypat = pats[selpat]
+	
+	add(menu, {{
+		text = "< pat " .. selpat .. " >",
+		w = "         ",
+		cmd = "pat",
 		x = 2,
 		y = 2,
+		c = 14,	
 	}})
-	local label = {"id:", "x:", "y:", "ox:", "oy:", "fx:", "fy:"}
-	for i = 1, 7 do
-		local s = tostr(data[selected_sprite][i])
-		if s == nil then
-			s = "[nil]"
-		end
-
-		add(menu,{
-			{
-				text = label[i],
-				w = "    ",
-				x = 2,
-				y = 2+i*13,
-			},
-			{
-				text = s,
-				w = width_to_string(#s),
-				cmd = "editval",
-				cmdy = selected_sprite,
-				cmdx = i,
-				x = 17,
-				y = 2+i*13,
-			},
-		})
-	end
-
-	local coltxt = meta[selected_sprite][2] == 0 and "off" or meta[selected_sprite][2]
-	add(menu,{
-		{
-			text = "hitbox",
-			w = width_to_string((#"hitbox" - 2)),
-			x = 2,
-			y = 2+8*13,
-		},
-		{
-			text = coltxt,
-			w = width_to_string((#tostr(coltxt) - 2)),
-			cmd = "editcol",
-			cmdy = selected_sprite,
-			x = 35,
-			y = 2+8*13,
-		},
-	})
-	add(menu,{{
-		text = "DELETE",
-		w = width_to_string(6),
-		cmd = "delspr",
+	
+	add(menu, {{
+		text = mypat[1],
+		w = "    ",
+		cmd = "patedit",
+		cmdy = selpat,
+		cmdx = 1,
 		x = 2,
-		y = 2+9*13,
+		y = 16,
+		c = 22,	
 	}})
-end
-
-function refresh_list()
-	menu = {}
-	for i = 1, #data do
+	
+	local mycap = {
+		"angle:",
+		"speed:",
+		"anim :",
+		"anisp:",
+		"colli:",
+	}
+	
+	for i = 2, #mypat do
 		local row = {}
 		add(row, {
-				text = i .. " " .. meta[i][1],
-				cmd = "editspr",
-				cmdy = i,
-				x = 2,
-				y = -11 + 13 * i,
-				w = width_to_string(#tostr(i)+#meta[i][1]),
+			text = mycap[i-1],
+			w = "      ",
+			cmd = "",
+			x = 2,
+			y = 3 + (i * 13),
+			c = 22,	
 		})
+		
+		local pattext = pad_string(tostr(mypat[i]), 4, " ")
+		add(row, {
+			text = pattext,
+			w = width_to_string(#pattext),
+			cmd = "patedit",
+			cmdy = selpat,
+			cmdx = i,
+			x = 33,
+			y = 3 + (i * 13),
+			c = 22,	
+		})
+		
 		add(menu, row)
 	end
-	add(menu,{{
-		text = " + ",
-		key = "_add",
+	
+	add(menu, {{
+		text = "delete",
+		w = "      ",
+		cmd = "delpat",
+		cmdy = selpat,
 		x = 2,
-		y = -11 + 13 * (#data + 1),
-		w = "   ",
-		cmd = "newline",
-		cmdx = j,
-		cmdy = i,
+		y = 6 + ((#mypat + 1) * 13),
+		c = 22,	
 	}})
 end
 
@@ -667,13 +801,21 @@ function refresh_table()
 	}})
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-22 08:18:15",revision=2567]]
-function update_edit()
-	refresh_edit()
-
-	curx = (cury == 1 or cury == 10) and 1 or 2
-	wheel_y = ({mouse()})[5]
-
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-22 13:50:09",revision=2184]]
+function update_pats()
+	-- input handling
+	refresh_pats()
+	do_mouse()
+	
+	if mouse_x > 100 and mouse_x < 301 and mouse_y > 0 and mouse_y < 201 then
+		window {cursor = 0}
+	else
+		window {cursor = 1}
+	end
+	
+	enspr.x = mouse_x
+	enspr.y = mouse_y
+	
 	--up
 	if keyp("up") then
 		cury = cury - 1
@@ -685,137 +827,56 @@ function update_edit()
 	cury = (cury-1) % (#menu) + 1
 	cury = cury - wheel_y
 	cury = mid(1, cury, #menu)
-
-	if keyp("left") then
-		selected_sprite -= 1
+	
+	if cury == 1 then
+		if keyp("left") then
+			selpat = selpat - 1
+		end
+		if keyp("right") then
+			selpat = selpat + 1
+		end
 	end
-	if keyp("right") then
-		selected_sprite += 1
-	end
-	selected_sprite = mid(1, selected_sprite, #data)
-
-	if keyp("x") then
-		_drw = draw_list
-		_upd = update_list
+	
+	if cury <= 2 or cury == #menu then
 		curx = 1
-		cury = selected_sprite
-		refresh_list()
-		return
+	elseif cury > 2 then
+		curx = 2
 	end
+	selpat = mid(1, selpat, #pats + 1)
 
+	-- selecting a cell
 	if keyp("z") then
 		mymenu = menu[cury][curx]
-		if mymenu.cmd == "editval" then
+		-- editable cell selected
+		if mymenu.cmd == "patedit" then
 			current_page = "edit"
-			prev_upd = "update_edit"
 			text_bar = spawntextbox()
-			_upd = upd_type
+			_upd = upd_type	
+			_prev_upd = update_pats
 			text_bar:set_keyboard_focus(true)
-			text_bar:set_text(tostr(data[mymenu.cmdy][mymenu.cmdx]))
-			mymenu.data = tonum(mymenu.data)
-		elseif mymenu.cmd == "editcol" then
-			_upd = upd_type
-			current_page = "edit"
-			prev_upd = "update_col"
-			text_bar = spawntextbox()
-			text_bar:set_keyboard_focus(true)
-			text_bar:set_text(tostr(meta[selected_sprite][2]))
-			mymenu.data = tonum(mymenu.data)
-		elseif mymenu.cmd == "sprhead" then
-			_upd = upd_type
-			current_page = "edit"
-			prev_upd = "update_name"
-			text_bar = spawntextbox()
-			text_bar:set_keyboard_focus(true)
-			text_bar:set_text(tostr(meta[selected_sprite][1]))
-		elseif mymenu.cmd == "delspr" then
-			deli(data,selected_sprite)
-			deli(meta,selected_sprite)
-			_drw = draw_list
-			_upd = update_list
-			curx = 1
-			cury = 1
-			refresh_list()
+			text_bar:set_text(tostr(mymenu.text))
+			text_bar:select_all()
+		elseif mymenu.cmd == "newpat" then
+		elseif mymenu.cmd == "delpat" then
 		end
 	end
-
-	printh("cury: " .. cury .. ", curx: " .. curx)
-	local curmenu = menu[cury][curx]
-
-	if curmenu then
-		if curmenu.y + scrolly > (200 - 30) then
-			scrolly = scrolly - scrollspeed
-		end
-		if curmenu.y + scrolly < 22 then
-			scrolly = scrolly + scrollspeed
-		end
-		scrolly = min(0, scrolly)
-
-		camera(0,-scrolly)
+	
+	-- extra processing
+	dogrid(back_grid, 20, .15)
+	dogrid(front_grid, 30, .25)
+	
+	if lc == "clicked" then
+		pat_shoot(enspr, selpat)
 	end
-end
-
-function update_list()
-	refresh_list()
-
-	wheel_y = ({mouse()})[5]
-
-	--up
-	if keyp("up") then
-		cury = cury - 1
-	end
-	--down
-	if keyp("down") then
-		cury = cury + 1
-	end
-	cury = (cury-1) % (#menu) + 1
-	cury = cury - wheel_y
-	cury = mid(1, cury, #menu)
-
-	local curmenu = menu[cury][curx]
-
-	if curmenu then
-		if curmenu.y + scrolly > (200 - 30) then
-			scrolly = scrolly - scrollspeed
-		end
-		if curmenu.y + scrolly < 22 then
-			scrolly = scrolly + scrollspeed
-		end
-		scrolly = min(0, scrolly)
-
-		camera(0,-scrolly)
-	end
-
-	--left and right control zoom between 1-5x
-	if keyp("left") then
-		magnification -= 1
-	end
-	if keyp("right") then
-		magnification += 1
-	end
-	magnification = mid(1,magnification,5)
-
-	if keyp("z") then
-		local mymenu = menu[cury][curx]
-		if mymenu.cmd == "newline" then
-			add(data,{0, 0, 0, 0, 0})
-			add(meta,{"new",0})
-		elseif mymenu.cmd == "editspr" then
-			selected_sprite = mymenu.cmdy
-			_upd = update_edit
-			_drw = draw_edit
-			cury = 1
-			scrolly = 0
-			scrollx = 0
-		end
-	end
+	
+	doshots(buls)
 end
 
 function update_table()
 	refresh_table()
-
+	
 	wheel_y = ({mouse()})[5]
-
+	
 	--up
 	if keyp("up") then
 		cury = cury - 1
@@ -827,7 +888,7 @@ function update_table()
 	cury = (cury-1) % (#menu) + 1
 	cury = cury - wheel_y
 	cury = mid(1, cury, #menu)
-
+	
 	--left
 	if keyp("left") then
 		curx = curx - 1
@@ -841,9 +902,9 @@ function update_table()
 	else
 		curx = 1
 	end
-
+	
 	local curmenu = menu[cury][curx]
-
+	
 	if curmenu then
 		if curmenu.y + scrolly > (200 - 30) then
 			scrolly = scrolly - scrollspeed
@@ -852,18 +913,18 @@ function update_table()
 			scrolly = scrolly + scrollspeed
 		end
 		scrolly = min(0, scrolly)
-
-		if curmenu.x + scrollx > (400 - 80) then
+		
+		if curmenu.x + scrollx > (200 - 80) then
 			scrollx = scrollx - scrollspeed
 		end
 		if curmenu.x + scrollx < 22 then
 			scrollx = scrollx + scrollspeed
 		end
 		scrollx = min(0, scrollx)
-
+		
 		camera(-scrollx,-scrolly)
 	end
-
+	
 	-- selecting a cell
 	if keyp("z") then
 		mymenu = menu[cury][curx]
@@ -871,7 +932,7 @@ function update_table()
 		if mymenu.cmd == "edit" then
 			current_page = "edit"
 			text_bar = spawntextbox()
-			_upd = upd_type
+			_upd = upd_type	
 			text_bar:set_keyboard_focus(true)
 			text_bar:set_text(tostring(mymenu.text))
 			mymenu.data = tonum(mymenu.data)
@@ -893,25 +954,24 @@ function spawntextbox(_i)
 	local editval
 	local text_bar = modify_text_display:attach_text_editor{
 		x = mymenu.x+14+scrollx, y = mymenu.y-1+scrolly,
-		width = 50,
+		width = 30,
 		height = 12,
 		margin_top = 2,
+		max_lines = 1,
+		bgcol = 0, fgcol = 23,
 		key_callback = {
 			enter = function(enter_mode)
 				editval = text_bar:get_text()[1]
-				if (editval == "") and prev_upd ~= "update_name" then
-					editval = 0
+				if mymenu.cmdx == 1 then
+					-- tricky!!!
+					data[mymenu.cmdy][mymenu.cmdx] = "base"
+				else
+					data[mymenu.cmdy][mymenu.cmdx] = tonum(editval)
 				end
+				
 				removeAllChildren(modify_text_display)
 				current_page = nil
-				if prev_upd == "update_edit" then
-					data[mymenu.cmdy][mymenu.cmdx] = (editval) and editval or 0
-				elseif prev_upd == "update_col" then
-					meta[selected_sprite][2] = (tonum(editval) > 1) and tonum(editval) or 0
-				elseif prev_upd == "update_name" then
-					meta[selected_sprite][1] = editval
-				end
-				_upd = update_edit
+				_upd = _prev_upd
 			end
 		}
 	}
@@ -919,12 +979,13 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzU3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM0MyIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxMzkiLHdvcmtzcGFjZV9pbmRleD0xfSx7
-bG9jYXRpb249InRvb2xzLmx1YSMxMjMiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlv
-Lmx1YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1aS5sdWEjMzciLHdvcmtzcGFj
-ZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2Nh
-dGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngi
-LHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
+Mi0yMiAxMzo1MDoxMCIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzE1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxIix3b3Jrc3BhY2Vf
+aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzkiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9j
+YXRpb249InRvb2xzLmx1YSMyMTciLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InVpLmx1
+YSMxNCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2FtZWZ1bmN0aW9ucy5sdWEjMzIi
+LHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhdHMubHVhIzkiLHdvcmtzcGFjZV9pbmRl
+eD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlvbj0i
+bWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngiLHdvcmtz
+cGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]
