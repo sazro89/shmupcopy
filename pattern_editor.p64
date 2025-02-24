@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0yMyAwNjowNTozOCIscmV2aXNpb249MjA1NV1dbHo0AGATAACdRwAA8yF7WzBdPXtibXA9cHh1
+Mi0yNCAxNTowOTo1NCIscmV2aXNpb249MjEyNV1dbHo0AGATAACdRwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -94,28 +94,28 @@ LQ0ATysjDQMWFx4QAHYKAKYCIAsDJBIjEwELAD8jBQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBf
 ZQtjC2NEABw-9hh1mgUeOFYFCwMAAXcADyQDHSOWPRwCD38ADFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMyAwNjowNTozOSJdXQ==
+Mi0yNCAxNTowOTo1NCJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMyAwNjowNTozOCIscmV2aXNpb249MTczNF1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+Mi0yNCAxNTowOTo1NCIscmV2aXNpb249MTgwNF1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMyAwNjowNTozOSJdXQ==
+Mi0yNCAxNTowOTo1NCJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMyAwNjowNTozOCIscmV2aXNpb249MTczM11dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+Mi0yNCAxNTowOTo1NCIscmV2aXNpb249MTgwM11dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMyAwNjowNTozOSJdXQ==
+Mi0yNCAxNTowOTo1NCJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-23 06:05:38",revision=2170]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-24 15:09:54",revision=2241]]
 function draw_pats()
 	-- ui setup
 	cls(18)
@@ -209,7 +209,7 @@ function draw_menu()
 	end
 end
 :: gamefunctions.lua
---[[pod_format="raw",created="2025-02-22 05:49:01",modified="2025-02-23 06:05:38",revision=320]]
+--[[pod_format="raw",created="2025-02-22 05:49:01",modified="2025-02-24 15:09:54",revision=392]]
 function doshots(arr)
 	for s in all(arr) do
 		s.age = s.age + 1
@@ -261,7 +261,7 @@ end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-23 06:05:38",revision=1996]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-24 15:09:54",revision=2069]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
@@ -313,10 +313,13 @@ function _init()
 	
 	enspr = {
 		x = 100,
-		y = 100
+		y = 100,
+		bulq = {},
 	}
 	
 	buls = {}
+	
+	fireang = -99
 	
 	-- medium
 --	data[1] = {
@@ -394,7 +397,7 @@ ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
 AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0AgTIsOCw1fSx7
 CwDwCjEyLDYsNn0seyI1MCIsIjEiLDAsMCwwfX0=
 :: pats.lua
---[[pod_format="raw",created="2025-02-22 05:55:30",modified="2025-02-23 06:05:38",revision=364]]
+--[[pod_format="raw",created="2025-02-22 05:55:30",modified="2025-02-24 15:09:54",revision=470]]
 function pat_shoot(en, pat, pang)
 	if pang == -99 then
 		pang = atan2(pspr.y - en.y, pspr.x - en.x + x_offset)
@@ -403,23 +406,24 @@ function pat_shoot(en, pat, pang)
 	local mybuls = make_pat(pat, pang)
 	
 	for b in all(mybuls) do
-		b.x += en.x
-		b.y += en.y
-		
-		b.sx = sin(b.ang) * b.spd
-		b.sy = cos(b.ang) * b.spd
-		add(buls,b)
+		add(en.bulq,b)
 	end
-	
---	add(buls, {
---		x = en.x,
---		y = en.y,
---		sx = 0,
---		sy = 1,
---		ani = anilib[data[3][4]],
---		anis = 3,
---		age = 0,
---	})
+end
+
+function dobulq(en)
+	for b in all(en.bulq) do
+		if b.wait <= 0 then
+			b.x += en.x
+			b.y += en.y
+			b.sx = sin(b.ang) * b.spd
+			b.sy = cos(b.ang) * b.spd
+			
+			add(buls,b)
+			del(en.bulq,b)
+		else
+			b.wait -= 1
+		end
+	end
 end
 
 function make_pat(pat, pang)
@@ -437,19 +441,46 @@ function make_pat(pat, pang)
 			ani = anilib[mypat[3]],
 			anis = mypat[4],
 			col = mypat[5],
+			wait = 0,
 		})
 	elseif pattype == "some" then
 		if rnd() < mypat[3] then
 			ret = make_pat(mypat[2], pang)
 		end
 	elseif pattype == "sprd" then
---		debug[1] = mypat[3]
-		for i = 1, mypat[3] do
-			local nxpat = make_pat(mypat[2], pang + ((i - 1) * mypat[4]))
---			add(debug, "pang:" .. pang + ((i - 1) * mypat[4]))
+		for i = mypat[3], mypat[4], mypat[5] do
+			local nxpat = make_pat(mypat[2], pang + (i - 1) * mypat[6])
 			for p in all(nxpat) do
+				p.wait += (i - 1) * mypat[8]
+				p.spd += (i - 1) * mypat[7]
 				add(ret, p)
---				add(debug, "pat added from nxpat")
+			end
+			if i > 1 and mypat[9] > 0 then
+				local nxpat = make_pat(mypat[2], pang + (i - 1) * -mypat[6])
+				for p in all(nxpat) do
+					p.wait += (i - 1) * mypat[8]
+					p.spd += (i - 1) * mypat[7]
+					add(ret, p)
+				end
+			end
+		end
+--	elseif pattype == "rapd" then
+--		for i = 1, mypat[3] do
+--			local nxpat = make_pat(mypat[2], pang)
+--			for p in all(nxpat) do
+--				p.wait += mypat[4] * (i - 1)
+--				add(ret, p)
+--			end
+--		end
+	elseif pattype == "brst" then
+		for i = 1, mypat[3] do
+			local nxpat = make_pat(mypat[2], pang + spread_rand(mypat[4]))
+			local random_wait = flr(rnd(mypat[6]))
+			local random_speed = rnd(mypat[5])
+			for p in all(nxpat) do
+				p.wait += random_wait
+				p.spd += random_speed
+				add(ret, p)
 			end
 		end
 	end
@@ -476,8 +507,29 @@ function newpat(pat_type)
 		return {
 			"sprd",
 			1,	-- bullet type
-			1, -- # of copies
-			0.5, -- offset angle for copies
+			1, -- starting val
+			1, -- ending val
+			1, -- step
+			0.1, -- offset angle for copies
+			0, -- offset bullet speed of copies
+			0, -- offset spawn time of copies
+			0, -- mirror pattern
+		}
+--	elseif pat_type == "rapd" then
+--		return {
+--			"rapd",
+--			1,	-- bullet type
+--			1, -- # of copies
+--			2, -- delay
+--		}
+	elseif pat_type == "brst" then
+		return {
+			"brst",
+			1,	-- bullet type
+			1, -- # of bullets
+			0.5, -- range of angle
+			0, -- range of speed
+			5, -- range of time
 		}
 	else
 		return {
@@ -485,6 +537,15 @@ function newpat(pat_type)
 		}
 	end
 end
+
+function spread_rand(val)
+	return (rnd(2)-1)*val
+end
+
+-- lets wait to see what he does first
+--function spread_even(val)
+--	return
+--end
 :: test.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjI1OjQ0Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
@@ -492,7 +553,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-23 06:05:38",revision=1802]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-24 15:09:54",revision=1873]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -719,7 +780,7 @@ function pad_string(v, l, ch)
 	return sv
 end
 :: ui.lua
---[[pod_format="raw",created="2025-02-22 03:45:15",modified="2025-02-23 06:05:38",revision=406]]
+--[[pod_format="raw",created="2025-02-22 03:45:15",modified="2025-02-24 15:09:54",revision=488]]
 function refresh_pats()
 	menu = {}
 	
@@ -774,9 +835,28 @@ function refresh_pats()
 		}
 	elseif mypat[1] == "sprd" then
 		mycap = {
-			"src:",
-			"num:",
-			"ang:",
+			"src :",
+			"from:",
+			"to  :",
+			"step:",
+			"ang :",
+			"spd :",
+			"time:",
+			"mirr:",
+		}
+--	elseif mypat[1] == "rapd" then
+--		mycap = {
+--			"src :",
+--			"num :",
+--			"time:",
+--		}
+	elseif mypat[1] == "brst" then
+		mycap = {
+			"src :",
+			"num :",
+			"ang :",
+			"spd :",
+			"time:",
 		}
 	else
 		mycap = {}
@@ -869,7 +949,7 @@ function refresh_table()
 	}})
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-23 06:05:38",revision=2263]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-24 15:09:54",revision=2339]]
 function update_pats()
 	-- input handling
 	refresh_pats()
@@ -883,6 +963,14 @@ function update_pats()
 	
 	enspr.x = mouse_x
 	enspr.y = mouse_y
+	
+	if keyp("1") then
+		if fireang == -99 then
+			fireang = 0
+		else
+			fireang = -99
+		end
+	end
 	
 	--up
 	if keyp("up") then
@@ -939,9 +1027,10 @@ function update_pats()
 	
 	-- shoot pattern
 	if lc == "clicked" and selpat <= #pats then
-		pat_shoot(enspr, selpat, -99)
+		pat_shoot(enspr, selpat, fireang)
+		
 	end
-	
+	dobulq(enspr)
 	doshots(buls)
 end
 
@@ -1059,13 +1148,13 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMyAwNjowNTozOSIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzM4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxIix3b3Jrc3BhY2Vf
-aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzU2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
+Mi0yNCAxNTowOTo1NCIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzU4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxIix3b3Jrc3BhY2Vf
+aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzc4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
 Y2F0aW9uPSJ0b29scy5sdWEjMjE3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1aS5s
-dWEjNTciLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWVmdW5jdGlvbnMubHVhIzMy
-Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXRzLmx1YSM1MiIsd29ya3NwYWNlX2lu
-ZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9u
-PSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29y
-a3NwYWNlX2luZGV4PTR9fV1d
+dWEjNTgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWVmdW5jdGlvbnMubHVhIzMy
+Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXRzLmx1YSMxMTEiLHdvcmtzcGFjZV9p
+bmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlv
+bj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngiLHdv
+cmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]
