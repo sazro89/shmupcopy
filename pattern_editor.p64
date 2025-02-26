@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0yNCAxNTowOTo1NCIscmV2aXNpb249MjEyNV1dbHo0AGATAACdRwAA8yF7WzBdPXtibXA9cHh1
+Mi0yNSAxMjoxNzozMyIscmV2aXNpb249MjE3Ml1dbHo0AGATAACdRwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -94,28 +94,28 @@ LQ0ATysjDQMWFx4QAHYKAKYCIAsDJBIjEwELAD8jBQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBf
 ZQtjC2NEABw-9hh1mgUeOFYFCwMAAXcADyQDHSOWPRwCD38ADFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNCAxNTowOTo1NCJdXQ==
+Mi0yNSAxMjoxNzozMyJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNCAxNTowOTo1NCIscmV2aXNpb249MTgwNF1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+Mi0yNSAxMjoxNzozMyIscmV2aXNpb249MTg1MF1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNCAxNTowOTo1NCJdXQ==
+Mi0yNSAxMjoxNzozMyJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNCAxNTowOTo1NCIscmV2aXNpb249MTgwM11dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+Mi0yNSAxMjoxNzozMyIscmV2aXNpb249MTg0OV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNCAxNTowOTo1NCJdXQ==
+Mi0yNSAxMjoxNzozMyJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-24 15:09:54",revision=2241]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-25 12:17:33",revision=2301]]
 function draw_pats()
 	-- ui setup
 	cls(18)
@@ -124,9 +124,17 @@ function draw_pats()
 	draw_grid(back_grid, 16, 100, 0, 200, 200)
 	draw_grid(front_grid, 6, 100, 0 , 200, 200)
 
+	
+	local myang = 0
+	if fireang == -99 then
+		myang = atan2(pspr.y - enspr.y, pspr.x - enspr.x + x_offset)
+	end
+	
+	line(enspr.x + sin(myang) * 8, enspr.y + cos(myang) * 8, enspr.x + sin(myang) * 11, enspr.y + cos(myang) * 11, 14)
+
 		-- enemy	
 	circ(enspr.x, enspr.y-scrolly, 4, 8)
-
+	
 		-- player
 	circ(pspr.x + x_offset, pspr.y-scrolly, 4, 11)
 	
@@ -209,7 +217,7 @@ function draw_menu()
 	end
 end
 :: gamefunctions.lua
---[[pod_format="raw",created="2025-02-22 05:49:01",modified="2025-02-24 15:09:54",revision=392]]
+--[[pod_format="raw",created="2025-02-22 05:49:01",modified="2025-02-25 12:17:33",revision=441]]
 function doshots(arr)
 	for s in all(arr) do
 		s.age = s.age + 1
@@ -261,7 +269,7 @@ end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-24 15:09:54",revision=2069]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-25 12:17:33",revision=2118]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
@@ -397,7 +405,7 @@ ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
 AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0AgTIsOCw1fSx7
 CwDwCjEyLDYsNn0seyI1MCIsIjEiLDAsMCwwfX0=
 :: pats.lua
---[[pod_format="raw",created="2025-02-22 05:55:30",modified="2025-02-24 15:09:54",revision=470]]
+--[[pod_format="raw",created="2025-02-22 05:55:30",modified="2025-02-25 12:17:33",revision=532]]
 function pat_shoot(en, pat, pang)
 	if pang == -99 then
 		pang = atan2(pspr.y - en.y, pspr.x - en.x + x_offset)
@@ -483,6 +491,15 @@ function make_pat(pat, pang)
 				add(ret, p)
 			end
 		end
+	elseif pattype == "comb" then
+		for i = 2, 6 do
+			if mypat[i] > 0 then
+				local nxpat = make_pat(mypat[i], pang) 
+				for p in all(nxpat) do
+					add(ret, p)
+				end
+			end
+		end
 	end
 	
 	return ret
@@ -531,6 +548,15 @@ function newpat(pat_type)
 			0, -- range of speed
 			5, -- range of time
 		}
+	elseif pat_type == "comb" then
+		return {
+			"comb",
+			1,	-- bullet type
+			0, -- # of bullets
+			0, -- range of angle
+			0, -- range of speed
+			0, -- range of time
+		}
 	else
 		return {
 			pat_type,
@@ -538,14 +564,6 @@ function newpat(pat_type)
 	end
 end
 
-function spread_rand(val)
-	return (rnd(2)-1)*val
-end
-
--- lets wait to see what he does first
---function spread_even(val)
---	return
---end
 :: test.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjI1OjQ0Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
@@ -553,7 +571,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-24 15:09:54",revision=1873]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-25 12:17:33",revision=1922]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -779,8 +797,20 @@ function pad_string(v, l, ch)
 	
 	return sv
 end
+
+function copylist(org)
+	local ret = {}
+	for k, v in pairs(org) do
+		ret[k] = v
+	end
+	return ret
+end
+
+function spread_rand(val)
+	return (rnd(2)-1)*val
+end
 :: ui.lua
---[[pod_format="raw",created="2025-02-22 03:45:15",modified="2025-02-24 15:09:54",revision=488]]
+--[[pod_format="raw",created="2025-02-22 03:45:15",modified="2025-02-25 12:17:33",revision=537]]
 function refresh_pats()
 	menu = {}
 	
@@ -857,6 +887,14 @@ function refresh_pats()
 			"ang :",
 			"spd :",
 			"time:",
+		}
+	elseif mypat[1] == "comb" then
+		mycap = {
+			"src1:",
+			"src2:",
+			"src3:",
+			"src4:",
+			"src5:",
 		}
 	else
 		mycap = {}
@@ -949,7 +987,7 @@ function refresh_table()
 	}})
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-24 15:09:54",revision=2339]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-25 12:17:33",revision=2388]]
 function update_pats()
 	-- input handling
 	refresh_pats()
@@ -1148,13 +1186,13 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNCAxNTowOTo1NCIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzU4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxIix3b3Jrc3BhY2Vf
-aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzc4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
-Y2F0aW9uPSJ0b29scy5sdWEjMjE3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1aS5s
-dWEjNTgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWVmdW5jdGlvbnMubHVhIzMy
-Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXRzLmx1YSMxMTEiLHdvcmtzcGFjZV9p
-bmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlv
-bj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngiLHdv
-cmtzcGFjZV9pbmRleD00fX1dXQ==
+Mi0yNSAxMjoxNzozMyIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzU4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxNSIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSM3OCIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0idG9vbHMubHVhIzIzMiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0idWku
+bHVhIzg0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1lZnVuY3Rpb25zLmx1YSMz
+MiIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0icGF0cy5sdWEjMTU4Iix3b3Jrc3BhY2Vf
+aW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9jYXRp
+b249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3
+b3Jrc3BhY2VfaW5kZXg9NH19XV0=
 :: [eoc]

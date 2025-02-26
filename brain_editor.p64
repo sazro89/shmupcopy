@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwNzo0NDoxNSIscmV2aXNpb249MjIwNV1dbHo0ADoSAACiRgAA8yF7WzBdPXtibXA9cHh1
+Mi0yNiAyMzo0ODo1MCIscmV2aXNpb249MjQzNV1dbHo0AFkTAACURwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -52,65 +52,70 @@ pQEgDAuyASMLDKYBgQwDCBsIAwwDfQNRAws4CwN9AzcTERN9Ax8afQP-RSkPGfsGEQl9AxMJ_gYS
 H30DAOQGERnPAREZ7gZRCQQ3BAkWACILCX0DEQn7BnMJCwgaCAsJ_wZECjgKC3wALxsZ_wZTExmg
 AgT7BhEJoQIWCfoGEh_kAgL6BgTUAALsBgHWAAPcBiEMCX0DFQn6BnYJDAobCgwJ_gY1CzoL_gYf
 GfoGVBkZ_gYE3AAoDiDZAAKxAAPaAAP5BgTbAAB9AyIMCX0DEwn6BnMJDAgbCAwJ_gY_CzgL_gYP
-fQMqDzEA-----------------yqnCAgErBFMARwBPAQAP0wRrEQAHGC8AVwRbAECAD9cIZyAACIw
-bAFcAgAfMT4AIz9cAXy6ACQUnPgAEjHAAA_AAB3fnDE8AWwhfAFsATwhrLwAID9sIUx2ASYgnDE2
-AQIEAB_8WAIeDzEA----8GEICAR8AQwCAC-8ITkAHCP8IToAH3w5ABzvISxRLFE8QTxBPFEsUSx3
-AB2TawErQSsBBh0BBQCfNisBDRENOzF7SAAcoRFbBjErBhEWARsFAK9GARsdEQ0BG0GrSAAcUfsJ
-CQobAwA0KQobCwA-IwqLRwAcS4FHBhEDAD8HRgFFABzRHTUtBTYFHQUGFQYFHQoAIAcsBQBiHRUd
-BQcWBQAfDVQAICEGLVUAEA0GABQtVgBvNgUdVS1FTwAdIgtpAgAiG1kCAA8-ABwDNgATG0YAHws-
-ABz-AfEEBh1BBh1BNjENEA0xMHE-ABxwcQZhBhEWIQQAj0YhHRANIUChQgAc75FXEVcRVhFWEQ0Q
-LSFAgAAdcQEGTREHNg0EAP8CXRFcEQ0FFgUNEQANFQ0AEVAtAh0TDRgCCB0CFh0UAD9lHVVRABxA
-C5MLAwIAL-sfOQAcYFMbAyszOzoAHxk6ABwv_TAxAByyuzQbFDkbBEkLBFlCAg9AAB0-dPkcMwAc
-v3s0OzkUG0kEG1kEtQIjwL0FDRUtBQEFER0FAQIA3x0RBSENFUENAQVBDWFMAB2pFQ0lDQURBSEF
-AQIAL-EHSQAckX0VDQU9EQUBBZoAEAWUAM8FDTEFAR0xBQEFDWEXBB3xAwUNFQ0VHRUNBQ0GBR0V
-DQYlHfUA-wINFQYVHQYFBgUNBQ01PQUtBVgAHS-4MKAEKC87OVUGHT-5JLsyABwDbwAQC9UELzm7
-wwMeMFENYQIArx0FQR1RPQEFEX1CABx-8R4FEQURvTYAHDBhDVHkAb9BBR1RHSEFDQEdAUQAHy-4
-MDEATR-7MQAeYwoDCwMrA8YEHwk_ABzFA2ELA0EHA1EHCwNRCgARQQQAD0oAHJtBAxtRAwtBAxsJ
-AA9HABz-CPsBQRsBBxEXAQsBBwEXIQNhAwETAQMR1AId-w6LIUsBBxE7AQchKxEHAQcBGwEDAQcR
-KwNBKwELEZQAHRIrYgHxAHM1AyUUBQQFBAUkBaQCBAIAH3RLABz-CwsDSyNLAwUTCwMLEwQFQwUU
-RQIUUiRCNCIESQAcYBsDGwMLIxwBX-EZNwEXSAcdcPEZEwETARNGAA-1CR2A8QcDURNRAwt8ADAB
-AwuIAE8BE0sB6gEewPEAA2ETUQsDURMRE0gAjwEDCxMbAwFLRwAc8QD7AkEbARcRBzEXAQdxAxEv
-Ag8uAh2AuyE7EQcBKyEoAv8DBwEHERsRBwEDAQtBAysRAwErTQAcAxoCEhQIAB8SDgAIIpIECAAP
-YQAjEDQGAP8GMhYFAgQSBiUyNQIEIhUiBEIEAgRSUQAdMgtTC8gBgBNbA3sDWwMLBAAAowIQM6cC
-D00AHJDrAVsBA0sBA1sDACETSwYAD0MAHEB7AWsDAwBxSxMBWwMBWwkADxcCHVBzAVMRA6ECMBED
-UV0CsRQBAxsDARIBMwESCgAfE7ECHy_DWyABMf8E_wADWyM7EwsDOwMbAztDKwMbU4kAHW-yCHF8
-cXyICx3AIhQyRCIUQgEEQgEMfC9QAVwBDFEGAA9aASsREbkDAA4AERt_AxELGgAP0wAd-wNLARNb
-AQNrAVsDAlsDAmsD_wBBABz-AhMBSwMBWwFrAgNbAgNbA-sHQAAe-wYTASMBMwEDAVMBAlMSUwIT
-OyNbA3scASa-BFEEIhQiEzJDEiNFACkwAyIUXwGvIgEDCyMSARMLM7cCHwDcAxE7qgJvJTMFJDVE
-vAYm8AIhIjECBBIRDAIEMhxSDAEMMkgREDxOEV8xDCE8EUcCKAANKVAUIhMBIj4CbxIjCwMBM_YA
-HR-8OAkdb-wKJwwH-LYAHX-8EQcMJ-wKNgAc8AxrBVsFDEsFBw07BQ0GDSsVDQYNGwUtBg0LBR0R
-ABEFAgAfBicMHU91fP0gMwAcgAVrDQVbHQVLcQBgOw0VDQUrWg2vGw01DQULDUUNBU8AHBLxiA0j
-ARUIAD-1APO4Ax1v8xALUxvTBAUhbwMSIxLzEDcAHP8C_wsFKwUtBS0FKwUrBSMFIwWdAx0v8TAl
-Dh4jBQ3lAVMtBg0FLQwADxQACg8LAh4f-ZYAHSoNZQIADz8AHG_NFQ0F-SN8ASEAfgHfKw0DGwUr
-DSMFKwUDK0UAH687LQVrDTsjDQNbPwAg8AAHASsFGwEDLQUNAQM7BQtYBS8FA8AKIz8hV4EMAh_C
-LQcMBS0FBiU1ECAFDScQEBYMACANJgsAfzYVDUYFDVZYABxffHV99hg0ABz-BAflHVUWDUUmDTU2
-DSVGDRVWDQV2AB9wJh1GDRYNNgQALz2WPwAcUSsFA1sNAwA6BQMbGAIfe0sAKCErLQ0ATysjDQMW
-Fx4QAHYKAKYCIAsDJBIjEwELAD8jBQuZDB9EKwUTS5UAF1sMAA_zAh05CwVWAwBfZQtjC2NEABw-
-9hh1mgUeOFYFCwMAAXcADyQDHSOWPRwCD38ADFBtPTh9fQ==
+fQP-GwDxGbMsIAwrDAAMCycLHAQAjwwADCsMICwQSgAc-wwgGDAIGQgQCAkXCRgJJwkYCRcJCBAI
+GQgwGCCUAB3xAi0gDQYHBg0ADQYnBh1HHQYnDABfBwYNIC2WABrxAgUFBAAICQgACCcICScJCCcI
+DgAPQgAc7xAdEA0HBh0nHQYHDRAdgAAe-wIcEAwLBwwADCcMAAwHCwwQHIAAGsAJCgQwLEAMJwwg
+DBZCAMAXJgccFwYnBhwHBkcEAL8MAAwGRwwQHCcMQLEBG-ACCgkEEF4gDicGFw4ADicmFx5WAP8I
+Bx4HBkcGDgAOBkcOIA5HDjAOJw5QLiBYABzwASAuUA4nDjAOFgcWDiAOFxZiAEM3BiceBAAhDgAU
+AD8gXhANAx4PMQD-------------eacICASsEUwBHAE8BAA-TBGsRAAcYLwBXBFsAQIAP1whnIAA
+IjBsAVwCAB8xPgAjP1wBfLoAJBSc_AASMcAAD4AAHd_cMTwBbCF8AWwBPCGsvAAgP2whTHYBJiCc
+MTYBAgQAH7xYAh4PMQD----wYQgIBHwBDAIAL-whOQAcI-whOgAffDkAHO8hLFEsUTxBPEE8USxR
+LHcAHZNrAStBKwEGHQEFAJ82KwENEQ07MXtIAByhEVsGMSsGERYBGwUAr0YBGx0RDQEbQatIABxR
+_wkJChsDADQpChsLAD8jCotHABxLgUcGEQMAPwdGAUUAHNEdNS0FNgUdBQYVBgUdCgAgBywFAGId
+FR0FBxYFAB8NVAAgIQYtVQAQDQYAFC1WAG82BR1VLUVPAB0iC2kCACIbWQIADz8AHAM2ABMbRgAf
+Cz8AHP8B8QQGHUEGHUE2MQ0QDTEwcT8AHHBxBmEGERYhBACPRiEdEA0hQKFCABzvkVcRVxFWEVYR
+DRAtIUCAAB1xAQZNEQc2DQQA-wJdEVwRDQUWBQ0RAA0VDQARUC0CHRMNGAIIHQIWHRQAP2UdVVEA
+HEALkwsDAgAv_x85ABxgUxsDKzM7OgAfGToAHC-5MDEAHLK7NBsUORsESQsEWUICD0AAHT90_Rwz
+ABy-ezQ7ORQbSQQbWQS1AiPAvQUNFS0FAQURHQUBAgDfHREFIQ0VQQ0BBUENYUwAHakVDSUNBREF
+IQUBAgAv8QdJAByRfRUNBT0RBQEFmgAQBZQAzwUNMQUBHTEFAQUNYRcEHfEDBQ0VDRUdFQ0FDQYF
+HRUNBiUd9QD-Ag0VBhUdBgUGBQ0FDTU9BS0FWAAdL-gwoAQoLzs5VQYdP-kkuzIAHANvABAL1QQv
+ObvDAx4wUQ1hAgCvHQVBHVE9AQURfUIAHH-xHgURBRG9NgAcMGENUeQBv0EFHVEdIQUNAR0BRAAf
+L-gwMQBNH-sxAB5jCgMLAysDxgQfCT4AHMUDYQsDQQcDUQcLA1EKABFBBAAPSgAcm0EDG1EDC0ED
+GwkAD0cAHP8I_wFBGwEHERcBCwEHARchA2EDARMBAxHUAh3-DoshSwEHETsBByErEQcBBwEbAQMB
+BxErA0ErAQsRlAAdEitiAfEAczUDJRQFBAUEBSQFpAIEAgAfdEsAHP8LCwNLI0sDBRMLAwsTBAVD
+BRRFAhRSJEI0IgRJABxgGwMbAwsjHAFf8Rk3ARdIBx1w8RkTARMBE0YAD-UJHYDxBwNRE1EDC3wA
+MAEDC4gATwETSwHqAR7A8QADYRNRCwNRExETSACPAQMLExsDAUtHABzxAPsCQRsBFxEHMRcBB3ED
+ES8CDy4CHYC7ITsRBwErISgC-wMHAQcRGxEHAQMBC0EDKxEDAStNABwDGgISFAgAHxIOAAgikgQI
+AA9hACMQNAYA-wYyFgUCBBIGJTI1AgQiFSIEQgQCBFJRAB0yC1MLyAGAE1sDewNbAwsEAACjAhAz
+pwIPTQAckOsBWwEDSwEDWwMAIRNLBgAPQwAcQHsBawMDAHFLEwFbAwFbCQAPFwIdUHMBUxEDoQIw
+EQNRXQKxFAEDGwMBEgEzARIKAB8TsQIfL4NbIAEx-wT7AANbIzsTCwM7AxsDO0MrAxtTiQAdb-II
+cXxxfIgLHcAiFDJEIhRCAQRCAQxuMFABXAEMUQYAD1oBKxERuQMADgARG34DEQsaAA-TAB3-A0sB
+E1sBA2sBWwMCWwMCawP7AEEAHP8CEwFLAwFbAWsCA1sCA1sD_wdAAB7-BhMBIwEzAQMBUwECUxJT
+AhM7I1sDexwBJr8EUQQiFCITMkMSI0UAKTADIhRfAa8iAQMLIxIBEwsztwIfANwDETuqAm8lMwUk
+NUS8BibwAiEiMQIEEhEMAgQyHFIMAQwySBEQPE4RXzEMITwRRwIoAP8pUBQiEwEiPgJvEiMLAwEz
+5gAdH-w4CR1v-AonDAf8tgAdf-wRBwwn-Ao2ABzwDGsFWwUMSwUHDTsFDQYNKxUNBg0bBS0GDQsF
+HREAEQUCAB8GJwwdT3V8-SAzAByABWsNBVsdBUtxAGA7DRUNBStaDa8bDTUNBQsNRQ0FTwAcEvGI
+DSMBFQgAP-UA87gDHW-zEAtTG9MEBSFvAxIjEvMQNwAc-wL7CwUrBS0FLQUrBSsFIwUjBZ0DHS-x
+MCUOHiMFDeUBUy0GDQUtDAAPFAAKDwsCHh-9lgAdKg1lAgAPPwAcb40VDQX9I3wBIQB_Ad8rDQMb
+BSsNIwUrBQMrRQAfrzstBWsNOyMNA1s-ACDwAAcBKwUbAQMtBQ0BAzsFC1gFLwUDwAojPyFXgQwC
+H4ItBwwFLQUGJTUQIAUNJxAQFgwAIA0mCwB-NhUNRgUNVlgAHF98dX32GDQAHP8EB_UdVRYNRSYN
+NTYNJUYNFVYNBXYAH3AmHUYNFg02BAAvPZY-ABxRKwUDWw0DADoFAxsYAh97SwAoISstDQBPKyMN
+AxYXHhAAdgoApgIgCwMkEiMTAQsAPyMFC5kMH0QrBRNLlQAXWwwAD7MCHTkLBVYDAF9lC2MLY0QA
+HD-2GHWaBR44VgULAwABdwAPJAMdI5Y9HAIPfwAMUG09OH19
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwNzo0NDoxNSJdXQ==
+Mi0yNiAyMzo0ODo1MCJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwNzo0NDoxNSIscmV2aXNpb249MjQxMF1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+Mi0yNiAyMzo0ODo1MCIscmV2aXNpb249MjYzOV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwNzo0NDoxNSJdXQ==
+Mi0yNiAyMzo0ODo1MCJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwNzo0NDoxNSIscmV2aXNpb249MjQxMV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+Mi0yNiAyMzo0ODo1MCIscmV2aXNpb249MjYzOV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwNzo0NDoxNSJdXQ==
+Mi0yNiAyMzo0ODo1MCJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-22 07:44:15",revision=2981]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-26 23:48:50",revision=3228]]
 function draw_setup()
 
 end
@@ -126,8 +131,9 @@ function draw_brain()
 	circ(pspr.x, pspr.y-scrolly, 4, 11)
 	
 	if show_trails then
+		local selected_meta = meta[selected_brain]
 		for t in all(curtrails) do
-			pset(t[1], t[2]-scrolly, 9)
+			pset(t[1] + selected_meta[2], t[2]-scrolly + selected_meta[3], 9)
 		end
 	end
 	
@@ -149,6 +155,12 @@ function draw_brain()
 		end
 	end	
 	
+	-- bullets
+	for b in all(buls) do
+		drawobj(b)
+	end
+	
+	-- obsolete temp muzz code
 	for m in all(muzz) do
 		m.r -= 1
 		if m.en and m.r > 0 then
@@ -165,10 +177,16 @@ function draw_brain()
 	line(102,0-scrolly,102,200-scrolly, 6)
 	
 	draw_menu()
+	bgprint("        ", 62, 165-scrolly, 0)
 	bgprint("        ", 62, 177-scrolly, 0)
 	bgprint("        ", 62, 189-scrolly, 0)
+	print("trs: ", 62, 166-scrolly, 24)
 	print("asp: ", 62, 178-scrolly, 24)
 	print("adr: ", 62, 190-scrolly, 24)
+	
+	if selected_brain <= #trails then
+		print("trs:" .. (#trails[selected_brain] and #trails[selected_brain] or "nil"), 62, 166-scrolly, 24)
+	end
 	if enemies[1] then
 		if enemies[1].aspt then
 			local aspt = string.format("%.2f", abs(enemies[1].aspt - enemies[1].spd))
@@ -179,6 +197,8 @@ function draw_brain()
 			print("adr:" .. adrt, 62, 190-scrolly, 24)
 		end
 	end
+	
+
 --	bgprint(mymenu.w, mymenu.x, mymenu.y, _c) --*****
 --	print(mymenu.text, mymenu.x, 1+mymenu.y, _c)
 --	if myen.aspt then
@@ -236,24 +256,26 @@ b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-22 07:44:15",revision=2500]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-26 23:48:50",revision=2736]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
 function export()
-	store(output_file,data)
-	store(metadata_output_file,meta)
+	store(output_file, data)
+	store(metadata_output_file, meta)
+	store(trails_output_file, trails)
 	add(msg,{text="Exported!",t=120})
 end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-22 07:44:15",revision=2712]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-26 23:48:50",revision=2975]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
 include("io.lua")
 include("ui.lua")
+include("pats.lua")
 
 function _init()
 	printh("new run")
@@ -265,6 +287,8 @@ function _init()
 	output_file = "/shmup/brains.pod"
 	metadata_file = "/shmup/brain_meta.pod"
 	metadata_output_file = "/shmup/brain_meta.pod"
+	trails_file = "/shmup/trails.pod"
+	trails_output_file = "/shmup/trails.pod"
 	
 	brains = fetch(input_file)
 	data = brains
@@ -280,11 +304,14 @@ function _init()
 --		{2,200,100},
 --	}
 	
+	trails = fetch(trails_file)
+	
 	myspr = fetch("/shmup/myspr.pod")
 	enlib = fetch("/shmup/enlib.pod")
 	anilib = fetch("/shmup/anilib.pod")
 	gfx = fetch("/shmup/gfx/spr.gfx")
-
+	pats = fetch("/shmup/pats.pod")
+	
 	debug = {}
 	msg = {}
 	_drw = draw_brain
@@ -314,12 +341,15 @@ function _init()
 	}
 	
 	enemies = {}
+	buls = {}
 	muzz = {}
 	
 	overlay = false
 	show_trails = false
-	newtrails = {}
+	newtrails = trails[1]
 	curtrails = {}
+	traildelta = time()
+	trailframecounter = 0
 	
 	pspr = {
 		x = 200,
@@ -378,6 +408,167 @@ Niw0DgASMQ4AIDcsWgBQMCw1LDkPACA4LEsAEDQxABAzEAAQOQ0AwTEzLDcsMTJ9LHszMDsAAV8A
 ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
 AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0AgTIsOCw1fSx7
 CwDwCjEyLDYsNn0seyI1MCIsIjEiLDAsMCwwfX0=
+:: pats.lua
+--[[pod_format="raw",created="2025-02-25 12:16:04",modified="2025-02-26 23:48:50",revision=272]]
+function newpat(pat_type)
+	if pat_type == "base"  then
+		return {
+			"base",
+			1,
+			11,
+			3,
+			40,
+		}
+	elseif pat_type == "some" then
+		return {
+			"some",
+			1,
+			0.5,
+		}
+	elseif pat_type == "sprd" then
+		return {
+			"sprd",
+			1,	-- bullet type
+			1, -- starting val
+			1, -- ending val
+			1, -- step
+			0.1, -- offset angle for copies
+			0, -- offset bullet speed of copies
+			0, -- offset spawn time of copies
+			0, -- mirror pattern
+		}
+--	elseif pat_type == "rapd" then
+--		return {
+--			"rapd",
+--			1,	-- bullet type
+--			1, -- # of copies
+--			2, -- delay
+--		}
+	elseif pat_type == "brst" then
+		return {
+			"brst",
+			1,	-- bullet type
+			1, -- # of bullets
+			0.5, -- range of angle
+			0, -- range of speed
+			5, -- range of time
+		}
+	elseif pat_type == "comb" then
+		return {
+			"comb",
+			1,	-- bullet type
+			0, -- # of bullets
+			0, -- range of angle
+			0, -- range of speed
+			0, -- range of time
+		}
+	else
+		return {
+			pat_type,
+		}
+	end
+end
+
+function pat_shoot(en, pat, pang)
+	if pang == -99 then
+		pang = atan2(pspr.y - en.y, pspr.x - en.x)
+	end
+	
+	local mybuls = make_pat(pat, pang)
+	
+	for b in all(mybuls) do
+		add(en.bulq,b)
+	end
+end
+
+function dobulq(en)
+	for b in all(en.bulq) do
+		if b.wait <= 0 then
+			b.x += en.x
+			b.y += en.y
+			b.sx = sin(b.ang) * b.spd
+			b.sy = cos(b.ang) * b.spd
+			
+			add(buls,b)
+			del(en.bulq,b)
+		else
+			b.wait -= 1
+		end
+	end
+end
+
+function make_pat(pat, pang)
+	
+	local mypat = pats[pat]
+	local pattype = mypat[1]
+	local ret = {}
+	
+	if pattype == "base" then
+		add(ret, {
+			age = 0,
+			x = 0,
+			y = 0,
+			ang = pang,
+			spd = mypat[2],
+			ani = anilib[mypat[3]],
+			anis = mypat[4],
+			col = mypat[5],
+			wait = 0,
+		})
+	elseif pattype == "some" then
+		if rnd() < mypat[3] then
+			ret = make_pat(mypat[2], pang)
+		end
+	elseif pattype == "sprd" then
+		for i = mypat[3], mypat[4], mypat[5] do
+			local nxpat = make_pat(mypat[2], pang + (i - 1) * mypat[6])
+			for p in all(nxpat) do
+				p.wait += (i - 1) * mypat[8]
+				p.spd += (i - 1) * mypat[7]
+				add(ret, p)
+			end
+			if i > 1 and mypat[9] > 0 then
+				local nxpat = make_pat(mypat[2], pang + (i - 1) * -mypat[6])
+				for p in all(nxpat) do
+					p.wait += (i - 1) * mypat[8]
+					p.spd += (i - 1) * mypat[7]
+					add(ret, p)
+				end
+			end
+		end
+--	elseif pattype == "rapd" then
+--		for i = 1, mypat[3] do
+--			local nxpat = make_pat(mypat[2], pang)
+--			for p in all(nxpat) do
+--				p.wait += mypat[4] * (i - 1)
+--				add(ret, p)
+--			end
+--		end
+	elseif pattype == "brst" then
+		for i = 1, mypat[3] do
+			local nxpat = make_pat(mypat[2], pang + spread_rand(mypat[4]))
+			local random_wait = flr(rnd(mypat[6]))
+			local random_speed = rnd(mypat[5])
+			for p in all(nxpat) do
+				p.wait += random_wait
+				p.spd += random_speed
+				add(ret, p)
+			end
+		end
+	elseif pattype == "comb" then
+		for i = 2, 6 do
+			if mypat[i] > 0 then
+				local nxpat = make_pat(mypat[i], pang) 
+				for p in all(nxpat) do
+					add(ret, p)
+				end
+			end
+		end
+	end
+	
+	return ret
+end
+
 :: test.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjI1OjQ0Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
@@ -385,7 +576,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-22 07:44:15",revision=2679]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-26 23:48:50",revision=2948]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -520,8 +711,8 @@ end
 function mspr(si, sx, sy, flip_x, flip_y)
 	local ms = myspr[si]
 	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
-	sspr(gfx[ms[1]].bmp, 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2], ms[3], ms.flip_x or flip_x, ms.flip_y or flip_y)
---	sspr(ms[1], 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2], ms[3], ms.flip_x or flip_x, ms.flip_y or flip_y)
+--	sspr(gfx[ms[1]].bmp, 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2], ms[3], ms.flip_x or flip_x, ms.flip_y or flip_y)
+	sspr(ms[1], 0, 0, ms[2], ms[3], sx - ms[4], sy - ms[5], ms[2], ms[3], ms.flip_x or flip_x, ms.flip_y or flip_y)
 	if ms.nextspr then
 		mspr(ms.nextspr, sx, sy)
 	end
@@ -560,11 +751,13 @@ function spawnenemy(_i, _x, _y)
 		col = en[5],
 		wait = 0,
 		dist = 0,
+		bulq = {},
 	})	
 end
 
 function resetenemy()
 	enemies = {}
+	buls = {}
 	local selected_meta = meta[selected_brain]
 	spawnenemy(selected_meta[1], selected_meta[2], selected_meta[3])
 	protag = enemies[1]
@@ -621,11 +814,19 @@ function doenemies()
 		e.age = e.age + 1	
 		
 --		if protag then
-		add(newtrails, {e.x, e.y})
---		end
+		if time() - traildelta < 8 and trailframecounter == 5 then
+			trailframecounter = 0
+			local selected_meta = meta[selected_brain]
+			add(newtrails, {e.x - selected_meta[2], e.y - selected_meta[3]})
+		elseif time() - traildelta >= 8 then
+			trails[selected_brain] = newtrails
+--			curtrails = newtrails
+		end
 
 		if not onscreen(e) then
 			del(enemies, e)
+		else
+			dobulq(e)
 		end
 	end
 	
@@ -653,7 +854,6 @@ function dobrain(e)
 			-- set timer for previous command
 			e.wait = param1 
 			e.dist = param2
---			exit = true
 		elseif cmd == "asp" then
 			-- accelerate speed
 			e.aspt = param1
@@ -676,8 +876,12 @@ function dobrain(e)
 				e.loop = 0
 			end
 		elseif cmd == "fir" then
-			-- fire all lasers!!
-			firebul(e, param1, param2)
+			-- fire all lasers!!	
+			if param1 < 1 or param1 > #pats then
+				add(msg,{text="Pattern does not exist!",t=120})
+				param1 = 1
+			end
+			pat_shoot(e, param1, param2)
 		elseif cmd == "clo" then
 			-- clone enemy with a delay
 			for i = 1, param1 do
@@ -697,11 +901,6 @@ function dobrain(e)
 	end
 	-- advance index to next command (always comes in threes)
 	e.brain_index += 3
-	
---	if exit then return end
-	-- makes it so commands will skip straight to wait statements within 1f
-
---	dobrain(e)
 end
 
 function onscreen(obj)
@@ -785,12 +984,25 @@ function brain_check(e)
 	return true
 end
 
-
+-- demo muzz flash no bullets actually spawned
 function firebul(_en, param1, param2)
 	add(muzz,{
 		en = _en,
 		r = 8,
 	})
+end
+
+-- the real thing from the game code
+function doshots(arr)
+	for s in all(arr) do
+		s.age = s.age + 1
+		s.x = s.x + s.sx
+		s.y = s.y + s.sy
+
+		if s.y < -16 or s.y > 280 then
+			del(arr, s)
+		end
+	end
 end
 
 function copylist(org)
@@ -805,8 +1017,12 @@ function dist(x1, y1, x2, y2)
 	local dx, dy = x2 - x1, y2 - y1
 	return sqrt(dx * dx + dy * dy)
 end
+
+function spread_rand(val)
+	return (rnd(2)-1)*val
+end
 :: ui.lua
---[[pod_format="raw",created="2025-02-11 20:44:15",modified="2025-02-22 07:44:15",revision=1159]]
+--[[pod_format="raw",created="2025-02-11 20:44:15",modified="2025-02-26 23:48:50",revision=1396]]
 function refresh_setup()
 	menu = {}
 	
@@ -1018,11 +1234,12 @@ function refresh_table()
 	}})
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-22 07:44:15",revision=3060]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-26 23:48:50",revision=3316]]
 function update_setup()
 	scrolly = 0
 	refresh_setup()
 	curx = 2
+	trailframecounter += 1
 	
 	--up
 	if keyp("up") then
@@ -1060,10 +1277,15 @@ function update_setup()
 			local selected_meta = meta[selected_brain]
 			if enlib[selected_meta[1]] then
 --				spawnenemy(selected_meta[1], selected_meta[2], selected_meta[3])
+
+				curtrails = trails[selected_brain]
 				resetenemy()
+				traildelta = time()
+				trailframecounter = 0
 			end
 		end
 		doenemies()
+		doshots(buls)
 	else
 		enemies = {}
 	end
@@ -1071,6 +1293,8 @@ end
 
 function update_brain()
 	refresh_brain()
+	
+	trailframecounter += 1
 	
 	dogrid(front_grid, 30, .25)
 	dogrid(back_grid, 20, .15)
@@ -1101,12 +1325,18 @@ function update_brain()
 		if keyp("left") then
 			selected_brain -= 1
 			enemies = {}
-			curtrails = {}
+			curtrails = trails[mid(1, selected_brain, #brains + 1)] or {}
+			newtrails = curtrails
+			traildelta = time()
+			trailframecounter = 0
 		end
 		if keyp("right") then
 			selected_brain += 1
 			enemies = {}
-			curtrails = {}
+			curtrails = trails[mid(1, selected_brain, #brains + 1)] or {}
+			newtrails = curtrails
+			traildelta = time()
+			trailframecounter = 0
 		end
 		
 		selected_brain = mid(1, selected_brain, #brains + 1)
@@ -1180,9 +1410,13 @@ function update_brain()
 	if data[selected_brain] then
 		if #enemies == 0 then
 			local selected_meta = meta[selected_brain]
-			curtrails = newtrails
+			trails[selected_brain] = newtrails
+			curtrails = trails[selected_brain]
 			resetenemy()
+			traildelta = time()
+			trailframecounter = 0
 		end
+		doshots(buls)
 		doenemies()
 --		if protag then
 --			add(newtrails, {protag.x, protag.y})
@@ -1367,12 +1601,13 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwNzo0NDoxNSIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzQ5Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxMTgiLHdvcmtzcGFj
-ZV9pbmRleD0xfSx7bG9jYXRpb249InVwZGF0ZS5sdWEjMTA5Iix3b3Jrc3BhY2VfaW5kZXg9MX0s
-e2xvY2F0aW9uPSJ0b29scy5sdWEjMTM1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJp
-by5sdWEjMTAiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InVpLmx1YSMxNTkiLHdvcmtz
-cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHts
-b2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5z
-ZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
+Mi0yNiAyMzo0ODo1MCIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzgwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM2OCIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxODAiLHdvcmtzcGFjZV9pbmRleD0xfSx7
+bG9jYXRpb249InRvb2xzLmx1YSMyMzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlv
+Lmx1YSM1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1aS5sdWEjMTU5Iix3b3Jrc3Bh
+Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXRzLmx1YSM1OSIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5t
+YXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2lu
+ZGV4PTR9fV1d
 :: [eoc]
