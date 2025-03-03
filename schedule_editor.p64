@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0xMiAyMjo0MToyNSIscmV2aXNpb249MTcyN11dbHo0AIgPAADCQAAA8yF7WzBdPXtibXA9cHh1
+My0wMyAxOTozMToyMSIscmV2aXNpb249MTkyNl1dbHo0AIgPAADCQAAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -154,11 +154,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMiAyMjo0MToyNSJdXQ==
+My0wMyAxOTozMToyMSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
-Mi0xMiAyMjo0MToyNSIscmV2aXNpb249MzA5NV1dbHo0AFsMAABoQAAA-xN7e2JtcD11c2VyZGF0
+My0wMyAxOTozMToyMSIscmV2aXNpb249MzI5NF1dbHo0AFsMAABoQAAA-xN7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWQwAQAmADwAPzlmMAEAJi85ZkAA-zEvZTABACYvOWUAAv94PzMy
 MAAC-_sAAQA-MjkwAAL-538zMTAwMjgwQAAmDwEAIQA8AAD-AaNkODAwZDQwMGQzCAAMEAAIGAAI
 MAAACAASZAwAAIcCI2RiEAAXMBAAF2MYAARMABcwVAATOSQAW2EwMGMxEAATMAQACBgAGmIIAC9j
@@ -217,19 +217,19 @@ IiksaGlkZGVuPWZhbHNlLG5hbWU9Im1hcCIscGFuX3g9MjgJAPIBeT0xNzUwLHRpbGVfaD0xNgoA
 EHcKAIB6b29tPTF9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAxLTI3IDAyOjAyOjA0Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMiAyMjo0MToyNSJdXQ==
+My0wMyAxOTozMToyMSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMiAyMjo0MToyNSIscmV2aXNpb249MjU5N11dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+My0wMyAxOTozMToyMSIscmV2aXNpb249Mjc5Nl1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMiAyMjo0MToyNSJdXQ==
+My0wMyAxOTozMToyMSJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-12 22:41:25",revision=3382]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-03-03 19:31:21",revision=3622]]
 function draw_move()
 	draw_bg()
 	draw_menu()
@@ -272,21 +272,10 @@ function draw_map()
 	if mapfocus == "menu" then
 		rect(480 - mapoffset, 0, 479, 269, 7)
 	end
---	debug[1] = "x: " .. mouse_map_x
---	debug[2] = "y: " .. mouse_map_y
-	debug[1] = "curx: " .. curx
-	debug[2] = "cury: " .. cury
-	debug[3] = "mode: " .. mapfocus
---	debug[4] = "cmd: " .. menu[cury][curx].cmd
---	debug[3] = "scroll: " .. mapscroll - 384
---	end
 end
 
 function draw_table()
 	cls(1)
-	debug[1] = ""
-	debug[2] = ""
-	debug[3] = ""
 	
 	draw_menu()
 end
@@ -338,12 +327,12 @@ function draw_bg()
 		line(0 + 	mapoffset, selected_schedule[4], 479 - mapoffset, selected_schedule[4], 7)
 		-- y
 		fillp(0b0000111100001111)
-		line(selected_schedule[3], 0, selected_schedule[3], 270, col)
+		line(selected_schedule[3]+91, 0, selected_schedule[3]+91, 270, col)
 		--diags
-		line(selected_schedule[3], selected_schedule[4], selected_schedule[3] - 30, selected_schedule[4] - 30, 7)
-		line(selected_schedule[3], selected_schedule[4], selected_schedule[3] + 30, selected_schedule[4] + 30, 7)
-		line(selected_schedule[3], selected_schedule[4], selected_schedule[3] + 30, selected_schedule[4] - 30, 7)
-		line(selected_schedule[3], selected_schedule[4], selected_schedule[3] - 30, selected_schedule[4] + 30, 7)
+		line(selected_schedule[3]+91, selected_schedule[4], selected_schedule[3] - 30+91, selected_schedule[4] - 30, 7)
+		line(selected_schedule[3]+91, selected_schedule[4], selected_schedule[3] + 30+91, selected_schedule[4] + 30, 7)
+		line(selected_schedule[3]+91, selected_schedule[4], selected_schedule[3] + 30+91, selected_schedule[4] - 30, 7)
+		line(selected_schedule[3]+91, selected_schedule[4], selected_schedule[3] - 30+91, selected_schedule[4] + 30, 7)
 		poke(0x550b,0x00) -- set back to black
 		fillp()
 	end
@@ -353,8 +342,18 @@ function draw_bg()
 		
 		if e.sch == selected_schedule then
 			local col = (_t%60) < 30 and 23 or 7
-			rect(e.x - 8, e.y - 8, e.x + 8, e.y + 8, col)				
+			rect(e.x - 9, e.y - 8, e.x + 8, e.y + 8, col)				
 		end
+		print(e.tage, e.x, e.y, 7)
+--		drawtrail(e)
+	end
+end
+
+function drawtrail(en)
+	local mysched = en.sch
+	local curtrails = trails[en.brain]
+	for t in all(curtrails) do
+		pset(t[1] + mysched[3]-20, t[2]-scrolly + mysched[4], 9)
 	end
 end
 :: input.pod
@@ -362,18 +361,22 @@ b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-12 22:41:25",revision=2741]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-03-03 19:31:21",revision=2949]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
-function export()
+function export(auto)
 	store(output_file,data)
-	add(msg,{text="Exported!",t=120})
+	if auto then
+		add(msg,{text="autosave",t=60})
+	else
+		add(msg,{text="Exported!",t=120})
+	end
 end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-12 22:41:25",revision=2932]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-03-03 19:31:21",revision=3152]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
@@ -381,6 +384,9 @@ include("ui.lua")
 include("io.lua")
 
 function _init()
+	autosave = true
+	dirty = false
+	
 	modify_text_display = create_gui()
 	
 --	window{width = 460, height = 240}
@@ -394,6 +400,7 @@ function _init()
 	anilib = fetch("/shmup/anilib.pod")
 	enlib = fetch("/shmup/enlib.pod")
 	gfx = fetch("/shmup/gfx/spr.gfx")
+	trails = fetch("/shmup/trails.pod")
 	
 	enemies = {}
 	
@@ -411,6 +418,7 @@ function _init()
 	
 	mapscroll = 398
 	mapoffset = 112
+	x_borders = 132 -- this is used in game due to how offsets are coded there
 	
 	selected_schedule = nil
 	
@@ -435,7 +443,12 @@ function _draw()
 	end
 	
 	if #msg > 0 then
-		bgprint(msg[1].text,100-(#msg[1].text*2.5),97,14)
+		if msg[1].text == "autosave" then
+			rectfill(2, 2, 8, 9, 0)
+			print("\^:0d1d11111f000000", 3, 3, sin(time() * 3) > -0.3 and 6 or 5)
+		else
+			bgprint(msg[1].text,240-(#msg[1].text*2.5),97,14)
+		end
 		msg[1].t = msg[1].t - 1
 		if msg[1].t <= 0 then
 			deli(msg,1)
@@ -455,6 +468,13 @@ function _update()
 	modify_text_display:update_all()
 	
 	_t += 1
+	
+	if time()%2 == 0 then
+		if autosave and dirty then
+			export(true)
+			dirty = false
+		end
+	end
 end
 
 :: myspr.pod
@@ -480,7 +500,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-12 22:41:25",revision=2802]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-03-03 19:31:21",revision=3043]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -722,10 +742,11 @@ function dobutton(b)
 		local sch = {}
 		sch[1] = mapscroll - 384
 		sch[2] = 1
-		sch[3] = 128 + 112
+		sch[3] = 148
 		sch[4] = 16
 		add(data, sch)
 		quicksort(data)
+		dirty = true
 	elseif b.cmd == "editen" then
 		dropx = mid(mapoffset, b.cmdsch[3], 480 - mapoffset - (6*5))
 		dropy = mid(2, b.cmdsch[4], 268 - 13 * 4)
@@ -744,9 +765,11 @@ function dobutton(b)
 			sched[2] += 1
 		end
 		sched[2] = mid(1, sched[2], #enlib)
+		dirty = true
 	elseif b.cmd == "delen" then
 		del(data,b.cmdsch)
 		statemap()
+		dirty = true
 	elseif b.cmd == "copyen" then
 		local sch = {}
 		sch[1] = b.cmdsch[1]
@@ -856,22 +879,32 @@ function genens()
 	enemies = {}
 	for sched in all(data) do
 		if sched[1] <= mapscroll then
-			-- x coordinates are +/- 8 to center
-			-- y coordinates need to account for mapscroll, the offset for the editor (376),
-			--		the ingame mapscroll they're scheduled to appear (sched[1]),
-			--		and the coordinates they're supposed to spawn at at that scroll (sched[4])
-			local schx = sched[3]
-			local schy = mapscroll - 378 - sched[1] + sched[4]
-			local en = enlib[sched[2] ]
-			local ani = anilib[en[1] ]
+			local en = enlib[sched[2]]
+			local curtrails = trails[en[3]]
+			local enage = (mapscroll - sched[1] - 384)-- / 0.5
+			local trailage = (enage \ 5) + 1
 			
-			add(enemies, {
-				x = schx,
-				y = schy,
-				s = cyc(_t, ani, en[2]),
-				sch = sched,
-				col = en[5],
-			})
+	
+			if trailage <= #curtrails and trailage > 0 then
+				-- x coordinates are +/- 8 to center
+				-- y coordinates need to account for mapscroll, the offset for the editor (376),
+				--		the ingame mapscroll they're scheduled to appear (sched[1]),
+				--		and the coordinates they're supposed to spawn at at that scroll (sched[4])
+				local schx = sched[3] + curtrails[trailage][1]
+				local schy = mapscroll - 378 - sched[1] + sched[4] + curtrails[trailage][2]
+				local ani = anilib[en[1]]
+				
+				add(enemies, {
+					x = schx-4,
+					y = schy,
+					s = cyc(_t, ani, en[2]),
+					sch = sched,
+					col = en[5],
+					brain = en[3],
+					age = enage,
+					tage = trailage,
+				})
+			end
 		end
 	end
 end
@@ -887,7 +920,7 @@ function print_props(sch, c)
 	end
 end
 :: ui.lua
---[[pod_format="raw",created="2025-02-07 13:43:39",modified="2025-02-12 22:41:25",revision=243]]
+--[[pod_format="raw",created="2025-02-07 13:43:39",modified="2025-03-03 19:31:21",revision=450]]
 function refresh_move()
 	menu = {}
 end
@@ -1081,7 +1114,7 @@ function statemove()
 	_upd = update_move
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-12 22:41:25",revision=3314]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-03-03 19:31:21",revision=3533]]
 function update_move()
 	refresh_move()
 	
@@ -1122,10 +1155,11 @@ function update_move()
 	if keyp("z") or keyp("x") or rc == "clicked" then
 		quicksort(data)
 		statemap()
+		dirty = true
 	end
 	
 	if lc == "clicked" then
-		selected_schedule[3] = mouse_x
+		selected_schedule[3] = mouse_map_x + 20
 		selected_schedule[4] = mouse_y
 	end
 end
@@ -1432,12 +1466,12 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0xMiAyMjo0MToyNSIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzM3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM0Iix3b3Jrc3BhY2Vf
-aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzI2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
-Y2F0aW9uPSJ0b29scy5sdWEjMzg3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpby5s
-dWEjMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0idWkubHVhIzUwIix3b3Jrc3BhY2Vf
-aW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9jYXRp
-b249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3
-b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+My0wMyAxOTozMToyMSIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzU3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMxMDMiLHdvcmtzcGFj
+ZV9pbmRleD0xfSx7bG9jYXRpb249InVwZGF0ZS5sdWEjNDUiLHdvcmtzcGFjZV9pbmRleD0xfSx7
+bG9jYXRpb249InRvb2xzLmx1YSMyNDIiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlv
+Lmx1YSM4Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1aS5sdWEjMTkyIix3b3Jrc3Bh
+Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9j
+YXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4
+Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
 :: [eoc]

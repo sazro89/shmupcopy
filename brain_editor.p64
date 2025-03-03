@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMzo0ODo1MCIscmV2aXNpb249MjQzNV1dbHo0AFkTAACURwAA8yF7WzBdPXtibXA9cHh1
+My0wMyAyMDowNjo1MyIscmV2aXNpb249MjQ0N11dbHo0AFkTAACURwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -94,28 +94,28 @@ AxYXHhAAdgoApgIgCwMkEiMTAQsAPyMFC5kMH0QrBRNLlQAXWwwAD7MCHTkLBVYDAF9lC2MLY0QA
 HD-2GHWaBR44VgULAwABdwAPJAMdI5Y9HAIPfwAMUG09OH19
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMzo0ODo1MCJdXQ==
+My0wMyAyMDowNjo1MyJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMzo0ODo1MCIscmV2aXNpb249MjYzOV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+My0wMyAyMDowNjo1MyIscmV2aXNpb249MjY1MV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMzo0ODo1MCJdXQ==
+My0wMyAyMDowNjo1MyJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMzo0ODo1MCIscmV2aXNpb249MjYzOV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+My0wMyAyMDowNjo1MyIscmV2aXNpb249MjY1MV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMzo0ODo1MCJdXQ==
+My0wMyAyMDowNjo1MyJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-26 23:48:50",revision=3228]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-03-03 20:06:53",revision=3241]]
 function draw_setup()
 
 end
@@ -256,20 +256,24 @@ b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-26 23:48:50",revision=2736]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-03-03 20:06:53",revision=2751]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
-function export()
+function export(auto)
 	store(output_file, data)
 	store(metadata_output_file, meta)
 	store(trails_output_file, trails)
-	add(msg,{text="Exported!",t=120})
+	if auto then
+		add(msg,{text="autosave",t=60})
+	else
+		add(msg,{text="Exported!",t=120})
+	end
 end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-02-26 23:48:50",revision=2975]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-03-03 20:06:53",revision=2990]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
@@ -278,6 +282,8 @@ include("ui.lua")
 include("pats.lua")
 
 function _init()
+	autosave = true
+	dirty = false
 	printh("new run")
 	modify_text_display = create_gui()
 	
@@ -372,7 +378,12 @@ function _draw()
 	end
 	
 	if #msg > 0 then
-		bgprint(msg[1].text,150-(#msg[1].text*2.5)-scrollx,97-scrolly,14)
+		if msg[1].text == "autosave" then
+			rectfill(2, 2, 8, 9, 0)
+			print("\^:0d1d11111f000000", 3, 3, sin(time() * 3) > -0.3 and 6 or 5)
+		else
+			bgprint(msg[1].text,240-(#msg[1].text*2.5),97,14)
+		end
 		msg[1].t = msg[1].t - 1
 		if msg[1].t <= 0 then
 			deli(msg,1)
@@ -390,6 +401,13 @@ end
 function _update()
 	_upd()
 	modify_text_display:update_all()
+	
+	if time()%2 == 0 then
+		if autosave and dirty then
+			export(true)
+			dirty = false
+		end
+	end
 end
 
 :: myspr.pod
@@ -409,7 +427,7 @@ ACAAQDE3LDFKAAFMAGMxOCwzLDNZAGMxOSwzLDYNAGQyMCwzLDgNABcxDQAhMzJRABM2uQAgMzPF
 AEIxNyw5DwAZNA8AUDEsNyw3ZAAARgAHDAAAaQATN_0AEDTNAEA5LDUsrwARNV0AgTIsOCw1fSx7
 CwDwCjEyLDYsNn0seyI1MCIsIjEiLDAsMCwwfX0=
 :: pats.lua
---[[pod_format="raw",created="2025-02-25 12:16:04",modified="2025-02-26 23:48:50",revision=272]]
+--[[pod_format="raw",created="2025-02-25 12:16:04",modified="2025-03-03 20:06:53",revision=287]]
 function newpat(pat_type)
 	if pat_type == "base"  then
 		return {
@@ -576,7 +594,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-26 23:48:50",revision=2948]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-03-03 20:06:53",revision=2965]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -1022,7 +1040,7 @@ function spread_rand(val)
 	return (rnd(2)-1)*val
 end
 :: ui.lua
---[[pod_format="raw",created="2025-02-11 20:44:15",modified="2025-02-26 23:48:50",revision=1396]]
+--[[pod_format="raw",created="2025-02-11 20:44:15",modified="2025-03-03 20:06:53",revision=1412]]
 function refresh_setup()
 	menu = {}
 	
@@ -1234,7 +1252,7 @@ function refresh_table()
 	}})
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-26 23:48:50",revision=3316]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-03-03 20:06:53",revision=3332]]
 function update_setup()
 	scrolly = 0
 	refresh_setup()
@@ -1381,6 +1399,7 @@ function update_brain()
 			add(data[mymenu.cmdb], "wai")
 			add(data[mymenu.cmdb], 0)
 			add(data[mymenu.cmdb], 0)
+			dirty = true
 		elseif mymenu.cmd == "setup" then
 			refresh_setup()
 			_upd = update_setup
@@ -1396,12 +1415,14 @@ function update_brain()
 				100,
 				10,
 			})
+			dirty = true
 		elseif mymenu.cmd == "insertline" then
 			add(data[mymenu.cmdb], "wai", mymenu.cmdi)
 			add(data[mymenu.cmdb], 0, mymenu.cmdi + 1)
 			add(data[mymenu.cmdb], 0, mymenu.cmdi + 2)
 			cury += 1
 			curx = 1
+			dirty = true
 		end
 		
 		return
@@ -1527,6 +1548,7 @@ function spawntextbox(_i)
 						else
 							data[cury][curx-1] = editval
 						end
+						dirty = true
 					else
 						if enter_mode == "newline" then
 							local _el = {
@@ -1543,6 +1565,7 @@ function spawntextbox(_i)
 						else
 							data[cury][curx-1] = editval
 						end
+						dirty = true
 					end
 				elseif _prev_upd == update_brain then
 					enemies = {}
@@ -1560,6 +1583,8 @@ function spawntextbox(_i)
 								add(msg,{text="Brain Deleted!",t=120})
 							end
 							
+							dirty = true
+							
 							removeAllChildren(modify_text_display)
 							current_page = nil
 							_upd = _prev_upd
@@ -1574,6 +1599,7 @@ function spawntextbox(_i)
 							if not found then
 								editval = "wai"
 							end
+							dirty = true
 						end
 					else
 						-- editing parameters
@@ -1583,6 +1609,7 @@ function spawntextbox(_i)
 						end
 					end
 					data[mymenu.cmdb][mymenu.cmdi] = editval
+					dirty = true
 				elseif _prev_upd == update_setup then
 					enemies = {}
 					editval = tonum(editval)
@@ -1590,6 +1617,7 @@ function spawntextbox(_i)
 						editval = 0
 					end
 					meta[selected_brain][mymenu.cmdy] = editval
+					dirty = true
 				end
 				removeAllChildren(modify_text_display)
 				current_page = nil
@@ -1601,13 +1629,13 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMzo0ODo1MCIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzgwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM2OCIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxODAiLHdvcmtzcGFjZV9pbmRleD0xfSx7
-bG9jYXRpb249InRvb2xzLmx1YSMyMzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlv
-Lmx1YSM1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1aS5sdWEjMTU5Iix3b3Jrc3Bh
-Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXRzLmx1YSM1OSIsd29ya3NwYWNlX2luZGV4PTF9LHts
-b2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5t
-YXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2lu
-ZGV4PTR9fV1d
+My0wMyAyMDowNjo1MyIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzEzNCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZHJhdy5sdWEjNjgiLHdvcmtzcGFj
+ZV9pbmRleD0xfSx7bG9jYXRpb249InVwZGF0ZS5sdWEjMTYyIix3b3Jrc3BhY2VfaW5kZXg9MX0s
+e2xvY2F0aW9uPSJ0b29scy5sdWEjNDIwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJp
+by5sdWEjMTIiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InVpLmx1YSMxNTkiLHdvcmtz
+cGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhdHMubHVhIzU5Iix3b3Jrc3BhY2VfaW5kZXg9MX0s
+e2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9jYXRpb249Im1hcC8w
+Lm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2Vf
+aW5kZXg9NH19XV0=
 :: [eoc]

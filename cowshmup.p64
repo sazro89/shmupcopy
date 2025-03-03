@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMTozNTozMiIscmV2aXNpb249MTc5OV1dbHo0AGATAACdRwAA8yF7WzBdPXtibXA9cHh1
+My0wMyAyMjoxNTozMSIscmV2aXNpb249MTgxNl1dbHo0AGATAACdRwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -171,11 +171,11 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMTozNTozMiJdXQ==
+My0wMyAyMjoxNTozMSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMTozNTozMiIscmV2aXNpb249MjE5N11dbHo0AIgMAABoQAAA-xZ7e2JtcD11c2VyZGF0
+My0wMyAyMjoxNTozMSIscmV2aXNpb249MjIxNF1dbHo0AIgMAABoQAAA-xZ7e2JtcD11c2VyZGF0
 YSgiaTE2IiwxNiwyNTYsIjAwOWYwMDAzBAAjIzlmQAAfMQQAIQ9AAPtXMzIwMDMcAA_AAFofMwQA
 IwVAAB8xBAAhDwAC-wESMAwAD4AAXh8zBAAjBUAAHzEEACEPAAL-ACIyOQwAD4AAXh8zBAAjBUAA
 HzEEACEPAAL8UjEwMDI4DAAPgABZ42QwMDBkODAwZDQwMGQzCAAMEAAIGAAIMAAACAASZAwAEGUY
@@ -235,7 +235,7 @@ bHNlLG5hbWU9Im1hcCIscGFuX3g9MzQJAPIBeT0xNjk5LHRpbGVfaD0xNgoAEHcKAIB6b29tPTF9
 fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMTozNTozMiJdXQ==
+My0wMyAyMjoxNTozMSJdXQ==
 :: prototypes/
 :: prototypes/blob.lua
 --[[pod_format="raw",created="2024-10-06 05:10:33",modified="2024-10-21 21:54:39",revision=1006]]
@@ -613,19 +613,19 @@ end
 
 :: prototypes/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEyLTA5IDE3OjE2OjIzIixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMTozNTozMiJdXQ==
+My0wMyAyMjoxNTozMSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIxOjQxIixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMTozNTozMiIscmV2aXNpb249MjEwOF1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
+My0wMyAyMjoxNTozMSIscmV2aXNpb249MjEyNV1dbHo0AKUAAAAUCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-2B-L9gEHUP----_E
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMTozNTozMiJdXQ==
+My0wMyAyMjoxNTozMSJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-10-21 21:26:28",modified="2025-02-26 21:35:32",revision=1550]]
+--[[pod_format="raw",created="2024-10-21 21:26:28",modified="2025-03-03 22:15:31",revision=1569]]
 
 function drw_game()
 	cls(0)
@@ -738,7 +738,7 @@ ezcsMSwyLDk5OSwyOX19
 --[[pod_format="raw",created="2024-12-09 17:16:23",modified="2024-12-09 19:33:45",revision=127]]
 
 :: gameplay.lua
---[[pod_format="raw",created="2024-10-21 21:26:48",modified="2025-02-26 21:35:32",revision=1507]]
+--[[pod_format="raw",created="2024-10-21 21:26:48",modified="2025-03-03 22:15:31",revision=1527]]
 --gameplay
 
 function die()
@@ -871,9 +871,15 @@ function doenemies()
 --		add(newtrails, {e.x, e.y})
 --		end
 
-		if not onscreen(e) then
+		local oscr = onscreen(e)
+		
+		if e.staged and not oscr then
 			del(enemies, e)
 		else
+			e.staged = oscr
+		end
+		
+		if e.staged then
 			dobulq(e)
 		end
 	end
@@ -1036,7 +1042,7 @@ function shoot()
 end
 
 :: main.lua
---[[pod_format="raw",created="2024-09-22 09:21:41",modified="2025-02-26 21:35:32",revision=2752]]
+--[[pod_format="raw",created="2024-09-22 09:21:41",modified="2025-03-03 22:15:31",revision=2773]]
 ---@diagnostic disable-next-line: undefined-global
 include("tools.lua")
 include("draw.lua")
@@ -1044,7 +1050,7 @@ include("update.lua")
 include("gameplay.lua")
 include("particles.lua")
 include("profiler.lua")
-include("/shmup/dobrain.lua")
+--include("/shmup/dobrain.lua")
 include("pats.lua")
 
 -- need to fix ship boundaries since we've updated sprite code
@@ -1184,7 +1190,7 @@ function startgame()
 end
 
 :: particles.lua
---[[pod_format="raw",created="2024-10-21 21:26:56",modified="2025-02-26 21:35:32",revision=1347]]
+--[[pod_format="raw",created="2024-10-21 21:26:56",modified="2025-03-03 22:15:31",revision=1366]]
 function blob(p)
 	local flr_r = flr(p.r)
 	local _r = {
@@ -1418,7 +1424,7 @@ function sprite(p)
 	mspr(cyc(p.age,p.ani,p.anis), _x, _y)
 end
 :: pats.lua
---[[pod_format="raw",created="2025-02-26 21:00:49",modified="2025-02-26 21:35:32",revision=30]]
+--[[pod_format="raw",created="2025-02-26 21:00:49",modified="2025-03-03 22:15:31",revision=51]]
 function newpat(pat_type)
 	if pat_type == "base"  then
 		return {
@@ -1702,7 +1708,7 @@ end
 
 
 :: tools.lua
---[[pod_format="raw",created="2024-10-21 21:26:41",modified="2025-02-26 21:35:32",revision=1378]]
+--[[pod_format="raw",created="2024-10-21 21:26:41",modified="2025-03-03 22:15:31",revision=1398]]
 -- alternate to sgn, different in that 0 returns 0 instead of 1
 function mysgn(v)
 	return v == 0 and 0 or sgn(v)
@@ -1841,7 +1847,7 @@ function onscreen(obj)
 	return true
 end
 :: update.lua
---[[pod_format="raw",created="2024-10-21 21:26:35",modified="2025-02-26 21:35:32",revision=1493]]
+--[[pod_format="raw",created="2024-10-21 21:26:35",modified="2025-03-03 22:15:31",revision=1512]]
 function upd_game()
 	-- SCROLLING
 	scroll = scroll + 0.5
@@ -2016,13 +2022,13 @@ end
 
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDA5OjIyOjM5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yNiAyMTozNTozMiIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzIzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM4NSIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSM5NiIsd29ya3NwYWNlX2luZGV4PTF9LHts
-b2NhdGlvbj0idG9vbHMubHVhIzEzMSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Ft
-ZXBsYXkubHVhIzQ5Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXJ0aWNsZXMubHVh
-IzIyOSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0icGF0cy5sdWEjMTU5Iix3b3Jrc3Bh
-Y2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9j
-YXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4
-Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+My0wMyAyMjoxNTozMSIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImRyYXcubHVhIzg1Iix3b3Jrc3BhY2Vf
+aW5kZXg9MX0se2xvY2F0aW9uPSJ1cGRhdGUubHVhIzMiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9j
+YXRpb249InRvb2xzLmx1YSMxMzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWVw
+bGF5Lmx1YSMxNDMiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBhcnRpY2xlcy5sdWEj
+MjI5Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJwYXRzLmx1YSMxNTkiLHdvcmtzcGFj
+ZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2Nh
+dGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngi
+LHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]

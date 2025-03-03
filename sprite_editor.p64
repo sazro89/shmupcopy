@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSIscmV2aXNpb249MTc4MV1dbHo0AGATAACdRwAA8yF7WzBdPXtibXA9cHh1
+My0wMyAyMTo0NDoyNSIscmV2aXNpb249MTgyNV1dbHo0AGATAACdRwAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -173,28 +173,28 @@ PxXXAEEOLbAumQAvLQ4vASkESQAvDh3jAClJPxWwLXgBAwQAD5cAJgaOAA_aACsf8DEA--------
 ----------------------------------------vFBtPTh9fQ==
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTIyIDEwOjQ5OjA5Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSJdXQ==
+My0wMyAyMTo0NDoyNSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSIscmV2aXNpb249MjAxNV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+My0wMyAyMTo0NDoyNSIscmV2aXNpb249MjA1OV1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSJdXQ==
+My0wMyAyMTo0NDoyNSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSIscmV2aXNpb249MjAxNV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+My0wMyAyMTo0NDoyNSIscmV2aXNpb249MjA1OV1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSJdXQ==
+My0wMyAyMTo0NDoyNSJdXQ==
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-02-22 08:18:15",revision=2553]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-03-03 21:44:25",revision=2600]]
 function draw_edit()
 	camera(0,0)
 	cls(2)
@@ -284,19 +284,23 @@ b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-02-22 08:18:15",revision=2102]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-03-03 21:44:25",revision=2151]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
-function export()
+function export(auto)
 	store(output_file,data)
 	store(metadata_output_file,meta)
-	add(msg,{text="Exported!",t=120})
+	if auto then
+		add(msg,{text="autosave",t=60})
+	else
+		add(msg,{text="Exported!",t=120})
+	end
 end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",icon=userdata("u8",16,16,"01010101010101010101010101010101010606070707070707070707070606010106060707070707070707070706060101060607070707070707070707060601010606070707070707070707070606010106060707070707070707070706060101060607070707070707070707060601010606070707070707070707070606010106060606060606060606060606060101060606060606060606060606060601010606060606060606060606060606010106060601010101010101010106060101060606010707070701010101060601010606060107070707010101010606010001060601070707070101010106060100000101010101010101010101010101"),modified="2025-02-22 08:18:15",revision=2262]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",icon=userdata("u8",16,16,"01010101010101010101010101010101010606070707070707070707070606010106060707070707070707070706060101060607070707070707070707060601010606070707070707070707070606010106060707070707070707070706060101060607070707070707070707060601010606070707070707070707070606010106060606060606060606060606060101060606060606060606060606060601010606060606060606060606060606010106060601010101010101010106060101060606010707070701010101060601010606060107070707010101010606010001060601070707070101010106060100000101010101010101010101010101"),modified="2025-03-03 21:44:25",revision=2313]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
@@ -304,6 +308,8 @@ include("io.lua")
 include("ui.lua")
 
 function _init()
+	autosave = true
+	dirty = false
 	printh("new run")
 	modify_text_display = create_gui()
 
@@ -353,7 +359,12 @@ function _draw()
 	end
 
 	if #msg > 0 then
-		bgprint(msg[1].text,100-(#msg[1].text*2.5),97-scrolly,14)
+		if msg[1].text == "autosave" then
+			rectfill(2, 2+scrolly, 8, 8-scrolly, 0)
+			print("\^:0d1d11111f000000", 3, 3-scrolly, sin(time() * 3) > -0.3 and 6 or 5)
+		else
+			bgprint(msg[1].text,240-(#msg[1].text*2.5),97,14)
+		end
 		msg[1].t = msg[1].t - 1
 		if msg[1].t <= 0 then
 			deli(msg,1)
@@ -371,6 +382,13 @@ end
 function _update()
 	_upd()
 	modify_text_display:update_all()
+	
+	if time()%2 == 0 then
+		if autosave and dirty then
+			export(true)
+			dirty = false
+		end
+	end
 end
 
 :: myspr.pod
@@ -396,7 +414,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-02-22 08:18:15",revision=2112]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-03-03 21:44:25",revision=2159]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -530,8 +548,16 @@ function msprc(si, sx, sy)
 	-- 1:i, 2:w, 3:h, 4:ox, 5:oy, 6:flip_x 7:flip_y
 	rect(sx - ms[4], sy - ms[5], sx - ms[4] + ms[2] - 1, sy - ms[5] + ms[3] - 1, rnd({8,14,15}))
 end
+
+function copylist(org)
+	local ret = {}
+	for k, v in pairs(org) do
+		ret[k] = v
+	end
+	return ret
+end
 :: ui.lua
---[[pod_format="raw",created="2024-11-23 10:46:36",modified="2025-02-22 08:18:15",revision=758]]
+--[[pod_format="raw",created="2024-11-23 10:46:36",modified="2025-03-03 21:44:25",revision=808]]
 function refresh_edit()
 	menu = {}
 
@@ -586,11 +612,18 @@ function refresh_edit()
 		},
 	})
 	add(menu,{{
+		text = "COPY",
+		w = width_to_string(4),
+		cmd = "copyspr",
+		x = 2,
+		y = 2+9*13,
+	}})
+	add(menu,{{
 		text = "DELETE",
 		w = width_to_string(6),
 		cmd = "delspr",
 		x = 2,
-		y = 2+9*13,
+		y = 2+10*13,
 	}})
 end
 
@@ -667,11 +700,11 @@ function refresh_table()
 	}})
 end
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-02-22 08:18:15",revision=2567]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-03-03 21:44:25",revision=2625]]
 function update_edit()
 	refresh_edit()
 
-	curx = (cury == 1 or cury == 10) and 1 or 2
+	curx = (cury == 1 or cury >= 10) and 1 or 2
 	wheel_y = ({mouse()})[5]
 
 	--up
@@ -686,19 +719,32 @@ function update_edit()
 	cury = cury - wheel_y
 	cury = mid(1, cury, #menu)
 
-	if keyp("left") then
-		selected_sprite -= 1
+	if cury == 1 then
+		if keyp("left") then
+			selected_sprite -= 1
+		end
+		if keyp("right") then
+			selected_sprite += 1
+		end
+		selected_sprite = mid(1, selected_sprite, #data)
+	elseif cury > 1 and cury <= 6 then
+		local mymenu = menu[cury][curx]
+		if keyp("left") then
+			data[mymenu.cmdy][mymenu.cmdx] -= 1
+			dirty = true
+		end
+		if keyp("right") then
+			data[mymenu.cmdy][mymenu.cmdx] += 1
+			dirty = true
+		end
 	end
-	if keyp("right") then
-		selected_sprite += 1
-	end
-	selected_sprite = mid(1, selected_sprite, #data)
 
 	if keyp("x") then
 		_drw = draw_list
 		_upd = update_list
 		curx = 1
 		cury = selected_sprite
+		scrolly = oldscrolly
 		refresh_list()
 		return
 	end
@@ -728,6 +774,7 @@ function update_edit()
 			text_bar = spawntextbox()
 			text_bar:set_keyboard_focus(true)
 			text_bar:set_text(tostr(meta[selected_sprite][1]))
+			dirty = true
 		elseif mymenu.cmd == "delspr" then
 			deli(data,selected_sprite)
 			deli(meta,selected_sprite)
@@ -736,6 +783,19 @@ function update_edit()
 			curx = 1
 			cury = 1
 			refresh_list()
+			dirty = true
+		elseif mymenu.cmd == "copyspr" then
+			local newspr = copylist(data[selected_sprite])
+			local newmeta = copylist(meta[selected_sprite])
+			add(data, newspr)
+			add(meta, newmeta)
+			_drw = draw_list
+			_upd = update_list
+			selected_sprite = #data
+			curx = 1
+			cury = 1
+			refresh_list()
+			dirty = true
 		end
 	end
 
@@ -800,7 +860,9 @@ function update_list()
 		if mymenu.cmd == "newline" then
 			add(data,{0, 0, 0, 0, 0})
 			add(meta,{"new",0})
+			dirty = true
 		elseif mymenu.cmd == "editspr" then
+			oldscrolly = scrolly
 			selected_sprite = mymenu.cmdy
 			_upd = update_edit
 			_drw = draw_edit
@@ -878,8 +940,10 @@ function update_table()
 		-- newline cell selected
 		elseif mymenu.cmd == "newline" then
 			add(data, { 0 })
+			dirty = true
 		elseif mymenu.cmd == "newcell" then
 			add(data[mymenu.cmdy],0)
+			dirty = true
 		end
 	end
 end
@@ -901,15 +965,19 @@ function spawntextbox(_i)
 				editval = text_bar:get_text()[1]
 				if (editval == "") and prev_upd ~= "update_name" then
 					editval = 0
+					dirty = true
 				end
 				removeAllChildren(modify_text_display)
 				current_page = nil
 				if prev_upd == "update_edit" then
 					data[mymenu.cmdy][mymenu.cmdx] = (editval) and editval or 0
+					dirty = true
 				elseif prev_upd == "update_col" then
 					meta[selected_sprite][2] = (tonum(editval) > 1) and tonum(editval) or 0
+					dirty = true
 				elseif prev_upd == "update_name" then
 					meta[selected_sprite][1] = editval
+					dirty = true
 				end
 				_upd = update_edit
 			end
@@ -919,11 +987,11 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-Mi0yMiAwODoxODoxNSIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzU3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM0MyIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxMzkiLHdvcmtzcGFjZV9pbmRleD0xfSx7
-bG9jYXRpb249InRvb2xzLmx1YSMxMjMiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249Imlv
-Lmx1YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1aS5sdWEjMzciLHdvcmtzcGFj
+My0wMyAyMTo0NDoyNSIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzYwIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSM0MyIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSM4OCIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0idG9vbHMubHVhIzE0MSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iaW8u
+bHVhIzEyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1aS5sdWEjNjAiLHdvcmtzcGFj
 ZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2Nh
 dGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngi
 LHdvcmtzcGFjZV9pbmRleD00fX1dXQ==

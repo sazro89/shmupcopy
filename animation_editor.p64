@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEwLTEzIDIxOjI5OjAxIixtb2RpZmllZD0iMjAyNS0w
-MS0yMyAyMjowMzoyNiIscmV2aXNpb249MjE5OF1dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
+My0wMyAyMToxMjo0OSIscmV2aXNpb249MjIxOV1dbHo0ALENAADJPgAA8yF7WzBdPXtibXA9cHh1
 AEMgEBAE8FYHEAfAF9AXwAcQB-BWLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMn0sPwDwCgcH
 BBAnIAcvHgcABx4PFx4XDg0HDQ4XHg0RAF8uByAnEE8AJkAODxcOSwAQB1UAPw4NDlEAIv8GBgcE
 EBogChcKEAoXCgAKNwq3ADcAQgAasQoJBDAZMAkACQAZBADQGRoZAAkQCQoXCgkQCVIAzwAJCgBX
@@ -72,33 +72,33 @@ b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEyLTE1IDIzOjA2OjQwIixtb2RpZmllZD0iMjAyNC0x
 Mi0xNSAyMzowNjo0MCIscmV2aXNpb249MF1dbHo0AAMAAAACAAAAIHt9
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-MS0yMyAyMjowMzoyNyJdXQ==
+My0wMyAyMToxMjo1MCJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-MS0yMyAyMjowMzoyNiIscmV2aXNpb249MTQwNl1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+My0wMyAyMToxMjo0OSIscmV2aXNpb249MTQyN11dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-MS0yMyAyMjowMzoyNyJdXQ==
+My0wMyAyMToxMjo1MCJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAwOjUxOjM1Iixtb2RpZmllZD0iMjAyNS0w
-MS0yMyAyMjowMzoyNiIscmV2aXNpb249MTQwN11dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
+My0wMyAyMToxMjo0OSIscmV2aXNpb249MTQyOF1dbHo0AKAAAAALCgAA-zBweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIDQA8PkAQFBgdADJAICQoLQAyQDwwPDQ8ODEAM8P8BAOv-J6oB
 EAYPIBABIAEgAfAAAhACDhABIA8hIAEwD0Dwww8oD--wxg-4Cg--D4AP9w8NAfAJARAGDjAA----
 --_9H-8BAKzPyA9AAA8QQP--sPD-AQD-6lD-----KQ==
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-MS0yMyAyMjowMzoyNyJdXQ==
+My0wMyAyMToxMjo1MCJdXQ==
 :: anilib.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTEyLTE1IDIzOjA2OjA5Iixtb2RpZmllZD0iMjAyNC0x
 Mi0xNiAwNjoyOTozNCIscmV2aXNpb249NF1dbHo0AFQAAABYAAAAgHt7MTMsMTQsBgARNQkAETYJ
 APAIN30sezksMTAsMTEsMTJ9LHs2LDcsOCwXAPAHMjMsMjQsMjUsMjZ9LHsxOCwxOSwyMBkAsDEs
 MjJ9LHsyN319
 :: draw.lua
---[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-01-23 22:03:26",revision=1821]]
+--[[pod_format="raw",created="2024-11-08 00:54:54",modified="2025-03-03 21:12:49",revision=1843]]
 function draw_table()
 	cls(1)
 
@@ -176,24 +176,31 @@ b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAzOjQ5OjI4Iixtb2RpZmllZD0iMjAyNC0x
 MS0wOCAwNDowNjozOCIscmV2aXNpb249MV1dbHo0ABcAAAAVAAAA8AZ7ezAsMSwyLDN9LHs0LDUs
 Niw3fX0=
 :: io.lua
---[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-01-23 22:03:26",revision=1470]]
+--[[pod_format="raw",created="2024-11-08 01:03:28",modified="2025-03-03 21:12:49",revision=1493]]
 -- warning, export overwrites all of output_file every time it's used!
 -- can store everything directly as variables, a lot of interesting uses i can think of
 
-function export()
+function export(auto)
 	store(output_file,data)
-	add(msg,{text="Exported!",t=120})
+	if auto then
+		add(msg,{text="autosave",t=60})
+	else
+		add(msg,{text="Exported!",t=120})
+	end
 end
 
 
 :: main.lua
---[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-01-23 22:03:26",revision=1610]]
+--[[pod_format="raw",created="2024-11-08 00:51:35",modified="2025-03-03 21:12:49",revision=1637]]
 include("draw.lua")
 include("update.lua")
 include("tools.lua")
 include("io.lua")
 
 function _init()
+	autosave = true
+	dirty = false
+	
 	printh("new run")
 	modify_text_display = create_gui()
 	
@@ -226,7 +233,12 @@ function _draw()
 	end
 	
 	if #msg > 0 then
-		bgprint(msg[1].text,100-(#msg[1].text*2.5),97,14)
+		if msg[1].text == "autosave" then
+			rectfill(2-scrollx, 2-scrolly, 8-scrollx, 8-scrolly, 0)
+			print("\^:0d1d11111f000000", 3-scrollx, 3-scrolly, sin(time() * 3) > -0.3 and 6 or 5)
+		else
+			bgprint(msg[1].text,240-(#msg[1].text*2.5),97-scrolly,14)
+		end
 		msg[1].t = msg[1].t - 1
 		if msg[1].t <= 0 then
 			deli(msg,1)
@@ -244,6 +256,13 @@ end
 function _update()
 	_upd()
 	modify_text_display:update_all()
+	
+	if time()%2 == 0 then
+		if autosave and dirty then
+			export(true)
+			dirty = false
+		end
+	end
 end
 
 :: myspr.pod
@@ -269,7 +288,7 @@ MS0wOCAwMzo1MDo0MCIscmV2aXNpb249MTddXWx6NAAJAAAACAAAAIB7Nyw4LDEwfQ==
 --[[pod_format="raw",created="2024-11-08 02:37:45",modified="2024-11-08 02:37:49",revision=2]]
 test="useful data"
 :: tools.lua
---[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-01-23 22:03:26",revision=1457]]
+--[[pod_format="raw",created="2024-11-08 00:58:52",modified="2025-03-03 21:12:49",revision=1479]]
 function bgprint(txt,x,y,c)
 	print("\#0"..txt,x,y,c)
 end
@@ -381,7 +400,7 @@ function print_table(node)
 end
 
 :: update.lua
---[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-01-23 22:03:26",revision=1846]]
+--[[pod_format="raw",created="2024-11-08 00:55:08",modified="2025-03-03 21:12:49",revision=1870]]
 function update_table()
 	refresh_table()
 	
@@ -449,8 +468,10 @@ function update_table()
 		-- newline cell selected
 		elseif mymenu.cmd == "newline" then
 			add(data, { 0 })
+			dirty = true
 		elseif mymenu.cmd == "newcell" then
 			add(data[mymenu.cmdy],0)
+			dirty = true
 		end
 	end
 end
@@ -475,12 +496,15 @@ function spawntextbox(_i)
 					if mymenu.cmdx == #data[mymenu.cmdy] then
 						if mymenu.cmdx == 1 then
 							deli(data, mymenu.cmdy)
+							dirty = true
 						else
 							deli(data[mymenu.cmdy],mymenu.cmdx)
+							dirty = true
 						end
 					else
 						editval = tonum(editval)
 						data[cury][curx-1] = (editval) and editval or 0
+						dirty = true
 					end
 				else
 					if enter_mode == "newline" then
@@ -495,9 +519,11 @@ function spawntextbox(_i)
 							w = "      "
 						}
 						add(data,{_el})
+						dirty = true
 					else
 						editval = tonum(editval)
 						data[cury][curx-1] = (editval) and editval or 0
+						dirty = true
 					end
 				end
 				removeAllChildren(modify_text_display)
@@ -510,11 +536,11 @@ function spawntextbox(_i)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTExLTA4IDAxOjQ4OjI1Iixtb2RpZmllZD0iMjAyNS0w
-MS0yMyAyMjowMzoyNyIscnVudGltZT0xMSx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzEyIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMyOCIsd29ya3NwYWNl
-X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxNSIsd29ya3NwYWNlX2luZGV4PTF9LHts
-b2NhdGlvbj0idG9vbHMubHVhIzYiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImlvLmx1
-YSM1Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9p
-bmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlv
-bj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+My0wMyAyMToxMjo1MCIscnVudGltZT0xMix3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzQzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJkcmF3Lmx1YSMyOCIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0idXBkYXRlLmx1YSMxMTkiLHdvcmtzcGFjZV9pbmRleD0xfSx7
+bG9jYXRpb249InRvb2xzLmx1YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJpby5s
+dWEjMTAiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNl
+X2luZGV4PTJ9LHtsb2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0
+aW9uPSJzZngvMC5zZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]
